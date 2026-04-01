@@ -1,0 +1,29 @@
+{
+  "models": {
+    "providers": {
+      "anthropic": {
+        "baseUrl": "https://cc.zhihuiapi.top",
+        "apiKey": "sk-cCl4Wf7ELdIljM9AtPgHLTGDCG4wkKDtNZmDwp8cw5oPHODB",
+        "api": "anthropic-messages",
+        "models": [{ "id": "claude-sonnet-4-6" }]
+      }
+    }
+  },
+  "agents": {
+    "list": [
+      { "id": "paper-01", "name": "论文01", "workspace": "./projects/paper-01", "model": { "primary": "anthropic/claude-sonnet-4-6" } },
+      { "id": "paper-02", "name": "论文02", "workspace": "./projects/paper-02", "model": { "primary": "anthropic/claude-sonnet-4-6" } },
+      { "id": "paper-03", "name": "论文03", "workspace": "./projects/paper-03", "model": { "primary": "anthropic/claude-sonnet-4-6" } },
+      { "id": "paper-04", "name": "论文04", "workspace": "./projects/paper-04", "model": { "primary": "anthropic/claude-sonnet-4-6" } },
+      { "id": "paper-05", "name": "论文05", "workspace": "./projects/paper-05", "model": { "primary": "anthropic/claude-sonnet-4-6" } }
+    ]
+  },
+  "gateway": {
+    "port": 18889,
+    "controlUi": { "enabled": true },
+    "auth": {
+      "mode": "token",
+      "token": "12345678"
+    }
+  }
+}
