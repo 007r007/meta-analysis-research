@@ -37,7 +37,7 @@
 | 重复记录 | 4874 |
 | **去重后总计** | **4168** |
 
-去重输出文件：`merged_deduplicated.ris`
+去重输出文件：`结果_1_四库合并去重后.ris`
 
 去重方法：优先 DOI 精确匹配，DOI 缺失时用标题+年份模糊匹配（前120字符）
 
@@ -46,5 +46,5 @@
 ## 备注
 - "cognitive training" 保留以确保覆盖范围，迁移效应在筛选阶段判断
 - Cochrane Library 跳过：WM训练为心理学研究，CENTRAL与PubMed重叠率>90%，四库已充分覆盖
-- 去重脚本：`count_and_deduplicate.py`
-- 统计数据：`search_stats.json`
+- 去重脚本：`脚本_1_合并去重.py`
+- 统计数据：`结果_2_检索统计数据.json`
