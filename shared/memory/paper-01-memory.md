@@ -11,7 +11,7 @@
 ## 当前状态
 - **阶段：3 — 文献筛选**
 - **进度：第二轮完成，待第三轮全文筛选**
-- 最新commit：dbcefdf
+- 最新commit：14b2ddc（2026-04-03）
 
 ## 筛选进度
 
@@ -56,14 +56,33 @@
 - **迁移测量**：近迁移 vs 远迁移、测量时间点、结局域
 
 ## 检索结果（阶段2，2026-04-02完成）
-| 数据库 | 条数 |
-|--------|------|
-| PubMed | 2404 |
-| PsycINFO | 1111 |
-| Web of Science | 2295 |
-| Scopus | 3232 |
-| 合并前总计 | 9042 |
-| 去重后 | 4168 |
+
+### 检索式
+**概念1（WM训练）：**
+`"working memory training" OR "working memory intervention" OR "n-back training" OR "dual n-back" OR "complex span training" OR "Cogmed" OR "cognitive training"`
+
+**概念2（老年人）：**
+`"older adults" OR "elderly" OR "aging" OR "aged"`
+
+**完整逻辑：** 概念1 AND 概念2，时间2000–2026，语言英文，同行评审期刊
+
+**各库字段：**
+- PubMed：`[tiab]` + `Aged[MeSH]`
+- PsycINFO：`AB`（摘要）+ `TI`（标题）字段
+- Web of Science：`TS=`（标题+摘要+关键词）
+- Scopus：`TITLE-ABS-KEY`
+
+### 各库命中数
+| 数据库 | 条数 | 导出格式 |
+|--------|------|---------|
+| PubMed | 2404 | MEDLINE (.txt) |
+| PsycINFO | 1111 | RIS（2批） |
+| Web of Science | 2295 | BibTeX（3批） |
+| Scopus | 3232 | RIS |
+| 合并前总计 | 9042 | — |
+| 去重后 | **4168** | RIS |
+
+去重方法：DOI精确匹配优先，无DOI用标题+年份前120字符模糊匹配
 
 ## 关键文件路径
 - 项目根：`papers/projects/paper-01/`
