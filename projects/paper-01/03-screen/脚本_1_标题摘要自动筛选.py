@@ -12,10 +12,10 @@ from openpyxl.utils import get_column_letter
 
 # ── 路径配置 ─────────────────────────────────────────────────
 BASE = Path(r"E:\Meta-analysis writing project\projects\paper-01")
-RIS_FILE = BASE / "02-search" / "结果_1_四库合并去重后.ris"
+RIS_FILE = BASE / "02-search" / "数据_1_四库合并去重后.ris"
 OUT_DIR = BASE / "03-screen"
-OUT_EXCEL = OUT_DIR / "结果_3_第一轮标题摘要筛选.xlsx"
-OUT_STATS = OUT_DIR / "结果_4_筛选统计.json"
+OUT_EXCEL = OUT_DIR / "数据_1_第一轮标题摘要筛选.xlsx"
+OUT_STATS = OUT_DIR / "结果_1_筛选统计.json"
 
 OUT_DIR.mkdir(exist_ok=True)
 
