@@ -1,6 +1,11 @@
 """
-脚本_2_标题摘要自动筛选.py
+脚本_1_标题摘要自动筛选.py
 对去重后4168条文献做第一轮自动筛选，输出带颜色标注的Excel
+
+v2修复（基于cc核查反馈）：
+- E1：补充 ADHD + 无老年词 → 排除
+- E3：补充 moderator/moderate（调节因素研究漏排问题）
+- E2.5：新增方案B过滤，保留行必须含 working memory，否则排除
 """
 
 import json
@@ -14,8 +19,8 @@ from openpyxl.utils import get_column_letter
 BASE = Path(r"E:\Meta-analysis writing project\projects\paper-01")
 RIS_FILE = BASE / "02-search" / "数据_1_四库合并去重后.ris"
 OUT_DIR = BASE / "03-screen"
-OUT_EXCEL = OUT_DIR / "数据_1_第一轮标题摘要筛选.xlsx"
-OUT_STATS = OUT_DIR / "结果_1_筛选统计.json"
+OUT_EXCEL = OUT_DIR / "数据_2_第一轮标题摘要筛选_v2.xlsx"
+OUT_STATS = OUT_DIR / "结果_2_筛选统计_v2.json"
 
 OUT_DIR.mkdir(exist_ok=True)
 
@@ -38,6 +43,7 @@ E1_EXCLUDE = [
     r'\bchildren\b', r'\bchild\b', r'\badolescent\b', r'\badolescents\b',
     r'\binfant\b', r'\binfants\b', r'\bpediatric\b', r'\bpaediatric\b',
     r'\byouth\b', r'\bundergraduate\b', r'\bstudent\b', r'\bstudents\b',
+    r'\badhd\b', r'attention.?deficit',  # v2新增：ADHD儿童研究
 ]
 E1_ANIMAL = [
     r'\brat\b', r'\brats\b', r'\bmouse\b', r'\bmice\b',
@@ -71,6 +77,8 @@ E3_TRANSFER = [
     r'\binhibition\b', r'episodic memory', r'\bintelligence\b',
     r'cognitive gain', r'cognitive benefit', r'cognitive improvement',
     r'cognitive effect', r'neuropsychological',
+    r'\bmoderat',  # v2新增：moderator/moderate/moderation（调节因素研究）
+    r'cognitive change', r'cognitive decline',  # v2新增：认知变化类词
 ]
 
 # E4：综述/非实验设计（标题字段精确匹配）
@@ -181,6 +189,11 @@ def screen(rec):
     # E2：非WM训练
     if not any_match(combined, E2_WM_TRAINING):
         return 'E2', '无工作记忆训练相关词'
+
+    # E2.5（方案B）：通过E2但不含"working memory"，排除
+    # 针对"cognitive training"等宽泛词捞进来的非WM研究
+    if not re.search(r'working memory', combined):
+        return 'E2', '含认知训练词但无working memory，非WM训练'
 
     # E3：无迁移/认知结局
     if not any_match(combined, E3_TRANSFER):
