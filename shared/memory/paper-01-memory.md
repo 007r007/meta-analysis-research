@@ -70,9 +70,23 @@
 7. Pergher et al., 2021 — 模型驱动 WM 训练，50-81 岁
 8. Booth et al., 2023 — 家庭训练间隔操控，55-85 岁
 
+## 阶段 2 检索结果（2026-04-02 完成）
+
+| 数据库 | 条数 | 导出格式 |
+|--------|------|---------|
+| PubMed | 2404 | MEDLINE (.txt) |
+| PsycINFO | 1111 | RIS（2批） |
+| Web of Science | 2295 | BibTeX（3批） |
+| Scopus | 3232 | RIS |
+| 合并前总计 | 9042 | — |
+| 重复 | 4874 | — |
+| **去重后** | **4168** | merged_deduplicated.ris |
+
+- 去重脚本：`02-search/count_and_deduplicate.py`
+- Cochrane 跳过（与PubMed重叠>90%，WM训练非临床医学）
+
 ## 待办
-- [ ] 阶段 2：系统文献检索（PRISMA，PubMed + PsycINFO + Web of Science）
-- [ ] 阶段 3：文献筛选（PRISMA 流程图）
+- [ ] 阶段 3：文献筛选（PRISMA 流程图，基于 merged_deduplicated.ris，4168条）
 - [ ] 阶段 4：数据提取（建文献信息表）
 - [ ] 阶段 5：论文撰写（叙述性整合）
 - [ ] 阶段 6：审校投稿
