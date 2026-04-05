@@ -107,16 +107,16 @@
 | | Pure WM only | 15 | Predominantly Null | Moderate |
 | **Baseline WM** | | | | |
 | | Low baseline | 22 | Modest positive trend | Mixed |
-| | High/NR baseline | 34 | Predominantly Null | Moderate |
+| | High/NR baseline | 34 | Predominantly Null | Mixed |
 | **Cognitive process overlap** | | | | |
-| | High overlap | ~43 | Variable | Mixed |
-| | Medium overlap | ~6 | Insufficient data | Insufficient |
-| | Low overlap | ~6 | Predominantly Null | Insufficient |
+| | High overlap | 43 | Predominantly Null | Insufficient – distributional pattern only |
+| | Medium overlap | 6 | Insufficient data | Insufficient – distributional pattern only |
+| | Low overlap | 6 | Predominantly Null (after confound correction) | Insufficient – distributional pattern only |
 | **Adaptive training** | | | | |
 | | Adaptive | 45 | Predominantly Null | Moderate |
 | | Non-adaptive | 11 | Mixed | Insufficient |
 | **Age group** | | | | |
-| | Young-old (≤75) | ~40 | Predominantly Null | Moderate |
-| | Old-old (>75) | ~13 | Positive trend in near transfer | Mixed |
+| | Young-old (≤75) | 42 | Predominantly Null | Consistent |
+| | Old-old (>75) | 14 | Predominantly Null; near transfer trend | Consistent |
 
 > *Note.* Table 3 presents descriptive patterns only. Formal statistical moderator analyses were not conducted due to high between-study heterogeneity in outcome measurement and study design. Counts (k) and direction labels are based on the distribution of 'Overall Conclusion' (Positive/Null/Mixed) within each subgroup. Readers should interpret these patterns cautiously.
