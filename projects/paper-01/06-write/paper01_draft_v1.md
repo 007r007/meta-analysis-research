@@ -259,67 +259,77 @@ Due to the small number of neuroimaging studies (*k* = 10) and high methodologic
 
 ## 4. Discussion
 
-### 4.1 Main Findings
+### 4.1 Compensation vs. Magnification: Toward an Integrative Framework
 
-This systematic review synthesized evidence from 56 studies of WM training in healthy older adults, spanning 17 countries and more than two decades of research. The central finding is that WM training reliably improves performance on trained criterion tasks but produces limited and inconsistent transfer to untrained cognitive domains. Sixty-three percent of studies found no significant between-group transfer effects; only 16% reported consistently positive transfer across assessed domains.
+This systematic review synthesized evidence from 56 studies of WM training in healthy older adults, spanning 17 countries and more than two decades of research. The central finding is that WM training reliably improves performance on trained criterion tasks but produces limited and inconsistent transfer to untrained cognitive domains. Sixty-three percent of studies found no significant between-group transfer effects; only 16% reported consistently positive transfer across assessed domains. This pattern is broadly consistent with prior meta-analyses (Melby-Lervåg & Hulme, 2013; Melby-Lervåg et al., 2016; Sala & Gobet, 2019), and extends that literature by specifically characterizing moderating factors and baseline ability effects in healthy older adults aged ≥60 years.
 
-This conclusion is broadly consistent with prior meta-analyses by Melby-Lervåg and Hulme (2013), Melby-Lervåg et al. (2016), and Sala and Gobet (2019), which found near-zero far-transfer effects when appropriate active controls were included. The present review extends this literature by specifically focusing on healthy adults aged ≥60 years and by documenting the wide variability in training parameters, outcome domains, and methodological quality across studies.
+A central theoretical debate in this literature concerns whether training benefits are larger for individuals with lower baseline WM capacity (the *magnification hypothesis*; Lindenberger et al., 2008) or for those with greater cognitive reserve (a *compensation*-compatible account; Reuter-Lorenz & Cappell, 2008; Stern, 2009). The CRUNCH framework predicts that older adults already operating near neural capacity limits show less training-induced plasticity, favoring those with greater reserve. Conversely, the magnification account predicts the greatest gains where the most room for improvement exists.
 
-### 4.2 Training Parameters and Dose
+The present review found no consistent support for either hypothesis as a universal account. Among the 8 studies formally testing baseline WM moderation, 3 found low > high benefit directions (Zinke et al., 2014; Borella et al., 2017; Brambilla et al., 2021), 3 found null moderation (Matysiak et al., 2019; Cantarella et al., 2017; Stephens et al., 2017), and 2 reported exploratory findings without formal tests. Notably, all three magnification-direction findings involved adaptive training protocols; the non-significant moderation findings included a mix of adaptive and fixed-difficulty designs.
 
-A notable finding of this review is the substantial variability—and frequent non-reporting—of training dose parameters. Frequency, duration, and total session count were unreported in 18%, 13%, and 13% of studies, respectively. This poses a significant barrier to dose–response analyses and may have obscured potential dose effects. Future research should adhere to reporting standards such as the TIDieR checklist (Hoffmann et al., 2014) to ensure that training parameters are comprehensively described.
+We propose that the direction of baseline moderation may itself be moderated by training design—specifically, task difficulty calibration. Adaptive training protocols, by continuously adjusting difficulty to individual performance, create conditions under which lower-ability individuals can sustain effortful engagement and achieve meaningful cognitive gains (compensation-compatible). Fixed-difficulty protocols, by contrast, may present a ceiling for lower-ability individuals while remaining challenging for those with greater cognitive resources (magnification-compatible). Future research should experimentally manipulate difficulty adaptation while stratifying participants by baseline WM ability to test this interaction directly.
 
-Within the available data, no clear dose threshold for effective WM transfer was identified. Studies with both shorter (≤10 sessions) and longer (≥25 sessions) programs predominantly showed null transfer outcomes, suggesting that dose alone does not determine training efficacy.
+### 4.2 The Role of Cognitive Process Overlap
 
-### 4.3 Role of Control Group Design
+Barnett and Ceci's (2002) taxonomy of transfer distance provides a principled framework for predicting which cognitive outcomes should benefit from WM training. Their taxonomy specifies that transfer is more likely when training and transfer tasks share common cognitive mechanisms—a prediction instantiated in WM training research as the expectation that near-transfer to untrained WM tasks should be reliably obtained, with probability decreasing as cognitive distance increases.
 
-The differential outcomes observed between studies with active versus passive controls provide important methodological context. Studies with passive controls or single-group designs showed higher rates of positive conclusions, consistent with the argument that non-specific factors inflate apparent training effects when control conditions do not equate for engagement, test familiarity, and expectation. The convergent evidence from active-control designs—showing predominantly null transfer—underscores the importance of rigorous control conditions in cognitive training research.
+The distribution of studies in the present review was heavily weighted toward high-overlap designs: 43 of 56 studies (77%) measured transfer outcomes classified as sharing high cognitive process overlap with the training task. This systematic skew likely reflects a reasonable initial research strategy—establishing reliable near transfer before pursuing more ambitious far-transfer goals. However, it creates an important analytic constraint: even within the high-overlap category, only 9 of 43 studies (21%) yielded positive overall conclusions, and 27 (63%) were null. This finding establishes that high cognitive process overlap is a necessary but insufficient condition for transfer, and suggests that additional factors—including control group type, training dose, and individual moderators—exert substantial influence over whether even proximal generalization occurs.
 
-### 4.4 Combined Interventions
+The 6 studies classified as low cognitive process overlap (measuring everyday functioning, fluid intelligence as a distal outcome, or domain-general composites) yielded Positive = 3, Null = 3. Superficially, this 50% positive rate exceeds the 21% observed in the high-overlap category—an apparent paradox for the transfer distance hypothesis. However, this comparison does not survive methodological scrutiny: all three positive-conclusion studies in the low-overlap group involved critical confounds that prevent attribution to WM training per se. Günther et al. (2003) used a single-group pre–post design without any control condition; Shatil et al. (2014) combined WM training with physical exercise; and Heo et al. (2014) combined WM training with tDCS and TMS. Removing these confounded cases, the adjusted positive rate for low-overlap studies drops to 0 of 3 (0%), while the null rate becomes 3 of 3 (100%). This corrected pattern is fully consistent with the transfer distance hypothesis and actually strengthens the inference that WM training does not produce reliable transfer to cognitively distant domains.
 
-A meaningful subset of studies tested WM training combined with tDCS or other neurostimulation techniques, based on the hypothesis that neuromodulation during training may enhance synaptic plasticity and promote transfer. Results across these studies were inconsistent, with some showing enhanced near-transfer effects and others showing no benefit over WM training alone. The optimal parameters for combined WM + tDCS protocols (stimulation site, intensity, timing relative to training) remain unclear.
+Future research should deliberately operationalize cognitive process overlap as an independent variable—designing training batteries and transfer batteries that systematically span the full range from high- to low-overlap tasks within the same study—to provide direct empirical tests of overlap as a transfer determinant.
 
-### 4.5 Theoretical Implications
+### 4.3 Training Dose, Design Quality, and the Active Control Problem
 
-The consistently limited far-transfer evidence challenges strong versions of the "cognitive reserve enhancement" hypothesis—the view that WM training can meaningfully augment the cognitive reserve that buffers against age-related decline. A more parsimonious interpretation, consistent with the *identical elements theory* of transfer (Thorndike & Woodworth, 1901; Singley & Anderson, 1989), is that practice effects are largely mediated by task-specific learning rather than generalized enhancement of underlying cognitive mechanisms.
+The substantial non-reporting of training dose parameters (sessions unreported in 9%, duration in 21%, frequency in 33% of studies) presents a significant barrier to cumulative science in this area. Beyond simple non-reporting, the present review reveals that raw session count is an inadequate proxy for training intensity. Studies in the intermediate session range (11–25 sessions) yielded a higher proportion of positive transfer conclusions (36%) than either shorter (≤10 sessions: 17%) or longer (>25 sessions: 0%) protocols.
 
-The cognitive process overlap analysis (Section 3.4.4) lends partial support to this interpretation: even high-overlap transfer outcomes did not consistently yield positive effects, though the pattern was more variable than for low-overlap outcomes. A fundamental challenge for the field is that "working memory" in practice spans multiple dissociable processes (phonological rehearsal, visuospatial storage, central executive updating), and it is unclear whether training on specific task variants engages the same mechanisms as the transfer measures used.
+An exploratory observation from the present review warrants cautious attention: this non-linear pattern does not straightforwardly support a dose-response relationship; rather, it likely reflects sample composition confounds. Among the 25 studies with 11–25 sessions, 22 (88%) employed adaptive difficulty protocols and 19 (76%) incorporated combined neurostimulation or exercise co-interventions, both of which independently predict more favorable transfer outcomes. Longer training protocols, conversely, may engender fatigue effects or motivational decline that attenuate gains, particularly in older adult samples (Bier et al., 2015). These observations underscore the inadequacy of raw session count as a proxy for training intensity, and highlight the need for future studies to report dose–response data with sufficient granularity to disentangle frequency, duration, and adaptive challenge from total session count.
 
-### 4.6 Limitations
+The comparison between active- and passive-control studies provides perhaps the strongest methodological signal in the review: studies without active controls showed a Positive rate of 40% versus 20% in active-control studies. This gap—consistent across training types and participant characteristics—demonstrates that substantial non-specific effects (test familiarity, social engagement, expectancy) contribute to apparent training gains when control conditions are inadequate. Combined intervention studies (WM + tDCS, WM + exercise) introduce a further attribution problem: even when transfer effects are observed, they cannot be attributed specifically to the WM training component in the absence of a factorial design.
 
-Several limitations of the present review should be acknowledged.
+Future trials should employ active control groups matched on total time, social contact, and engagement level; report intervention parameters according to TIDieR criteria (Hoffmann et al., 2014); and use factorial designs when combining WM training with co-interventions to enable component-level inference.
 
-First, narrative synthesis without meta-analysis limits the precision of conclusions. The vote-counting approach treats all studies as equally informative regardless of sample size, design quality, or statistical power.
+### 4.4 Methodological Recommendations
 
-Second, risk of bias assessment was not completed at the time of this review's initial analysis [pending completion]. Preliminary inspection of included studies suggests that common sources of bias include lack of allocation concealment, non-blinded outcome assessment, and selective reporting—all of which may inflate positive findings.
+Based on the patterns identified in this review, we propose the following evidence-based recommendations for future WM training research in older adults:
 
-Third, publication bias likely affects the available evidence base. Studies with null training effects may be less likely to be published or indexed, potentially leading to an overestimate of positive transfer rates.
+1. **Report baseline WM ability using standardized measures** (e.g., digit span forward/backward, operation span, reading span) to enable baseline stratification and moderator analyses across studies.
 
-Fourth, the heterogeneity of outcome measures across studies precluded comparisons of effect sizes across similar outcomes. Many studies used custom or unpublished tasks, limiting replication and cross-study comparison.
+2. **Characterize cognitive process overlap** between training and transfer tasks explicitly, using an established taxonomy (e.g., Barnett & Ceci, 2002), and pre-specify hypothesized transfer distances at the protocol stage.
 
-Fifth, the classification of cognitive process overlap was conducted using an AI-assisted approach and has not yet been fully verified by human raters. These classifications should therefore be treated as preliminary.
+3. **Use active control conditions** matched to training on total time, social interaction, and technology engagement, to isolate WM-specific effects from non-specific factors.
 
-### 4.7 Future Directions
+4. **Report complete training dose parameters** separately: session frequency (sessions/week), individual session duration (minutes), total session count, and total training weeks. Adopt TIDieR reporting standards.
 
-Based on the patterns identified in this review, we highlight several priorities for future WM training research in older adults:
+5. **Include follow-up assessments of at least 6 months** to evaluate maintenance of training effects; shorter follow-ups cannot distinguish sustained gains from regression to the mean.
 
-1. **Theory-driven task selection**: Training paradigms and transfer batteries should be designed with explicit reference to mechanistic models of WM, specifying which processes are targeted and which are expected to transfer.
+6. **Incorporate neuroimaging where feasible** to examine neural mechanisms of transfer and to use baseline neural characteristics (e.g., white matter integrity, cortical thickness) as predictive biomarkers of training responsiveness.
 
-2. **Pre-registration and transparent reporting**: All training parameters, outcome selection, and analysis plans should be pre-registered to reduce selective reporting.
+7. **Report attrition and completion rates** for training sessions separately from assessment attrition, and analyze dose actually received, not only dose assigned.
 
-3. **Active control standardization**: Studies should employ active control conditions matched to training on dosage, social contact, engagement, and expectation of improvement.
+8. **Pre-register protocols in PROSPERO** prior to data collection, and pre-specify primary transfer outcomes, moderator variables, and analysis approaches to reduce selective reporting.
 
-4. **Long-term follow-up**: The field lacks evidence on maintenance of training gains beyond 6 months. Studies should include at least one follow-up assessment at 6–12 months.
+### 4.5 Limitations
 
-5. **Individual differences profiling**: Baseline cognitive, neural, and genetic factors (e.g., COMT polymorphisms, white matter integrity, APOE status) should be systematically collected to identify responder subgroups.
+Several limitations of the present review should be acknowledged, in order of their likely impact on conclusions.
 
-6. **Dose–response designs**: Studies specifically designed to vary training dose while holding other parameters constant would provide cleaner evidence on whether and how much training is needed for meaningful transfer.
+First, training dose information was incompletely reported in a substantial minority of studies (frequency: 33%; duration: 21%; sessions: 9%), limiting dose–response analyses. The patterns described in Section 3.4.4 should therefore be interpreted as hypothesis-generating rather than confirmatory.
+
+Second, the overall transfer conclusion field was initially populated through AI-assisted data extraction (PyMuPDF text parsing and structured extraction), with human verification covering the majority but not all studies. Residual coding errors cannot be excluded, and studies with complex or ambiguous results may have been misclassified. The cognitive process overlap classification is explicitly flagged as preliminary pending systematic human verification.
+
+Third, the narrative synthesis approach—adopted due to high methodological heterogeneity—inherently limits precision. Vote-counting treats all studies as equally informative regardless of sample size or statistical power, and cannot quantify effect sizes or their heterogeneity.
+
+Fourth, publication bias likely affects the available evidence base. The 10 extractable Cohen's *d* values yielded a median of 0.95, which is substantially higher than the meta-analytic estimates of near-zero far-transfer reported by Melby-Lervåg et al. (2016), suggesting that studies reporting quantitative effect sizes may not be representative. Grey literature (dissertations, conference proceedings) and null-result studies in non-indexed journals were not systematically captured in the present search.
 
 ---
 
 ## 5. Conclusion
 
-Working memory training in healthy older adults reliably improves performance on the trained tasks but does not consistently generalize to untrained cognitive domains. The preponderance of null transfer findings under active control conditions—observed across 56 studies spanning two decades—suggests that current WM training paradigms may not produce the meaningful cognitive benefits needed to offset age-related cognitive decline. The field would benefit from more theoretically grounded designs, stricter reporting standards, and greater investment in understanding why and for whom WM training might work.
+Working memory training in healthy older adults produces reliable improvements on the trained criterion tasks but does not consistently generalize to untrained cognitive domains. Across 56 controlled studies spanning two decades of research, 63% found no significant between-group transfer effects under any outcome domain, with the proportion rising further when studies without active controls are excluded. The consistency of this null pattern—across training types, dosage ranges, and participant age strata—suggests that WM training in its current form produces limited cognitive benefits beyond practiced task performance.
+
+The present review contributes a cognitive process overlap framework as an analytical lens for understanding the boundaries of transfer. The literature's systematic skew toward high-overlap training designs (77% of included studies) may have created an artificially optimistic near-transfer landscape; when the three low-overlap positive findings are corrected for methodological confounds, the evidence for transfer across greater cognitive distance effectively vanishes. This distributional pattern itself—independent of any individual study's findings—reveals a structural gap in the field: the lack of studies systematically testing transfer across the full overlap continuum limits our understanding of how generalizable WM training truly can be.
+
+The path toward effective cognitive training interventions for older adults likely requires moving beyond generic WM practice toward individually tailored programs that match training design to participants' baseline ability, target functionally relevant cognitive domains, and are evaluated against rigorous active controls over extended follow-up periods. Baseline neural and cognitive profiling—particularly WM capacity, white matter integrity, and cortical activation patterns—may enable identification of training responders, offering a more targeted and ultimately more effective approach to cognitive aging intervention.
 
 ---
 
