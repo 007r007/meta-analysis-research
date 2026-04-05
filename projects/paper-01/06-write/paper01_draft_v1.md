@@ -136,13 +136,15 @@ Fourteen studies (25%) combined WM training with a co-intervention, most commonl
 
 ### 3.2 Near Transfer Effects
 
+*Note: The "overall conclusion" classification reflects the aggregate pattern across all reported transfer outcomes (near and far combined). A near-transfer-specific conclusion field was not coded; readers should interpret near transfer findings in this section accordingly.*
+
 Near transfer was assessed in 46 of 56 included studies (82%), making it the most commonly evaluated outcome domain. Near transfer measures included untrained working memory variants such as digit span, Corsi block tasks, letter-number sequencing, and alternative n-back versions—tasks sharing high cognitive process overlap with the training paradigm (Barnett & Ceci, 2002).
 
 Despite the theoretical expectation that near transfer should be the most reliably obtained benefit of WM training, findings were notably inconsistent. Of the 46 studies that included near transfer assessment, 9 (20%) reported significant training-related improvements relative to control conditions across all reported outcomes, 7 (15%) showed mixed findings (i.e., significant effects on some but not all near transfer measures), and 30 (65%) found no significant between-group differences.
 
 It should be noted that the overall conclusion field was coded based solely on between-group differences on transfer outcomes; improvements on criterion training tasks were not included in this judgment. Studies using passive control conditions (*k* = 8 within the near-transfer subsample) tended to report more favorable near transfer outcomes (Positive: 38%; Null: 25%; Mixed: 38%) compared to those using active controls (*k* = 38; Positive: 16%; Null: 74%; Mixed: 11%), consistent with the interpretation that non-specific motivational and engagement factors contribute to apparent training gains (Melby-Lervåg et al., 2016).
 
-Among studies reporting effect sizes (*k* = 10 with numeric *d* values), Cohen's *d* for transfer outcomes ranged from 0.22 to 1.73, with a median of approximately 0.95. This wide range reflects the heterogeneity of outcomes and measurement approaches across studies, and should be interpreted with caution given the small number of studies providing extractable effect size data.
+Among studies reporting effect sizes (*k* = 10 with numeric *d* values), Cohen's *d* for transfer outcomes ranged from 0.22 to 1.73, with a median of approximately 0.95. The median effect size should be interpreted with caution: it is based on only 10 of the 56 included studies that reported quantitative effect size statistics; the remaining 46 did not provide sufficient information for effect size computation. Furthermore, effect sizes were derived from studies with varying control conditions, and those using passive controls likely inflate this estimate. These caveats underscore the need to identify moderating factors that can account for outcome variability across studies.
 
 The variability in near transfer outcomes across studies suggests that factors beyond training exposure per se—including participant characteristics, control group type, and training design features—play a meaningful moderating role (see Section 3.4).
 
@@ -172,59 +174,88 @@ Everyday functioning, quality of life, and related outcomes were assessed in 9 s
 
 Across all far transfer domains, the pattern of findings indicates that transfer is neither uniform nor inevitable. Positive far transfer was most likely to be reported in studies using combined interventions (e.g., WM + tDCS) or extended training programs, though sample sizes within these subgroups are small. The degree to which training-induced improvements generalize appears to depend on the cognitive process overlap between the training task and the transfer measure—a dimension examined in detail in Section 3.4.4.
 
-### 3.4 Training Dose Characteristics
+### 3.4 Moderators of Transfer Effects
 
-Training dose varied substantially across included studies. Total sessions ranged from 3 to 40, with a median of 12 sessions. Session duration ranged from 15 to 75 minutes, with a median of 40 minutes. Training programs lasted from 1 to 14 weeks, with a median of 4 weeks. Training frequency ranged from 1 to 7 sessions per week.
+#### 3.4.1 Baseline Working Memory Ability
 
-Notably, training dose information was incompletely reported: sessions were unreported in 7 studies (13%), session duration in 10 studies (18%), training weeks in 7 studies (13%), and frequency in 18 studies (32%). This substantial rate of non-reporting limits dose–response analyses and highlights a methodological reporting gap in this literature.
+Eight of the 56 included studies formally tested baseline WM capacity as a moderator of training-induced transfer. Results were inconsistent, with evidence supporting both compensatory and magnification accounts.
 
-### 3.5 Overall Transfer Conclusions
+Three studies found evidence consistent with the **magnification hypothesis**—that individuals with lower baseline WM benefit more from training. Zinke et al. (2014; seq25) found that old-old participants with lower initial WM scores showed significantly greater training gains and near-transfer improvements than higher-performing peers. Borella et al. (2017; seq53) found a similar pattern: participants with lower baseline WM demonstrated larger improvements on the training task and some transfer measures relative to high-baseline participants, though this did not translate into a consistent overall positive conclusion. Brambilla et al. (2021; seq54) similarly found greater near-transfer benefit among lower-baseline participants in a tDCS-augmented WM training context.
 
-When considering between-group differences across all transfer outcomes combined (near and far), 35 studies (63%) were classified as *Null*, 9 studies (16%) as *Positive*, and 12 studies (21%) as *Mixed*. It should be noted that the 'overall conclusion' field was coded based solely on between-group differences on transfer outcomes; improvements on criterion training tasks were not included in this judgment.
+Three studies found **no significant moderation** by baseline WM: Matysiak et al. (2019; seq13), Cantarella et al. (2017; seq30), and Stephens et al. (2017; seq43) all reported null baseline-moderation effects, with transfer outcomes not systematically differing across WM ability levels at baseline.
 
-This pattern—with nearly two-thirds of studies showing no significant transfer relative to control—converges with earlier meta-analytic findings (Melby-Lervåg & Hulme, 2013; Sala & Gobet, 2019) and suggests that WM training, as currently implemented, produces limited generalizable cognitive benefits in healthy older adults.
+Two studies reported exploratory findings without formal moderation tests: Goghari et al. (2017; seq49) and Zelinski et al. (2014; seq57) extracted baseline performance as a covariate but did not report moderator interaction terms.
 
-Follow-up assessments were included in 41 studies (73%). Follow-up intervals, where specified (*k* = 19), ranged from 1 to 9 months (modal value: 3 months). The majority of studies with follow-up data reported that any initial transfer gains attenuated or were absent by the follow-up assessment, though formal maintenance analyses were inconsistent in their reporting.
+Taken together, the evidence regarding baseline WM ability as a moderator remains inconclusive (*mixed evidence*). The divergence between compensation and magnification effects may reflect a task difficulty interaction: adaptive training protocols that calibrate difficulty to individual performance may disproportionately benefit lower-ability individuals, whereas fixed-difficulty protocols may favor those with sufficient cognitive resources to engage effectively with the demands of training.
 
-### 3.6 Moderating Factors
+#### 3.4.2 Age Group
 
-#### 3.6.1 Training Dose
+Across the 56 studies, 42 (75%) enrolled samples classified as young-old (mean age ≤75 years), while 14 (25%) enrolled old-old samples (mean age >75 years). Positive overall transfer conclusions were observed in 11 of 42 young-old studies (26%) and 2 of 14 old-old studies (14%). Null conclusions were more prevalent in the old-old group (71%) compared to young-old (60%), though absolute differences were modest.
 
-There was no consistent evidence that longer training programs produced systematically better transfer outcomes. Studies with ≥25 sessions (*k* = 8) showed predominantly null transfer effects; similarly, shorter programs (≤10 sessions, *k* = 15) also showed predominantly null to mixed results. The absence of dose–response trends may partly reflect the incomplete reporting of dose parameters noted above (Section 3.2), as well as the potential ceiling effects in trained tasks.
+Thirteen studies (23%) included formal age subgroup analyses or reported age as a moderator. Among these, the majority found no significant within-sample age moderation of transfer outcomes. Heinzel et al. (2014; seq18) found no age-moderation in a sample spanning 60–79 years. Jaeggi et al. (2020; seq28) and Salminen et al. (2016; seq3) also found comparable transfer across younger and older age strata within their samples.
 
-Among the 8 studies that explicitly compared training schedules or conducted dose–response analyses, results were mixed, with no clear threshold for minimum effective dose identified.
+The Borella research group's studies on old-old adults (mean age 75–87 years; seq15, seq19, seq48) provide a partial exception: these studies using brief span-based training with Italian community-dwelling adults reported near-transfer maintenance at 6–9 month follow-up in old-old participants, though overall between-group transfer conclusions remained null or mixed when compared to active controls.
 
-#### 3.6.2 Active vs. Passive Control
+Thirteen studies with age subgroup analyses reported mixed findings overall, with some indicating smaller transfer in older strata (consistent with CRUNCH predictions) and others finding no age moderation within the ≥60 years range. Evidence for age as a moderator is therefore classified as *mixed*, and the limited number of studies focusing exclusively on the old-old population (>75 years) constrains firm conclusions.
 
-Studies with active control groups (*k* = 46) showed a predominantly null transfer pattern: 32 studies (70%) reported Null conclusions, 9 (20%) Positive, and 5 (11%) Mixed. By contrast, studies without an active control (*k* = 10) showed more variable outcomes: 3 (30%) Null, 4 (40%) Positive, and 3 (30%) Mixed.
-
-#### 3.6.3 Combined Interventions
-
-Studies combining WM training with tDCS (*k* = 10 studies) showed somewhat higher rates of positive or mixed outcomes compared to pure WM training studies, though results were inconsistent across studies. The few studies combining WM training with aerobic exercise also showed mixed patterns. Given the small number of studies per combination type and the confound between combined intervention type and other methodological features, strong conclusions cannot be drawn.
-
-#### 3.6.4 Cognitive Process Overlap
+#### 3.4.3 Cognitive Process Overlap
 
 Cognitive process overlap between training tasks and transfer outcomes was operationalized following Barnett and Ceci's (2002) taxonomy of transfer distance:
 
-- **High overlap**: Transfer tasks requiring the same WM storage and updating mechanisms as the training task (e.g., alternative verbal or spatial WM span tasks, other n-back variants). Such tasks engage the same phonological loop or visuospatial sketchpad mechanisms.
-- **Medium overlap**: Transfer tasks requiring partially overlapping executive functions, such as inhibitory control, cognitive flexibility (task-switching), or divided attention—functions that interact with but are not identical to central executive WM updating.
-- **Low overlap**: Transfer tasks targeting distinct cognitive processes with minimal mechanistic overlap to WM training, such as episodic memory, processing speed, vocabulary, or measures of daily functioning.
+- **High overlap**: Transfer tasks requiring the same WM storage and updating mechanisms as the training task (e.g., alternative verbal or spatial WM span tasks, other n-back variants), engaging the same phonological loop or visuospatial sketchpad mechanisms.
+- **Medium overlap**: Transfer tasks requiring partially overlapping executive functions, such as inhibitory control, cognitive flexibility, or divided attention—functions that interact with but are not identical to central executive WM updating.
+- **Low overlap**: Transfer tasks targeting distinct cognitive processes with minimal mechanistic overlap to WM training, such as fluid intelligence, processing speed, vocabulary, or everyday functioning.
 
-Across the 56 included studies, AI-assisted classification (pending human verification) identified high cognitive process overlap in 43 studies (77%), medium overlap in 6 studies (11%), and low overlap in 6 studies (11%). It is important to note that these classifications reflect the *category of outcomes measured* rather than confirmed transfer, and all classifications should be treated as preliminary pending systematic verification.
+Across the 56 included studies, AI-assisted preliminary classification (pending full human verification) identified high cognitive process overlap in 43 studies (77%), medium overlap in 6 studies (11%), low overlap in 6 studies (11%), and 1 study unclassified. The predominance of high-overlap training designs in the current literature (77% of studies) may partly explain the relatively consistent—albeit modest—near transfer effects observed.
 
-Examining the distribution of results within each overlap category: studies with high-overlap transfer outcomes showed a mix of positive and null conclusions, confirming that even near-transfer to highly similar tasks is not guaranteed. Studies with medium and low overlap had insufficient numbers for strong conclusions, though the few low-overlap studies (particularly those targeting everyday functioning) tended to show null or mixed effects.
+The 6 studies classified as low overlap (seq21 Sun 2018, seq22 Boutzoukas 2022, seq24 Tagliabue 2022, seq32 Heo 2014, seq35 Günther 2003, seq36 Shatil 2014) showed a distribution of Positive = 3, Null = 3. This pattern warrants careful interpretation: all three positive-conclusion studies in this group (Heo et al., 2014; Günther et al., 2003; Shatil et al., 2014) used either no active control group, a single-group pre–post design, or brain stimulation co-interventions that substantially limit attribution of effects to WM training per se. When methodological quality is considered, the evidence from low-overlap studies does not convincingly support transfer to cognitively distant domains, tentatively supporting the hypothesis that transfer probability decreases as the cognitive distance between training and transfer tasks increases.
 
-These distributional patterns—rather than constituting a formal moderator analysis—suggest that cognitive process overlap does not straightforwardly predict transfer outcome in this literature, potentially because other factors (active control presence, training dose, participant characteristics) exert stronger influence. Future studies employing theoretically grounded task batteries with systematically varied overlap levels would provide stronger evidence on this question.
+#### 3.4.4 Training Dose and Density
 
-#### 3.6.5 Baseline Working Memory
+Training dose parameters were incompletely reported across included studies. Total training sessions were available for 51 studies (range: 3–40 sessions; median: 12), weekly frequency for 37 studies (range: 1–7 sessions/week; median: 3), session duration for 44 studies (range: 15–75 minutes; median: 40 min), and training weeks for 51 studies (range: 1–14 weeks; median: 4). Approximately 5 studies did not provide sufficient information to characterize training dose fully across all four parameters, limiting dose–response analyses.
 
-Baseline WM level was reported in 24 studies (43%), with 22 reporting low-baseline samples and 2 reporting high-baseline samples; 32 studies (57%) did not report sufficient data to classify baseline WM level. Among the 8 studies that formally tested baseline WM as a moderator, 3 found that participants with lower baseline WM showed larger training benefits (low > high direction), 3 found null moderation effects, and 2 found no significant moderation. Evidence for the "magnification hypothesis" (greater benefits for low-performers) is therefore present but not consistent across studies.
+Within the available data, there was no consistent pattern linking higher training dose to better transfer outcomes. Studies with ≤10 total sessions (*k* = 23) showed: Null = 15 (65%), Positive = 4 (17%), Mixed = 4 (17%). Studies with 11–25 sessions (*k* = 25) showed: Null = 13 (52%), Positive = 9 (36%), Mixed = 3 (12%). The 3 studies with >25 sessions all yielded null transfer conclusions. Counterintuitively, moderate-dose programs (11–25 sessions) showed the highest rate of positive conclusions—though this likely reflects confounding with other design factors (e.g., adaptive training, combined interventions) rather than dose per se.
 
-#### 3.6.6 Age Subgroup Analyses
+Regarding training density (frequency), studies with sparse schedules (<3 sessions/week; *k* = 8) showed: Positive = 3 (38%), Mixed = 2 (25%), Null = 3 (38%). Intermediate density (3–4/week; *k* = 13): Positive = 4 (31%), Null = 8 (62%), Mixed = 1 (8%). Dense schedules (≥5/week; *k* = 16): Positive = 4 (25%), Null = 10 (63%), Mixed = 2 (13%). No clear dose–density advantage was observed. Evidence is classified as *insufficient* for dose as a moderator, primarily due to high rates of missing data and confounding with design features.
 
-Thirteen studies (23%) reported formal age subgroup analyses or included age as a moderator variable. Among these, results were mixed: some studies found that older participants (within older-adult samples) showed smaller transfer gains, consistent with CRUNCH predictions, while others found no age moderation within the ≥60 years range. The limited number of studies focusing on the "old-old" population (>75 years) and the narrow age ranges within individual studies constrain conclusions about age as a moderator within older adult samples.
+#### 3.4.5 Other Potential Moderators
+
+Several additional participant and design characteristics were extracted as potential moderators but could not be systematically evaluated due to insufficient formal tests across studies.
+
+Education level was reported as sample mean years of schooling across studies (range: approximately 12–16 years), but no included study formally tested education as a moderator of transfer outcomes. Given theoretical links between educational attainment and cognitive reserve (Stern, 2009), this variable warrants systematic examination in future research.
+
+Supervision mode (laboratory-based, home-based, or hybrid) was recorded for 56 studies. Laboratory-based training was most common (*n* = 37, 66%); hybrid formats were used in 14 studies (25%), and fully home-based training in 5 studies (9%). However, no study formally compared transfer outcomes across delivery modes within a single design. As remote cognitive training becomes increasingly prevalent, this factor represents a priority for future investigation.
+
+Based on available evidence, both variables are classified as *insufficient evidence* per the criteria established in Section 2.7.
+
+### 3.5 Maintenance Effects
+
+Follow-up assessments were reported in 37 of 56 studies (66%). Among studies with follow-up, the majority retained at least one transfer outcome at the follow-up time point; however, formal tests of training gains maintenance versus post-training change were inconsistently reported.
+
+Specific follow-up intervals were reported in 19 studies, ranging from 1 month (Brambilla et al., 2021; Nguyen et al., 2026) to 9 months (Zinke et al., 2014; Borella et al., 2019). The most common follow-up interval was 6 months (*k* = 7 studies). Follow-up time point counts: 1 month = 2 studies; 3 months = 3; 5 months = 1; 6 months = 7; 8 months = 2; 9 months = 2. The remaining 18 studies with follow-up did not specify the interval in extractable form.
+
+Among the 19 studies with specific follow-up intervals, positive overall conclusions were maintained at follow-up in 3 studies: Günther et al. (2003; 5 months), Spironelli et al. (2021; 6 months), and Nguyen et al. (2026; 1 month). The large majority (16/19) showed null or mixed follow-up conclusions, consistent with the general pattern of limited transfer.
+
+The Borella research group's studies in Italian older adults (seq2, seq15, seq19, seq48) represent a notable exception in near-transfer maintenance: span-based training effects on WM tasks were retained at 6-month (seq2, seq31, seq46) and 9-month (seq15, seq25) follow-up assessments, though these effects were predominantly on near-transfer WM measures rather than far-transfer domains. Together, these findings suggest that whatever near-transfer benefits are achieved may be more durable than far-transfer effects, though the evidence base is insufficient for strong conclusions.
+
+The overall pattern indicates that even when immediate post-training transfer is observed, long-term maintenance of WM training benefits remains uncertain and is inconsistently investigated. Evidence is classified as *insufficient* for durability of transfer effects beyond 6 months.
+
+### 3.6 Neuroimaging Evidence
+
+Ten studies (18%) included neuroimaging outcomes alongside behavioral measures, employing EEG/ERP (*k* = 5: seq5, seq45, seq48, seq59, seq62), fMRI (*k* = 3: seq23, seq41, seq14), structural MRI (sMRI; *k* = 2: seq8, seq22), or combined modalities (*k* = 2: seq8, seq14). Neuroimaging evidence was highly heterogeneous in terms of modality, analysis approach, and reported outcomes, precluding cross-study synthesis.
+
+**EEG/ERP studies.** Vesterinen et al. (2018; seq5) reported increased P300 amplitude at parietal sites (Pz) during a 3-back task following training, interpreted as enhanced neural efficiency, alongside mixed behavioral transfer outcomes. Tusch et al. (2016; seq45) similarly found increased P300 amplitudes after training in the absence of significant behavioral transfer, suggesting that neural changes can occur independently of behavioral generalization. Borella et al. (2025; seq48) reported lateralized event-related potential changes after training that persisted at 6-month follow-up, with null behavioral transfer. Spironelli et al. (2021; seq59) used resting-state EEG to show changes in cortical arousal (alpha power) following brief span training, with positive behavioral transfer on the trained tasks. Pergher et al. (2020; seq62) found reduced P300 amplitude changes under increasing load conditions in the training group, interpreted as reduced neural processing effort, with null overall behavioral transfer.
+
+**fMRI studies.** Heinzel et al. (2017; seq41) found that training-related changes in left DLPFC activity predicted improved performance on an auditory dual-task, and right DLPFC changes predicted visual dual-task improvement, alongside positive overall behavioral conclusions. Verty et al. (2024; seq23) found that youth-like baseline fMRI activation patterns (indexed by a goodness-of-fit score relative to a young-adult reference) predicted greater training gains and transfer effects in older adults with positive overall conclusions—consistent with the "neural efficiency" account of training responsiveness. Šimko et al. (2021; seq14) reported fMRI activation changes in right middle-frontal and right posterior parietal regions following combined tDCS + WM training, with mixed behavioral outcomes.
+
+**Structural MRI.** Wang et al. (2025; seq8) found increased left frontal cortical thickness and reduced resting-state functional homogeneity in the training group, with changes correlated with WM improvements, in a study with mixed behavioral transfer. Boutzoukas et al. (2022; seq22) found that higher white matter hyperintensity (WMH) load negatively predicted training-related near-transfer improvement, identifying structural brain integrity as a potential constraint on WM training plasticity, with null overall behavioral transfer.
+
+Across these 10 studies, a consistent pattern emerges: **neural changes following WM training can occur in the absence of behavioral transfer**. Studies frequently document EEG or fMRI changes that do not correspond to statistically significant group differences on transfer outcomes. This dissociation suggests that WM training may induce task-specific neural adaptations that do not generalize to the broader cognitive architecture assessed by transfer measures. Baseline neural characteristics—particularly cortical thickness, WMH burden, and resting activation patterns—appear to be meaningful predictors of training responsiveness, warranting their systematic inclusion in future studies.
+
+Due to the small number of neuroimaging studies (*k* = 10) and high methodological heterogeneity, evidence strength for neuroimaging correlates of WM training is classified as *insufficient* for any specific conclusion. Nevertheless, neuroimaging findings provide mechanistic context for the behavioral patterns described in Sections 3.2–3.4 and highlight the value of biomarker-informed stratification in future training research.
 
 ---
+
 
 ## 4. Discussion
 
