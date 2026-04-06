@@ -54,10 +54,10 @@ draw_prisma <- function() {
                size = size, hjust = 0.5, vjust = 0.5, lineheight = 0.9)
   }
 
-  arrow <- function(p, x1, y1, x2, y2) {
+  add_arrow <- function(p, x1, y1, x2, y2) {
     p + annotate("segment",
                  x = x1, xend = x2, y = y1, yend = y2,
-                 arrow = arrow(length = unit(0.2, "cm"), type = "closed"),
+                 arrow = grid::arrow(length = unit(0.2, "cm"), type = "closed"),
                  color = "black")
   }
 
@@ -66,7 +66,7 @@ draw_prisma <- function() {
            sprintf("Records identified through database searching\n(n = 4,168 after deduplication)"),
            fill = "#E8F4F8")
 
-  p <- arrow(p, 5, 18.4, 5, 17.2)
+  p <- add_arrow(p, 5, 18.4, 5, 17.2)
 
   # ── SCREENING ───────────────────────────────────
   p <- box(p, 5, 16.8, 8, 1.2,
@@ -81,10 +81,10 @@ draw_prisma <- function() {
 
   p <- p + annotate("segment",
                     x = 9, xend = 7.2, y = 16.8, yend = 16.8,
-                    arrow = arrow(length = unit(0.2, "cm"), type = "closed"),
+                    arrow = grid::arrow(length = unit(0.2, "cm"), type = "closed"),
                     color = "black")
 
-  p <- arrow(p, 5, 16.2, 5, 15)
+  p <- add_arrow(p, 5, 16.2, 5, 15)
 
   # ── ELIGIBILITY ─────────────────────────────────
   p <- box(p, 5, 14.6, 8, 1.2,
@@ -100,10 +100,10 @@ draw_prisma <- function() {
 
   p <- p + annotate("segment",
                     x = 9, xend = 7.2, y = 14.6, yend = 14.6,
-                    arrow = arrow(length = unit(0.2, "cm"), type = "closed"),
+                    arrow = grid::arrow(length = unit(0.2, "cm"), type = "closed"),
                     color = "black")
 
-  p <- arrow(p, 5, 14.0, 5, 12.8)
+  p <- add_arrow(p, 5, 14.0, 5, 12.8)
 
   # ── INCLUDED ────────────────────────────────────
   p <- box(p, 5, 12.4, 8, 1.2,

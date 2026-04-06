@@ -47,7 +47,7 @@ moderator_data <- data.frame(
     "Training dose", "Training dose", "Training dose",
     "Training dose", "Training dose", "Training dose"
   ),
-  outcome = rep(c("Positive", "Mixed", "Null"), 9),
+  outcome = rep(c("Positive", "Mixed", "Null"), 11),
   # Approximate counts — verify against final cross-tabulation
   k = c(
     # Active control (n=46): Positive=6, Mixed=8, Null=32
