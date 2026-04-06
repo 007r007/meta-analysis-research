@@ -66,7 +66,7 @@ Studies were included if they met all of the following criteria, framed within t
 
 ### 2.3 Search Strategy
 
-We conducted systematic searches in four electronic databases: PubMed/MEDLINE, PsycINFO (via EBSCOhost), Web of Science Core Collection, and CNKI (China National Knowledge Infrastructure). The search was conducted in [month/year; to be confirmed]. No publication date restriction was applied.
+We conducted systematic searches in four electronic databases: PubMed/MEDLINE, PsycINFO (via EBSCOhost), Web of Science Core Collection, and Scopus. The search was conducted in [month/year; to be confirmed]. No publication date restriction was applied.
 
 The search strategy combined terms related to (1) working memory training or cognitive training, (2) older adults or aging, and (3) cognitive outcomes or transfer. An illustrative search string for PubMed was:
 

@@ -1,65 +1,73 @@
-# Figure 1: PRISMA 2020 Flow Diagram — Redesigned
+# Figure 1: PRISMA 2020 Flow Diagram
 # Paper 01 — WM Training Systematic Review
-# Clean professional layout matching published PRISMA standards
+# Nature-style color palette, publication-quality layout
 
 library(ggplot2)
 library(grid)
 
 # ─────────────────────────────────────────────────
-# DATA
-# If per-database counts are available, fill in below.
-# Currently using merged total only (n_per_db = NA).
+# DATA (verified from 03-screen Excel files)
 # ─────────────────────────────────────────────────
-n_pubmed    <- NA   # fill if known, e.g. 1823
-n_psycinfo  <- NA
-n_wos       <- NA
-n_cnki      <- NA
-n_total_raw <- NA   # total before deduplication (if known)
-n_identified <- 4168  # after deduplication
+# Per-database counts (from 数据_2_第一轮标题摘要筛选_v2.xlsx)
+n_pubmed   <- 2403
+n_psycinfo <- 372
+n_wos      <- 575
+n_scopus   <- 818
+n_total    <- 4168  # after deduplication (sum = 4168)
 
-n_screened          <- 4168
-n_excluded_screen   <- 3723   # 4168 - 445
-n_stage1            <- 2379   # automated keyword filter
-n_stage2            <- 1344   # title/abstract review
+# Stage 1: automated keyword filter (结果_2_筛选统计_v2.json)
+n_screened       <- 4168
+n_excl_stage1    <- 3723   # total excluded title/abstract
+n_stage1_auto    <- 2379   # automated (v1 → v2 diff)
+n_stage2_manual  <- 1344
 
-n_fulltext          <- 445
-n_fulltext_excluded <- 389    # 445 - 56
-n_excl_population   <- 12
-n_excl_intervention <- 2
-n_excl_design       <- 1
-n_excl_other        <- 389 - 12 - 2 - 1   # remaining (other reasons)
+# Stage 3: full-text (数据_5_第三轮全文筛选.xlsx)
+n_fulltext       <- 445
+n_ft_excluded    <- 15
+n_ft_E1          <- 12   # population criteria (age/diagnosis)
+n_ft_E2          <- 2    # intervention criteria
+n_ft_E4          <- 1    # study design criteria
 
-n_included          <- 56
-
-# ─────────────────────────────────────────────────
-# Build identification label based on available data
-# ─────────────────────────────────────────────────
-if (!is.na(n_pubmed)) {
-  id_label <- sprintf(
-    "Records identified from databases\nPubMed (n=%d), PsycINFO (n=%d)\nWeb of Science (n=%d), CNKI (n=%d)\nTotal after deduplication: n=%s",
-    n_pubmed, n_psycinfo, n_wos, n_cnki,
-    format(n_identified, big.mark=","))
-} else {
-  id_label <- sprintf(
-    "Records identified from 4 databases\n(PubMed, PsycINFO, Web of Science, CNKI)\nAfter deduplication: n = %s",
-    format(n_identified, big.mark=","))
-}
+n_included       <- 56
 
 # ─────────────────────────────────────────────────
-# COORDINATE SYSTEM: x 0–100, y 0–100
-# Main column center: x = 38
-# Excluded boxes center: x = 78
-# Phase labels: x = 6
-# Row y-centers: 88, 74, 58, 36
+# Nature color palette
 # ─────────────────────────────────────────────────
+# Main boxes:   Nature blue  #4DBBD5 (light fill) / #2E6DA4 (border)
+# Excluded:     Nature red   #F9B9B7 (fill)       / #C0392B (border)
+# Included:     Nature green #B7E0C4 (fill)       / #1A7D3E (border)
+# Phase labels: #E8EFF7 (fill) / #2E6DA4 (border/text)
+# Background:   white
 
-BOX_W   <- 44   # main box width
-BOX_H   <- 10   # main box height
-EX_W    <- 30   # excluded box width
-EX_H_1  <- 12   # excluded box height (screening)
-EX_H_2  <- 16   # excluded box height (full-text)
-CX      <- 38   # main column x
-EX_CX   <- 78   # excluded column x
+COL_MAIN_FILL   <- "#EBF4FA"
+COL_MAIN_BORDER <- "#2E6DA4"
+COL_MAIN_TEXT   <- "#1A3A5C"
+COL_EXCL_FILL   <- "#FEF0EF"
+COL_EXCL_BORDER <- "#C0392B"
+COL_EXCL_TEXT   <- "#7B1E1E"
+COL_INCL_FILL   <- "#EBF7EE"
+COL_INCL_BORDER <- "#1A7D3E"
+COL_INCL_TEXT   <- "#0D4A22"
+COL_PHASE_FILL  <- "#E8EFF7"
+COL_PHASE_BORD  <- "#2E6DA4"
+COL_PHASE_TEXT  <- "#2E6DA4"
+COL_ARROW       <- "#444444"
+
+# ─────────────────────────────────────────────────
+# LAYOUT (coordinate 0–100 x 0–100)
+# Phase label column:  x_phase = 8  (width 14)
+# Main flow column:    cx = 42  (width 46)
+# Excluded column:     ex_cx = 83  (width 28)
+# Row centers (y):     90, 75, 58, 35
+# ─────────────────────────────────────────────────
+cx     <- 42
+bw     <- 46   # main box width
+bh     <- 9    # main box height
+ex_cx  <- 83
+ex_w   <- 28
+x_ph   <- 8    # phase label center x
+ph_w   <- 14   # phase label width
+ph_h   <- 7    # phase label height
 
 draw_prisma <- function() {
 
@@ -67,119 +75,125 @@ draw_prisma <- function() {
     xlim(0, 100) + ylim(0, 100) +
     theme_void() +
     theme(
-      plot.background = element_rect(fill = "white", color = NA),
-      plot.margin = margin(8, 8, 8, 8),
-      plot.title = element_text(size = 13, face = "bold",
-                                hjust = 0.5, margin = margin(b = 10))
+      plot.background  = element_rect(fill = "white", color = NA),
+      panel.background = element_rect(fill = "white", color = NA),
+      plot.margin = margin(10, 8, 8, 8),
+      plot.title  = element_text(size = 13, face = "bold",
+                                  hjust = 0.5, color = "#1A3A5C",
+                                  margin = margin(b = 6))
     )
 
   # ── helpers ──────────────────────────────────────
 
   dbox <- function(p, cx, cy, w, h, txt,
-                   fill = "white", border = "#2C3E50",
-                   tsize = 3.1, bold = FALSE) {
-    face <- ifelse(bold, "bold", "plain")
+                   fill, border, tcol = "#222222",
+                   tsize = 3.0, bold = FALSE) {
     p +
       annotate("rect",
-               xmin=cx-w/2, xmax=cx+w/2,
-               ymin=cy-h/2, ymax=cy+h/2,
-               fill=fill, color=border, linewidth=0.6) +
-      annotate("text", x=cx, y=cy, label=txt,
-               size=tsize, hjust=0.5, vjust=0.5,
-               lineheight=1.05, fontface=face)
+               xmin = cx-w/2, xmax = cx+w/2,
+               ymin = cy-h/2, ymax = cy+h/2,
+               fill = fill, color = border, linewidth = 0.65) +
+      annotate("text", x = cx, y = cy, label = txt,
+               size = tsize, hjust = 0.5, vjust = 0.5,
+               lineheight = 1.1, color = tcol,
+               fontface = ifelse(bold, "bold", "plain"))
+  }
+
+  phase <- function(p, cy, txt) {
+    p +
+      annotate("rect",
+               xmin = x_ph - ph_w/2, xmax = x_ph + ph_w/2,
+               ymin = cy - ph_h/2,   ymax = cy + ph_h/2,
+               fill = COL_PHASE_FILL, color = COL_PHASE_BORD, linewidth = 0.6) +
+      annotate("text", x = x_ph, y = cy, label = txt,
+               size = 2.7, fontface = "bold", color = COL_PHASE_TEXT,
+               hjust = 0.5, vjust = 0.5, lineheight = 1.0)
   }
 
   varrow <- function(p, x, y1, y2) {
-    p + annotate("segment", x=x, xend=x, y=y1, yend=y2,
-                 arrow=grid::arrow(length=unit(0.22,"cm"), type="closed"),
-                 color="#2C3E50", linewidth=0.55)
+    p + annotate("segment", x = x, xend = x, y = y1, yend = y2,
+                 arrow = grid::arrow(length = unit(0.2, "cm"),
+                                     type = "closed"),
+                 color = COL_ARROW, linewidth = 0.55)
   }
 
   harrow <- function(p, x1, x2, y) {
-    p + annotate("segment", x=x1, xend=x2, y=y, yend=y,
-                 arrow=grid::arrow(length=unit(0.22,"cm"), type="closed"),
-                 color="#2C3E50", linewidth=0.55)
-  }
-
-  hline <- function(p, x1, x2, y) {
-    p + annotate("segment", x=x1, xend=x2, y=y, yend=y,
-                 color="#2C3E50", linewidth=0.55)
-  }
-
-  vline <- function(p, x, y1, y2) {
-    p + annotate("segment", x=x, xend=x, y=y1, yend=y2,
-                 color="#2C3E50", linewidth=0.55)
-  }
-
-  phase_label <- function(p, y, txt) {
-    p +
-      annotate("rect", xmin=0.5, xmax=11, ymin=y-5, ymax=y+5,
-               fill="#D6EAF8", color="#2980B9", linewidth=0.5) +
-      annotate("text", x=5.8, y=y, label=txt,
-               size=3.0, fontface="bold", color="#1A5276",
-               hjust=0.5, vjust=0.5)
+    p + annotate("segment", x = x1, xend = x2, y = y, yend = y,
+                 arrow = grid::arrow(length = unit(0.2, "cm"),
+                                     type = "closed"),
+                 color = COL_ARROW, linewidth = 0.55)
   }
 
   # ── Phase labels ─────────────────────────────────
-  p <- phase_label(p, 88, "Identification")
-  p <- phase_label(p, 72, "Screening")
-  p <- phase_label(p, 54, "Eligibility")
-  p <- phase_label(p, 32, "Included")
+  p <- phase(p, 91, "Identification")
+  p <- phase(p, 76, "Screening")
+  p <- phase(p, 59, "Eligibility")
+  p <- phase(p, 38, "Included")
 
-  # ── ROW 1: Identification (y=88) ─────────────────
-  p <- dbox(p, CX, 88, BOX_W, BOX_H, id_label,
-            fill="#EBF5FB", border="#2980B9")
+  # ── ROW 1: Identification (y=91) ─────────────────
+  id_txt <- sprintf(
+    paste0("Records identified from 4 databases\n",
+           "(N = %s after deduplication)\n",
+           "PubMed: %s  |  PsycINFO: %s  |  WoS: %s  |  Scopus: %s"),
+    format(n_total, big.mark=","),
+    format(n_pubmed, big.mark=","),
+    format(n_psycinfo, big.mark=","),
+    format(n_wos, big.mark=","),
+    format(n_scopus, big.mark=",")
+  )
+  p <- dbox(p, cx, 91, bw, 11, id_txt,
+            fill = COL_MAIN_FILL, border = COL_MAIN_BORDER,
+            tcol = COL_MAIN_TEXT, tsize = 2.9)
 
-  # arrow down
-  p <- varrow(p, CX, 83, 77.5)
+  p <- varrow(p, cx, 85.4, 81.0)
 
-  # ── ROW 2: Screened (y=72) ───────────────────────
-  p <- dbox(p, CX, 72, BOX_W, BOX_H,
-            sprintf("Records screened\n(n = %s)", format(n_screened, big.mark=",")),
-            fill="#EBF5FB", border="#2980B9")
+  # ── ROW 2: Screened (y=76) ───────────────────────
+  p <- dbox(p, cx, 76, bw, bh,
+            sprintf("Records screened\n(title and abstract; n = %s)",
+                    format(n_screened, big.mark=",")),
+            fill = COL_MAIN_FILL, border = COL_MAIN_BORDER,
+            tcol = COL_MAIN_TEXT, tsize = 3.0)
 
-  # elbow to excluded: horizontal line + downward arrow into box
-  p <- hline(p, CX + BOX_W/2, EX_CX - EX_W/2, 72)
-  p <- harrow(p, CX + BOX_W/2, EX_CX - EX_W/2 + 0.1, 72)
-  p <- dbox(p, EX_CX, 68, EX_W, EX_H_1,
-            sprintf("Records excluded (n = %s)\n  Stage 1 – automated: %s\n  Stage 2 – title/abstract: %s",
-                    format(n_excluded_screen, big.mark=","),
-                    format(n_stage1, big.mark=","),
-                    format(n_stage2, big.mark=",")),
-            fill="#FDFEFE", border="#E74C3C", tsize=2.85)
+  p <- harrow(p, cx + bw/2, ex_cx - ex_w/2, 76)
 
-  # arrow down main
-  p <- varrow(p, CX, 67, 59.5)
+  p <- dbox(p, ex_cx, 71.5, ex_w, 11,
+            sprintf("Records excluded (n = %s)\n  Stage 1 – automated filter: n = %s\n  Stage 2 – title/abstract review: n = %s",
+                    format(n_excl_stage1, big.mark=","),
+                    format(n_stage1_auto, big.mark=","),
+                    format(n_stage2_manual, big.mark=",")),
+            fill = COL_EXCL_FILL, border = COL_EXCL_BORDER,
+            tcol = COL_EXCL_TEXT, tsize = 2.7)
 
-  # ── ROW 3: Full-text eligibility (y=54) ──────────
-  p <- dbox(p, CX, 54, BOX_W, BOX_H,
-            sprintf("Full-text articles assessed\nfor eligibility (n = %d)", n_fulltext),
-            fill="#EBF5FB", border="#2980B9")
+  p <- varrow(p, cx, 71.4, 64.5)
 
-  # elbow to excluded: horizontal arrow
-  p <- harrow(p, CX + BOX_W/2, EX_CX - EX_W/2, 54)
-  p <- dbox(p, EX_CX, 46, EX_W, EX_H_2,
-            sprintf(paste0("Full-text excluded (n = %d)\n",
-                           "  Population criteria: n = %d\n",
-                           "  Intervention criteria: n = %d\n",
-                           "  Study design: n = %d\n",
-                           "  Other reasons: n = %d"),
-                    n_fulltext_excluded,
-                    n_excl_population,
-                    n_excl_intervention,
-                    n_excl_design,
-                    n_excl_other),
-            fill="#FDFEFE", border="#E74C3C", tsize=2.85)
+  # ── ROW 3: Full-text eligibility (y=59) ──────────
+  p <- dbox(p, cx, 59, bw, bh,
+            sprintf("Full-text articles assessed for eligibility (n = %d)",
+                    n_fulltext),
+            fill = COL_MAIN_FILL, border = COL_MAIN_BORDER,
+            tcol = COL_MAIN_TEXT, tsize = 3.0)
 
-  # arrow down main
-  p <- varrow(p, CX, 49, 37.5)
+  p <- harrow(p, cx + bw/2, ex_cx - ex_w/2, 59)
 
-  # ── ROW 4: Included (y=32) ───────────────────────
-  p <- dbox(p, CX, 32, BOX_W, 11,
+  p <- dbox(p, ex_cx, 52.5, ex_w, 14,
+            sprintf(paste0(
+              "Full-text articles excluded (n = %d)\n",
+              "  E1 – population criteria: n = %d\n",
+              "       (age < 60 yr or clinical diagnosis)\n",
+              "  E2 – intervention criteria: n = %d\n",
+              "  E4 – study design criteria: n = %d"),
+              n_ft_excluded, n_ft_E1, n_ft_E2, n_ft_E4),
+            fill = COL_EXCL_FILL, border = COL_EXCL_BORDER,
+            tcol = COL_EXCL_TEXT, tsize = 2.65)
+
+  p <- varrow(p, cx, 54.4, 43.5)
+
+  # ── ROW 4: Included (y=38) ───────────────────────
+  p <- dbox(p, cx, 38, bw, 10,
             sprintf("Studies included in narrative synthesis\n(n = %d)", n_included),
-            fill="#EAFAF1", border="#27AE60", tsize=3.5, bold=TRUE)
+            fill = COL_INCL_FILL, border = COL_INCL_BORDER,
+            tcol = COL_INCL_TEXT, tsize = 3.3, bold = TRUE)
 
-  # title
   p <- p + labs(title = "Figure 1. PRISMA 2020 Flow Diagram")
 
   return(p)
@@ -190,7 +204,7 @@ p_prisma <- draw_prisma()
 ggsave(
   filename = "E:/Meta-analysis writing project/projects/paper-01/06-write/paper01_figures/figure1_prisma.png",
   plot = p_prisma,
-  width = 9, height = 11, dpi = 300, bg = "white"
+  width = 9, height = 10, dpi = 300, bg = "white"
 )
 
 cat("Figure 1 (PRISMA) saved.\n")
