@@ -86,7 +86,7 @@ Search results from all four databases were combined and deduplicated using a Py
 
 ### 2.5 Data Extraction
 
-Data were extracted from full-text PDFs using a standardized extraction form developed in Microsoft Excel (57 fields). Two reviewers independently extracted data for all included studies. Disagreements were identified through cross-comparison and resolved by consensus discussion with reference to the original publication. Inter-rater agreement on the primary outcome field (Overall Conclusion: Positive/Null/Mixed) was assessed on a random sample of 20% of included studies; agreement was high (Cohen's κ = 0.83). The following information was extracted for each study:
+Data were independently extracted by two reviewers using a standardized extraction form developed in Microsoft Excel (57 fields). Discrepancies were resolved through discussion until consensus was reached. The following information was extracted for each study:
 
 - *Bibliographic information:* First author, year, country of study, journal/publication status
 - *Sample characteristics:* Total *N*, training group *N*, control group *N*, mean age, age SD, proportion female, education (years), cognitive screening tool and score
