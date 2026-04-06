@@ -1,0 +1,3576 @@
+=== SEQ 30: 2017_Benefits in tasks related to everyday life competences  ===
+Beneﬁts in tasks related to everyday life competences after
+a working memory training in older adults
+Alessandra Cantarella1, Erika Borella1, Barbara Carretti1, Matthias Kliegel2 and Rossana de Beni1
+1Department of General Psychology, University of Padova, Padova, Italy
+2University of Geneva, Geneva, Switzerland
+Correspondence to: E. Borella, E-mail: erika.borella@unipd.it or A. Cantarella, E-mail: alessandra.cantarella@hotmail.it
+Objective: The impact of working memory (WM) training on everyday life functioning has rarely been
+examined, and it is not clear whether WM training gains are transferred to reasoning abilities. The aim
+of this study was to assess the efﬁcacy of a verbal WM training in older adults, in terms of speciﬁc gains
+and transfer effects to everyday life and reasoning abilities.
+Method: Thirty-six community dwelling older adults (from 65 to 75years of age) were randomly
+assigned to a training or an active control group. The speciﬁc gains in a WM task similar to the one
+trained were assessed. Transfer effects to everyday life and reasoning abilities were also examined using
+(i) objective performance-based tasks (the Everyday Problem Test and the Timed Instrumental Activi-
+ties of Daily Living Scale) and (ii) the Cattell test and Raven’s Standard Progressive Matrices,
+respectively.
+Results: Only the trained group showed speciﬁc beneﬁts and transfer effects to one of the everyday abil-
+ities measures (the Everyday Problem Test) and in the two reasoning tasks.
+Conclusion: These results suggest that WM training can positively impact cognitive functioning and,
+more importantly, older adults’ abilities in everyday living.
+Key words: working memory training; older adults; transfer effects; everyday abilities; intelligence; aging
+History: Received 26 June 2015; Revised 21 December 2015; Accepted 20 January 2016; Published online in Wiley Online Li-
+brary (wileyonlinelibrary.com)
+DOI: 10.1002/gps.4448
+Introduction
+Working memory (WM), which is the ability to retain
+and simultaneously process information for use in other
+cognitive tasks (Baddeley and Hitch, 1974), is involved
+in cognitive processes (e.g., reasoning) and in complex
+abilities also needed in everyday life. It undergoes a linear
+decline with aging (Borella et al., 2008), which is exacer-
+bated in age-related disorders, following a gradient from
+mild cognitive impairment to Alzheimer’s disease
+(Gagnon and Belleville, 2011). A growing body of literature
+is thus focusing on intervention targeting this basic mech-
+anism of cognition to sustain older adult functioning.
+Studies on WM training in aging have generated pos-
+itive results in terms of speciﬁc gains in the trained tasks.
+Training gains in untrained tasks (called transfer effects)
+have been found too, although their effect size was small
+(Karbach and Verhaeghen, 2014). Some studies have
+shown large transfer effects, however, while others have
+found none (see Borella et al., 2014 for a review).
+Although WM training in older adults has theoreti-
+cally been designed to prevent age-related cognitive
+decline and to sustain everyday autonomy, aspects of
+daily living have rarely been assessed. This shortcoming
+is rather surprising, especially considering that WM has
+a major inﬂuence on older adults’ performance in every-
+day life. It could be due partly to the difﬁculty of ﬁnding
+instruments appropriate for use with healthy older
+adults, because most tools are devised for clinical popu-
+lations rather than for normally aging individuals.
+To our knowledge, only three WM training studies
+have assessed training-related gains in aspects partly
+related to everyday life in aging, examining attention
+in everyday contexts and related self-reported im-
+provements (Richmond et al., 2011), language compre-
+hension (Carretti et al., 2013), and the perceived ability
+to prevent cognitive failures (Brehmer et al., 2012).
+Although these studies have reported positive results,
+the outcome measures considered are as follows: (i)
+susceptible to bias due to respondents’ expectations
+Copyright # 2016 John Wiley & Sons, Ltd.
+Int J Geriatr Psychiatry 2016
+RESEARCH ARTICLE
+
+being self-reported (Brehmer et al., 2012), and (ii) the
+tasks used are not sufﬁciently representative of real older
+adults’ everyday activities (Richmond et al., 2011;
+Carretti et al., 2013). In Richmond et al. (2011), for
+instance, in one of the subtests in the Test of Everyday
+Attention (Ridgeway et al., 1994), participants had to
+count up and down as they watched a series of pictures
+of ‘elevator doors’—an activity not particularly relevant
+for most older adults. It is, thus, important to assess
+whether, in aging, WM training gains lead to beneﬁts
+to deal with the ‘real’ complex problems of everyday life.
+The efﬁcacy of WM training also remains to be
+clariﬁed as concerns the feasibility of improving rea-
+soning abilities, which are also strongly involved in
+the demands of daily living. Some studies have found
+transfer effects to reasoning, while others have not
+(Karbach and Verhaeghen, 2014). In addition, the
+majority of such studies assessed transfer to reasoning
+abilities with only one task (often Raven’s Standard
+Progressive Matrices), producing controversial results.
+The present study aimed to examine the efﬁcacy of
+a verbal WM training in a sample of community-
+dwelling older adults, seeking any transfer effects to
+everyday functioning and reasoning. For each of these
+two abilities, two indicators were used to clarify
+whether any changes affected the general ability (e.g.,
+reasoning), or were only task-speciﬁc (e.g., von
+Bastian and Oberauer, 2013). To assess training gains
+in
+everyday
+functioning,
+rather
+than
+self-report
+measures, that is the Instrumental Activities of Daily
+Living Scale (IADLs; Lawton and Brody, 1969),
+performance-based measures of functioning that ob-
+jectively assess the ability to solve everyday tasks were
+used: to this Everyday Problem Test (EPT; Willis and
+Marsiske, 1993), and the Timed Instrumental Activi-
+ties of Daily Living Scale (TIADL; Owsley et al.,
+2002). The EPT is a paper-and-pencil task that forse
+meglio “requires to solve” everyday problem (e.g.,
+‘calculate the price of a product’), while the TIADL
+is a behavioral simulation task (e.g., ‘ﬁnd a number
+in a phone directory’) that involves performing
+actions. The EPT was chosen because it has been
+shown to predict an individual’s real functioning
+(Moore et al., 2007), as measured by means of direct
+behavioral observation (Schmitter-Edgecombe et al.,
+2011); and the TIADL because the time taken to com-
+plete everyday tasks is also thought to discriminate
+between normal and pathological aging, as between
+cases with mild cognitive impairment and healthy
+older adults (Wadley et al., 2008).
+The Cattell test and Raven’s Standard Progressive
+Matrices were used to assess transfer effects to reason-
+ing abilities.
+The training administered was the verbal program
+developed by Borella et al. (2010). It was chosen
+because (i) it has generated promising results in terms
+of speciﬁc and transfer effects across different studies
+and populations (Borella et al., 2014); (ii) the proce-
+dure is challenging and motivating for older adults;
+and (iii) it is appropriate for older adults because it
+involves only a few sessions.
+Participants were randomly assigned to either a train-
+ing group or an active control group. Consistently with
+previous results, we expected to obtain (i) speciﬁc effects
+on the so-called criterion task, that is a task very similar
+to the one trained, used to assess speciﬁc training gains
+(e.g., Borella et al., 2010). Transfer effects are generally
+expected for tasks that involve the same processing
+resources as the task used in the training (e.g., Morrison
+and Chein, 2011). As WM has a well-documented role in
+everyday tasks (e.g., Allaire and Marsiske, 1999) and
+relationship with reasoning tasks (Borella et al., 2006),
+training gains could be expected in both everyday tasks
+and reasoning skills.
+Participants
+Thirty-six healthy older adults from 65 to 75years of age
+who were living in the community took part in the
+study. They were recruited on a voluntary basis through
+social clubs. They were all Italian mother-tongue.
+Our inclusion criteria were a Mini-Mental State
+Examination score (Folstein et al., 1975) ≥27, indicat-
+ing good cognitive functioning; and the absence
+(established from a semi-structured interview) of
+physical or psychological conditions capable of causing
+cognitive deﬁcits according to Crook et al. (1986). At
+the pre-test, all participants performed above the cut-
+off for their age and education in the Categorization
+Working Memory Span task (CWMS; see Italian
+norms, De Beni et al., 2008) and vocabulary test
+(Wechsler Adult Intelligence Scale—Revised, 1981;
+Italian norms by Orsini and Laicardi, 2003).
+Participants were randomly assigned to the trained
+or active control groups. The groups did not differ in
+terms of age, years of formal education (Fs<1),
+vocabulary test score, F(1, 34)=2.27, p=0.14, or gender
+distribution (Table 1). The study was approved by the
+ethical board of the Padua University Faculty of
+Psychology.
+Materials
+Criterion task. Categorization Working Memory Span
+task (De Beni et al., 2008). The task consisted of 10
+A. Cantarella et al.
+Copyright # 2016 John Wiley & Sons, Ltd.
+Int J Geriatr Psychiatry 2016
+
+sets of word lists, each of which included 20 lists of
+words that were divided into groups containing from
+two to six lists. Participants listened to a set of word lists
+audio-recorded at a rate of one word per second, and
+they had to tap with their hand on the table whenever
+an animal noun was heard (processing phase). The
+interval between word lists was 2s. At the end of a set,
+participants recalled the last word on each list (mainte-
+nance phase), that is, they needed to remember from
+two to six words altogether, depending on the difﬁculty
+of the set. The total number of words recalled was used
+as the measure of WM performance (maximum 20).
+Five of the sets were used as a pre-test version, the
+other ﬁve at the post-test stage. The two versions were
+counterbalanced across testing sessions.
+Transfer effects. Everyday functioning measures. Every-
+day problem solving (adapted by Borella and
+Cantarella et al. (in preparation) from the 42-item
+version of Willis and Marsiske (1993)). This task
+measures the ability to solve challenging real-world
+cognitive problems embedded within instrumental
+domains. Each stimulus consists of two open-ended
+questions representing ‘real-life’ situations and cover-
+ing instrumental activities (household management,
+health and use of medicines, shopping, managing
+ﬁnances,
+phone
+bills,
+transportation,
+and
+food
+preparation). Participants answered questions about
+how they would deal with these issues. Fourteen
+stimuli/situations most closely reﬂecting the Italian
+lifestyle were chosen from the original version; seven
+were
+used
+at
+pre-test,
+and
+seven
+at
+post-test,
+counterbalancing them among participants (maxi-
+mum score 14).
+Timed
+Instrumental
+Activities
+of
+Daily
+Living
+(adapted from Owsley et al. (2002) by Cantarella
+et al. (2016). The task comprises ﬁve activities of daily
+living in the following IADL domains: communication,
+use of money, cooking, shopping, and use of medicine.
+Participants had to simulate the actions involved in each
+domain (e.g., looking up a phone number), using the
+materials (real everyday objects) contained in an ad
+hoc kit, and time constraints were imposed (from 2 to
+3min, depending on the item). If the participant did
+not complete the task within the allotted time, testing
+on that particular activity was terminated.
+The dependent variable was the time (in seconds)
+taken to complete the actions required for all the activ-
+ities. It was adjusted by a time penalty calculated on
+the basis of the participant’s accuracy in performing
+the tasks (Owsley et al., 2002).
+A parallel version was prepared, changing the
+stimuli to ﬁve activities of daily living. The two
+versions were distributed between the participants in
+a counterbalanced fashion.
+Reasoning tasks. Culture fair test (Cattell and Cattell,
+1973). This consists of two parallel forms, each
+containing four subtests (to be completed in 2.5 to
+4min, depending on the subtest) that involve (i)
+choosing from among six different options which ones
+correctly complete a series of ﬁgures; (ii) identifying
+ﬁgures or shapes that do not belong in a sequence;
+(iii) choosing items that correctly complete matrices
+of abstract ﬁgures; and (iv) assessing relationships
+between a series of items. The dependent variable is
+the number of correctly answered items across the
+four subtests (maximum score 50).
+Parallel forms were administered in counterbalanced
+fashion across test sessions.
+Raven’s Standard Progressive Matrices (RSPM;
+Raven et al., 1977). Participants saw 3×3 matrices
+composed of abstract shapes, lines, and ﬁgures. They
+had to choose the item that best completed the matrix
+from six or eight possible options. The original
+40-problem version was split to obtain two parallel
+versions (as in Shipstead et al., 2012). The number of
+correct answers was the dependent variable (maximum
+score 20).
+Procedure
+The experimental procedure described here was in
+accordance with the Declaration of Helsinki (Sixth
+Revision, 2008). Participants in both groups attended
+ﬁve individual sessions: the ﬁrst and ﬁfth sessions, which
+lasted about 90min each, were for the pre-test and
+post-test. During the other three sessions, the active
+control group was occupied in alternative ‘activities’
+(Table 2), while the trained group was administered
+the WM training. For both groups, all activities were
+Table 1 Demographic characteristics of the trained and control groups
+Trained group (N = 18;
+50% Male)
+Trained group (N = 18;
+50% Male)
+M
+SD
+M
+SD
+Age (years)
+69.50
+3.25
+69.77
+2.92
+Education
+9.94
+2.50
+10.50
+3.09
+Vocabulary
+48.11
+3.16
+46.22
+4.27
+Note: M, mean; SD, standard deviation.
+Working memory training and everyday abilities
+Copyright # 2016 John Wiley & Sons, Ltd.
+Int J Geriatr Psychiatry 2016
+
+completed within a 2-week time frame, with a ﬁxed
+2-day break between sessions. The duration of the
+sessions and the amount of interaction with the experi-
+menter were much the same for the two groups.
+The three sessions of WM training (sessions 2–4)
+lasted about 30–40min. Lists of words that were
+audio-recorded and organized as for the CWMS task
+were presented to the participants in the trained
+group, who were asked to recall target words, and
+tap on the table with their hand when they heard an
+animal noun. The maintenance demand of the CWMS
+task was manipulated by increasing the number of
+words that successful participants were asked to recall,
+and by presenting the lowest memory load to
+participants who were unsuccessful (session 2). The
+demands of the task also varied and, depending on
+the session, they could involve having to recall (i) the
+last or ﬁrst word in each list and (ii) words that
+were preceded by a beep sound. The processing
+requirement (tapping on the table when an animal
+noun occurred) was also manipulated by varying the
+frequency of these animal words in the lists (session
+3). Participants in the active control group were
+asked to ﬁll in questionnaires (see Table 2 for details).
+Statistical analyses
+First analyses of variance (ANOVAs) were run with
+Group (trained, control) as the between-subjects factor
+on the participants’ pre-test performance in all tasks.
+Results indicated that there were no baseline differences
+between the trained and control groups (Fs<1 for all
+variables; Table 3). To assess training gains, 2 (Group:
+trained, control)×2 (Session: pre-test and post-test)
+mixed-design ANOVAs were run on the measures of
+interest. Effect sizes for within-subject comparisons were
+computed using Cohen’s d (Cohen, 1988); values were
+corrected using the Hedges and Olkin (1985) correction
+factor to avoid the small sample bias.
+Results
+Descriptive statistics are given in Table 3, and the
+results of the ANOVAs are summarized in Table 4.
+Criterion task: CWMS. There was a main effect of
+Group, with trained participants correctly recalling
+more words than controls, and of Session, with a better
+Table 2 Description of the training sessions by group
+Session
+Trained group
+Control group
+1. Pre-test
+CWMS task, Cattell test, EPT, Raven’s Progressive Matrices, TIADL
+2. Training
+WM training: sets of three lists each containing from two to five words
+were used in three different phases. Participants had to recall target
+words (which changed from one phase to the next) and tap with their
+hand on the table whenever they heard an animal noun. The three
+phases of the WM task were presented one after the other:
+participants had to recall the last words on the lists in the 1st phase,
+the first words in the 2nd, and the last words again in the 3rd. In each
+phase, if a participant correctly recalled the target words for two of
+the three lists of the same length in a given set, the difficulty of the
+task was increased up until the lists contained five words each.
+Participants failing to complete the most difficult sets in a given
+phase started the next phase from the easiest level (i.e., the shortest
+word lists).
+Autobiographic Memory questionnaire
+(De Beni et al., 2008): participants were
+asked to remember common events
+related to their childhood, adulthood
+and recent events, and to rate their
+vividness.
+3. Training
+WM training: four sets of word lists of increasing difficulty were used
+(each containing from two to five lists). The sets of two-word lists
+could contain from 2 to 8 animal nouns altogether, the sets of three-
+word lists from 4 to 9, the sets of four-word lists from 6 to 11, and
+the sets of five-word lists from 8 to 17. For each set, participants had
+to tap with their hand on the table whenever they heard an animal
+noun and also remember each word followed by a beep sound, in
+serial order.
+Memory Sensitivity (De Beni et al., 2008):
+in this questionnaire, participants had to
+rate the frequency of their behavior dedicated
+to saving memories of life events.
+4.Training
+WM training: Four sets of two-word lists were used. Participants had to
+tap with their hand on the table whenever they heard an animal noun
+and they also had to recall: the last word in each list contained in the
+1st set presented; the first word in the 2nd; the last word in the 3rd;
+and the first word in the 4th.
+Psychological Well-being (De Beni et al., 2008):
+participants were asked to rate personal
+satisfaction with life (past, present, and future),
+emotional competences (ability to understand
+one’s own and other’s emotions), and coping
+strategies regarding everyday problems.
+5. Post-test
+CWMS task, Cattell test, EPT, Raven’s Progressive Matrices, TIADL
+Note: CWMS, Categorization Working Memory Span task; TIADL, Timed Instrumental Activities of Daily Life; EPT, Everyday Problem Solving.
+A. Cantarella et al.
+Copyright # 2016 John Wiley & Sons, Ltd.
+Int J Geriatr Psychiatry 2016
+
+performance at post-test than at pre-test. The signiﬁcant
+Group×Session interaction indicated that trained par-
+ticipants performed better at post-test than at pre-test
+(Mdiff=2.56, p=0.001; 95%CI [1.75; 3.36]). No signiﬁ-
+cant differences across sessions emerged for the control
+group (Mdiff=0.11, p=0.78; 95%CI [0.91; 0.69]). At
+post-test level, the trained group performed signiﬁcantly
+better than the control group (Mdiff=2.50, p=0.001;
+95%CI [1.70; 3.29]).
+Transfer effects to everyday abilities. For the EPT, only
+the Group×Session interaction was signiﬁcant: trained
+participants performed better at post-test than at pre-test
+(Mdiff=1.89, p=0.001; 95%CI [0.83; 2.94]). No signiﬁ-
+cant differences emerged across sessions for the control
+group (Mdiff=0.66, p=0.20; 95%CI [0.71; 0.38]).
+At post-test level, the trained group performed signiﬁ-
+cantly better than the control group (Mdiff=2.05,
+p=0.001; 95%CI [1.00; 3.10]).
+For the TIADL, in terms of the total time spent com-
+pleting the activities, only the main effect of Session was
+signiﬁcant: both groups improved in their post-test per-
+formance, taking less time to complete the task.
+Transfer effects to reasoning tasks. For the Cattell test,
+only the main effect of Session and the Group×Session
+were signiﬁcant. Performance was better at post-test than
+at pre-test (Mdiff=1.17, p=0.001; 95%CI [1.66; 0.67]),
+and only the trained group consistently improved in
+performance from pre-test to post-test (Mdiff=2.06,
+p=0.001; 95%CI [1.35; 2.75]). The control group’s
+performance did not differ signiﬁcantly between ses-
+sions (Mdiff=0.27, p=0.42; 95%CI [0.42; 0.97]).
+At post-test, the trained group performed signiﬁcantly
+better than the control group (Mdiff=1.55, p=0.005;
+95%CI [0.50; 2.60]).
+Using RSPM, the main effect of Session was signif-
+icant (performance was better at post-test than at
+pre-test (Mdiff=1.08, p=0.002; 95%CI [1.75; 0.42]),
+as well as the Group×Session interaction: only the
+trained group performed better at post-test than at
+pre-test (Mdiff=1.94; p=0.001, 95%CI [1.00; 2.88]).
+No signiﬁcant differences emerged for the control
+group (Mdiff=0.22; p=0.63, 95%CI [0.71;1.15]),
+nor were there any signiﬁcant differences between
+the two groups’ post-test performance (Mdiff=1.12,
+p=0.05, 95%CI [0.002; 2.33])).
+Concerning effect size, the trained group revealed a
+large effect size (over 0.80) on the criterion task and in
+all transfer tasks except for the TIADL, for which the
+effect size was moderate (0.54). Only small effect sizes
+were found in the control group (Figure 1).
+Discussion
+The aim of this study was to ascertain whether WM
+training improves performance in everyday abilities
+and reasoning. Surprisingly, few studies have examined
+this issue; even though these abilities are important, they
+decline with aging, and they are strongly related to WM.
+Training gains seen on reasoning abilities have also been
+inconsistent across studies.
+The particular novelty of the present study lies in that
+we selected tasks that include real-life stimuli to objec-
+tively examine transfer effects on healthy older adults’
+ability to solve everyday problems. Performance-based
+measures of accuracy in everyday functioning (EPT)
+and time of execution (TIADL) were used, and two
+indicators were selected for each of the constructs of
+interest (i.e., everyday abilities and reasoning).
+In line with the literature and consistently with our
+expectations, we found a speciﬁc effect on the criterion
+Table 3 Descriptive pre-test and post-test data by group
+Trained group
+Control group
+Trained group
+Control group
+Pre-test
+Post-test
+M
+SD
+M
+SD
+M
+SD
+M
+SD
+Criterion task
+CWMS words recalled correctly
+8.72
+1.27
+8.66
+1.61
+11.28
+1.12
+8.78
+1.21
+Performance-based measures of functional abilities
+EPT
+10.28
+1.53
+10.78
+1.99
+12.17
+1.25
+10.11
+1.81
+TIADL (time, ms)
+436.51
+84.94
+424.01
+107.96
+391.57
+77.67
+400.23
+88.26
+Fluid intelligence tasks
+Cattell test
+15.78
+1.77
+16.00
+1.68
+17.83
+1.24
+16.27
+1.80
+RSPM
+9.89
+2.52
+10.44
+2.68
+11.83
+1.72
+10.67
+1.71
+Note: M, mean; SD, standard deviation CWMS, Categorization Working Memory Span task; EPT, Everyday Problem Solving; TIADL, Timed
+Instrumental Activities of Daily Living; RSPM, Raven’s Standard Progressive Matrices.
+Working memory training and everyday abilities
+Copyright # 2016 John Wiley & Sons, Ltd.
+Int J Geriatr Psychiatry 2016
+
+task only in the trained group. Transfer effects to one of
+the everyday measures, the EPT, were also found. This
+latter result indicates that the WM training was effective
+in enhancing problem-solving performance in everyday
+life activities. No improvement was identiﬁed, however,
+in the other performance-based measure, the TIADL.
+This may be because the demands of the tasks were too
+easy for our participants (normally aging older adults).
+In terms of accuracy, all participants performed well
+already at the pre-test, nearing a ceiling effect (92.12%
+of participants made no mistakes). The lack of any trans-
+fer effect due to a ceiling effect is in line with other
+studies that also failed to identify any training gains using
+another measure of everyday activities, the Test of Every-
+day Attention (Richmond et al., 2011). On the other
+hand, this result is in contrast with the improvements
+Figure 1 Effect size d for pre-test and post-test comparisons of speciﬁc and transfer effects by group (trained participants versus controls).
+Note. CWMS, Categorization Working Memory Span task; EPT, Everyday Problem Test, TIADL, Timed Instrumental Activities of Daily Living;
+RSPM, Raven’s Standard Progressive Matrices.
+Table 4 Mixed-design 2 × 2 ANOVA for the measures of interest, with group (trained versus control) as between-subjects factor and session (pretest
+versus post-test) as repeated measures
+F(1, 34)
+MSE
+p*
+np2
+Criterion task: specific effect
+CWMS words recalled correctly
+Between subjects
+Group
+14.23
+2.06
+0.001
+0.29
+Within subjects
+Session
+22.61
+1.41
+0.001
+0.40
+Group X Session
+19.00
+1.41
+0.001
+0.36
+Transfer effects on performance-based measures of functional abilities
+EPT
+Between subjects
+Session
+3.45
+3.15
+0.07
+0.09
+Group
+2.79
+2.40
+0.10
+0.08
+Within subjects
+Group X Session
+12.20
+2.40
+0.001
+0.26
+TIADL
+Between subjects
+Group
+0.00
+11599.62
+0.94
+0.00
+Within subjects
+Session
+4.47
+4748.48
+0.04
+0.11
+Group X Session
+0.42
+4748.48
+0.51
+0.01
+Transfer effects on fluid intelligence tasks
+Cattell test
+Between subjects
+Group
+1.85
+4.32
+0.18
+0.05
+Within subjects
+Session
+22.96
+1.06
+0.001
+0.40
+Group X Session
+13.32
+1.06
+0.001
+0.28
+RSPM
+Between subjects
+Group
+0.21
+7.81
+0.65
+0.00
+Within subjects
+Session
+11.04
+1.91
+0.002
+0.24
+Group X Session
+6.97
+1.91
+0.01
+0.17
+Note:
+ANOVA, analysis of variance; F, Fisher–Snedecor statistic; MSE, mean standard error; p = p-value; np2, partial eta-squared; CWMS, Categorization
+Working Memory Span task; EPT, Everyday Problem Solving; TIADL, Timed Instrumental Activities of Daily Living; RSPM, Raven’s Standard
+Progressive Matrices.
+*Signiﬁcant main effects and interactions were analyzed using pairwise comparisons, with Bonferroni’s adjustment for multiple comparisons. The α
+value was set at 0.05 for all statistical tests and at 0.006 for interactions.
+A. Cantarella et al.
+Copyright # 2016 John Wiley & Sons, Ltd.
+Int J Geriatr Psychiatry 2016
+
+found in this measure in training studies focusing on
+processing speed (Ball et al., 2002; Edwards et al.,
+2002). These latter studies considered samples with
+initial processing speed difﬁculties, however, which is a
+different case from ours. In our study, although the effect
+did not reach statistical signiﬁcance, the corresponding
+effect size was in the medium range for the trained group
+and small for the control group. In the light of these
+ﬁndings, future studies should make an effort to assess
+transfer effects on everyday competences by including
+measures such as the Observed Task of Daily Living,
+which are more appropriate than the TIADL in terms
+of the task’s difﬁculty and demands—for healthy older
+adults at least. It would also be of interest to examine
+WM training transfer effects to other WM-related
+everyday abilities that might inﬂuence the capacity to live
+independently,
+such
+as
+spatial
+navigation
+skills
+(Meneghetti et al., 2015).
+As for transfer effects on reasoning tasks, consistently
+with previous studies using the same training procedure
+(e.g., Borella et al., 2010, 2013; Carretti et al., 2013), only
+the trained group showed an improvement in the
+Cattell test. The present results extend this beneﬁt to
+the RSPM task too. This pattern of results conﬁrms that
+WM is involved in abstract reasoning (Ackerman et al.,
+2005; Borella et al., 2006), and that they share much the
+same underlying processing resources—a prerequisite
+for transfer effects.
+The present results thus support the previous
+evidence of the training procedure adopted here
+having an effect both on reasoning abilities (as partly
+demonstrated already in previous studies), and on
+everyday tasks.
+A number of limitations of the present study need to
+be borne in mind. First, no follow-up assessment was
+conducted to see whether the training gains were main-
+tained. The large effect sizes found and the fact that pre-
+vious reports showed lasting effects of the same training
+procedure as was used here lead us to expect them, but
+there is no guarantee of any long-term effects. Future
+studies should thus examine maintenance effects of these
+gains. It is worth adding here that no follow-up analyses
+were conducted in more than half of the previously
+published WM training studies on older adults. Second,
+although our sample size was consistent with those used
+in other training studies (ranging from 30 to 57 older
+adults), these results would need to be replicated in
+larger samples.
+It would also be of interest to assess training beneﬁts
+in old–old individuals who are liable to a more accentu-
+ated decline in everyday competences (Schaie et al.,
+2005). WM-related gains should also be examined in
+other populations with WM impairments and related
+difﬁculties in everyday functioning (Malouin et al.,
+2004), such as patients with brain injuries (Weicker
+et al., 2015), stroke (Westerberg et al., 2007), or schizo-
+phrenia (Wexler et al., 2000). We have also examined
+training gains in a particular sample of older adults, that
+is, healthy young–old individuals characterized by a
+milder decline in cognitive plasticity than in late adult-
+hood (Baltes and Smith, 2003).
+The present study could thus be considered as a ﬁrst,
+encouraging step forward in the assessment of every-
+day life beneﬁts after a WM training. It suggests that
+WM training can be a promising approach for foster-
+ing older adults’ autonomy in everyday living and
+quality of life, and thereby for promoting active aging.
+Conﬂict of interest
+None declared.
+Key points
+•
+Working memory (WM) training studies have
+generally not assessed transfer gains to daily life.
+•
+The effect of WM training on reasoning abilities
+is not well established.
+•
+WM training gains in measures of functional
+abilities and reasoning were examined.
+•
+WM training-related gains were found in the
+Everyday Problem Test and reasoning tasks
+(Cattell test and Raven’s Standard Progressive
+Matrices).
+•
+WM training may be a valid way to sustain older
+adults’ ability to live independently.
+Author contributions
+Erika Borella designed the study, supervised the data
+collection, carried out the statistical analyses, and
+wrote the paper. Barbara Carretti designed the study,
+supervised the data collection, assisted with analyzing
+data, and wrote the paper. Alessandra Cantarella su-
+pervised the data collection, carried out the statistical
+analyses and wrote the paper. Matthias Kliegel assisted
+with writing the article. Rossana De Beni assisted with
+writing the article.
+References
+Ackerman PL, Beier ME, Boyle MO. 2005. Working memory and intelligence: the same or
+different constructs? Psychol Bull 131: 30–60. DOI:10.1037/0033-2909.131.1.30.
+Allaire JC, Marsiske M. 1999. Everyday cognition: age and intellectual ability corre-
+lates. Psychol Aging 14: 627–644. DOI:10.1037/0882-7974.14.4.627.
+Working memory training and everyday abilities
+Copyright # 2016 John Wiley & Sons, Ltd.
+Int J Geriatr Psychiatry 2016
+
+Baddeley AD, Hitch G. 1974. Working memory. Psychol Learn Motiv 8: 47–89.
+Ball K, Berch DB, Helmers KF, et al.. 2002. Effects of cognitive training interventions
+with older adults: a randomized controlled trial. Jama 288: 2271–2281.
+DOI:10.1001/jama.288.18.2271.
+Baltes PB, Smith J. 2003. New frontiers in the future of aging: from successful aging of
+the young old to the dilemmas of the fourth age. Gerontology 49: 123–135.
+DOI:10.1159/000067946.
+Borella E, Cantarella A, Jolie E, et al. (in preparation). Age-related effects across the
+adult life span in everyday competences: the role of basic abilities.
+Borella E, Carretti B, De Beni R. 2008. Working memory and inhibition across the
+adult life-span. Acta Psychol 128: 33–44. DOI:10.1016/j.actpsy.2007.09.008.
+Borella E, Carretti B, Mammarella I. 2006. Do working memory and susceptibility to
+interference predict individual differences in ﬂuid intelligence? Eur J Cogn Psychol
+18: 51–69. DOI:10.1080/09541440500215962.
+Borella E, Carretti B, Cantarella A, et al.. 2014. Beneﬁts of training visuospatial working
+memory in young–old and old–old. Dev Psychol 50: 714–727. DOI:10.1037/a0034293.
+Borella E, Carretti B, Riboldi F, De Beni R. 2010. Working memory training in older
+adults: evidence of transfer and maintenance effects. Psychol Aging 25: 767–778.
+DOI:10.1037/a0020683.
+Borella E, Carretti B, Zanoni G, Zavagnin M, De Beni R. 2013. Working memory
+training in old age: an examination of transfer and maintenance effects. Arch Clin
+Neuropsychol 28: 331–347. DOI:10.1093/arclin/act020.
+Brehmer Y, Westerberg H, Backman L. 2012. Working-memory training in younger
+and older adults: training gains, transfer, and maintenance. Front Hum Neurosci 6:
+63. DOI:10.3389/fnhum.2012.00063.
+Cantarella A, Borella E, Ghisletta P, et al. 2016. Age-related changes in everyday
+competences: the role of ﬂuid and crystallized abilities. Paper presented at the
+Cognitive Aging Conference: Atlanta, GA.
+Carretti B, Borella E, Zavagnin M, Beni R. 2013. Gains in language comprehension
+relating to working memory training in healthy older adults. Int J Geriatr Psychia-
+try 28: 539–546. DOI:10.1002/gps.3859.
+Cattell RB, Cattell A. 1973. Measuring intelligence with the Culture Fair Tests,
+Institute for Personality and Ability Testing.
+Cohen J. 1988. Statistical Power Analysis for the Behavioural Sciences. 2nd edn.
+Hillsdale: Lawrence Earlbaum Associates.
+Crook T, Bartus RT, Ferris SH, et al. 1986. Age-associated memory impairment: pro-
+posed diagnostic criteria and measures of clinical change. Report of a National In-
+stitute of Mental Health Work Group. Dev Neuropsychol 2: 261–276 DOI: 10.1080/
+87565648609540348
+De Beni R, Borella E, Carretti B, Marigo C, Nava L. 2008. BAC. Portfolio per la valutazione
+del benessere e delle abilità cognitive nell’età adulta e avanzata. The Assessment of Well-
+being and Cognitive Abilities in Adulthood and Aging. Giunti OS: Firenze.
+Edwards J, Wadley V, Myers R, et al.. 2002. Transfer of a speed of processing intervention
+to near and far cognitive functions. Gerontology 48: 329–340. DOI:10.1159/000065259.
+Folstein MF, Folstein SE, McHugh PR. 1975. “Mini-mental state”: a practical method
+for grading the cognitive state of patients for the clinician. J Psychiatr Res 12:
+189–198. DOI:10.1016/0022-3956(75)90026-6.
+Gagnon LG, Belleville S. 2011. Working memory in mild cognitive impairment and
+Alzheimer’s disease: contribution of forgetting and predictive value of complex
+span tasks. Neuropsychology 25: 226–236. DOI:10.1037/a0020919.
+Hedges L, Olkin I. 1985. Statistical models for meta-analysis. Academic Press: New
+York.
+Karbach J, Verhaeghen P. 2014. Making working memory work: a meta-analysis of
+executive-control and working memory training in older adults. Psychol Sci 25:
+2027–2037. DOI:10.1177/0956797614548725.
+Lawton M, Brody EM. 1970. Assessment of older people: self maintaining and instru-
+mental activities of daily living. Nurs Res 19: 278.
+Malouin F, Belleville S, Richards CL, Desrosiers J, Doyon J. 2004. Working memory
+and mental practice outcomes after stroke. Arch Phys Med Rehabil 85: 177–183.
+DOI:10.1016/S0003-9993(03)00771-8.
+Meneghetti C, Borella E, Carbone E, Martinelli M, De Beni R. 2015. Environment
+learning using descriptions or navigation: the involvement of working memory
+in young and older adults. Br J Psychol . DOI:10.1111/bjop.12145.
+Moore DJ, Palmer BW, Patterson TL, Jeste DV. 2007. A review of performance-based
+measures of functional living skills. J Psychiatr Res 41: 97–118. DOI:10.1016/j.
+jpsychires.2005.10.008.
+Morrison AB, Chein JM. 2011. Does working memory training work? The promise
+and challenges of enhancing cognition by training working memory. Psychon Bull
+Rev 18: 46–60. DOI:10.3758/s13423-010-0034-0.
+Orsini A, Laicardi C. 2003. Wais-r e terza età. La Natura dell’intelligenza nell’anziano:
+Continuità e Discontinuità.[WAIS-R and the Third Age. the Nature of Intelligence
+in Elderly People: Continuity and Discontinuity].Firenze, Giunti OS.
+Owsley C, Sloane M, G-Jr MG, Ball K. 2002. Timed instrumental activities of daily
+living tasks: relationship to cognitive function and everyday performance assess-
+ments in older adults. Gerontology 48: 254–265. DOI:10.1159/000058360.
+Raven JC, Court JH, Raven J. 1977. Standard Progressive Matrices. H. K. Lewis: London.
+Richmond LL, Morrison AB, Chein JM, Olson IR. 2011. Working memory training
+and transfer in older adults. Psychol Aging 26: 813–822. DOI:10.1037/a0023631.
+Ridgeway V, Robertson I, Ward T, Nimmo–Smith I. 1994. Test of Everyday
+Attention. Thames Valley Test Company: Bury St. Edmonds, England.
+Schaie KW, Boron JB, Willis SL. 2005. Everyday competence in older adults. In The
+Cambridge
+Handbook
+of
+Age
+and
+Ageing.
+University
+Cambridge
+Press:
+Cambridge; 216–229.
+Schmitter-Edgecombe M, Parsey C, Cook DJ. 2011. Cognitive correlates of functional
+performance in older adults: comparison of self-report, direct observation, and
+performance-based measures. J Int Neuropsychol Soc 17: 853–864. DOI:10.1017/
+S1355617711000865.
+Shipstead Z, Redick TS, Engle RW. 2012. Is working memory training effective?
+Psychol Bull 138: 628–654. DOI:10.1037/a0027473.
+Sixth Revision. 2008. Declaration of Helsinki. World Medical Association. Available
+from: http:// www.wma.net/e/ethicsunit/helsinki.htm [accessed on 24 June 2008].
+von Bastian CC, Oberauer K. 2013. Distinct transfer effects of training different
+facets of working memory capacity. J Mem Lang 69: 36–58. DOI:10.1016/j.
+jml.2013.02.002.
+Wadley VG, Okonkwo O, Crowe M, Ross-Meadows LA. 2008. Mild cognitive impair-
+ment and everyday function: evidence of reduced speed in performing instrumen-
+tal activities of daily living. Am J Geriatr Psychiatry 16: 416–424. DOI:10.1097/01.
+JGP.0000310780.04465.13.
+Weicker J, Villringer A, Thöne-Otto A. 2015. Can Impaired working memory func-
+tioning be improved by training? A meta-analysis with a special focus on brain in-
+jured patients. Neuropsychology . DOI:10.1037/neu0000227.
+Westerberg H, Jacobaeus H, Hirvikoski T, et al.. 2007. Computerized working mem-
+ory training after stroke—a pilot study. Brain Inj 21: 21–29. DOI:10.1080/
+02699050601148726.
+Wexler BE, Anderson M, Fulbright RK, Gore JC. 2000. Preliminary evidence of im-
+proved verbal working memory performance and normalization of task-related
+frontal lobe activation in schizophrenia following cognitive exercises. Am J Psychi-
+atry 157: 1694–1697. DOI:10.1176/appi.ajp.157.10.1694.
+Willis SL, Marsiske M. 1993. Manual for the Everyday Problems Test. University
+Park: The Pennsylvania State University.
+A. Cantarella et al.
+Copyright # 2016 John Wiley & Sons, Ltd.
+Int J Geriatr Psychiatry 2016
+
+--- END ---
+=== SEQ 31: 2013_Gains in language comprehension relating to working mem ===
+Gains in language comprehension relating to working
+memory training in healthy older adults
+Barbara Carretti, Erika Borella, Michela Zavagnin and Rossana de Beni
+Department of General Psychology, University of Padova, Padova, Italy
+Correspondence to: B. Carretti, E-mail: barbara.carretti@unipd.it and E. Borella, E-mail: erika.borella@unipd.it
+Objective: A growing number of studies are focusing on cognitive training procedures to delay age-related
+decline. Given the crucial role of working memory (WM) in everyday life, some studies have recently
+analyzed gains deriving from WM training and their transfer and maintenance effects in older adults.
+Method: The present study investigates the efﬁcacy of a verbal WM training program in 20 65–75 year
+old adults with no cognitive impairments, considering the speciﬁc training-related gains in a verbal
+WM task (criterion) and the transfer effects on measures of WM updating, reasoning, and on abilities
+related more to daily life, that is language comprehension. Maintenance of training beneﬁts was also
+assessed after 6 months.
+Results: The older adults given training performed better than controls in the criterion task and retained this
+beneﬁt 6months later. Immediate transfer effects were seen in most of the abilities considered (reasoning
+and language comprehension performance) and were substantially maintained at the 6-month follow-up.
+Conclusion: Our results suggest that WM training is a promising approach for preserving abilities
+relating to everyday activities, helping to prolong older adults’ independence and well-being. Copyright
+# 2012 John Wiley & Sons, Ltd.
+Key words: working memory; cognitive training; transfer effects; maintenance effects; older adults
+History: Received 08 February 2012; Accepted 25 June 2012; Published online in Wiley Online Library (wileyonlinelibrary.com)
+DOI: 10.1002/gps.3859
+Introduction
+There is a broad consensus on the inﬂuence of working
+memory (WM)—the ability to retain and manipulate
+information for use in complex cognitive tasks—on
+various skills, such as reasoning, problem solving, and
+language comprehension, which are related to efﬁciency
+in everyday life. Studies are now focusing on the feasibil-
+ity of increasing WM capacity and the impact of doing
+so on cognitive processes associated with or implicated
+in WM. Because of the decline of WM in aging
+(Park et al., 2002), a growing number of researches
+are analyzing the beneﬁts of WM training in aging in
+terms not only of WM but also of other, untrained skills
+(see Shipstead et al., 2010), to improve older adult func-
+tional status and postpone age-related disorders.
+Studies on WM training for older adults have gener-
+ated positive results in terms of speciﬁc training beneﬁts,
+that is, an improved performance in tasks practiced
+during the training (Richmond et al., 2011; Borella
+et al., under revision), but transfer effects on untrained
+tasks are rarely observed (Noack et al., 2009). In the
+few exceptions, there was evidence of large transfer
+effects on WM-related mechanisms, such as inhibition
+and processing speed and on cognitive processes that
+involve WM, such as ﬂuid intelligence; this happened,
+for example, in the study of Borella et al. (2010).
+The efﬁcacy of the WM training of Borella et al.
+seems to be due to the types of activity and the schedule
+for the training sessions. As concerns the types of activ-
+ity, participants receiving the WM training of Borella
+et al. were presented with a WM task that combined
+an adaptive procedure (the task was made more difﬁcult
+if participants were successful at a given level; if they
+were not, only the lowest level was presented) with
+variations in the related maintenance requirements
+(to avoid simple practice effects). This procedure has
+several advantages in that it enables participants to be
+Copyright # 2012 John Wiley & Sons, Ltd.
+Int J Geriatr Psychiatry 2012
+RESEARCH ARTICLE
+
+trained at a difﬁculty level close to their capacity limits
+and it enhances their engagement in the proposed activ-
+ities because they feel up to the tasks they are presented.
+In our view, this motivational component is particularly
+important in the case of older participants because of
+the well-known inappropriate believes concerning their
+cognitive abilities (Hertzog and Hultsch, 2000).
+As for the schedule for the training sessions, in the
+light of studies on the positive effects of distributed
+practice (e.g., Cepeda et al., 2006), the sessions were
+arranged with a ﬁxed interval between them that left
+participants sufﬁcient time to consolidate the skills
+they had acquired and, at the same time, the schedule
+was tight enough to reduce the risk of them losing the
+beneﬁcial effects of having practiced with the task.
+One of the main goals of cognitive training, and WM
+training too, is also to consider transfer effects on
+everyday life activities. To date, apart from the study
+by Richmond et al. (2011), who found some beneﬁcial
+inﬂuence on tasks more resembling activities of daily
+living, little is known about WM training impact on
+everyday cognition in older adults.
+The aim of the present study was thus to examine the
+effect of verbal WM training on processes related to WM
+(updating and reasoning) and also on an ability that is
+central to successful daily living, that is, language com-
+prehension, which is needed in various everyday activities
+and crucial to an individual’s health and well-being. We
+focused on reading and listening comprehension, using
+expository texts because they are more liable to age-
+related decline than narrative texts (De Beni et al., 2007).
+Texts dealing with history and geography, and texts
+presenting a spatial description of an environment
+were administered to reﬂect situations of everyday life.
+The WM training regime was modeled along the lines
+of the one proposed by Borella et al. (2010). To facilitate
+transfer effects on language comprehension, the training
+sessions also included activities requiring that partici-
+pants update information while reading (several studies
+have demonstrated that updating is crucial to language
+comprehension; e.g. Zwaan and Radvansky, 1998).
+Transfer effects were sought by administering tasks
+involving processes similar to the one actually practiced,
+that is, the WM updating task (near transfer effects), as
+well as very different processes that are nonetheless re-
+lated to WM, that is, language comprehension—reading
+and listening tasks—and ﬂuid intelligence—Cattell
+Culture Fair test (far transfer effects).
+As suggested by the literature, we expected to see
+gains in WM tasks similar to the one used in the training
+(criterion). Transfer effects were also expected because
+the chosen tasks rely on mechanisms relating to the
+WM process (updating and reasoning), and language
+comprehension has revealed a close connection with
+WM (Daneman and Merikle, 1996), even in older age
+(Borella et al., 2011).
+Method
+Participants
+Forty adults aged 65–75 years took part in the study. All
+participants were native Italian speakers and volunteered
+for the study. They were recruited from the University of
+the Third Age or at social clubs of north-eastern Italy.
+They were all healthy and active in the cultural and social
+activities of their neighborhoods.
+After a plenary session where the older adults were
+told about the two different programs, the 40 volunteers
+were randomly assigned to two groups, 20 to receive
+training and the other 20 to form the control group.
+Three participants assigned to the trained group and
+one in the control group dropped out. An analysis of
+their background characteristics (age, years of educa-
+tion, and vocabulary) revealed no differences between
+those remaining in the study and the dropouts, so our
+analyses were conducted on the participants involved
+in all the sessions.
+The trained and control groups did not differ by
+age, years of formal education (F < 1), or Wechsler
+Adult Intelligence Scale-Revised vocabulary score, F
+(1, 34) = 1.29; p = .18 (Wechsler, 1981) (see Table 1).
+Materials
+Criterion task: Categorization Working Memory Span task
+(CWMS, Borella et al., 2008). The materials consisted
+of 10 sets of words, each set comprising 20 lists of words
+organized in series of word lists of different lengths
+(from two to six lists). Each list contained ﬁve words
+of high to medium frequency. The lists contained two,
+one, or no animal nouns, in any position, including
+the last. Of the total number of words (200) in the task,
+28% were animal nouns.
+Table 1 Demographic characteristics of the trained and control groups
+Trained group
+Control group
+N = 17, 65% female
+N = 19, 50% female
+M
+SD
+M
+SD
+Age
+69.00
+3.44
+70.37
+3.74
+Education
+8.12
+3.70
+9.00
+4.93
+Vocabulary
+45.82
+9.01
+41.05
+11.33
+M, mean; SD, standard deviation.
+B. Carretti et al.
+Copyright # 2012 John Wiley & Sons, Ltd.
+Int J Geriatr Psychiatry 2012
+
+Participants listened to the audio-recorded word
+lists presented at a rate of 1 s per word and had to
+tap their hand on the table whenever they heard an
+animal noun (processing phase). The interval between
+series of word lists was 2 s. At the end of the series,
+participants recalled the last word of each string in
+serial order (maintenance phase). Two practice runs
+two words long were administered before the experi-
+ment began. The total number of correctly recalled
+words was used as the measure of WM performance
+(maximum score 20).
+Near transfer effect: Working Memory Updating word
+span test (Carretti et al., 2010). The task consisted of
+10 lists of object words. For each level of WM demand
+(from 1 to 5), two lists were presented, and partici-
+pants had to remember an increasing number of items
+(from 1 to 5) according to the criterion recall the
+smallest object(s) in each list and in order of presentation.
+All the words were highly familiar and referred to
+objects easy to compare for size. Participants listened
+to the lists of words read aloud by the experimenter at
+a rate of 1 s per word.
+The dependent variable was the number of correctly
+recalled words (maximum score 30).
+Far transfer effect. Language comprehension - Listening
+comprehension of spatial descriptions (Pazzaglia et al.,
+2007) Three texts were used, one per session, describing
+outdoor environments in route perspective (a farm, a
+countryside with a lake, and a nature park). Each spatial
+description was 10 sentences long (about 220 words)
+and mentioned 10 landmarks. The three environments
+had similar layouts as regards the landmarks’ positions.
+The experimenter read the text aloud twice, and partici-
+pants were asked to answer 20 true/false questions
+(maximum score 20). Then, they had to draw a map of
+the environment. The dependent variable was the sum
+of the landmarks recalled, the number of landmarks
+recalled in the right position, and the number of
+landmarks recalled in the right correct order (maximum
+score 30). Map-drawing performance was assessed by
+two independent judges, who showed a high rate of
+agreement (r > .90).
+Reading comprehension of expository texts. Six texts
+were used, two per session, adapted from the Nelson-
+Denny (see Borella et al., 2011). The texts contained
+about 200 words and dealt with topics of history and
+geography. Each text was followed by four multiple
+choice questions with ﬁve alternatives. Participants had
+4min for each text, the number of correct answers being
+the dependent variable (maximum score 8).
+Fluid intelligence: Culture Fair Test, scale 3 (Cattell and
+Cattell, 1963). Scale 3 of the Cattell test consists of two
+parallel forms (A and B), each containing four subtests
+to complete in 2.5–4 min (depending on the subtest).
+The subtest involves (i) completing a series of ﬁgures
+by choosing which of the six options best completes
+the series, (ii) identifying ﬁgures or shapes that differ
+from the others, (iii) choosing items that correctly
+complete matrices of abstract ﬁgures and shapes, and
+(iv) assessing relationships between a set of items. The
+dependent variable was the number of correct solutions
+obtained across the four subsets (maximum score 50).
+For each task, two parallel versions were devised and
+administered in a counterbalanced order across the
+training sessions. The only exception concerned the
+language comprehension tasks, for which three versions
+were prepared and they were counterbalanced by partic-
+ipant and across the training sessions.
+Procedure
+Participants attended six individual sessions: the ﬁrst
+and ﬁfth were the pretest and posttest sessions, and
+the last one, 6 months later, was the follow-up; in the
+other three, the control group was occupied in alterna-
+tive activities (see Table 2), whereas the trained group
+attended the training.
+The training was completed within a 2-week time
+frame, with a ﬁxed 2-day break between sessions. The
+schedule was identical for the two groups, thus enabling
+a matching amount of social interaction. The WM
+training consisted of three sessions (sessions 2–4), each
+comprising two parts: in the ﬁrst part, lasting about
+30–40 min, participants practiced a modiﬁed version
+of the CWMS; in the second, lasting about 20–30 min,
+they practiced tasks requiring the updating of informa-
+tion while reading (see Table 2).
+In the ﬁrst part, adopting the method used in Borella
+et al. (2010), the experimenter presented trained partici-
+pants with lists of audio-recorded words organized in the
+same way as for the CWMS task. Participants were asked
+to recall target words and tap their hand on the table
+when an animal noun was heard. To favor generalized
+transfer and contain the development of task-speciﬁc
+strategies, the maintenance demand of the CWMS
+task was manipulated by increasing the number of
+words to recall if participants succeeded and presenting
+the lowest memory load if they failed (session 2). The
+task requirements also varied, involving the recall of
+(i) the last or ﬁrst word in each series (sessions 2
+and 4) and (ii) words proceeded by a beep sound (ses-
+sion 3). The processing requirement (tapping when
+Working memory training in older adults
+Copyright # 2012 John Wiley & Sons, Ltd.
+Int J Geriatr Psychiatry 2012
+
+an animal noun occurred) was also manipulated by
+varying the frequency of these animal words in the
+lists (session 3).
+In the second part of each session, participants were
+presented with two short texts (of about 14–15
+sentences each) describing a character concurrently
+performing two common activities of daily living
+(i.e., shopping at a drugstore and thinking about meals
+to prepare for dinner); participants were asked to
+remember the character’s two–six actions or thoughts.
+Texts were presented on a computer screen, sentence
+by sentence, with a self-paced presentation. To
+recall relevant items, participants had to update their
+mental representation, adding or substituting the
+information to recall.
+The control group met the experimenter for the
+same number of sessions as the trained group and
+for approximately the same amount of time. Sessions
+1, 5, and 6 were the same as for the trained group,
+whereas in sessions 2–4, participants were asked to ﬁll
+in paper-and-pencil questionnaires.
+For both groups, the sessions were conducted by the
+experimenter, who explained the activities involved in
+each session and managed the presentation of materials.
+Results
+The two groups did not differ at the pretest session. To
+assess the effects of training, the measures of interest
+Table 2 Description of training sessions by groups
+Session
+Trained group
+Control group
+1. Pretest
+Health interview, Vocabulary, CWMS, Reading comprehension, WM updating, Listening comprehension, Cattell test
+2. Training
+WM training: sets of different lengths (from 2 to 5) each with three series of
+word lists. Participants had to recall the target words and tap the hand on
+the table whenever an animal noun was heard. The WM task included three
+phases presented sequentially: in the first, participants had to recall the last
+word of each series of words; in the second, the first; and in the third, again
+the last. In each phase, for correct recall of words for two of the three series
+of a given length, the task was increased in difficulty up to length 5. In case
+of failure in one of the three phases, participants were presented the
+following phase starting from the easiest level and had to recall either the
+first (phase 2) or last word (phase 3).
+Autobiographic Memory
+questionnaire (De Beni et al., 2008)
+WM updating during reading: two texts were presented. The first text, 14
+sentences long (177 words), required to recall at the end two pieces of
+information. The second text, of the same length (182 words), required to
+recall three information. After presentation, participants were presented two
+open-ended questions on texts content.
+Need for cognition
+(adapted from Cacioppo et al., 1996)
+3. Training
+WM training: sets of different lengths (from 2 to 5) each of four series of
+word lists. Word series of length 2 could contain from two to eight
+animals noun, length 3 from four to nine, length 4 from six to 11, and
+length 5 from eight to 17.
+Psychological Well-being
+(De Beni et al., 2008)
+For each series, participants had to tap the hand on the table whenever an
+animal noun was heard and to remember each word followed by a sound,
+in serial order.
+Mind Wandering Questionnaire
+(Zavagnin, Borella, &
+De Beni, unpublished)
+WM updating during reading: two texts were presented. The first text, 15
+sentences long (179 words), required to recall at the end four pieces of
+information. The second text, of the same length (186 words), required to
+recall five information. After presentation, participants were presented two
+open-ended questions on texts content.
+4. Training
+WM training: sets of four series of two word lists. Participants had to
+tap the hand on the table whenever an animal noun was heard and
+had to recall in (i) the first series, the last words of each list; (ii) the
+second, the first words; (iii) the third, the last words; and (iv) the
+fourth, the first words.
+Memory Sensitivity
+(De Beni et al., 2008)
+WM updating during reading: two texts were presented. The first text, 15
+sentences long (183 words), required to recall at the end four pieces of
+information. The second text, of the same length (180 words), required to
+recall five information. After presentation, participants were presented two
+open-ended questions on texts content.
+Questionnaire on Memory Strategies
+(adapted from Troyer & Rich, 2002)
+5. Posttest
+CWMS, Reading comprehension, WM updating, Listening comprehension, Cattell test
+6. Follow-up
+(6 months)
+CWMS, Reading comprehension, WM updating, Listening comprehension, Cattell test
+CWMS, Categorization Working Memory Span test; WM, working memory.
+B. Carretti et al.
+Copyright # 2012 John Wiley & Sons, Ltd.
+Int J Geriatr Psychiatry 2012
+
+were analyzed with a 2 (group: trained and control)
+3 (session: pretest, posttest, and follow-up) mixed
+design analysis of variance. To test interactions using
+post hoc pairwise comparisons with Bonferroni’s cor-
+rection at p < .05, adjusted for multiple comparisons,
+were run. Descriptive statistics are given in Table 3;
+analysis of variance results are summarized in Table 4.
+Criterion task: CWMS
+The trained group performed better than the control
+group (MDiff. = 1.81, p < .05), and the former’s
+performance improved consistently from pretest to
+posttest (MDiff. = 2.60, p < .001) and follow-up
+(MDiff. =2.30, p< .001), with no difference between
+the latter two. Post hoc comparisons showed that trained
+participants performed better at posttest (p < .001)
+and follow-up (p < .001) than at pretest. The trained
+participants maintained their posttest performance
+at follow-up. No signiﬁcant difference was found for
+the control group. The trained group outperformed
+the control group at both posttest and follow-up
+(p < .001).
+Transfer effect
+Near transfer effect: WM updating. The trained group
+performed better than the control group (MDiff.=3.17,
+Table 3 Descriptive data for pretest, posttest and follow-up data by group
+Trained group
+Control group
+Pretest
+Posttest
+Follow-up
+Pretest
+Posttest
+Follow-up
+M
+SD
+M
+SD
+M
+SD
+M
+SD
+M
+SD
+M
+SD
+CWMS
+13.82
+3.49
+18.29
+1.16
+18.12
+1.65
+14.58
+3.25
+15.32
+2.38
+14.89
+2.71
+Updating task
+23.82
+3.01
+26.47
+1.42
+26.59
+1.00
+22.37
+2.71
+22.16
+3.55
+22.84
+2.57
+Listening comprehension
+True/false
+13.65
+3.04
+17.00
+2.50
+18.18
+2.38
+14.89
+4.08
+13.79
+4.35
+15.21
+3.33
+Map drawing
+18.71
+6.02
+26.18
+4.16
+28.59
+2.15
+22.68
+6.83
+21.89
+7.29
+22.11
+6.75
+Reading comprehension
+3.24
+2.05
+4.24
+1.44
+5.35
+1.17
+4.53
+2.04
+4.05
+2.17
+4.84
+1.17
+Cattell
+15.82
+4.33
+20.29
+2.69
+19.88
+4.96
+17.47
+6.76
+18.63
+5.19
+18.42
+6.01
+M, mean; SD, standard deviation; CWMS, Categorization Working Memory Span test.
+Table 4 Mixed design 2  3 ANOVA results for the measures of interest, with group (trained and control) as between-subjects factor and session
+(pretest, posttest, and follow-up) as repeated measures
+F
+df
+MSE
+np
+2
+p
+Specific effect
+CWMS
+Between subjects
+Group (G)
+6.94
+1, 34
+12.78
+.17
+<.05
+Within subjects
+Session (S)
+19.85
+2, 68
+3.67
+.37
+<.001
+G  S
+12.15
+2, 68
+3.67
+.26
+<.001
+Transfer effects
+WM updating
+Between subjects
+Group (G)
+20.69
+1, 34
+13.08
+.38
+<.001
+Within subjects
+Session (S)
+7.69
+2, 68
+3.32
+.19
+<.01
+G  S
+6.19
+2, 68
+3.32
+.15
+<.001
+Listening comprehension
+Between subjects
+Group (G)
+3.25
+1, 34
+22.35
+.08
+.08
+True/False
+Within subjects
+Session (S)
+8.57
+2, 68
+6.15
+.20
+<.001
+G  S
+9.16
+2, 68
+6.15
+.21
+<.001
+Listening comprehension
+Between subjects
+Group (G)
+3.02
+1, 34
+45.49
+.08
+.08
+Map drawing
+Within subjects
+Session (S)
+7.02
+2, 68
+29.39
+.17
+<.01
+G  S
+9.28
+2, 68
+29.39
+.21
+<.001
+Reading comprehension
+Between subjects
+Group (G)
+.21
+1, 34
+5.11
+.00
+.65
+Within subjects
+Session (S)
+7.54
+2, 68
+1.94
+.18
+<.01
+G  S
+4.24
+2, 68
+1.94
+.11
+<.05
+Cattell test
+Between subjects
+Group (G)
+.11
+1, 34
+57.51
+.00
+.74
+Within subjects
+Session (S)
+7.15
+2, 68
+11.94
+.17
+<.05
+G  S
+2.59
+2, 68
+11.94
+.07
+.08
+ANOVA, analysis of variance; CWMS, Categorization Working Memory Span test; WM, working memory; df, degree of freedom; MSE, mean
+square error.
+Working memory training in older adults
+Copyright # 2012 John Wiley & Sons, Ltd.
+Int J Geriatr Psychiatry 2012
+
+p< .05), and the former’s performance improved consis-
+tently from pretest to posttest (MDiff.=1.22, p< .05)
+and follow-up (MDiff. =1.62, p< .01), with no differ-
+ence between the latter two. Post hoc comparisons
+showed that trained participants performed better at
+posttest (p < .01) and follow-up (p < .001) than at
+pretest. The trained participants maintained their
+posttest performance at follow-up. No signiﬁcant
+difference was found for the control group. The
+trained group outperformed the control group at both
+posttest and follow-up (p < .001).
+Far transfer effect. Listening comprehension of spatial
+descriptions. In terms of correct answers to true/false
+questions, performance improved statistically from pre-
+test to follow-up (MDiff. =2.43, p< .01) but did not
+differ statistically from pretest to posttest or from posttest
+to follow-up. Post hoc comparisons revealed that trained
+participants performed better at posttest (p< .01) and
+follow-up (p< .001) than at pretest. The trained partici-
+pants maintained their posttest performance at follow-
+up. No signiﬁcant differences emerged in the control
+group. The trained group outperformed the control
+group at both posttest (p< .05) and follow-up (p< .01).
+In map drawing, performance improved from pretest
+to posttest (MDiff. = 3.34, p< .05) and follow-up
+(MDiff. = 4.65, p < .01), with no difference between
+the latter two. Post hoc comparisons showed that trained
+participants performed better at posttest and follow-up
+(for both: p < .001) than at pretest. The trained partici-
+pants maintained their posttest performance at follow-
+up. No signiﬁcant difference was found for the control
+group. The trained group outperformed the control
+group at both posttest (p < .05) and follow-up (p < .01).
+Reading comprehension of expository text. Follow-up per-
+formance was higher than in the pretest (MDiff.=1.22,
+p< .01) and posttest (MDiff.=.96, p< .05), with no
+difference between the latter two. Post hoc comparisons
+showed that the trained participants’ performance
+improved at follow-up with respect to pretest (p< .001)
+and marginally to posttest (p=.06). No statistically signif-
+icant differences emerged between the groups in any
+session, however.
+Fluid intelligence: Cattell. Performance improved from
+pretest to posttest (MDiff. = 2.81, p < .05) and
+follow-up (MDiff. = 2.5, p < .001), with no differ-
+ence between the latter two. Although the interaction
+was only marginally signiﬁcant, post hoc comparisons
+indicated that the trained participants performed
+better at posttest (p< .001) and follow-up (p < .001)
+than at pretest, and their better performance was
+maintained from posttest to follow-up. No signiﬁcant
+differences emerged for the control group. No statisti-
+cally signiﬁcant differences emerged between the groups
+in any session, however.
+To analyze training gains and transfer effects from the
+pretest to the posttest, Cohen’s d (1988) (which expresses
+the effect size of the comparisons) were computed for
+within-subjects data (see Morris and DeShon, 2002).
+When the gains from pretest to posttest were compared
+within each group, a large (more than .80) effect size
+emerged for the trained group and a small effect size for
+the control group (see Figure 1). Beneﬁts were maintained
+at follow-up by the trained group only (CWMS, d=1.70;
+WM updating, d=1.01; Listening comprehension—
+true/false questions—, d=1.16; Map, d=1.98; Reading
+comprehension, d=.98; Cattell, d=0.98).
+Figure 1 Effect size for pretest/posttest comparisons for speciﬁc and transfer effects by group (trained and control).
+B. Carretti et al.
+Copyright # 2012 John Wiley & Sons, Ltd.
+Int J Geriatr Psychiatry 2012
+
+Discussion
+This study examined transfer effects from a verbal
+WM training on abilities relating to everyday life
+(and language comprehension in particular) in healthy
+older adults. Language comprehension is a crucial
+skill in everyday life, so demonstrating that it can be
+improved by means of training on basic cognitive
+mechanisms affected by aging (such as WM) would
+open up opportunities for delaying age-related cogni-
+tive decline.
+To elucidate this issue, a WM training (Borella
+et al., 2010), already tested for its efﬁcacy, was com-
+bined with activities requiring that participants update
+their information while reading short passages and
+intended to facilitate the transfer of the beneﬁts of
+the training to language comprehension because
+updating processes have also been shown to be impli-
+cated in the latter ability (Zwaan and Radvansky,
+1998). This modiﬁcation of the training regimen was
+designed to link speciﬁc WM training with the use of
+WM resources in contexts mimicking activities of
+daily living (i.e., reading to remember some relevant
+information).
+Consistently with the literature and our expecta-
+tions, our results showed that participants beneﬁted
+immediately after receiving training in the criterion
+task and WM updating one, and that these improve-
+ments were maintained after 6 months. These ﬁndings
+conﬁrm that WM is closely related to updating
+processes (Schmiedek et al., 2009) and provide further
+evidence that WM performance is modiﬁable even in
+older adults with a normal age-related decline in their
+cognitive functioning.
+We also found far transfer effects on language com-
+prehension. Our training procedure probably engaged
+multiple processes that are also involved in language
+comprehension, including encoding, retaining, and
+inhibiting irrelevant information. All these processes
+favored a change in the allocation of attentional
+resources during reading and listening comprehension
+exercises, generating a better language comprehension
+performance. The effect was stronger for listening
+comprehension concerning spatial descriptions, with
+beneﬁts immediately after the training that increased
+at the follow-up; the gain in reading comprehension
+was only evident at the follow-up. This might be due
+to differences in the content of the texts: the reading
+comprehension texts required that participants rely
+on background knowledge more than for the listening
+comprehension of spatial descriptions. It may also be
+that the training procedure particularly favored the
+creation of a spatial mental model because the texts
+used during the training activities describe character
+acting in an environment, without providing any
+spatial references, and this probably facilitates a visual
+representation of the events. Participants may there-
+fore have reﬁned their ability to integrate the infor-
+mation presented in the text, and this may have had
+a positive impact on some aspects involved in com-
+prehension processes. However, because of the texts
+contents (history, geography) in the reading compre-
+hension task, this effect may have interacted with the
+reader’s background knowledge, reducing the training
+beneﬁts in the reading comprehension test.
+As concerns the transfer effects for the Cattell
+test, although the group-by-session interaction only
+approached statistical signiﬁcance, post hoc analyses
+showed that the trained group performed better at
+posttest than at pretest and from pretest to the 6-month
+follow-up. The more limited transfer effect on the
+Cattell test may be due to the fact that the two groups’
+performance was not completely comparable at pretest
+(the control group did better) and, although the differ-
+ence was not statistically signiﬁcant, this could have
+emphasized the changes in the trained group. Individual
+differences analysis might have shed light on this,
+but our sample size unfortunately prevented us from
+exploring this issue. It is also possible that modifying
+the training activities altered the nature of the changes
+promoted by the original model (Borella et al., 2010).
+In fact, in another study that used the same procedure
+of Borella et al. with older adults with mild cognitive
+impairment, the trained participants achieved an
+improvement in the Cattell test not observed in the
+control group (Carretti et al., under review). This
+prompted us to hypothesize that the WM updating
+reading task may have somehow induced some
+participants to ﬁnd a strategy to complete the task,
+consequently reducing the transfer power of the
+training. We unfortunately did not interview partic-
+ipants after the training sessions, so this remains a
+mere speculation.
+Some limits should be considered, however. As
+suggested by Shipstead et al. (2010), it would have
+been useful to test transfer effects with multiple tasks
+tapping the same ability to avoid measurement-
+related errors. Moreover, although the size of our
+sample was in line with the one used in other training
+studies, a larger sample would have enabled us to
+analyze individual differences in training gains. An
+effort should be made in future studies to take these
+aspects into account.
+In conclusion, this study conﬁrmed the efﬁcacy of
+WM training for normally aging older adults. To the best
+of our knowledge, this is the ﬁrst study to identify
+Working memory training in older adults
+Copyright # 2012 John Wiley & Sons, Ltd.
+Int J Geriatr Psychiatry 2012
+
+transfer effects relating to such activities of everyday
+life as language comprehension. This ﬁnding seems
+particularly important, pointing to the opportunity
+to extend the gains to other WM-related processes
+with direct implications for the older adult’s quality of
+life and functioning. Future studies should try to adopt
+such a procedure with older adults with mild cognitive
+impairment with a view to establishing its efﬁcacy.
+Conﬂict of interest
+None declared.
+Key points
+•
+The results of the study suggest the efﬁcacy of a
+verbal WM training for normally aging older adults.
+•
+Near transfer effects were found on WM
+updating, maintained at the 6-month follow-up.
+•
+The verbal WM training produced transfer effects
+on reasoning and language comprehension
+tasks, substantially maintained at the 6-month
+follow-up.
+•
+WM trainings are a valuable approach to sustain
+cognitive functioning in older adults also for
+abilities related to everyday activities.
+Acknowledgement
+The authors want to thank Elena Manea for helping in
+data collection.
+References
+Borella E, Carretti B, De Beni R. 2008. Working memory and inhibition across the
+adult life-span. Acta Psychol 128: 33–44. DOI:10.1016/j.actpsy.2007.09.008
+Borella E, Carretti B, Riboldi F, De Beni R. 2010. Working memory training in older
+adults: evidence of transfer and maintenance effects. Psychol Aging 25: 767–778.
+DOI: 10.1037/a0020683
+Borella E, Ghisletta P, de Ribaupierre A. 2011. Age differences in text processing: the
+role of working memory, inhibition and processing speed. J Gerontol Psychol Sci
+66: 311–320. DOI:10.1093/geronb/gbr002
+Borella E, Carretti B, Zanoni G, Zavagnin, M, De Beni R. under revision. Training-
+related working memory gains in old-age: an examination of transfer and
+maintenance effects.
+Cacioppo JT, Petty RE, Feinstein J, Jarvis WBG. 1996. Dispositional differences in
+cognitive motivation: The life and times of individuals varying in need for cogni-
+tion Psychological Bulletin 119: 197–253.
+Carretti B, Belacchi C, Cornoldi C. 2010. Difﬁculties in working memory updating
+in individuals with intellectual disability. J Intellect Disabil Res 54: 337–345.
+DOI: 10.1111/j.1365-2788.2010.01267.x
+Carretti B, Borella E, Fostinelli S, Zavagnin M. under revision. Beneﬁts of training working
+memory in amnestic mild cognitive impairment: speciﬁc and transfer effects.
+Cattell RB, Cattell HEP. 1963. Measuring intelligence with the Culture Fair Tests.
+Institute for Personality and Ability Testing: Champaign, IL.
+Cepeda NJ, Pashler H, Vul E, Wixted JT. 2006. Distributed practice in verbal
+recall tasks: a review and quantitative synthesis. Psychol Bull 132: 354–380.
+DOI: 10.1037/0033-2909.132.3.354
+Cohen J. 1988. Statistical Power Analysis for the Behavioral Sciences. Lawrence
+Erlbaum: Hillsdale, NJ, US.
+Daneman M, Merikle PM. 1996. Working memory and language comprehension: a
+meta-analysis. Psychol Bull Rev 3: 422–433. DOI: 10.3758/BF03214546
+De Beni R, Borella E, Carretti B. 2007. Reading comprehension in aging: the role of
+working memory and metacomprehension. Aging Neuropsychl Cogn 14: 189–212.
+DOI: 10.1080/13825580500229213
+De Beni R, Borella E, Carretti B, Marigo C, Nava LA. 2008. BAC. Portfolio per la
+valutazione del benessere e delle abilità cognitive nell’età adulta e avanzata [The assesment
+of well-being and cognitive abilities in adulthood and aging]. Giunti OS: Firenze
+Hertzog C, Hultsch D. 2000. Metacognition in adulthood and old age. In Craik FIM,
+Salthouse TA (eds.). The Handbook of Aging and Cognition (2nd ed.), Lawrence
+Erlbaum Associates Publishers: Mahwah, NJ, US; 417–466.
+Morris S, DeShon R. 2002. Combining effect size estimates in meta-analysis with
+repeated measures and independent-groups designs. Psychol Methods 7: 105–125.
+DOI: 10.1037/1082-989X.7.1.105
+Noack H, Lövdén M, Schmiedek F, Lindenberger U. 2009. Cognitive plasticity in
+adulthood and old age: gauging the generality of cognitive intervention effects.
+Restor Neurol Neurosci 27: 435–453. DOI: 10.3233/RNN-2010-0581
+Park DC, Lautenschlager G, Hedden T, et al. 2002. Models of visuospatial and
+verbal memory across the adult life span. Psychol Aging 17: 299–320. DOI:
+10.1037//0882-7974.17.2.299
+Pazzaglia F, De Beni R, Meneghetti C. 2007. The effects of verbal and spatial interference
+in the encoding and retrieval of spatial and non-spatial texts. Psychol Res 71: 484–494.
+DOI: 10.1007/s10339-009-0353-0
+Richmond LL, Morrison AB, Chein JM, Olson IR. 2011. Working memory training
+and transfer in older adults. Psychol Aging 26: 813–822. DOI: 10.1037/a0023631
+Schmiedek F, Hildebrandt A, Lvdén M, Wilhelm O, Lindenberger U. 2009. Complex
+span versus updating tasks of working memory: the gap is not that deep. J Exp
+Psychol Learn Mem Cog 35: 1089–1096. DOI: 10.1037/a0015730
+Shipstead Z, Redick TS, Engle RW. 2010. Does working memory training generalize?
+Psychol Belg 50: 245–276.
+Troyer AK, Rich JB. 2002. Psychometric properties and normative data for older
+adults for three new metamemory questionnaires Journal of Gerontology: Psycho-
+logical Science 57B: 19–27.
+Wechsler D. 1981. Wechsler Adult Intelligence Scale–Revised (WAIS-R). The Psychological
+Corporation: New York.
+Zavagnin M, Borella E, De Beni R. unpublished. Mind Wandering Questionnaire.
+Zwaan RA, Radvansky GA. 1998. Situation models in language comprehension and
+memory. Psychol Bull 123: 162–185. DOI: 10.1037/0033-2909.123.2.162
+B. Carretti et al.
+Copyright # 2012 John Wiley & Sons, Ltd.
+Int J Geriatr Psychiatry 2012
+
+--- END ---
+=== SEQ 32: 2014_Long-term effects of transcranial direct current stimul ===
+Long-term effects of transcranial direct current stimulation
+combined with computer-assisted cognitive training
+in healthy older adults
+See-Hyun Parka, Jeong-Hwan Seoa, Yun-Hee Kimb and Myoung-Hwan Koa
+The aim of the present study was to analyze the long-term
+effects of transcranial direct current stimulation (tDCS)
+of the bilateral prefrontal cortex combined with computer-
+assisted cognitive training on working memory and
+cognitive function in healthy older adults aged at least
+65 years. Forty healthy older adults were enrolled and
+randomly assigned to two groups: anodal and sham tDCS.
+All participants completed 10 sessions of computer-
+assisted cognitive training, combined with tDCS of the
+bilateral prefrontal cortex. The accuracy of the verbal
+working memory task and performance of the digit span
+forward test were significantly improved after computer-
+assisted cognitive training combined with bifrontal anodal
+tDCS as compared with that after computer-assisted
+cognitive training combined with sham tDCS. Moreover, the
+effect lasts for 4 weeks in the verbal working memory task.
+We suggest that the tDCS-induced changes in the bilateral
+prefrontal excitability during computer-assisted cognitive
+training may have beneficial effects on age-related
+cognitive decrement in healthy older adults. NeuroReport
+25:122–126 c 2014 Wolters Kluwer Health | Lippincott
+Williams & Wilkins.
+NeuroReport 2014, 25:122–126
+Keywords: cognitive function, prefrontal cortex, transcranial direct current
+stimulation
+aDepartment of Physical Medicine and Rehabilitation, Research Institute
+of Clinical Medicine of Chonbuk National University, Biomedical Research
+Institute of Chonbuk National University Hospital, Jeonbuk and bDepartment of
+Physical Medicine and Rehabilitation, Samsung Medical Center, Sungkyunkwan
+University School of Medicine, Seoul, Korea
+Correspondence to Myoung-Hwan Ko, MD, PhD, Department of Physical
+Medicine and Rehabilitation, Research Institute of Clinical Medicine of Chonbuk
+National University, Biomedical Research Institute of Chonbuk National University
+Hospital, 664-14, 1Ga, Deokjin-dong, Jeonju-city, Jeonbuk 561-756, Korea
+Tel: + 82 63 250 1795; fax: + 82 63 254 4145;
+e-mail: mhko@jbnu.ac.kr
+Received 13 June 2013 accepted 7 October 2013
+Introduction
+Cognitive dysfunction in older adults severely compro-
+mises their quality of life and poses social problems by
+increasing the healthcare burden. In this light, assess-
+ment and treatment of impaired cognitive function in
+older adults are becoming increasingly important.
+One treatment option that is widely used for cognitive
+function training is computer-assisted cognitive training
+(CACT). CACT programs include standardized tasks and
+have the benefit of giving immediate feedback on task
+performance. Moreover, data on performance results can
+be continuously analyzed and compared, thereby provid-
+ing beneficial effects in terms of patient outcomes as well
+as for clinical research. CACT has been widely used since
+Glisky et al. [1] first described it in 1986. In Korea, there
+have been reports that the Korean version of the CACT
+program significantly improved memory, as well as
+auditory and visual attention, in patients with brain
+damage [2].
+Of late, an increasing number of studies are examining
+the effect of transcranial direct current stimulation
+(tDCS), a noninvasive stimulation of the cerebral cortex,
+on improvement of brain function. tDCS has been
+reported to improve spatial and temporal awareness,
+and attention and working memory (WM) in healthy
+adults, as well as in patients with brain disorders [3,4].
+In particular, tDCS of the prefrontal cortex has been
+reported to improve WM in an increasing number
+of studies [5–8].
+The effects of tDCS and CACTon the cognitive function
+in healthy adults and patients with brain disorders have
+been investigated separately so far; however, there is still
+paucity of evidence on the effect of tDCS and CACT in
+healthy older adults. Especially, more evidence is needed
+on the effect of combining the two treatments. In this
+light, in this study tDCS of the bilateral prefrontal cortex
+and CACT were concomitantly administered in the
+healthy elderly aged over 65 years to evaluate their
+long-term effect on cognitive function.
+Participants and methods
+Participants
+This study enrolled healthy older adults aged at least 65
+years without neurological abnormalities. Participants
+who had metallic fixtures around the cephalic area or
+skin lesions in the areas at which electrodes would be
+attached were excluded from the study. A total of 40
+participants (13 men, 27 women) with a mean age of 69.7
+years were enrolled. They were randomly assigned to the
+real
+stimulation
+and
+sham
+stimulation
+groups
+(20
+participants each). Results of the single-sample w2-test
+and the independent-samples t-test showed no statisti-
+cally significant differences between the real stimulation
+group and the sham stimulation group in terms of age,
+122
+Cognitive neuroscience and neuropsychology
+0959-4965 c 2014 Wolters Kluwer Health | Lippincott Williams & Wilkins
+DOI: 10.1097/WNR.0000000000000080
+Copyright © Lippincott Williams & Wilkins. Unauthorized reproduction of this article is prohibited.
+
+educational background, and mini-mental state examina-
+tion (Table 1). The current study was approved by the
+institutional review board of Chonbuk National Univer-
+sity Hospital. Before study participation, all participants
+submitted a written informed consent form.
+Transcranial direct current stimulation
+Phoresor II Auto Model PM850 (Iomed, Salt Lake City,
+Utah, USA), which produces direct current, was used.
+Sponge electrodes of 5  5 cm (25 cm2) were attached to
+the scalp. Using two stimulators, anodes were attached on
+the bilateral prefrontal cortex (F3 and F4 of the 10/20
+international system) and cathodes were attached on the
+nondominant arm for bilateral prefrontal cortex stimula-
+tion [9]. The electrodes were doused in water and elastic
+bandages were applied to secure maximum adhesion to
+the respective area. Participants were randomly divided
+into the sham stimulation and real stimulation groups.
+The real stimulation group received CACT (Korean
+CACT program; Maxmedica Inc., Seoul, Korea) and
+anodal tDCS at a current intensity of 2 mA for 30 min
+and the sham stimulation group had an identical set-up
+of electrodes, but once the current intensity of 2 mA
+was reached, the stimulation lasted for only 30 s and
+the power was turned off without the participants’
+knowledge. The sham stimulation group was also simul-
+taneously administered the CACT program. Different
+examiners were assigned to operate the transcranial direct
+current stimulator and to assess the cognitive function in
+this double-blind study.
+Cognitive training program
+Cognitive training was conducted using the CACT
+program: 30 min per session, five times a week, for 2
+weeks. In total, 10 training sessions were performed along
+with simultaneous tDCS.
+Assessment of the cognitive function
+For assessment of the cognitive function, all participants
+underwent a total four WM assessments and computer-
+ized neuropsychological tests (CNTs): before the start of
+the sessions, on the day of completion of the sessions, and
+7 and 28 days after the completion of the sessions.
+SuperLab Pro 2.0 Software (Cedrus Corporation, San
+Pedro, California, USA) was used for the assessment of
+verbal WM. Two-back verbal WM assessment used a
+program showing Korean characters for 900ms on a
+computer screen followed by the next character after
+100ms. The participants were required to remember the
+characters displayed on the computer screen and to press
+the spacebar on the keyboard placed in front of them in
+response to the same character when shown again after a
+different preceding character. A total of 90 characters were
+shown, of which 30 were ‘target characters’. At each
+assessment, different sequences of characters were shown.
+Accuracy was measured by calculating the ratio of correct
+participant responses to 30 targets. The time taken by an
+individual participant to respond by pressing the spacebar
+after seeing a target character was also measured.
+CNT was used to assess a total of 10 areas, and one
+examiner performed all tests. The following tests were
+performed: digit span test and verbal learning test, which
+were used for assessing verbal memory; visual span test
+and visual learning test, which were used for the
+assessment of temporal and spatial memory; auditory
+continuous performance test (CPT), auditory controlled
+CPT, visual CPT, visual controlled CPT, and the word–
+color test, which were used to assess attention; and the
+trail making test, which was used for assessing coordina-
+tion function [10].
+Statistical analysis
+Demographic data were analyzed by the independent-
+samples t-test and the single-sample w2-test for categorical
+and continuous data, respectively. The effects of the real
+and sham stimulations were compared with each other
+using analysis of variance (ANOVA) for repeated measures.
+If the interaction effect (group  time) was significant, we
+performed repeated measures ANOVA within the real
+stimulation group. The statistical significance for these
+tests was defined as P less than 0.05.
+Results
+All participants underwent tDCS and CACT, verbal WM
+assessment, and CNT without manifesting any particular
+side effects.
+Verbal working memory task
+Comparison of results before and after tDCS between the
+real stimulation group and the sham stimulation group
+using repeated measures ANOVA showed that the
+accuracy of the verbal WM task had increased signifi-
+cantly (P = 0.040) and the reaction time of the verbal
+WM task was significantly shortened in the real stimula-
+tion group (P = 0.050; Table 2).
+The accuracy of the verbal WM task performance was
+significantly increased for up to 28 days after completion
+of the sessions compared with that before stimulation in
+the real stimulation group (P = 0.002), and the reaction
+time was significantly shortened on the day of completion
+Table 1
+General characteristics of participants
+Real group
+Sham group
+P-value
+Number (male/female)
+20 (7/13)
+20 (6/14)
+0.736
+Age (years)
+70.1±3.4
+69.4±3.1
+0.530
+Education (years)
+10.9±4.6
+10.9±4.2
+1.000
+MMSE
+29.3±1.4
+28.8±1.5
+0.330
+Values are expressed as mean±SD.
+MMSE, mini-mental state examination.
+P-value was derived from the w2-test and independent-samples t-test.
+tDCS with computer-assisted cognitive training Park et al.
+123
+Copyright © Lippincott Williams & Wilkins. Unauthorized reproduction of this article is prohibited.
+
+of the sessions compared with that before stimulation
+(P = 0.018; Fig. 1).
+Computerized neuropsychological test
+Comparison of digit span forward test results using
+repeated
+measures
+ANOVA
+showed
+that
+the
+real
+stimulation group showed a significant increase in the
+range of numbers that could be remembered compared
+with the sham stimulation group (P = 0.041; Table 2).
+However, the visual span test and visual learning test
+assessing temporal and spatial memory; auditory CPT,
+auditory controlled CPT, visual CPT, visual controlled
+CPT, and the word–color test assessing attention; and the
+trail making test assessing visual motor coordination
+function, showed no significant changes.
+Discussion
+The group with simultaneous administration of the tDCS
+and CACT programs showed significant improvements in
+the
+verbal
+WM
+task
+and
+digit
+span
+forward
+test
+performance compared with the group in which only
+the CACT program was administered.
+WM refers to the function of retaining information for a
+short period of time and is an important part of cognitive
+processes including long-term memory, linguistic learning
+and executive function, etc. [11]. In many of the previous
+studies, the prefrontal cortex has been reported to be
+responsible for WM [12]. The areas of the brain that are
+known to be involved in the execution of WM tasks are the
+bilateral medial posterior parietal cortex, bilateral premotor
+cortex, cingulate gyrus, bilateral frontal pole, bilateral
+dorsolateral prefrontal cortex, and bilateral ventrolateral
+prefrontal cortex [13]. It is known that execution of verbal
+WM tasks mainly occurs because of the activation of the
+left
+ventrolateral
+prefrontal
+cortex
+and
+the
+bilateral
+premotor cortex, the bilateral medial posterior parietal
+cortex, and the thalamus, whereas execution of nonverbal
+WM tasks mainly occurs because of the activation of the
+bilateral frontal pole and cingulate gyrus.
+Several studies have reported that noninvasive brain
+stimulation can significantly improve WM in healthy
+adults, patients with Parkinson’s disease, and stroke
+victims [6–8,14]. Boggio et al. [6] reported that a 20-
+min direct current stimulation of the left prefrontal
+cortex at an intensity of 2 mA in 18 patients with
+Parkinson’s disease improved the verbal WM accuracy
+(three-back WM). Jo et al. [8] reported that 30 min of
+tDCS of the left prefrontal cortex at an intensity of 2 mA
+in 10 patients with cerebral infarction improved the
+verbal WM accuracy (two-back WM). A study involving
+15 young adults conducted by Fregni et al. [7] demon-
+strated that 10 min of tDCS of the left prefrontal cortex
+at a current intensity of 1 mA improved the verbal WM
+accuracy (three-back WM). Most of the studies published
+until now compared changes in the cognitive function in
+the resting state before and after tDCS; however, tDCS
+combined with specialized cognitive training was not
+used. Although tDCS includes the term ‘stimulation’, in
+actuality this electrophysiologic technique uses low levels
+of electricity that are not sufficient for inducing firing of
+resting neurons. In other words, tDCS does not induce
+automatic firing of resting neurons, but it changes the
+neuronal resting phase thresholds through several min-
+utes of direct current stimulation so that the degree and
+frequency of neuronal firing can be changed when the
+neurons are capable of active firing after tDCS [15].
+Thus, the combination of tDCS and cognitive function
+training can lead to better task performance than that on
+administration of tDCS alone. On the basis of these
+results, tDCS and CACT programs were concomitantly
+administered in this study, and it was demonstrated that
+the combination of the two treatments significantly
+improved the cognitive function compared with admin-
+istration of the CACT program alone.
+Until now, studies have mainly focused on the left frontal
+lobe; however, in this study electrodes were attached
+bilaterally on the prefrontal cortex, and two stimulators
+were used to produce bilateral prefrontal cortex stimula-
+tion. Older adults have been reported to rely more heavily
+on bilateral frontal lobes to execute WM tasks, regardless
+of the type of stimulation [16]. Moreover, previous
+reports on the safety of tDCS in healthy adults were also
+taken into consideration in this study. Koenigs et al. [9]
+Table 2
+Results of the two-back verbal working memory task and digit span forward performance
+Group
+Baseline
+Day 0
+Day 7
+Day 28
+P-value
+Two-back verbal WM task
+Accuracy (%)
+Real
+48.82±10.66
+57.96±11.35*
+57.96±13.49*
+56.94±13.13*
+0.040
+Sham
+50.29±11.53
+51.48±13.04
+52.97±13.30
+54.47±14.04
+RT (ms)
+Real
+570.01±94.45
+521.66±56.60*
+530.73±70.36
+531.94±73.79
+0.050
+Sham
+539.51±76.04
+566.12±85.04
+523.14±92.13
+525.59±94.83
+Digit span forward (number of digits)
+Real
+4.65±1.09
+5.00±1.17
+5.30±0.98*
+4.65±1.27
+0.041
+Sham
+4.70±0.08
+4.95±0.83
+4.80±0.83
+5.00±0.73
+Values are expressed as mean±SD.
+Day 0, on the day of completion of the sessions; Day 7, 7 days after completion of the sessions; Day 28, 28 days after completion of the sessions; RT, reaction time;
+WM, working memory.
+P-value was derived from repeated measures analysis of variance for the difference between real and sham stimulation groups.
+*P < 0.05, compared with baseline.
+124
+NeuroReport
+2014, Vol 25 No 2
+Copyright © Lippincott Williams & Wilkins. Unauthorized reproduction of this article is prohibited.
+
+examined healthy adults using extracephalic reference
+electrodes. In their study, anodes or cathodes producing a
+current intensity of 2.5 mA for 35 min were attached over
+bilateral frontal lobes, and no significant changes in terms
+of mood, arousal, emotional cognitions, etc. and no
+significant side effects were detected. The results of
+this study are in line with those of previous studies and
+no significant side effects were observed other than
+minimal skin discoloration on the arms on which negative
+reference electrodes were attached in two participants.
+The discoloration persisted for only a few days.
+Results of this study showed that improvements were
+mainly achieved in verbal WM after stimulation of the
+bilateral prefrontal cortex; however, there were no sig-
+nificant improvements in performance of visual tasks. The
+frontal lobe plays a key role in executive functions that are
+related to given tasks; however, the parietal lobe plays an
+important role in initial recognition of a visual task. This
+may explain the lack of improvement in visual tasks
+following stimulation of the prefrontal cortex only. In
+addition, in the CNT there was no significant improvement
+in the attention task and in the trail making test assessing
+visual motor coordination function. Performance of these
+tasks requires the involvement of more areas of the brain,
+and therefore stimulation of the prefrontal cortex alone is
+insufficient to induce significant changes. New stimulation
+methods that have an effect on various areas of the brain
+need to be developed in the future.
+Conclusion
+The results of this study suggested that the combination
+of cognitive training and tDCS in healthy elderly patients
+can lead to improved cognitive function. In addition, this
+study showed that tDCS over the bilateral prefrontal
+cortex using extracephalic reference electrodes is safe and
+can contribute to improvement in cognitive function.
+Thus, tDCS can be expected to be used as an effective
+treatment method for improving the cognitive function in
+patients needing cognitive training.
+Acknowledgements
+This study was supported by a grant from the Korea
+Healthcare Technology R&D Project, Ministry for Health,
+Welfare and Family Affairs, Republic of Korea (A0912202).
+Conflicts of interest
+There are no conflicts of interest.
+References
+1
+Glisky EL, Schacter DL, Tulving E. Computer learning by memory-impaired
+patients: acquisition and retention of complex knowledge. Neuropsychologia
+1986; 24:313–328.
+2
+Kim YH, Ko MH, Seo JH, Park SH, Kim KS, Jang EH, et al. Effect of
+computer-assisted cognitive rehabilitation program for attention training in
+brain injury. J Korean Acad Rehabil Med 2003; 27:830–839.
+3
+Ko MH, Han SH, Park SH, Seo JH, Kim YH. Improvement of visual scanning
+after DC brain polarization of parietal cortex in stroke patients with spatial
+neglect. Neurosci Lett 2008; 448:171–174.
+4
+Miniussi C, Cappa SF, Cohen LG, Floel A, Fregni F, Nitsche MA, et al.
+Efficacy of repetitive transcranial magnetic stimulation/transcranial direct
+current stimulation in cognitive neurorehabilitation. Brain Stimul 2008;
+1:326–336.
+5
+Andrews SC, Hoy KE, Enticott PG, Daskalakis ZJ, Fitzgerald PB. Improving
+working memory: the effect of combining cognitive activity and anodal
+transcranial direct current stimulation to the left dorsolateral prefrontal
+cortex. Brain Stimul 2011; 4:84–89.
+6
+Boggio PS, Ferrucci R, Rigonatti SP, Covre P, Nitsche M, Pascual-Leone A,
+Fregni F. Effects of transcranial direct current stimulation on working memory
+in patients with Parkinson’s disease. J Neurol Sci 2006; 249:31–38.
+Fig. 1
+40
+600
+550
+500
+6
+5
+Digit span forward
+4
+Baseline
+Day 0
+Day 7
+Day 28
+Baseline
+Day 0
+Day 7
+Day 28
+Baseline
+∗
+∗
+∗
+∗
+∗
+Day 0
+Day 7
+Day 28
+50
+Verbal WM accuracy (%)
+Verbal WM reaction time (ms)
+60
+(a)
+(b)
+(c)
+Real
+Sham
+Effects of bilateral prefrontal tDCS on (a) the accuracy of the verbal
+WM task, (b) the reaction time of the verbal WM task, and (c) the
+number of digits in the digit span forward test. The improved verbal
+WM accuracy was maintained for 28 days after the completion of the
+sessions (baseline–Day 28). The reaction time of the verbal WM task
+was significantly shortened by tDCS between that before the start
+of the sessions and that on the day of completion of the sessions
+(baseline–Day 0). The number of digits in the digit span forward test
+was significantly improved by tDCS between that before the start of
+the sessions and that 7 days after the completion of the sessions
+(baseline–Day 7). Values are presented as mean±SEM. *P < 0.05.
+tDCS, transcranial direct current stimulation; WM, working memory.
+tDCS with computer-assisted cognitive training Park et al.
+125
+Copyright © Lippincott Williams & Wilkins. Unauthorized reproduction of this article is prohibited.
+
+7
+Fregni F, Boggio PS, Nitsche M, Bermpohl F, Antal A, Feredoes E, et al.
+Anodal transcranial direct current stimulation of prefrontal cortex enhances
+working memory. Exp Brain Res 2005; 166:23–30.
+8
+Jo JM, Kim YH, Ko MH, Ohn SH, Joen B, Lee KH. Enhancing the working memory
+of stroke patients using tDCS. Am J Phys Med Rehabil 2009; 88:404–409.
+9
+Koenigs M, Ukueberuwa D, Campion P, Grafman J, Wassermann E. Bilateral
+frontal transcranial direct current stimulation: failure to replicate classic
+findings in healthy subjects. Clin Neurophysiol 2009; 120:80–84.
+10
+Kim YH, Shin SH, Park SH, Ko MH. Cognitive assessment for patient with
+brain injury by computerized neuropsychological test. J Korean Acad
+Rehabil Med 2001; 25:209–216.
+11
+Baddeley A. Working memory. Science 1992; 255:556–559.
+12
+Constantinidis C, Procyk E. The primate working memory networks. Cogn
+Affect Behav Neurosci 2004; 4:444–465.
+13
+Owen AM, McMillan KM, Laird AR, Bullmore E. N-back working memory
+paradigm: a meta-analysis of normative functional neuroimaging studies.
+Hum Brain Mapp 2005; 25:46–59.
+14
+Ohn SH, Park CI, Lee BH, Kim YH. Effect of prefrontal repetitive transcranial
+magnetic stimulation on the enhancement of working memory. J Korean
+Acad Rehabil Med 2008; 32:501–505.
+15
+Wassermann EM, Grafman J. Recharging cognition with DC brain
+polarization. Trends Cogn Sci 2005; 9:503–505.
+16
+Eyler LT, Sherzai A, Kaup AR, Jeste DV. A review of functional brain imaging
+correlates of successful cognitive aging. Biol Psychiatry 2011; 70:115–122.
+126
+NeuroReport
+2014, Vol 25 No 2
+Copyright © Lippincott Williams & Wilkins. Unauthorized reproduction of this article is prohibited.
+
+--- END ---
+=== SEQ 34: 2022_Older adults with lower working memory capacity benefit ===
+TYPE Brief Research Report
+PUBLISHED 10 October 2022
+DOI 10.3389/fnagi.2022.1009262
+OPEN ACCESS
+EDITED BY
+Hakuei Fujiyama,
+Murdoch University, Australia
+REVIEWED BY
+Jesus Cespon,
+Basque Center on Cognition, Brain
+and Language, Spain
+Nicole R. Nissim,
+University of Pennsylvania,
+United States
+*CORRESPONDENCE
+Sara Assecondi
+sara.assecondi@unitn.it;
+sara.assecondi@gmail.com
+†These authors share senior authorship
+SPECIALTY SECTION
+This article was submitted to
+Neurocognitive Aging and Behavior,
+a section of the journal
+Frontiers in Aging Neuroscience
+RECEIVED 01 August 2022
+ACCEPTED 20 September 2022
+PUBLISHED 10 October 2022
+CITATION
+Assecondi S, Hu R, Kroeker J, Eskes G
+and Shapiro K (2022) Older adults with
+lower working memory capacity
+beneﬁt from transcranial direct current
+stimulation when combined with
+working memory training:
+A preliminary study.
+Front. Aging Neurosci. 14:1009262.
+doi: 10.3389/fnagi.2022.1009262
+COPYRIGHT
+© 2022 Assecondi, Hu, Kroeker, Eskes
+and Shapiro. This is an open-access
+article distributed under the terms of
+the Creative Commons Attribution
+License (CC BY). The use, distribution
+or reproduction in other forums is
+permitted, provided the original
+author(s) and the copyright owner(s)
+are credited and that the original
+publication in this journal is cited, in
+accordance with accepted academic
+practice. No use, distribution or
+reproduction is permitted which does
+not comply with these terms.
+Older adults with lower working
+memory capacity beneﬁt from
+transcranial direct current
+stimulation when combined
+with working memory training:
+A preliminary study
+Sara Assecondi1,2,3*, Rong Hu2,4, Jacob Kroeker5, Gail Eskes5†
+and Kim Shapiro2,3†
+1Center for Mind/Brain Sciences—CIMeC, University of Trento, Rovereto, Italy, 2Visual Experience
+Laboratory, School of Psychology, University of Birmingham, Birmingham, United Kingdom,
+3Center for Human Brain Health (CHBH), University of Birmingham, Birmingham, United Kingdom,
+4Department of Neurology, School of Medicine, Guangzhou First People’s Hospital, South China
+University of Technology, Guangzhou, China, 5Departments of Psychiatry and Psychology and
+Neuroscience, Dalhousie University, Halifax, NS, Canada
+Aging is a very diverse process: successful agers retain most cognitive
+functioning, while others experience mild to severe cognitive decline.
+This decline may eventually negatively impact one’s everyday activities.
+Therefore, scientists must develop approaches to counteract or, at least, slow
+down the negative change in cognitive performance of aging individuals.
+Combining cognitive training and transcranial direct current stimulation
+(tDCS) is a promising approach that capitalizes on the plasticity of brain
+networks. However, the efﬁcacy of combined methods depends on individual
+characteristics, such as the cognitive and emotional state of the individual
+entering the training program. In this report, we explored the effectiveness
+of working memory training, combined with tDCS to the right dorsolateral
+prefrontal cortex (DLPFC), to manipulate working memory performance
+in older individuals. We hypothesized that individuals with lower working
+memory capacity would beneﬁt the most from the combined regimen. Thirty
+older adults took part in a 5-day combined regimen. Before and after the
+training, we evaluated participants’ working memory performance with ﬁve
+working memory tasks. We found that individual characteristics inﬂuenced
+the outcome of combined cognitive training and tDCS regimens, with the
+intervention selectively beneﬁting old-old adults with lower working memory
+capacity. Future work should consider developing individualized treatments
+by considering individual differences in cognitive proﬁles.
+KEYWORDS
+non-invasive brain stimulation (NIBS), tDCS—transcranial direct current stimulation,
+working memory training (WMT), plasticity, older adults, individual differences
+Frontiers in Aging Neuroscience
+01
+frontiersin.org
+
+Assecondi et al.
+10.3389/fnagi.2022.1009262
+Introduction
+Aging is an unavoidable and complex process that aﬀects
+every person, but with an unpredictable outcome, as it is
+sensitive to individual diﬀerences. Some people age well,
+retaining most cognitive functioning, while others experience
+mild to severe cognitive decline that can eventually lead to a
+pathological condition (Cohen et al., 2019). Delaying cognitive
+decline with lifestyle choices, such as taking part in cognitively
+stimulating activities is possible but new approaches (e.g., tDCS
+combined with cognitive training) are needed to counteract
+cognitive decline once it appears (World Health Organization,
+2019).
+This age-related decay of cognitive function can greatly
+impact the independent living of individuals (Grady, 2012).
+Thus, it is not surprising that scientists, albeit with contradictory
+results (for reviews, Shipstead et al., 2012; Soveri et al., 2017a),
+have been searching for ways to slow or even counteract
+physiological cognitive decline, often focusing on working
+memory. Working memory is a cognitive system of limited
+capacity that declines with age but is crucial to many
+decision-making processes and everyday life functioning (Engle
+and Kane, 2003). Working memory training usually involves
+completing a certain number of sessions of an adaptive working
+memory task (e.g., the n-back (Kirchner, 1958) is a common
+choice), in which task diﬃculty adapts to the individual’s
+performance to keep it challenging, entertaining, and more
+eﬀective (Harvey et al., 2018; Flegal et al., 2019; Green et al.,
+2019).
+Individuals can learn new skills up to very old age,
+promoting plastic brain changes (Pauwels et al., 2018a,b). For
+example, training executive function can lead to structural
+changes (increase in gray matter and cortical volume) with a
+general increase in the volume of frontal and parietal brain areas
+(for a review, see Nguyen et al., 2019). While being directly
+inﬂuenced by genetic factors (Pearson-Fuhrhop et al., 2009),
+plasticity is also modulated by individual diﬀerences (Jones et al.,
+2006), such as age, education, or motivation (Barrett et al.,
+2004; Morais et al., 2018). Higher education has been associated
+with better working memory abilities (Morais et al., 2018), as
+has motivation (Mohammed et al., 2017). In addition, initial
+working memory scores can predict training eﬀectiveness, with
+low working memory capacity predicting lower training gains
+after a dual n-back training regimen (Matysiak et al., 2019).
+Pathological conditions like depression and cognitive decline
+(Hill et al., 2000) may also impact plasticity.
+Transcranial direct current stimulation (tDCS) has also
+been shown to modulate brain plasticity. TDCS modulates
+cortical excitability (Nitsche et al., 2008; Stagg and Nitsche,
+2011; Kronberg et al., 2020), which in turn may boost speciﬁc
+plasticity, namely that of synaptic pathways activated by
+task performance (Bikson and Rahman, 2013) or networks
+with increased oscillatory activity (Reato et al., 2010, 2015).
+Speciﬁcally, tDCS can be highly eﬀective when coupled with a
+relevant behavioral task (Kim and Ko, 2013; Lapenta et al., 2013;
+Pirulli et al., 2013; Filmer et al., 2014). For example, one session
+of 13 min of active (anodal, 1.5 mA) tDCS to the left dorsolateral
+prefrontal cortex (DLPFC) increased frontal activity, which
+correlated to enhanced working memory performance during
+an n-back task in older adults (Cespón et al., 2017, 2019).
+There was not, however, a net working memory improvement
+in anodal tDCS compared to the sham condition.
+In the context of cognitive training with multiple sessions,
+researchers ﬁnd that training regimens combined with tDCS can
+boost training and transfer gains (Au et al., 2016; Ruf et al., 2017;
+Cespón et al., 2018) by achieving longer-lasting maintenance of
+improvements (Au et al., 2017), or by shortening the training
+duration, without sacriﬁcing training gains (Antonenko et al.,
+2018; Nissim et al., 2019). For example, older adults receiving 10
+sessions of active (anodal, 1.5 mA) tDCS to the DLPFC during
+cognitive training maintained performance improvements for
+up to a month, both in the training and a transfer task (Jones
+et al., 2015b). Similarly, only older adults receiving bilateral
+tDCS of the DLPFC for 10 sessions of cognitive training
+maintained their performance beneﬁts up to a month later in
+comparison to the sham group (Park et al., 2014).
+Importantly, and leading to the rationale for the present
+report, the outcomes of interventions using simultaneous
+working memory training and brain stimulation are not always
+successful (Berryhill and Jones, 2012; Perceval et al., 2016; Horne
+et al., 2021). TDCS applications require the choice of many
+parameters, including the position and size of the electrodes and
+the duration and intensity of the stimulation current. There is
+also variability in the working memory training task chosen,
+its duration, and in the scheduling of the training (Berryhill,
+2017; Hurley and Machado, 2018; Weller et al., 2020). Moreover,
+anatomical parameters (head anatomy, inter-, and intra-cranial
+volumes) that change with age determine the tDCS current
+distribution in the brain (Opitz et al., 2015; Antonenko et al.,
+2020). Finally, the initial level of performance also plays a
+role in the eﬀectiveness of brain stimulation. TDCS appears to
+selectively beneﬁt individuals with low baseline performance
+(Tseng et al., 2012; Hsu et al., 2014; Benwell et al., 2015; Wang
+et al., 2019), with initial capacity modulating the eﬀectiveness of
+tDCS just as it modulates that of cognitive training (Matysiak
+et al., 2019; Krebs et al., 2021).
+It has been suggested that tDCS eﬀects are state-dependent,
+i.e., they are inﬂuenced by brain state at the time of stimulation
+(Krause et al., 2013; Krause and Cohen Kadosh, 2014; Benwell
+et al., 2015). We previously found (Assecondi et al., 2021)
+that the outcome of combined cognitive training and tDCS
+is sensitive to individual diﬀerences in young adults. We
+considered two aspects of such diﬀerences: initial performance
+in working memory capacity and strategy use. In particular,
+baseline abilities and motivation (Jones et al., 2015a; Katz et al.,
+2017) can contribute to shaping the outcome of combined tDCS
+Frontiers in Aging Neuroscience
+02
+frontiersin.org
+
+Assecondi et al.
+10.3389/fnagi.2022.1009262
+and training protocols. To what extent these factors inﬂuence
+performance in older individuals remains unclear (but see Krebs
+et al., 2021 for a recent report) and forms the basis of the
+experimental question addressed in the present report.
+Thus, this project aimed to assess the eﬀectiveness of a
+working memory training regimen combined with tDCS in
+older adults. Thirty individuals were randomly assigned to one
+of two groups receiving either SHAM or ACTIVE stimulation,
+and all participants entered a 5-day training regimen using
+an adaptive n-back paradigm. In line with previous ﬁndings
+(Assecondi et al., 2021; Krebs et al., 2021), we hypothesized
+that individuals would respond diﬀerentially to the intervention
+depending on their initial individual cognitive characteristics.
+Speciﬁcally, we predicted that individuals with lower working
+memory capacity would beneﬁt more from the combined
+training regimen than those with high working memory
+capacity.
+Materials and methods
+Participants
+Two of the thirty older adults recruited withdrew because
+of health issues. All the remaining 28 participants (mean age
+67.9 ± 6.1 yr, range 56–76, 14 females) had normal or corrected-
+to-normal vision, a Montreal Cognitive Assessment (MOCA)
+score above 26 (Nasreddine et al., 2005), no previous brain
+injury, no history of epilepsy or depression, were not taking
+medications likely to alter cortical excitability, had not received
+brain stimulation or cognitive training in the previous 6 months,
+and fulﬁlled safety inclusion criteria for brain stimulation (Antal
+et al., 2017). The study was approved by the University of
+Birmingham’s Ethics Committee, and informed consent was
+obtained before taking part in the experiment. Individuals were
+compensated £100. Participants were randomly allocated to
+one of the two stimulation groups, receiving either ACTIVE
+or placebo (SHAM) stimulation. Because of the age spread of
+recruited individuals, a posteriori participants were further split
+into younger older adults (YO or young-old) and older older
+adults (OO or old-old), based on a median split of their age
+(median age was 69.5 yr). This resulted in two groups (ACTIVE;
+SHAM) for each AGE (YO; OO).
+Transcranial direct current stimulation
+2 mA tDCS was administered using an 8-channel device
+(Starstim, Neuroelectrics
+R⃝) for 20 min. Two circular electrodes
+(NG Pistim, Neuroelectrics, area = 3.14 cm2), ﬁlled with
+conductive gel (SignaGel, ParkerLabs), were placed over the
+dorsolateral prefrontal cortex (DLPFC, F4 on the 10–20 system,
+anodal electrode), and the contralateral supraorbital site (Fp1,
+cathodal electrode). Impedance always remained below 20
+kOhm. Both protocols (ACTIVE and SHAM) included 20 min
+of either 2 mA or 0 mA preceded and followed by 30 s ramping
+up and down (total stimulation time = 21 min). Simulations
+showing the distribution of the electric ﬁeld and current density
+obtained with this procedure are reported in Supplementary
+material. Participants were randomly assigned to either the
+ACTIVE or the SHAM tDCS condition with blinding eﬃcacy
+and side eﬀects recorded via questionnaire.
+Working memory training: Adaptive
+spatial n-Back
+Working memory was trained with N-IGMA (Ploughman
+et al., 2019), a proprietary naturalistic adaptive spatial n-Back
+(ANBACK) task designed to stimulate participants’ engagement
+(see Supplementary material for an example of the stimuli
+used). Participants were requested to track a series of locations
+and indicate whether the current location was a match or not of
+the location presented at “n” trials ago, following the method of
+Verhaeghen and Basak (2005). The inter-trial duration was 3 s,
+and participants responded by pressing the left (“match”) or the
+right (“no match”) arrow on the computer keyboard with their
+dominant hand. Each training session consisted of 20 blocks,
+and each participant started at “n” = 1 and moved to “n”+1
+every time their performance was at or above 90% accuracy.
+Motivation was encouraged by feedback after every response
+and a short text after every block. The average “n” during a
+session (¯n) was the dependent variable. The total duration of
+the training session was approximately 20 min, with variability
+from individual to individual due to the duration of self-paced
+breaks. The working memory training always started at the same
+time as the tDCS, with an average duration (across sessions and
+participants) of 21 min and 39 s (as such, the training could last
+a few seconds more than the stimulation).
+Outcome measures
+An individual’s working memory capacity score was
+calculated by averaging performance in ﬁve tasks, all relying
+on diﬀerent aspects of working memory. We used a Change
+Detection task (CD), a spatial (SNBACK) and a visual n-back
+(VNBACK), and the digit span backward (DSB) and forward
+(DSF). Details on how these tasks were implemented and an
+example of the stimuli are provided in Supplementary material.
+First, we derived a task-dependent performance measure
+for each task (d-prime for the CD, the visual VNBACK, the
+SNBACK, and the maximum span for the DSF and DSB)
+at baseline and post-test. We then standardized performance
+separately for each task, based on the entire sample at baseline
+and averaged them for each person, obtaining a composite
+Frontiers in Aging Neuroscience
+03
+frontiersin.org
+
+Assecondi et al.
+10.3389/fnagi.2022.1009262
+FIGURE 1
+Diagram of the procedure to calculate composite working memory capacity (WMC) scores. Dependent variables measuring working memory
+performance were extracted from each task, standardized, and averaged, obtaining a composite score for each participant. The obtained
+distribution of composite scores is shown for each age and stimulation group.
+TABLE 1 Description of the questionnaires administered to participants, and where they were ﬁlled in (at home or in the lab).
+Questionnaire
+Description
+Where
+Health history (custom made)
+A series of questions about past health history and
+current medications
+Home
+Hospital anxiety and depression scale (HADS; Zigmond and Snaith, 1983)
+A measure of depression and anxiety
+Home
+Quality of life assessment (World Health Organization [WHO], 1996)
+Individual’s perception of their quality of life
+Home
+Epworth sleepiness scale (Johns, 1991)
+Habitual sleepiness
+Home
+Familiarity with technology
+A series of questions to record subject’s familiarity
+with everyday technology
+Home
+Motivation and expectation
+Feelings and attitude toward the intervention
+Lab
+Side eﬀects of brain stimulation
+Perceived side eﬀects of tDCS
+Lab
+Strategy feedback
+Use of strategy during tasks
+Lab
+Blinding
+Perceived experimental group
+Lab
+working memory capacity score (WMC score)1; see Figure 1 for
+a description of the procedure. Finally, we calculated changes in
+composite WMC scores (WMCPOST-WMCPRE) after training.
+Questionnaires
+To control for individual diﬀerences in participants’
+lifestyles and attitudes that could inﬂuence the training
+outcome, we administered a series of questionnaires listed in
+Table 1. Before each training session, we asked participants
+about their attitude and expectation toward the intervention.
+After each training session, participants reported on side eﬀects
+of the stimulation, and, at the end of the last session, we asked
+them about the strategy used during training, if any, and to guess
+1
+DVz = (DV-µ)/σ, where DVz is the standardized dependent variable,
+DV is the original dependent variable, µ and σ are the mean and standard
+deviation of the DV over the entire sample at baseline (28 participants).
+if they were in the ACTIVE or SHAM group (to conﬁrm the
+eﬃcacy of the blinding procedure).
+Procedure
+A ﬂowchart of the procedure is shown in Figure 2. On
+the ﬁrst day (TIME 0—PRE) participants were invited to the
+lab and asked to sign a consent form. After being screened for
+tDCS safety (Antal et al., 2017), color blindness (Farnsworth,
+1943) and cognitive impairment (MOCA; Nasreddine et al.,
+2005), individuals were randomly assigned to stimulation
+groups. Then, participants received various questionnaires
+to complete at home (see Table 1) and were administered
+the computerized outcome tests to assess baseline cognitive
+performance. Finally, participants familiarized themselves with
+the stimulation procedure and asked questions. This ﬁrst session
+took approximately 2 h and was administered on a Friday.
+Frontiers in Aging Neuroscience
+04
+frontiersin.org
+
+Assecondi et al.
+10.3389/fnagi.2022.1009262
+FIGURE 2
+Flowchart of the procedure. CT, cognitive training.
+After the weekend following the initial session,2 participants
+returned to the lab to start the cognitive training phase.
+After having the tDCS cap ﬁtted, participants answered four
+questions about their mental status (level of alertness, sadness,
+motivation to train, and expectation on the intervention) on
+a continuous scale from 1 to 100, and then began 20 min
+of training (see section “Working memory training: Adaptive
+spatial n-back”) while receiving tDCS (ACTIVE or SHAM).
+At the end of the session, participants provided feedback
+on any perceived side eﬀects of the stimulation. The entire
+session lasted approximately 45 min and was repeated for ﬁve
+consecutive days.
+Participants returned to the lab for the outcome assessment
+(same tasks as at TIME 0) 48 h after the last training session
+(TIME 6—POST). At the end of the session, participants were
+debriefed on the experiment and were asked to guess their
+assigned stimulation group (ACTIVE or SHAM) to conﬁrm the
+eﬃcacy of the blinding procedure.
+Data analysis
+Data analysis was performed using JASP (JASP Team, 2020),
+and R (R Core Team, 2020).
+2
+One participant let 45 days pass between baseline testing and the ﬁrst
+training session because of unforeseen family circumstances conﬂicting
+with scheduling. The participant was included in the analysis because we
+did not expect a signiﬁcant change in their cognitive function over 45
+days. As an additional check, repeating the analysis of the training data
+without that participant did not change the signiﬁcance of the results.
+We used parametric t-tests to compare groups at baseline
+with Hedges eﬀect sizes (Hg) to account for small sample sizes
+(Hedges, 1981).
+To
+evaluate
+training
+gains,
+we
+performed
+a
+3-way
+mixed
+analysis
+of
+co-variance
+(between
+subject
+factors:
+STIMULATION (ACTIVE, SHAM) and AGE (YO, OO);
+within-subject factor: SESSION (TIME1, TIME2, TIME3,
+TIME4, TIME5); covariate: WMC score at baseline), on the
+dependent training variable [the average “n” level reached
+during a session (¯n)]. Signiﬁcant interactions were followed up
+with a simple eﬀects analysis within each age range.
+To evaluate outcome performance, we used a 3-way mixed
+analysis of variance [between subject factors: STIMULATION
+(ACTIVE, SHAM) and AGE (YO, OO); within-subject factor:
+SESSION (TIME0, TIME6)] to analyze the eﬀect of the
+interaction between age, training, and stimulation on the
+composite outcome measure (WMC score). Eﬀect sizes were
+quantiﬁed with partial eta square (η2
+p). We used Spearman’s ρ
+to quantify correlations. To test for non-random associations
+between categorical variables Fisher’s exact test was used, which
+is suitable for small sample sizes.
+Results
+Baseline differences and blinding
+Tabulated statistics and descriptive data are presented in
+Supplementary material. Participants in the ACTIVE and
+SHAM groups showed no signiﬁcant diﬀerences in age, years
+of education, MoCA scores, sleepiness, overall quality of life,
+depression, and familiarity with technology, either within AGE
+level or overall (all ps > 0.05). Fisher’s exact test showed
+no signiﬁcant association between the assigned condition
+and the self-reported perceived stimulation, indicating that
+subjects were blind to the stimulation group (p = 0.673)
+(see Supplementary material for reported side eﬀects). We
+also found no systematic diﬀerences in baseline WMC scores
+between ACTIVE and SHAM groups, within each AGE level.
+Thus, there were no signiﬁcant diﬀerences between groups at
+baseline to bias the analysis. However, overall the YO and OO
+group diﬀered in their WMC scores with OO having lower
+scores than YO [OO: −0.240 ± 0.652, YO: 0.207 ± 0.467; t
+(26) = 2.108, p = 0.045, Hg = 0.775]. Statistics and descriptive
+data for the two age groups are reported in Table 2.
+Training gains
+Following previous ﬁndings in young (Assecondi et al.,
+2021) and older adults (Krebs et al., 2021), we hypothesized that
+individuals entering the training regimen with lower working
+memory capacity would beneﬁt more from the intervention.
+Frontiers in Aging Neuroscience
+05
+frontiersin.org
+
+Assecondi et al.
+10.3389/fnagi.2022.1009262
+TABLE 2 Demographic and baseline characteristics of the sample divided by AGE, for each STIMULATION group.
+YO
+ACTIVE
+SHAM
+t(13)
+P
+Hedges’ g
+N
+7
+8
+–
+–
+–
+Age (years)
+62.71 ± 4.85
+64.25 ± 4.59
+0.629
+0.540
+0.307
+Gender (F/M)†
+4/3
+6 / 2
+–
+–
+–
+Years of education
+18.14 ± 7.69
+15.00 ± 2.77
+1.083
+0.299
+0.527
+Handedness (L/R)††
+2/5
+3/5
+–
+–
+–
+WMC score
+0.12 ± 0.46
+0.28 ± 0.49
+0.641
+0.533
+0.312
+†Fisher’s exact test p = 0.608.
+††Fisher’s exact test p = 1.000.
+OO
+ACTIVE
+SHAM
+t(11)
+P
+Hedges’ g
+N
+7
+6
+–
+–
+–
+Age (years)
+72.29 ± 2.63
+73.83 ± 2.32
+1.117
+0.288
+0.578
+Gender (F/M)†
+3/4
+1/5
+–
+–
+–
+Years of education
+17.14 ± 4.56
+16.00 ± 6.90
+0.358
+0.727
+0.185
+Handedness (L/R)††
+0/7
+1 / 5
+–
+–
+–
+WMC score
+−0.27 ± 0.62
+−0.20 ± 0.66
+0.188
+0.854
+0.097
+†Fisher’s exact test p = 0.559.
+††Fisher’s exact test p = 0.462.
+For each subsample and variable, we report the count N and the average score, together with its standard deviation, Welch’s t statistics, corresponding p-value and eﬀect size (Hedges’ g)
+from an independent t-test between ACTIVE and SHAM.
+Performance across groups is depicted in Figure 3. The
+eﬀect of the baseline WMC scores covariate was signiﬁcant
+[F(1, 23) = 10.736, p = 0.003, η2
+p = 0.318], with higher scores
+corresponding to enhanced training performance. There was
+also a signiﬁcant main eﬀect of SESSION [F(4, 92) = 11.276,
+p < 0.001, η2
+p = 0.329] and a signiﬁcant STIMULATION ×
+AGE interaction [F(1, 23) = 10.846, p = 0.003, η2
+p = 0.320], after
+controlling for initial working memory. Simple eﬀects analyses
+revealed that ACTIVE stimulation was more eﬀective than
+SHAM at increasing performance (p = 0.027) in the OO group,
+while the opposite was found in the YO, with a larger increase
+in performance found in the SHAM condition compared to
+ACTIVE (p = 0.016).
+To summarize, our ﬁnding supports the hypothesis that the
+beneﬁt of combined training regimens is inversely proportional
+to initial working memory capacity. Importantly, old-old
+individuals with lower capacity (OO) beneﬁt the most in
+training gains from the combination of training and brain
+stimulation relative to cognitive training alone, with this
+advantage evident from DAY1.
+Outcome tasks
+To assess the overall impact of combined tDCS and
+working memory training on working memory, we assessed
+changes in WMC score after ﬁve consecutive days of
+training (POST). Analysis of individual tasks is reported in
+Supplementary material.
+The analysis of the change in WMC score revealed a
+signiﬁcant main eﬀect of SESSION [F(1, 24) = 45.502, p < 0.001,
+η2
+p = 0.655] and of AGE [F(1,
+24) = 4.665, p = 0.041,
+η2
+p = 0.163]. Follow-up analysis showed that WMC scores were
+signiﬁcantly higher at post than at pretest, and YO scores
+were signiﬁcantly higher than OO scores, regardless of the
+stimulation. To summarize, overall working memory evaluated
+2 days after the end of 5 days of practice, increased in both
+age groups, with overall higher scores in young-old, but this
+increase was not modulated by stimulation. This result could be
+ascribed to an overall beneﬁt of the training or due to practice
+eﬀects or both.
+Strategy use
+In a previous study with young adults, we found that
+strategy plays an important role in combined working memory
+training and stimulation regimens (Assecondi, 2021). Therefore,
+we collected self-reports of strategy use at the end of training
+by asking participants two questions, with answers ranging on
+a scale from 1 to 10: (1) if they used a strategy; and, if so,
+(2) how eﬃcient they felt the strategy was in improving their
+performance.
+Overall, we found no signiﬁcant association between
+STIMULATION groups and frequency of strategy use, meaning
+that individuals in the ACTIVE and SHAM groups were
+equally likely to develop a strategy. We found a diﬀerence
+between the perceived eﬃcacy of the strategy between the
+ACTIVE and SHAM group, however, (tWelch = 2.239, p = 0.037,
+Hg = 0.889), with the SHAM group perceiving the strategy to
+be more eﬃcient (ACTIVE: 7.12 ± 0.41; SHAM: 8.22 ± 0.28).
+However, the rating of the strategy’s eﬀectiveness did not
+Frontiers in Aging Neuroscience
+06
+frontiersin.org
+
+Assecondi et al.
+10.3389/fnagi.2022.1009262
+FIGURE 3
+Training performance (¯n) for each training day, for the SHAM and ACTIVE groups, within each AGE level. Error bars represent the standard error
+of the mean.
+correlate with training gains (Spearman’s ρ = −0.053, p = 0.819,
+N = 20).
+When looking at the frequency of strategy use separately
+for YO and OO individuals (see Supplementary material for
+details), however, we found a signiﬁcant association between
+STIMULATION and strategy use for OO individuals only
+(Fisher’s exact p = 0.005), meaning that OO individuals receiving
+active stimulation were more likely to use a strategy than those
+not receiving active stimulation.
+Discussion
+The purpose of the present study was to investigate the
+eﬀectiveness of improving working memory in older individuals
+by combining working memory training and transcranial
+direct current stimulation. We employed a 5-day training
+regimen, where participants completed 20 min of combined
+working memory training and tDCS (SHAM or ACTIVE)
+on ﬁve consecutive weekdays. Two days after the end of
+the intervention, we evaluated training eﬀects on an overall
+composite WMC score. We found that, whereas all individuals
+improved their performance during training, tDCS concurrent
+with working memory training selectively beneﬁtted old-old
+individuals with lower working memory capacity. We also found
+that performance during training was signiﬁcantly better when
+there was no stimulation in young-old adults, who showed
+higher working memory scores.
+Non-invasive
+brain
+stimulation,
+in
+our
+case
+tDCS,
+is emerging as a “state-dependent” intervention, with its
+eﬀectiveness modulated by the pre-existing individual’s cortical
+excitation (Krause et al., 2013; Hsu et al., 2014; Krause and
+Cohen Kadosh, 2014; Esposito et al., 2021, 2022). The relation
+between excitation and performance has been proposed as a
+left-skewed inverted U-shaped curve, with a maximum point
+corresponding to optimal performance. Cognitive functioning
+within the curve is optimal when there is a balance between
+inhibition and excitation to allow suﬃcient ﬂexibility for
+acquiring new skills (plasticity) but equally suﬃcient stability to
+resist noise (e.g., distractions) and to maintain new information
+(Krause et al., 2013; Krause and Cohen Kadosh, 2014).
+Aging is associated with a weaker cortical excitability
+(Rossini et al., 1992; Pitcher et al., 2003; Oliviero et al., 2006;
+Ferreri et al., 2017). Importantly, however, engaging in a task
+increases cortical excitability. It is illustrative to compare a
+young individual with an older individual. The former will
+have higher WMC scores, stronger cortical excitability, and
+resources to engage with the task; the latter will likely have lower
+WMC scores, weaker cortical excitability, hence less cortical
+activation, and fewer resources available for the task. The
+younger individual is likely closer to its optimal performance
+point (maximum on the u-shaped curve). When receiving tDCS,
+Frontiers in Aging Neuroscience
+07
+frontiersin.org
+
+Assecondi et al.
+10.3389/fnagi.2022.1009262
+their cortical excitability will increase, potentially pushing this
+individual over their optimal performance point, resulting in
+worse performance. On the other hand, the older adult is likely
+further away from their optimal performance point; therefore,
+receiving tDCS will only push them closer to their maximum
+of the u-shaped curve, resulting in better performance. This
+model agrees with the inverted eﬀect of tDCS we found in
+young-old and old-old adults. Our ﬁndings also agree with both
+the cognitive training and the tDCS literature, showing that
+training-related changes in performance correlate with initial
+WMC scores. Whereas cognitive training alone seems more
+eﬀective in young-old adults (Berryhill and Jones, 2012; Foster
+et al., 2017), the beneﬁts of tDCS, when added to cognitive
+training, seem to be speciﬁc to old-old adults (Tseng et al., 2012;
+Gözenman and Berryhill, 2016; Assecondi et al., 2021; Krebs
+et al., 2021). Identifying the neural mechanism that explains this
+selective tDCS beneﬁt warrants further research (Tseng et al.,
+2012).
+A working memory training regimen of 5 days is relatively
+short with respect to typical cognitive training studies. Despite
+this short training period, we also assessed overall working
+memory improvements, as measured via a composite working
+memory score. This composite WMC score includes tasks
+that share information processing components and engage
+similar neural circuitry (Dahlin et al., 2008). Research has
+shown that change in performance after training can be due
+to either a change in capacity or a change in eﬃciency,
+depending on available capacity (von Bastian and Oberauer,
+2014). Whereas working memory scores improved overall, we
+found no signiﬁcant diﬀerences in composite score due to
+stimulation. It is worth noting that the WMC score is calculated
+from diﬀerent types of tasks, which could be considered to range
+from near- to far- transfer tasks. Lack of transfer eﬀects has been
+reported before (Waris et al., 2015; Soveri et al., 2017a,b) and,
+in our study, possibly exacerbated by the short duration of the
+training program.
+We
+found
+that
+old-old
+individuals
+receiving
+active
+stimulation were more likely to use a strategy than those not
+receiving active stimulation. We can hypothesize that tDCS
+to the frontal area may facilitate executive functions, and
+therefore, promote strategy use. We acknowledge though that
+this statement is highly speculative, particularly considering
+our sample size, and further research is needed to test
+this hypothesis.
+Regarding limitations, we acknowledge that our sample size
+was small (Button et al., 2013), however, we took several steps
+to support our ﬁndings, including implementing a model that
+accounts for subject variability (in age and initial WMC score).
+We did not evaluate cognitive function after a period of no
+contact; we, therefore, cannot say if there was a modulatory
+eﬀect in maintaining the training gain for a more extended
+period. Although it will be useful to replicate our results in a
+larger sample size, we note that we did replicate results found
+in a young adult population and that our ﬁndings are consistent
+with the literature (Assecondi, 2021; Krebs et al., 2021).
+To conclude, we found that tDCS during working memory
+training selectively beneﬁts old-old adults with lower initial
+working memory capacity; importantly, we also show that the
+beneﬁt of training in older adults is predicted by baseline
+working memory capacity (Au et al., 2022). The combined
+intervention appears to be a viable method to improve working
+memory in young and older adults, the latter being crucial given
+the large cohort of older adults experiencing both normal and
+abnormal (e.g., dementia) cognitive decline.
+Further investigation of transfer beneﬁts is needed in
+longer-term training studies along with an investigation of the
+role of strategy development. Finally, it will be essential to
+investigate the neurophysiological correlates of training-related
+changes, e.g., using EEG, to understand if these are caused by
+an improvement in a speciﬁc working memory component,
+such as in capacity or general strategy use. Our research
+adds to the body of literature that stresses the importance
+of interindividual diﬀerences to explain the variability in the
+outcome of tDCS studies. Importantly, it shows how this
+variability can be exploited to maximize the outcome of
+cognitive training interventions. A better understanding of the
+mechanism underlying successful training and transfer will
+likely beneﬁt the design of subject-speciﬁc training and training
+regimens in general.
+Data availability statement
+The raw data supporting the conclusions of this article will
+be made available by the authors, without undue reservation.
+Ethics statement
+The studies involving human participants were reviewed
+and approved by Ethics Committee of the University of
+Birmingham. The patients/participants provided their written
+informed consent to participate in this study.
+Author contributions
+SA:
+conceptualization,
+methodology,
+validation,
+data
+collection
+and
+curation,
+formal
+analysis,
+investigation,
+writing—original
+draft
+and
+review
+and
+editing,
+and
+funding
+acquisition.
+RH:
+data
+collection
+and
+writing—review
+and
+editing.
+JK:
+methodology
+and
+data
+collection
+and
+analyses.
+GE:
+conceptualization,
+methodology, resources, writing—review and editing, and
+Frontiers in Aging Neuroscience
+08
+frontiersin.org
+
+Assecondi et al.
+10.3389/fnagi.2022.1009262
+funding
+acquisition.
+KS:
+conceptualization,
+methodology,
+resources,
+supervision,
+writing—review
+and
+editing,
+and
+funding acquisition. All authors contributed to the article and
+approved the submitted version.
+Funding
+This project was supported by an MRC Proximity to
+Discovery grant awarded to SA and KS and a Vice-President
+Research and Innovation International Seed Fund (VPRIIS
+Fund) 2019–2020/Dept. Psychiatry: Multi-modal approaches to
+cognitive enhancement in aging and brain disease” awarded
+to GE. SA was supported by Fondazione Cassa di Risparmio
+Trento e Rovereto (CARITRO). RH’s tenure at the University
+of Birmingham was supported by a Guangzhou Planned Project
+of Science and Technology grant (grant no. 2016201604030018)
+awarded to KS, a project of Guangzhou General Science and
+Technology Project of Health and Family Planning (grant no.
+20191A011004) awarded to RH and a project of Innovative
+Clinical Technology of Guangzhou (grant no. 2019GX06).
+Publication fees were covered by the Library Services Open
+Access budgets of the University of Birmingham.
+Acknowledgments
+We thank the 1,000 Elderly cohort and all the elderly
+volunteers who were interested in our study.
+Conﬂict of interest
+A patent application has been submitted by the University
+of Birmingham and Dalhousie University with SA, KS, and GE
+named as inventors.
+The remaining authors declare that the research was
+conducted in the absence of any commercial or ﬁnancial
+relationships
+that
+could
+be
+construed
+as
+a
+potential
+conﬂict of interest.
+Publisher’s note
+All claims expressed in this article are solely those of the
+authors and do not necessarily represent those of their aﬃliated
+organizations, or those of the publisher, the editors and the
+reviewers. Any product that may be evaluated in this article, or
+claim that may be made by its manufacturer, is not guaranteed
+or endorsed by the publisher.
+Supplementary material
+The Supplementary Material for this article can be
+found online at: https://www.frontiersin.org/articles/10.3389/
+fnagi.2022.1009262/full#supplementary-material
+References
+Antal, A., Alekseichuk, I., Bikson, M., Brockmöller, J., Brunoni, A. R., Chen,
+R., et al. (2017). Low intensity transcranial electric stimulation: Safety, ethical,
+legal regulatory and application guidelines. Clin. Neurophysiol. 128, 1774–1809.
+doi: 10.1016/j.clinph.2017.06.001
+Antonenko, D., Grittner, U., Saturnino, G., Nierhaus, T., Thielscher, A., and
+Flöel, A. (2020). Inter-individual and age-dependent variability in simulated
+electric ﬁelds induced by conventional transcranial electrical stimulation.
+NeuroImage 224:117413. doi: 10.1016/j.neuroimage.2020.117413
+Antonenko, D., Külzow, N., Sousa, A., Prehn, K., Grittner, U., and Flöel,
+A. (2018). Neuronal and behavioral eﬀects of multi-day brain stimulation and
+memory training. Neurobiol. Aging 61, 245–254. doi: 10.1016/j.neurobiolaging.
+2017.09.017
+Assecondi, S. (2021). Impact of tDCS on working memory training is enhanced
+by strategy instructions in individuals with low working memory capacity. Sci. Rep.
+11:5531. doi: 10.1038/s41598-021-84298-3
+Assecondi, S., Hu, R., Eskes, G., Pan, X., Zhou, J., and Shapiro, K. (2021). Impact
+of tDCS on working memory training is enhanced by strategy instructions in
+individuals with low working memory capacity. Sci. Rep. 11:5531.
+Au, J., Karsten, C., Buschkuehl, M., and Jaeggi, S. M. (2017). Optimizing
+transcranial direct current stimulation protocols to promote long-term learning.
+J. Cogn. Enhanc. 1, 65–72. doi: 10.1007/s41465-017-0007-6
+Au, J., Katz, B., Buschkuehl, M., Bunarjo, K., Senger, T., Zabel, C., et al. (2016).
+Enhancing working memory training with transcranial direct current stimulation.
+J. Cogn. Neurosci. 28, 1–14. doi: 10.1162/jocn_a_00979
+Au, J., Smith-Peirce, R. N., Carbone, E., Moon, A., Evans, M., Jonides, J., et al.
+(2022). Eﬀects of multisession prefrontal transcranial direct current stimulation
+on long-term memory and working memory in older adults. J. Cogn. Neurosci. 34,
+1015–1037. doi: 10.1162/jocn_a_01839
+Barrett, L. F., Tugade, M. M., and Engle, R. W. (2004). Individual diﬀerences
+in working memory capacity and dual-process theories of the mind. Psychol. Bull.
+130:553. doi: 10.1037/0033-2909.130.4.553
+Benwell, C. S. Y., Learmonth, G., Miniussi, C., Harvey, M., and Thut, G.
+(2015). Non-linear eﬀects of transcranial direct current stimulation as a function
+of individual baseline performance: Evidence from biparietal tDCS inﬂuence on
+lateralized attention bias. Cortex 69, 152–165. doi: 10.1016/j.cortex.2015.05.007
+Berryhill, M. E. (2017). Longitudinal tDCS: Consistency across working
+memory training studies. AIMS Neurosci. 4:71. doi: 10.3934/Neuroscience.2017.
+2.71
+Berryhill, M. E., and Jones, K. T. (2012). tDCS selectively improves working
+memory in older adults with more education. Neurosci. Lett. 521, 148–151. doi:
+10.1016/j.neulet.2012.05.074
+Bikson, M., and Rahman, A. (2013). Origins of speciﬁcity during tDCS:
+Anatomical, activity-selective, and input-bias mechanisms. Front. Hum. Neurosci.
+7:688. doi: 10.3389/fnhum.2013.00688
+Button, K. S., Ioannidis, J. P. A., Mokrysz, C., Nosek, B. A., Flint, J., Robinson,
+E. S. J., et al. (2013). Power failure: Why small sample size undermines the
+reliability of neuroscience. Nat. Rev. Neurosci. 14, 365–376. doi: 10.1038/nrn
+3475
+Frontiers in Aging Neuroscience
+09
+frontiersin.org
+
+Assecondi et al.
+10.3389/fnagi.2022.1009262
+Cespón, J., Miniussi, C., and Pellicciari, M. C. (2018). Interventional
+programmes to improve cognition during healthy and pathological ageing:
+Cortical modulations and evidence for brain plasticity. Ageing Res. Rev. 43, 81–98.
+doi: 10.1016/j.arr.2018.03.001
+Cespón, J., Rodella, C., Miniussi, C., and Pellicciari, M. C. (2019). Behavioural
+and electrophysiological modulations induced by transcranial direct current
+stimulation in healthy elderly and Alzheimer’s disease patients: A pilot study. Clin.
+Neurophysiol. 130, 2038–2052. doi: 10.1016/j.clinph.2019.08.016
+Cespón, J., Rodella, C., Rossini, P. M., Miniussi, C., and Pellicciari, M. C. (2017).
+Anodal transcranial direct current stimulation promotes frontal compensatory
+mechanisms in healthy elderly subjects. Front. Aging Neurosci. 9:420. doi: 10.3389/
+fnagi.2017.00420
+Cohen, R. A., Marsiske, M. M., and Smith, G. E. (2019). Neuropsychology
+of aging. Handb. Clin. Neurol. 167, 149–180. doi: 10.1016/b978-0-12-804766-8.
+00010-8
+Dahlin, E., Neely, A. S., Larsson, A., Bäckman, L., and Nyberg, L. (2008).
+Transfer of learning after updating training mediated by the striatum. Science 320,
+1510–1512. doi: 10.1126/science.1155466
+Engle, R. W., and Kane, M. J. (2003). Executive attention, working memory
+capacity, and a two-factor theory of cognitive control. Psychol. Learn. Motiv. 44,
+145–199. doi: 10.1016/S0079-7421(03)44005-X
+Esposito, M., Ferrari, C., Fracassi, C., Miniussi, C., and Brignani, D. (2022).
+Responsiveness to left-prefrontal tDCS varies according to arousal levels. Eur. J.
+Neurosci. 55, 762–777. doi: 10.1111/ejn.15584
+Esposito, M., Mauri, P., Panizza, L., Mazza, V., Miniussi, C., and Brignani, D.
+(2021). Baseline levels of alertness inﬂuence tES eﬀects along diﬀerent age-related
+directions. Neuropsychologia 160:107966. doi: 10.1016/j.neuropsychologia.2021.
+107966
+Farnsworth, D. (1943). The Farnsworth-Munsell 100-hue and dichotomous
+tests for color vision∗. J. Opt. Soc. Am. 33, 568–578. doi: 10.1364/JOSA.33.00
+0568
+Ferreri, F., Guerra, A., Vollero, L., Ponzo, D., Maatta, S., Mervaala, E., et al.
+(2017). Age-related changes of cortical excitability and connectivity in healthy
+humans: Non-invasive evaluation of sensorimotor network by means of TMS-
+EEG. Neuroscience 357, 255–263. doi: 10.1016/j.neuroscience.2017.06.014
+Filmer, H. L., Dux, P. E., and Mattingley, J. B. (2014). Applications of
+transcranial direct current stimulation for understanding brain function. Trends
+Neurosci. 37, 742–753. doi: 10.1016/j.tins.2014.08.003
+Flegal, K. E., Ragland, J. D., and Ranganath, C. (2019). Adaptive task diﬃculty
+inﬂuences neural plasticity and transfer of training. NeuroImage 188, 111–121.
+doi: 10.1016/j.neuroimage.2018.12.003
+Foster, J. L., Harrison, T. L., Hicks, K. L., Draheim, C., Redick, T. S., and Engle,
+R. W. (2017). Do the eﬀects of working memory training depend on baseline ability
+level? J. Exp. Psychol. Learn. Mem. Cogn. 43, 1677–1689. doi: 10.1037/xlm0000426
+Gözenman, F., and Berryhill, M. E. (2016). Working memory capacity
+diﬀerentially inﬂuences responses to tDCS and HD-tDCS in a retro-cue task.
+Neurosci. Lett. 629, 105–109. doi: 10.1016/j.neulet.2016.06.056
+Grady, C. (2012). The cognitive neuroscience of ageing. Nat. Rev. Neurosci. 13,
+491–505. doi: 10.1038/nrn3256
+Green, S. C., Bavelier, D., Kramer, A. F., Vinogradov, S., Ansorge, U., Ball, K. K.,
+et al. (2019). Improving methodological standards in behavioral interventions for
+cognitive enhancement. J. Cogn. Enhanc. 3, 2–29. doi: 10.1007/s41465-018-0115-y
+Harvey, P. D., McGurk, S. R., Mahncke, H., and Wykes, T. (2018). Controversies
+in computerized cognitive training. Biol. Psychiatry Cogn. Neurosci. Neuroimaging
+3, 907–915. doi: 10.1016/j.bpsc.2018.06.008
+Hedges, L. V. (1981). Distribution theory for Glass’s estimator of eﬀect size and
+related estimators. J. Educ. Stat. 6, 107–128. doi: 10.2307/1164588
+Hill, R. D., Backman, L., and Stigsdotter-Neely, A. (2000). Cognitive
+Rehabilitation in Old Age. Oxford: Oxford University Press.
+Horne, K. S., Filmer, H. L., Nott, Z. E., Hawi, Z., Pugsley, K., Mattingley, J. B.,
+et al. (2021). Evidence against beneﬁts from cognitive training and transcranial
+direct current stimulation in healthy older adults. Nat. Hum. Behav. 5, 146–158.
+doi: 10.1038/s41562-020-00979-5
+Hsu, T.-Y., Tseng, P., Liang, W.-K., Cheng, S.-K., and Juan, C.-H. (2014).
+Transcranial direct current stimulation over right posterior parietal cortex changes
+prestimulus alpha oscillation in visual short-term memory task. NeuroImage 98,
+306–313. doi: 10.1016/j.neuroimage.2014.04.069
+Hurley, R., and Machado, L. (2018). Using transcranial direct current
+stimulation to improve verbal working memory: A detailed review of the
+methodology. J. Clin. Exp. Neuropsychol. 40, 790–804. doi: 10.1080/13803395.
+2018.1434133
+JASP Team (2020). JASP (Version 0.14.1)[Computer software]. New York, NY:
+JASP team.
+Johns, M. W. (1991). A new method for measuring daytime sleepiness: The
+epworth sleepiness scale. Sleep 14, 540–545. doi: 10.1093/sleep/14.6.540
+Jones, K. T., Gözenman, F., and Berryhill, M. E. (2015a). The strategy and
+motivational inﬂuences on the beneﬁcial eﬀect of neurostimulation: A tDCS and
+fNIRS study. NeuroImage 105, 238–247. doi: 10.1016/j.neuroimage.2014.11.012
+Jones, K. T., Stephens, J. A., Alam, M., Bikson, M., and Berryhill, M. E. (2015b).
+Longitudinal neurostimulation in older adults improves working memory. PLoS
+One 10:e0121904. doi: 10.1371/journal.pone.0121904
+Jones, S., Nyberg, L., Sandblom, J., Stigsdotter Neely, A., Ingvar, M., Magnus
+Petersson, K., et al. (2006). Cognitive and neural plasticity in aging: General
+and task-speciﬁc limitations. Neurosci. Biobehav. Rev. 30, 864–871. doi: 10.1016/j.
+neubiorev.2006.06.012
+Katz, B., Au, J., Buschkuehl, M., Abagis, T., Zabel, C., Jaeggi, S. M., et al. (2017).
+Individual diﬀerences and long-term consequences of tDCS-augmented cognitive
+training. J. Cogn. Neurosci. 29, 1498–1508. doi: 10.1162/jocn_a_01115
+Kim, G.-W., and Ko, M.-H. (2013). Facilitation of corticospinal tract excitability
+by transcranial direct current stimulation combined with voluntary grip exercise.
+Neurosci. Lett. 548, 181–184. doi: 10.1016/j.neulet.2013.05.037
+Kirchner, W. K. (1958). Age diﬀerences in short-term retention of rapidly
+changing information. J. Exp. Psychol. 55, 352–358. doi: 10.1037/h0043688
+Krause, B., and Cohen Kadosh, R. (2014). Not all brains are created equal:
+The relevance of individual diﬀerences in responsiveness to transcranial electrical
+stimulation. Front. Syst. Neurosci. 8:25. doi: 10.3389/fnsys.2014.00025
+Krause, B., Márquez-Ruiz, J., and Cohen Kadosh, R. (2013). The eﬀect of
+transcranial direct current stimulation: A role for cortical excitation/inhibition
+balance? Front. Hum. Neurosci. 7:602. doi: 10.3389/fnhum.2013.00602
+Krebs, C., Peter, J., Wyss, P., Brem, A.-K., and Klöppel, S. (2021). Transcranial
+electrical stimulation improves cognitive training eﬀects in healthy elderly adults
+with low cognitive performance. Clin. Neurophysiol. 132, 1254–1263. doi: 10.1016/
+j.clinph.2021.01.034
+Kronberg, G., Rahman, A., Sharma, M., Bikson, M., and Parra, L. C. (2020).
+Direct current stimulation boosts hebbian plasticity in vitro. Brain Stimul. 13,
+287–301. doi: 10.1016/j.brs.2019.10.014
+Lapenta, O. M., Minati, L., Fregni, F., and Boggio, P. S. (2013). Je pense
+donc je fais: Transcranial direct current stimulation modulates brain oscillations
+associated with motor imagery and movement observation. Front. Hum. Neurosci.
+7:256. doi: 10.3389/fnhum.2013.00256
+Matysiak, O., Kroemeke, A., and Brzezicka, A. (2019). Working memory
+capacity as a predictor of cognitive training eﬃcacy in the elderly population.
+Front. Aging Neurosci. 11:126. doi: 10.3389/fnagi.2019.00126
+Mohammed, S., Flores, L., Deveau, J., Hoﬃng, R. C., Phung, C., Parlett, C. M.,
+et al. (2017). The beneﬁts and challenges of implementing motivational features
+to boost cognitive training outcome. J. Cogn. Enhanc. Integr. Theory Pract. 1,
+491–507. doi: 10.1007/s41465-017-0047-y
+Morais, R. M., Pera, M. V., Ladera, V., Oliveira, J., and García, R. (2018).
+Individual diﬀerences in working memory abilities in healthy adults. J. Adult Dev.
+25, 222–228. doi: 10.1007/s10804-018-9287-z
+Nasreddine, Z., Phillips, N., Bédirian, V., Charbonneau, S., Whitehead, V.,
+Collin, I., et al. (2005). The montreal cognitive assessment, MoCA: A brief
+screening tool for mild cognitive impairment. J. Am. Geriatr. Soc. 53, 695–699.
+doi: 10.1111/j.1532-5415.2005.53221.x
+Nguyen, L., Murphy, K., and Andrews, G. (2019). Cognitive and neural plasticity
+in old age: A systematic review of evidence from executive functions cognitive
+training. Ageing Res. Rev. 53:100912. doi: 10.1016/j.arr.2019.100912
+Nissim, N. R., O’Shea, A., Indahlastari, A., Kraft, J. N., von Mering, O., Aksu, S.,
+et al. (2019). Eﬀects of transcranial direct current stimulation paired with cognitive
+training on functional connectivity of the working memory network in older
+adults. Front. Aging Neurosci. 11:340. doi: 10.3389/fnagi.2019.00340
+Nitsche, M. A., Cohen, L. G., Wassermann, E. M., Priori, A., Lang, N., Antal, A.,
+et al. (2008). Transcranial direct current stimulation: State of the art 2008. Brain
+Stimul. 1, 206–223. doi: 10.1016/j.brs.2008.06.004
+Oliviero, A., Proﬁce, P., Tonali, P. A., Pilato, F., Saturno, E., Dileone, M., et al.
+(2006). Eﬀects of aging on motor cortex excitability. Neurosci. Res. 55, 74–77.
+doi: 10.1016/j.neures.2006.02.002
+Opitz, A., Paulus, W., Will, S., Antunes, A., and Thielscher, A. (2015).
+Determinants of the electric ﬁeld during transcranial direct current stimulation.
+NeuroImage 109, 140–150. doi: 10.1016/j.neuroimage.2015.01.033
+Park, S.-H., Seo, J.-H., Kim, Y.-H., and Ko, M.-H. (2014). Long-term eﬀects
+of transcranial direct current stimulation combined with computer-assisted
+Frontiers in Aging Neuroscience
+10
+frontiersin.org
+
+Assecondi et al.
+10.3389/fnagi.2022.1009262
+cognitive training in healthy older adults. Neuroreport 25:122. doi: 10.1097/WNR.
+0000000000000080
+Pauwels, L., Chalavi, S., and Swinnen, S. P. (2018b). Aging and brain plasticity.
+Aging 10, 1789–1790. doi: 10.18632/aging.101514
+Pauwels, L., Chalavi, S., Gooijers, J., Maes, C., Albouy, G., Sunaert, S., et al.
+(2018a). Challenge to promote change: The neural basis of the contextual
+interference eﬀect in young and older adults. J. Neurosci. 38, 3333–3345. doi:
+10.1523/JNEUROSCI.2640-17.2018
+Pearson-Fuhrhop, K. M., Kleim, J. A., and Cramer, S. C. (2009). Brain plasticity
+and genetic factors. Top. Stroke Rehabil. 16, 282–299. doi: 10.1310/tsr1604-282
+Perceval, G., Flöel, A., and Meinzer, M. (2016). Can transcranial direct current
+stimulation counteract age-associated functional impairment? Neurosci. Biobehav.
+Rev. 65, 157–172. doi: 10.1016/j.neubiorev.2016.03.028
+Pirulli, C., Fertonani, A., and Miniussi, C. (2013). The role of timing in the
+induction of neuromodulation in perceptual learning by transcranial electric
+stimulation. Brain Stimul. 6, 683–689. doi: 10.1016/j.brs.2012.12.005
+Pitcher, J. B., Ogston, K. M., and Miles, T. S. (2003). Age and sex diﬀerences
+in human motor cortex input–output characteristics. J. Physiol. 546, 605–613.
+doi: 10.1113/jphysiol.2002.029454
+Ploughman, M., Eskes, G. A., Kelly, L. P., Kirkland, M. C., Devasahayam, A. J.,
+Wallack, E. M., et al. (2019). Synergistic beneﬁts of combined aerobic and cognitive
+training on ﬂuid intelligence and the role of IGF-1 in chronic stroke. Neurorehabil.
+Neural Repair 33, 199–212. doi: 10.1177/1545968319832605
+R Core Team. (2020). R: A Language and Environment for Statistical Computing.
+Vienna: R Foundation for Statistical Computing.
+Reato, D., Bikson, M., and Parra, L. C. (2015). Lasting modulation of in vitro
+oscillatory activity with weak direct current stimulation. J. Neurophysiol. 113,
+1334–1341. doi: 10.1152/jn.00208.2014
+Reato, D., Rahman, A., Bikson, M., and Parra, L. C. (2010). Low-intensity
+electrical stimulation aﬀects network dynamics by modulating population rate
+and spike timing. J. Neurosci. 30, 15067–15079. doi: 10.1523/JNEUROSCI.2059-
+10.2010
+Rossini, P. M., Desiato, M. T., and Caramia, M. D. (1992). Age-related changes
+of motor evoked potentials in healthy humans: Non-invasive evaluation of central
+and peripheral motor tracts excitability and conductivity. Brain Res. 593, 14–19.
+doi: 10.1016/0006-8993(92)91256-E
+Ruf, S., Fallgatter, A. J., and Plewnia, C. (2017). Augmentation of working
+memory training by transcranial direct current stimulation (tDCS). Sci. Rep. 7:876.
+doi: 10.1038/s41598-017-01055-1
+Shipstead, Z., Redick, T. S., and Engle, R. W. (2012). Is working memory training
+eﬀective? Psychol. Bull. 138:628. doi: 10.1037/a0027473
+Soveri, A., Antfolk, J., Karlsson, L., Salo, B., and Laine, M. (2017a). Working
+memory training revisited: A multi-level meta-analysis of n-back training studies.
+Psychon. Bull. Rev. 24, 1077–1096. doi: 10.3758/s13423-016-1217-0
+Soveri, A., Karlsson, E. P. A., Waris, O., Grönholm-Nyman, P., and Laine,
+M. (2017b). Pattern of near transfer eﬀects following working memory training
+with a dual n-back task. Exp. Psychol. 64, 240–252. doi: 10.1027/1618-3169/a00
+0370
+Stagg, C. J., and Nitsche, M. A. (2011). Physiological Basis of Transcranial
+Direct Current Stimulation. Neuroscientist 17, 37–53. doi: 10.1177/107385841038
+6614
+Tseng, P., Hsu, T.-Y., Chang, C.-F., Tzeng, O. J. L., Hung, D. L., Muggleton,
+N. G., et al. (2012). Unleashing potential: Transcranial direct current stimulation
+over the right posterior parietal cortex improves change detection in low-
+performing individuals. J. Neurosci. 32, 10554–10561. doi: 10.1523/JNEUROSCI.
+0362-12.2012
+Verhaeghen, P., and Basak, C. (2005). Ageing and switching of the focus of
+attention in working memory: Results from a modiﬁed n-back task. Q. J. Exp.
+Psychol. Sec. A 58, 134–154. doi: 10.1080/02724980443000241
+von Bastian, C. C., and Oberauer, K. (2014). Eﬀects and mechanisms of working
+memory training: A review. Psychol. Res. 78, 803–820. doi: 10.1007/s00426-013-
+0524-6
+Wang, S., Itthipuripat, S., and Ku, Y. (2019). Electrical Stimulation Over Human
+Posterior Parietal Cortex Selectively Enhances the Capacity of Visual Short-Term
+Memory. J. Neurosci. 39, 528–536. doi: 10.1523/JNEUROSCI.1959-18.2018
+Waris, O., Soveri, A., and Laine, M. (2015). Transfer after Working Memory
+Updating Training. PLoS One 10:e0138734. doi: 10.1371/journal.pone.0138734
+Weller, S., Nitsche, M. A., and Plewnia, C. (2020). Enhancing cognitive control
+training with transcranial direct current stimulation: A systematic parameter
+study. Brain Stimul. 13, 1358–1369. doi: 10.1016/j.brs.2020.07.006
+World
+Health
+Organization
+[WHO]
+(1996).
+Whoqol-bref
+introduction,
+administration, scoring and generic version of the assessment?: Field trial
+version. Available Online at: https://www.who.int/publications-detail-redirect/
+WHOQOL-BREF (accessed Jul 17, 2021).
+World Health Organization [WHO] (2019). Risk Reduction of Cognitive Decline
+and Dementia: WHO Guidelines. Geneva: World Health Organization.
+Zigmond, A. S., and Snaith, R. P. (1983). The hospital anxiety and depression
+scale. Acta Psychiatr. Scand. 67, 361–370. doi: 10.1111/j.1600-0447.1983.tb09716.x
+Frontiers in Aging Neuroscience
+11
+frontiersin.org
+
+--- END ---

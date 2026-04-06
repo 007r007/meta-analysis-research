@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(cd * && git *)",
+      "Bash(cd * && python* *)",
+      "Bash(cd * && PYTHONIOENCODING=* python* *)",
+      "Bash(PYTHONIOENCODING=* python* *)",
+      "Bash(python* *)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(dir *)",
+      "Bash(iconv -f gbk -t utf-8)",
+      "Read(//e/Meta-analysis writing project/**)",
+      "Bash(pdftotext 'E:/Meta-analysis writing project/projects/paper-01/03-screen/全文PDF/2019_Is working memory training in older adults sensitive to music_.pdf' -)",
+      "Bash(pdftotext 'E:/Meta-analysis writing project/projects/paper-01/03-screen/全文PDF/2015_Experimental evaluation of near‐ and far‐transfer effects of an adaptive multico.pdf' -)",
+      "Bash(pdftotext 'E:/Meta-analysis writing project/projects/paper-01/03-screen/全文PDF/2020_Verbal working memory training in older adults_ an investigation of dose respons.pdf' -)",
+      "Bash(python3 -c \":*)",
+      "Bash(Rscript figure1_prisma.R)",
+      "Bash(where Rscript)",
+      "Read(//c/Program Files/**)",
+      "Bash(cmd.exe /c \"dir \\\\\"C:\\\\\\\\Program Files\\\\\\\\R\\\\\" /b 2>nul\")",
+      "Bash(cmd.exe /c \"reg query HKLM\\\\SOFTWARE\\\\R-core 2>nul\")",
+      "Bash(cmd.exe /c \"reg query HKCU\\\\SOFTWARE\\\\R-core 2>nul\")",
+      "Bash(cmd.exe /c \"powershell -Command \\\\\"Get-ChildItem 'C:\\\\\\\\','D:\\\\\\\\','E:\\\\\\\\' -Recurse -Filter 'Rscript.exe' -ErrorAction SilentlyContinue 2>$null | Select-Object -First 3 FullName\\\\\"\")",
+      "Bash(cmd.exe /c \"dir \\\\\"D:\\\\\\\\Program Files\\\\\" /b 2>nul | findstr /i \\\\\"^R\\\\\"\")",
+      "Bash(cmd.exe /c \"dir \\\\\"D:\\\\\\\\Program Files\\\\\" /b 2>nul\")",
+      "Bash(cmd.exe /c \"powershell -Command \\\\\"Get-ChildItem 'D:\\\\\\\\Program Files' -ErrorAction SilentlyContinue | Select-Object Name\\\\\"\")",
+      "Bash(\"D:/Program Files/R/R-4.5.1/bin/x64/Rscript.exe\" \"E:/Meta-analysis writing project/projects/paper-01/06-write/paper01_figures/run_all_figures.R\" 2>&1)",
+      "Bash(\"D:/Program Files/R/R-4.5.1/bin/x64/Rscript.exe\" \"E:/Meta-analysis writing project/projects/paper-01/06-write/paper01_figures/figure3_moderator_summary.R\" 2>&1)",
+      "Bash(\"D:/Program Files/R/R-4.5.1/bin/x64/Rscript.exe\" \"E:/Meta-analysis writing project/projects/paper-01/06-write/paper01_figures/figure1_prisma.R\")",
+      "Bash(\"D:/Program Files/R/R-4.5.1/bin/x64/Rscript.exe\" \"E:/Meta-analysis writing project/projects/paper-01/06-write/paper01_figures/figure3_moderator_summary.R\")",
+      "Bash(cmd.exe /c \"dir \\\\\"E:\\\\Meta-analysis writing project\\\\projects\\\\paper-01\\\\03-screen\\\\\" /b 2>nul\")",
+      "Bash(\"D:/Program Files/R/R-4.5.1/bin/x64/Rscript.exe\" -e \"cat\\(R.home\\(\\)\\)\")",
+      "WebSearch",
+      "WebFetch(domain:www.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:pubmed.ncbi.nlm.nih.gov)"
+    ]
+  }
+}
