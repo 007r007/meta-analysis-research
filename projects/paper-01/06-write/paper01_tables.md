@@ -96,12 +96,12 @@
 | Moderator | Category | *k* | Direction | Evidence Strength |
 |-----------|----------|-----|-----------|-------------------|
 | **Training dose** | | | | |
-| | Sessions ≤10 | 15 | Positive > Null | Insufficient |
-| | Sessions 11–25 | 22 | Predominantly Null | Moderate |
-| | Sessions >25 | 8 | Predominantly Null | Moderate |
+| | Sessions ≤10 | 23 | Positive > Null | Insufficient |
+| | Sessions 11–25 | 25 | Predominantly Null | Moderate |
+| | Sessions >25 | 3 | Predominantly Null | Insufficient |
 | **Active control** | | | | |
-| | Active control present | 38 | Predominantly Null | Consistent |
-| | No active control | 18 | Positive > Null | Moderate |
+| | Active control present | 46 | Predominantly Null | Consistent |
+| | No active control | 10 | Positive > Null | Moderate |
 | **Combined intervention** | | | | |
 | | tDCS combined | 14 | Positive/Mixed > Null | Moderate |
 | | Pure WM only | 15 | Predominantly Null | Moderate |
@@ -116,7 +116,7 @@
 | | Adaptive | 45 | Predominantly Null | Moderate |
 | | Non-adaptive | 11 | Mixed | Insufficient |
 | **Age group** | | | | |
-| | Young-old (≤75) | 42 | Predominantly Null | Consistent |
-| | Old-old (>75) | 14 | Predominantly Null; near transfer trend | Consistent |
+| | Young-old (≤75) | 42 | Predominantly Null; positive rate 26% | Mixed |
+| | Old-old (>75) | 14 | Predominantly Null; positive rate 14% | Mixed |
 
 > *Note.* Table 3 presents descriptive patterns only. Formal statistical moderator analyses were not conducted due to high between-study heterogeneity in outcome measurement and study design. Counts (k) and direction labels are based on the distribution of 'Overall Conclusion' (Positive/Null/Mixed) within each subgroup. Readers should interpret these patterns cautiously.
