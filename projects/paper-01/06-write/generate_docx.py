@@ -204,7 +204,7 @@ p = doc.add_paragraph()
 para_format(p, WD_ALIGN_PARAGRAPH.CENTER, space_before=72, space_after=12)
 add_double_spacing(p)
 run = p.add_run("Working Memory Training in Healthy Older Adults: A Systematic Review of "
-                "Transfer Effects, Training Parameters, and Moderating Factors")
+                "Transfer Effects, Training Parameters, and Potential Moderating Factors")
 set_font(run, 16, bold=True)
 
 for line in ["[Author names to be added]",
