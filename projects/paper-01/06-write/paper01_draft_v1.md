@@ -46,7 +46,7 @@ The present systematic review aims to (1) provide a comprehensive, up-to-date sy
 
 ### 2.1 Registration and Protocol
 
-This systematic review was conducted and reported in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA 2020) guidelines (Page et al., 2021). The protocol was pre-registered with PROSPERO prior to the commencement of data extraction [PROSPERO registration pending; CRD number to be inserted].
+This systematic review was conducted and reported in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA 2020) guidelines (Page et al., 2021). This review was not pre-registered. A systematic search and screening protocol was followed in accordance with PRISMA 2020 reporting standards.
 
 ### 2.2 Eligibility Criteria
 
