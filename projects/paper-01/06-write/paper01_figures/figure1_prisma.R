@@ -6,7 +6,6 @@
 
 library(ggplot2)
 library(grid)
-library(gridExtra)
 
 # ─────────────────────────────────────────────────
 # DATA (from actual screening statistics)
