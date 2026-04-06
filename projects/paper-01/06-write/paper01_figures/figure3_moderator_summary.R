@@ -50,26 +50,26 @@ moderator_data <- data.frame(
   outcome = rep(c("Positive", "Mixed", "Null"), 9),
   # Approximate counts — verify against final cross-tabulation
   k = c(
-    # Active control (n=46): Positive=9, Mixed=5, Null=32
-    9, 5, 32,
-    # Passive/no control (n=10): Positive=4, Mixed=3, Null=3
-    4, 3, 3,
-    # N-back (n=44): Positive=10, Mixed=8, Null=26
-    10, 8, 26,
+    # Active control (n=46): Positive=6, Mixed=8, Null=32
+    6, 8, 32,
+    # Passive/no control (n=10): Positive=3, Mixed=4, Null=3
+    3, 4, 3,
+    # N-back (n=44): Positive=6, Mixed=12, Null=26
+    6, 12, 26,
     # Span/Other (n=12): Positive=3, Mixed=0, Null=9
     3, 0, 9,
     # Pure WM only (n=15): Positive=1, Mixed=2, Null=12
     1, 2, 12,
-    # WM + stimulation (n=14): Positive=4, Mixed=4, Null=6
-    4, 4, 6,
-    # Adaptive (n=46): Positive=8, Mixed=6, Null=32
-    8, 6, 32,
+    # WM + stimulation (n=14): Positive=3, Mixed=5, Null=6
+    3, 5, 6,
+    # Adaptive (n=46): Positive=4, Mixed=10, Null=32
+    4, 10, 32,
     # Non-adaptive (n=10): Positive=5, Mixed=2, Null=3
     5, 2, 3,
-    # ≤10 sessions (n=23): Positive=4, Mixed=4, Null=15
-    4, 4, 15,
-    # 11-25 sessions (n=25): Positive=9, Mixed=3, Null=13
-    9, 3, 13,
+    # ≤10 sessions (n=23): Positive=3, Mixed=5, Null=15
+    3, 5, 15,
+    # 11-25 sessions (n=25): Positive=6, Mixed=6, Null=13
+    6, 6, 13,
     # >25 sessions (n=3): Positive=0, Mixed=0, Null=3
     0, 0, 3
   )
