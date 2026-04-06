@@ -130,7 +130,7 @@ A total of 53 studies reported sufficient data to estimate total sample size. Ac
 
 The majority of studies employed n-back training paradigms (*k* = 44, 79%), followed by span-based tasks (*k* = 5, 9%), and composite or alternative WM programs (*k* = 7, 12%). Nearly all studies used adaptive training protocols (*k* = 45, 80%). Common training platforms included Cogmed, BrainStim, and custom research programs. Training settings were predominantly laboratory-based (*k* = 39, 70%), with a minority employing home-based (*k* = 10, 18%) or mixed formats (*k* = 7, 12%).
 
-Forty-one studies (73%) were randomized controlled trials (RCTs); 3 (5%) were quasi-RCTs; 1 (2%) used a crossover design; and 1 (2%) was a single-group pre–post design. Forty-six studies (82%) included an active control group; 10 studies (18%) used passive controls or no-contact designs.
+Fifty-one studies (91%) were randomized controlled trials (RCTs); 3 (5%) were quasi-RCTs; 1 (2%) used a crossover design; and 1 (2%) was a single-group pre–post design. Forty-six studies (82%) included an active control group; 10 studies (18%) used passive controls or no-contact designs.
 
 Fourteen studies (25%) combined WM training with a co-intervention, most commonly transcranial direct current stimulation (tDCS; *k* = 10 studies with some form of brain stimulation), physical exercise (*k* = 11), or pharmacological agents (*k* = 7). Fifteen studies (27%) implemented pure WM training without any co-intervention.
 
