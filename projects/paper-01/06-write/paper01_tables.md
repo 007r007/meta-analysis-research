@@ -124,7 +124,7 @@
 | 43 | Stephens | 2017 | SC | SC | Low | SC | SC | SC |
 | 44 | Sutton | 2025 | Low | SC | Low | SC | SC | SC |
 | 45 | Tusch | 2016 | Low | SC | Low | SC | SC | SC |
-| 46 | McAvinue | 2013 | Low | SC | SC | SC | SC | SC |
+| 46 | McAvinue | 2013 | Low | SC | SC | SC | SC | **High** |
 | 47 | Goghari | 2018 | SC | SC | Low | SC | SC | SC |
 | 48 | Borella | 2025 | Low | Low | Low | Low | SC | **Low** |
 | 51 | Basak | 2016 | Low | Low | Low | SC | SC | SC |
@@ -155,7 +155,8 @@
 | RoB Level | *k* | % |
 |-----------|-----|---|
 | RCT Low | 8 | 14% |
-| RCT Some Concerns | 43 | 77% |
+| RCT Some Concerns | 42 | 75% |
+| RCT High | 1 | 2% |
 | Non-RCT Moderate | 1 | 2% |
 | Non-RCT Serious | 3 | 5% |
 | Non-RCT Critical | 1 | 2% |

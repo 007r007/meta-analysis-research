@@ -54,7 +54,7 @@
 | 43 | Stephens | 2017 | SC | SC | Low | SC | SC | SC | 随机化描述不足；无盲法；多组复杂设计 |
 | 44 | Sutton | 2025 | Low | SC | Low | SC | SC | SC | 计算机随机；无评估者盲法；大样本N=103 |
 | 45 | Tusch | 2016 | Low | SC | Low | SC | SC | SC | 计算机随机；无盲法；EEG结局客观 |
-| 46 | McAvinue | 2013 | Low | SC | SC | SC | SC | SC | 随机化明确；10人脱落（27%）；无ITT分析 |
+| 46 | McAvinue | 2013 | Low | SC | SC | SC | SC | **High** | 脱落10/36=31%，无ITT分析，无敏感性分析；人工复核确认升级 |
 | 47 | Goghari | 2018 | SC | SC | Low | SC | SC | SC | 随机化描述模糊；无盲法；大样本长程 |
 | 48 | Borella | 2025 | Low | Low | Low | Low | SC | Low | 计算机随机；双盲；ERP客观结局；无预注册 |
 | 51 | Basak | 2016 | Low | Low | Low | SC | SC | SC | 随机化明确；双盲；结局为行为认知测量 |
@@ -93,8 +93,8 @@
 | 等级 | 篇数 | 百分比 | 代表研究 |
 |------|------|--------|---------|
 | **Low** | 8 | 16% | Seq4, 9, 10, 23, 40, 48, 62, 60 |
-| **Some Concerns** | 43 | 84% | 大多数研究 |
-| **High** | 0 | 0% | — |
+| **Some Concerns** | 42 | 82% | 大多数研究 |
+| **High** | 1 | 2% | Seq46 McAvinue 2013（脱落31%，无ITT） |
 
 ### 非随机研究（ROBINS-I，5篇）
 

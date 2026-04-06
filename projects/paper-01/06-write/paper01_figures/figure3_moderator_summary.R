@@ -52,24 +52,24 @@ moderator_data <- data.frame(
   k = c(
     # Active control (n=46): Positive=6, Mixed=8, Null=32
     6, 8, 32,
-    # Passive/no control (n=10): Positive=3, Mixed=4, Null=3
-    3, 4, 3,
-    # N-back (n=44): Positive=6, Mixed=12, Null=26
-    6, 12, 26,
+    # Passive/no control (n=10): Positive=2, Mixed=5, Null=3  [Seq3 Salminen → Mixed]
+    2, 5, 3,
+    # N-back (n=44): Positive=5, Mixed=13, Null=26  [Seq3 Salminen → Mixed]
+    5, 13, 26,
     # Span/Other (n=12): Positive=3, Mixed=0, Null=9
     3, 0, 9,
     # Pure WM only (n=15): Positive=1, Mixed=2, Null=12
     1, 2, 12,
     # WM + stimulation (n=14): Positive=3, Mixed=5, Null=6
     3, 5, 6,
-    # Adaptive (n=46): Positive=4, Mixed=10, Null=32
-    4, 10, 32,
+    # Adaptive (n=46): Positive=3, Mixed=11, Null=32  [Seq3 Salminen → Mixed]
+    3, 11, 32,
     # Non-adaptive (n=10): Positive=5, Mixed=2, Null=3
     5, 2, 3,
     # ≤10 sessions (n=23): Positive=3, Mixed=5, Null=15
     3, 5, 15,
-    # 11-25 sessions (n=25): Positive=6, Mixed=6, Null=13
-    6, 6, 13,
+    # 11-25 sessions (n=25): Positive=5, Mixed=7, Null=13  [Seq3 Salminen → Mixed]
+    5, 7, 13,
     # >25 sessions (n=3): Positive=0, Mixed=0, Null=3
     0, 0, 3
   )
