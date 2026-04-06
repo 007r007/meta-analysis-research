@@ -16,7 +16,7 @@
 
 **Objective:** To systematically review randomized and quasi-randomized controlled trials of WM training in healthy older adults (≥60 years), examining training parameters, transfer effects, and potential moderating factors.
 
-**Methods:** We searched four databases (PubMed, PsycINFO, Web of Science, CNKI) from inception to February 2025. Studies were included if they: (1) enrolled healthy older adults aged ≥60 years without neurological or psychiatric diagnoses; (2) employed a WM-targeted cognitive training program with ≥2 sessions; (3) measured at least one cognitive outcome; and (4) used RCT, quasi-RCT, crossover, or single-group pre–post design. Narrative synthesis was conducted due to high methodological heterogeneity.
+**Methods:** We searched four databases (PubMed, PsycINFO, Web of Science, Scopus) from inception to February 2025. Studies were included if they: (1) enrolled healthy older adults aged ≥60 years without neurological or psychiatric diagnoses; (2) employed a WM-targeted cognitive training program with ≥2 sessions; (3) measured at least one cognitive outcome; and (4) used RCT, quasi-RCT, crossover, or single-group pre–post design. Narrative synthesis was conducted due to high methodological heterogeneity.
 
 **Results:** Across 56 included studies, near transfer was assessed in 46 studies (82%) and far transfer in 43 studies (77%). Overall, transfer effects were limited and highly variable: only 9 studies (16%) reported consistent positive transfer across all outcomes, 12 studies (21%) showed mixed findings, and 35 studies (63%) found no significant between-group differences on any transfer measure. Among studies assessing near transfer, 30 of 46 (65%) yielded null overall conclusions, indicating that even proximal generalization is not reliably achieved under controlled conditions. These patterns underscore the importance of identifying moderating factors that distinguish studies with and without transfer effects.
 
@@ -82,7 +82,7 @@ Search results from all four databases were combined and deduplicated using a Py
 
 **Stage 2 (Title/abstract review):** Kimi (a large language model assistant) conducted initial screening of all 1,789 records against PICOS criteria, followed by independent human confirmation of all borderline decisions. Stage 2 excluded 1,344 records, retaining 445 for full-text review.
 
-**Stage 3 (Full-text eligibility):** Full-text PDFs were obtained for all 445 records. Full-text screening against all inclusion and exclusion criteria was conducted, resulting in 56 studies meeting all eligibility criteria. Reasons for exclusion of the 15 most recently reviewed ineligible full-texts were: population not meeting age criteria (*k* = 12), intervention not meeting WM-training criteria (*k* = 2), and design criteria not met (*k* = 1). A PRISMA 2020 flow diagram is presented in Figure 1.
+**Stage 3 (Full-text eligibility):** Full-text PDFs were obtained for all 445 records. Full-text screening against all inclusion and exclusion criteria was conducted, resulting in 56 studies meeting all eligibility criteria and 389 studies excluded. Primary reasons for full-text exclusion were: population not meeting age criteria or including clinical samples (*k* = 12 in the final screened batch; E1); intervention not targeting working memory as the primary component (*k* = 2; E2); and study design not meeting eligibility criteria (e.g., review articles, protocols, or conference abstracts without full data; *k* = 1; E4). A PRISMA 2020 flow diagram is presented in Figure 1.
 
 ### 2.5 Data Extraction
 
@@ -334,6 +334,16 @@ Working memory training in healthy older adults produces reliable improvements o
 The present review contributes a cognitive process overlap framework as an analytical lens for understanding the boundaries of transfer. The literature's systematic skew toward high-overlap training designs (77% of included studies) may have created an artificially optimistic near-transfer landscape; when the three low-overlap positive findings are corrected for methodological confounds, the evidence for transfer across greater cognitive distance effectively vanishes. This distributional pattern itself—independent of any individual study's findings—reveals a structural gap in the field: the lack of studies systematically testing transfer across the full overlap continuum limits our understanding of how generalizable WM training truly can be.
 
 The path toward effective cognitive training interventions for older adults likely requires moving beyond generic WM practice toward individually tailored programs that match training design to participants' baseline ability, target functionally relevant cognitive domains, and are evaluated against rigorous active controls over extended follow-up periods. Baseline neural and cognitive profiling—particularly WM capacity, white matter integrity, and cortical activation patterns—may enable identification of training responders, offering a more targeted and ultimately more effective approach to cognitive aging intervention.
+
+---
+
+## Declarations
+
+**Conflict of Interest Statement:** The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+
+**Funding:** This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
+
+**Ethics Statement:** This systematic review is based entirely on previously published data. No primary data collection involving human participants was conducted; therefore, ethical approval was not required.
 
 ---
 
