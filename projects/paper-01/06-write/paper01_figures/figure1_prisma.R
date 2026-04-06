@@ -127,8 +127,8 @@ draw_prisma <- function() {
   # ── Phase labels ─────────────────────────────────
   p <- phase(p, 91, "Identification")
   p <- phase(p, 76, "Screening")
-  p <- phase(p, 59, "Eligibility")
-  p <- phase(p, 38, "Included")
+  p <- phase(p, 50, "Eligibility")
+  p <- phase(p, 28, "Included")
 
   # ── ROW 1: Identification (y=91) ─────────────────
   id_txt <- sprintf(
@@ -164,32 +164,41 @@ draw_prisma <- function() {
             fill = COL_EXCL_FILL, border = COL_EXCL_BORDER,
             tcol = COL_EXCL_TEXT, tsize = 2.7)
 
-  p <- varrow(p, cx, 71.4, 64.5)
+  # Screening → Eligibility 之间留出足够间隔（3723框底部约y=66，全文框顶部y=58）
+  p <- varrow(p, cx, 71.4, 59.5)
 
-  # ── ROW 3: Full-text eligibility (y=59) ──────────
-  p <- dbox(p, cx, 59, bw, bh,
+  # ── ROW 3: Full-text eligibility (y=55) ──────────
+  p <- dbox(p, cx, 55, bw, bh,
             sprintf("Full-text articles assessed for eligibility (n = %d)",
                     n_fulltext),
             fill = COL_MAIN_FILL, border = COL_MAIN_BORDER,
             tcol = COL_MAIN_TEXT, tsize = 3.0)
 
-  p <- harrow(p, cx + bw/2, ex_cx - ex_w/2, 59)
+  # 水平箭头从全文框引到右侧
+  p <- harrow(p, cx + bw/2, ex_cx - ex_w/2, 55)
 
-  p <- dbox(p, ex_cx, 52.5, ex_w, 14,
+  # 全文阶段排除框：合并374篇（无详细记录）+ 15篇（有理由）
+  n_ft_no_record <- n_fulltext - n_ft_excluded - n_included  # 445 - 15 - 56 = 374
+  p <- dbox(p, ex_cx, 50, ex_w, 21,
             sprintf(paste0(
               "Full-text articles excluded (n = %d)\n",
-              "  E1 – population criteria: n = %d\n",
-              "       (age < 60 yr or clinical diagnosis)\n",
-              "  E2 – intervention criteria: n = %d\n",
-              "  E4 – study design criteria: n = %d"),
+              "  Not entering detailed review: n = %d\n",
+              "    (did not meet ≥1 PICOS criterion;\n",
+              "    reasons not individually recorded)\n",
+              "  Reviewed with reasons (n = %d):\n",
+              "    E1 – population criteria: n = %d\n",
+              "    E2 – intervention: n = %d\n",
+              "    E4 – study design: n = %d"),
+              n_ft_no_record + n_ft_excluded,
+              n_ft_no_record,
               n_ft_excluded, n_ft_E1, n_ft_E2, n_ft_E4),
             fill = COL_EXCL_FILL, border = COL_EXCL_BORDER,
-            tcol = COL_EXCL_TEXT, tsize = 2.65)
+            tcol = COL_EXCL_TEXT, tsize = 2.55)
 
-  p <- varrow(p, cx, 54.4, 43.5)
+  p <- varrow(p, cx, 50.4, 34.5)
 
-  # ── ROW 4: Included (y=38) ───────────────────────
-  p <- dbox(p, cx, 38, bw, 10,
+  # ── ROW 4: Included (y=28) ───────────────────────
+  p <- dbox(p, cx, 28, bw, 10,
             sprintf("Studies included in narrative synthesis\n(n = %d)", n_included),
             fill = COL_INCL_FILL, border = COL_INCL_BORDER,
             tcol = COL_INCL_TEXT, tsize = 3.3, bold = TRUE)

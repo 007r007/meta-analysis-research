@@ -66,13 +66,13 @@ Studies were included if they met all of the following criteria, framed within t
 
 ### 2.3 Search Strategy
 
-We conducted systematic searches in four electronic databases: PubMed/MEDLINE, PsycINFO (via EBSCOhost), Web of Science Core Collection, and Scopus. The search was conducted in [month/year; to be confirmed]. No publication date restriction was applied.
+We conducted systematic searches in four electronic databases: PubMed/MEDLINE, PsycINFO (via EBSCOhost), Web of Science Core Collection, and Scopus. Searches were last conducted in February 2025. No publication date restriction was applied.
 
-The search strategy combined terms related to (1) working memory training or cognitive training, (2) older adults or aging, and (3) cognitive outcomes or transfer. An illustrative search string for PubMed was:
+The search strategy combined three concept blocks: (1) working memory training or cognitive training, (2) older adults or aging population, and (3) cognitive outcomes or transfer effects. The PubMed search string was:
 
-> ("working memory training" OR "cognitive training" OR "brain training" OR "n-back") AND ("older adults" OR "elderly" OR "aging" OR "older people") AND ("transfer" OR "cognitive function" OR "cognitive performance")
+> ("working memory training"[tiab] OR "working memory intervention"[tiab] OR "working memory program"[tiab] OR "n-back"[tiab] OR "dual n-back"[tiab] OR "complex span"[tiab] OR "Cogmed"[tiab] OR "cognitive training"[tiab] OR "memory training"[tiab]) AND ("older adult*"[tiab] OR "older people"[tiab] OR "elderly"[tiab] OR "aging"[tiab] OR "ageing"[tiab] OR "aged"[tiab] OR "senior*"[tiab] OR "geriatric"[tiab]) AND ("transfer"[tiab] OR "generali*"[tiab] OR "cognitive function*"[tiab] OR "cognitive performance"[tiab] OR "cognitive outcome*"[tiab] OR "executive function"[tiab] OR "fluid intelligence"[tiab] OR "processing speed"[tiab] OR "episodic memory"[tiab])
 
-Full database-specific search strings are available in Supplementary Materials.
+Search strings for PsycINFO, Web of Science, and Scopus were adapted to each database's controlled vocabulary and field codes. Full database-specific search strings are provided in Supplementary Materials.
 
 ### 2.4 Study Selection
 

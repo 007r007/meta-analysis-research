@@ -35,6 +35,10 @@ FIG_CAPTIONS = {
     1: ("Figure 1.", "PRISMA 2020 flow diagram depicting the study selection process. "
         "Records identified from four databases (PubMed, PsycINFO, Web of Science, Scopus) "
         "were deduplicated and screened at title/abstract and full-text stages. "
+        "Of 445 full-text articles assessed, 374 did not enter detailed eligibility review "
+        "(did not meet ≥1 PICOS criterion; reasons not individually recorded) and 15 were "
+        "excluded with documented reasons (E1: population criteria, n = 12; "
+        "E2: intervention criteria, n = 2; E4: study design criteria, n = 1). "
         "Final included studies: n = 56."),
     2: ("Figure 2.", "Distribution of included studies by publication year (N = 56). "
         "The dashed vertical line indicates the median publication year."),
