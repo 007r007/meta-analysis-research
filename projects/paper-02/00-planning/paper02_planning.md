@@ -44,12 +44,12 @@
 
 ## 三、检索策略
 
-> **修订说明（2026-04-07，oo+cc联合审查）**：在原版基础上做了5项修改：
-> 1. 概念A：补充 `educational attainment` / `years of education` / `educational level` / `parental schooling`
-> 2. 概念B：删除过宽的 `cortical` / `neural`；加入 `fNIRS` / `near-infrared spectroscopy` / `NIRS` / `MEG` / `magnetoencephalograph*` / `visual evoked potential*` / `diffusion tensor`；裸 `MRI` → `structural MRI`（避免骨科/心脏MRI噪音）
-> 3. 概念C：补充 `newborn*` / `neonatal` / `neonate*` / `perinatal`；删除过宽的 `child*` / `infancy` / `grade school*`
-> 4. PubMed实测命中：**230条**（oo最终版）
-> 5. 标题同步更新：加入 fNIRS
+> **修订说明（2026-04-07，oo+cc三轮迭代最终版）**：
+> - **v1→v2**：补充 `educational attainment`/`fNIRS`/`newborn*`/`neonatal`/`perinatal`；删除 `cortical`/`neural`（过宽）；`MRI`→`structural MRI`；PubMed实测230条
+> - **v2→v3**：oo确认加入 `household income`/`child poverty`/`socioeconomic background`/`socioeconomic disadvantage`/`MMN`/`N400`/`P300`/`cortical thickness`/`gray matter`/`white matter`/`brain structure`/`brain morpholog*`/`brain development`/`young children`；MeSH改为 `Child, Preschool`（更严格）；PubMed实测485条
+> - **v3→v4（最终版）**：加入 `electrophysiolog*`/`brain function`/`brain activity`，捕获Neville 2013等用非标准词的文献；PubMed实测**503条**
+> - **基准验证**（8篇）：Neville 2013 ✅ | Kishiyama 2009 ⚠️（见注） | Sheridan 2012 ✅排除（无SES词）| Otero ✅排除（暴露为缺铁非教育）| Troller-Renfree 2022 ✅ | Hackman 2010 ✅排除（综述）| Noble 2015 ✅排除（年龄超标）| Tomalski 2010 ⚠️（见注）
+> - **⚠️ 注**：Kishiyama 2009（PMID 18752394）在PubMed tiab里只用了"children"（泛指），未含0-8岁特异词，PubMed漏网；将由PsycINFO/WoS TS字段捕获（不含年龄限制字段，范围更宽）。Tomalski 2010为综述，应在筛选阶段排除。
 
 ### 概念框架（3个概念组）
 
@@ -58,81 +58,113 @@
 "parental education" OR "maternal education" OR "paternal education" OR
 "educational attainment" OR "years of education" OR "educational level" OR
 "parental schooling" OR "socioeconomic status" OR "family income" OR
-"poverty" OR "income-to-needs" OR "low-income" OR
-"household wealth" OR "neighborhood disadvantage"
+"household income" OR "poverty" OR "child poverty" OR
+"income-to-needs" OR "low-income" OR "household wealth" OR
+"neighborhood disadvantage" OR "socioeconomic background" OR
+"socioeconomic disadvantage"
 ```
 
 **概念B：神经发育指标**
 ```
-"EEG" OR "electroencephalograph*" OR "ERP" OR "event-related potential*" OR
+"EEG" OR "electroencephalograph*" OR "electrophysiolog*" OR
+"ERP" OR "event-related potential*" OR
 "fMRI" OR "structural MRI" OR "neuroimaging" OR "brain imaging" OR
-"rsEEG" OR "spectral power" OR "DTI" OR "diffusion tensor" OR
-"functional connectivity" OR
+"brain function" OR "brain activity" OR
+"rsEEG" OR "spectral power" OR
+"DTI" OR "diffusion tensor" OR "functional connectivity" OR
 "fNIRS" OR "near-infrared spectroscopy" OR "NIRS" OR
-"MEG" OR "magnetoencephalograph*" OR "visual evoked potential*"
+"MEG" OR "magnetoencephalograph*" OR "visual evoked potential*" OR
+"mismatch negativity" OR "MMN" OR "N400" OR "P300" OR
+"cortical thickness" OR "cortical surface area" OR
+"gray matter" OR "grey matter" OR "white matter" OR
+"brain structure" OR "brain morpholog*" OR "brain development"
 ```
 
 **概念C：儿童早期年龄段（0–8岁）**
 ```
 "infant*" OR "toddler*" OR "preschool*" OR "kindergarten" OR
 "early childhood" OR "school-aged child*" OR "early brain development" OR
-"newborn*" OR "neonatal" OR "neonate*" OR "perinatal"
+"newborn*" OR "neonatal" OR "neonate*" OR "perinatal" OR
+"young children"
 ```
 
 ### 各数据库检索式
 
-**PubMed**（[tiab] + MeSH 双轨，实测命中 **230条**）
+**PubMed**（[tiab] + MeSH 双轨，实测命中 **503条**，2026-04-07验证）
 ```
 (
   (
     "parental education"[tiab] OR "maternal education"[tiab] OR "paternal education"[tiab]
     OR "educational attainment"[tiab] OR "years of education"[tiab] OR "educational level"[tiab]
     OR "parental schooling"[tiab] OR "socioeconomic status"[tiab] OR "family income"[tiab]
-    OR "poverty"[tiab] OR "income-to-needs"[tiab] OR "low-income"[tiab]
-    OR "household wealth"[tiab] OR "neighborhood disadvantage"[tiab]
+    OR "household income"[tiab] OR "poverty"[tiab] OR "child poverty"[tiab]
+    OR "income-to-needs"[tiab] OR "low-income"[tiab] OR "household wealth"[tiab]
+    OR "neighborhood disadvantage"[tiab] OR "socioeconomic background"[tiab]
+    OR "socioeconomic disadvantage"[tiab]
   )
   AND
   (
-    "EEG"[tiab] OR "electroencephalograph*"[tiab]
+    "EEG"[tiab] OR "electroencephalograph*"[tiab] OR "electrophysiolog*"[tiab]
     OR "ERP"[tiab] OR "event-related potential*"[tiab]
     OR "fMRI"[tiab] OR "structural MRI"[tiab] OR "neuroimaging"[tiab] OR "brain imaging"[tiab]
+    OR "brain function"[tiab] OR "brain activity"[tiab]
     OR "rsEEG"[tiab] OR "spectral power"[tiab]
     OR "DTI"[tiab] OR "diffusion tensor"[tiab] OR "functional connectivity"[tiab]
     OR "fNIRS"[tiab] OR "near-infrared spectroscopy"[tiab] OR "NIRS"[tiab]
     OR "MEG"[tiab] OR "magnetoencephalograph*"[tiab]
     OR "visual evoked potential*"[tiab]
+    OR "mismatch negativity"[tiab] OR "MMN"[tiab]
+    OR "N400"[tiab] OR "P300"[tiab]
+    OR "cortical thickness"[tiab] OR "cortical surface area"[tiab]
+    OR "gray matter"[tiab] OR "grey matter"[tiab] OR "white matter"[tiab]
+    OR "brain structure"[tiab] OR "brain morpholog*"[tiab]
+    OR "brain development"[tiab]
   )
   AND
   (
     "infant*"[tiab] OR "toddler*"[tiab] OR "preschool*"[tiab] OR "kindergarten"[tiab]
     OR "early childhood"[tiab] OR "school-aged child*"[tiab] OR "early brain development"[tiab]
     OR "newborn*"[tiab] OR "neonatal"[tiab] OR "neonate*"[tiab] OR "perinatal"[tiab]
+    OR "young children"[tiab]
   )
 )
 OR (
-  "Social Class"[MeSH] AND "Electroencephalography"[MeSH] AND "Child Development"[MeSH]
+  "Social Class"[MeSH] AND "Electroencephalography"[MeSH] AND "Child, Preschool"[MeSH]
 )
 ```
 
 **PsycINFO**（AB字段）
 ```
-AB("parental education" OR "maternal education" OR "paternal education" OR "educational attainment" OR "years of education" OR "educational level" OR "parental schooling" OR "socioeconomic status" OR "family income" OR "poverty" OR "income-to-needs" OR "low-income" OR "household wealth" OR "neighborhood disadvantage") AND AB("EEG" OR "electroencephalograph*" OR "ERP" OR "event-related potential*" OR "fMRI" OR "structural MRI" OR "neuroimaging" OR "brain imaging" OR "rsEEG" OR "spectral power" OR "DTI" OR "diffusion tensor" OR "functional connectivity" OR "fNIRS" OR "near-infrared spectroscopy" OR "NIRS" OR "MEG" OR "magnetoencephalograph*" OR "visual evoked potential*") AND AB("infant*" OR "toddler*" OR "preschool*" OR "kindergarten" OR "early childhood" OR "school-aged child*" OR "early brain development" OR "newborn*" OR "neonatal" OR "neonate*" OR "perinatal")
+AB("parental education" OR "maternal education" OR "paternal education" OR "educational attainment" OR "years of education" OR "educational level" OR "parental schooling" OR "socioeconomic status" OR "family income" OR "household income" OR "poverty" OR "child poverty" OR "income-to-needs" OR "low-income" OR "household wealth" OR "neighborhood disadvantage" OR "socioeconomic background" OR "socioeconomic disadvantage") AND AB("EEG" OR "electroencephalograph*" OR "electrophysiolog*" OR "ERP" OR "event-related potential*" OR "fMRI" OR "structural MRI" OR "neuroimaging" OR "brain imaging" OR "brain function" OR "brain activity" OR "rsEEG" OR "spectral power" OR "DTI" OR "diffusion tensor" OR "functional connectivity" OR "fNIRS" OR "near-infrared spectroscopy" OR "NIRS" OR "MEG" OR "magnetoencephalograph*" OR "visual evoked potential*" OR "mismatch negativity" OR "MMN" OR "N400" OR "P300" OR "cortical thickness" OR "cortical surface area" OR "gray matter" OR "grey matter" OR "white matter" OR "brain structure" OR "brain morpholog*" OR "brain development") AND AB("infant*" OR "toddler*" OR "preschool*" OR "kindergarten" OR "early childhood" OR "school-aged child*" OR "early brain development" OR "newborn*" OR "neonatal" OR "neonate*" OR "perinatal" OR "young children")
 ```
 
 **Web of Science**（TS字段）
 ```
-TS=("parental education" OR "maternal education" OR "paternal education" OR "educational attainment" OR "years of education" OR "educational level" OR "parental schooling" OR "socioeconomic status" OR "family income" OR "poverty" OR "income-to-needs" OR "low-income" OR "household wealth" OR "neighborhood disadvantage") AND TS=("EEG" OR "electroencephalograph*" OR "ERP" OR "event-related potential*" OR "fMRI" OR "structural MRI" OR "neuroimaging" OR "brain imaging" OR "rsEEG" OR "spectral power" OR "DTI" OR "diffusion tensor" OR "functional connectivity" OR "fNIRS" OR "near-infrared spectroscopy" OR "NIRS" OR "MEG" OR "magnetoencephalograph*" OR "visual evoked potential*") AND TS=("infant*" OR "toddler*" OR "preschool*" OR "kindergarten" OR "early childhood" OR "school-aged child*" OR "early brain development" OR "newborn*" OR "neonatal" OR "neonate*" OR "perinatal")
+TS=("parental education" OR "maternal education" OR "paternal education" OR "educational attainment" OR "years of education" OR "educational level" OR "parental schooling" OR "socioeconomic status" OR "family income" OR "household income" OR "poverty" OR "child poverty" OR "income-to-needs" OR "low-income" OR "household wealth" OR "neighborhood disadvantage" OR "socioeconomic background" OR "socioeconomic disadvantage") AND TS=("EEG" OR "electroencephalograph*" OR "electrophysiolog*" OR "ERP" OR "event-related potential*" OR "fMRI" OR "structural MRI" OR "neuroimaging" OR "brain imaging" OR "brain function" OR "brain activity" OR "rsEEG" OR "spectral power" OR "DTI" OR "diffusion tensor" OR "functional connectivity" OR "fNIRS" OR "near-infrared spectroscopy" OR "NIRS" OR "MEG" OR "magnetoencephalograph*" OR "visual evoked potential*" OR "mismatch negativity" OR "MMN" OR "N400" OR "P300" OR "cortical thickness" OR "cortical surface area" OR "gray matter" OR "grey matter" OR "white matter" OR "brain structure" OR "brain morpholog*" OR "brain development") AND TS=("infant*" OR "toddler*" OR "preschool*" OR "kindergarten" OR "early childhood" OR "school-aged child*" OR "early brain development" OR "newborn*" OR "neonatal" OR "neonate*" OR "perinatal" OR "young children")
 ```
 
 **Scopus**（TITLE-ABS-KEY字段）
 ```
-TITLE-ABS-KEY("parental education" OR "maternal education" OR "paternal education" OR "educational attainment" OR "years of education" OR "educational level" OR "parental schooling" OR "socioeconomic status" OR "family income" OR "poverty" OR "income-to-needs" OR "low-income" OR "household wealth" OR "neighborhood disadvantage") AND TITLE-ABS-KEY("EEG" OR "electroencephalograph*" OR "ERP" OR "event-related potential*" OR "fMRI" OR "structural MRI" OR "neuroimaging" OR "brain imaging" OR "rsEEG" OR "spectral power" OR "DTI" OR "diffusion tensor" OR "functional connectivity" OR "fNIRS" OR "near-infrared spectroscopy" OR "NIRS" OR "MEG" OR "magnetoencephalograph*" OR "visual evoked potential*") AND TITLE-ABS-KEY("infant*" OR "toddler*" OR "preschool*" OR "kindergarten" OR "early childhood" OR "school-aged child*" OR "early brain development" OR "newborn*" OR "neonatal" OR "neonate*" OR "perinatal")
+TITLE-ABS-KEY("parental education" OR "maternal education" OR "paternal education" OR "educational attainment" OR "years of education" OR "educational level" OR "parental schooling" OR "socioeconomic status" OR "family income" OR "household income" OR "poverty" OR "child poverty" OR "income-to-needs" OR "low-income" OR "household wealth" OR "neighborhood disadvantage" OR "socioeconomic background" OR "socioeconomic disadvantage") AND TITLE-ABS-KEY("EEG" OR "electroencephalograph*" OR "electrophysiolog*" OR "ERP" OR "event-related potential*" OR "fMRI" OR "structural MRI" OR "neuroimaging" OR "brain imaging" OR "brain function" OR "brain activity" OR "rsEEG" OR "spectral power" OR "DTI" OR "diffusion tensor" OR "functional connectivity" OR "fNIRS" OR "near-infrared spectroscopy" OR "NIRS" OR "MEG" OR "magnetoencephalograph*" OR "visual evoked potential*" OR "mismatch negativity" OR "MMN" OR "N400" OR "P300" OR "cortical thickness" OR "cortical surface area" OR "gray matter" OR "grey matter" OR "white matter" OR "brain structure" OR "brain morpholog*" OR "brain development") AND TITLE-ABS-KEY("infant*" OR "toddler*" OR "preschool*" OR "kindergarten" OR "early childhood" OR "school-aged child*" OR "early brain development" OR "newborn*" OR "neonatal" OR "neonate*" OR "perinatal" OR "young children")
 ```
 
 ### 预估规模
-- PubMed实测：230条（修订版，2026-04-07）
-- 四库去重后预估总命中：800–1500 条（修订后比原估低，精度更高）
+- PubMed实测：**503条**（v4最终版，2026-04-07）
+- 四库去重后预估总命中：**1500–2000条**
 - 经筛选后目标纳入：35–50 篇
+
+### 基准文献验证结果（8篇，2026-04-07）
+
+| # | 文献 | 预期 | PubMed结果 | 说明 |
+|---|------|------|-----------|------|
+| 1 | Hackman et al. 2010 *Nat Rev Neurosci* | 排除 | ✅ 正确排除 | 综述，PICOS排除 |
+| 2 | Noble et al. 2015 *Nat Neurosci* | 排除 | ✅ 正确排除 | 年龄3-20岁超标，摘要无神经词 |
+| 3 | Tomalski & Johnson 2010 *Trends Cogn Sci* | 排除 | ⚠️ 误纳入（噪音） | 综述，筛选阶段排除 |
+| 4 | Neville et al. 2013 *PNAS* | 纳入 | ✅ 命中 | 加brain function后捕获 |
+| 5 | Kishiyama et al. 2009 *J Cogn Neurosci* | 纳入 | ⚠️ PubMed漏网 | 摘要只用children[tiab]非特异词；PsycINFO/WoS将捕获 |
+| 6 | Sheridan et al. 2012 *Dev Sci* | 排除 | ✅ 正确排除 | 暴露为机构养育非SES，无概念A词 |
+| 7 | Otero et al. *Clin Neurophysiol* | 排除 | ✅ 正确排除 | 暴露为缺铁性贫血非父母教育 |
+| 8 | Troller-Renfree et al. 2022 *PNAS* | 纳入 | ✅ 命中 | income-to-needs + EEG + infant |
 
 ---
 
