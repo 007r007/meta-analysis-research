@@ -141,9 +141,10 @@ p3 <- ggplot(moderator_data,
     x = NULL,
     y = "Percentage of Studies",
     caption = paste0(
-      "Note. Numbers within bars = k (number of studies). ",
-      "Outcome coded as: Positive = statistically significant between-group transfer advantage;\n",
-      "Null = no significant between-group differences; Mixed = significant effects on some outcomes only.\n",
+      "Note. Numbers within bars = k (number of studies).\n",
+      "Positive = statistically significant between-group transfer advantage;\n",
+      "Null = no significant between-group differences;\n",
+      "Mixed = significant effects on some outcomes only.\n",
       "Based on 56 included studies. Counts are approximate; see Table 3 for details."
     )
   ) +
