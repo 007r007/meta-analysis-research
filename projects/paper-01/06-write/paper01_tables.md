@@ -14,6 +14,7 @@
 > - **Near**, **Far**, **FU** = near-transfer, far-transfer, and follow-up assessed (Y/N).
 > - **Conclusion** = overall between-group transfer outcome: Positive / Null / Mixed.
 > - **RoB** = risk of bias rating (not yet assessed for all studies; NE = not evaluated).
+> - **Seq** = sequential study identifier assigned during full-text screening. Non-contiguous values (gaps at Seq 7, 17, 33, 37, 38, 42, 56, 58, 64, 65, 66) correspond to studies assessed at full-text but subsequently excluded; excluded studies are not listed in this table.
 
 | Seq | First Author | Year | Country | *N* | Age *M* | Design | Type | Adp | Sessions | Min | Weeks | Freq | Active ctrl | Combined | Near | Far | FU | Conclusion | RoB |
 |-----|-------------|------|---------|-----|---------|--------|------|-----|----------|-----|-------|------|-------------|----------|------|-----|----|------------|-----|
@@ -173,22 +174,23 @@
 | Moderator | Category | *k* | Direction | Evidence Strength |
 |-----------|----------|-----|-----------|-------------------|
 | **Training dose** | | | | |
-| | Sessions ≤10 | 23 | Positive > Null | Insufficient |
-| | Sessions 11–25 | 25 | Predominantly Null | Moderate |
-| | Sessions >25 | 3 | Predominantly Null | Insufficient |
+| | Sessions ≤10 | 23 | Predominantly Null (65%) | Moderate |
+| | Sessions 11–25 | 25 | Predominantly Null (52%) | Moderate |
+| | Sessions >25 | 3 | All Null (100%) | Consistent |
 | **Active control** | | | | |
-| | Active control present | 46 | Predominantly Null | Consistent |
+| | Active control present | 46 | Predominantly Null (70%) | Moderate |
 | | No active control | 10 | Positive > Null | Moderate |
 | **Combined intervention** | | | | |
 | | tDCS combined | 14 | Positive/Mixed > Null | Moderate |
 | | Pure WM only | 15 | Predominantly Null | Moderate |
 | **Baseline WM** | | | | |
 | | Low baseline | 22 | Modest positive trend | Mixed |
-| | High/NR baseline | 34 | Predominantly Null | Mixed |
+| | High baseline | 2 | All Null | Insufficient (*k* = 2) |
+| | Unreported baseline | 32 | Predominantly Null (66%) | Moderate |
 | **Cognitive process overlap** | | | | |
-| | High overlap | 43 | Predominantly Null | Insufficient – distributional pattern only |
-| | Medium overlap | 6 | Insufficient data | Insufficient – distributional pattern only |
-| | Low overlap | 6 | Predominantly Null (after confound correction) | Insufficient – distributional pattern only |
+| | High overlap | 43 | Predominantly Null (63%) | Descriptive pattern; no formal subgroup test |
+| | Medium overlap | 6 | Mixed | Insufficient (*k* < 10) |
+| | Low overlap | 6 | 0/3 Positive after confound correction | Descriptive pattern; see §3.4.3 |
 | **Adaptive training** | | | | |
 | | Adaptive | 45 | Predominantly Null | Moderate |
 | | Non-adaptive | 11 | Mixed | Insufficient |
