@@ -8,7 +8,7 @@
 ## 一、选题信息
 
 ### 标题
-**英文**：Parental education level and early childhood neural development: a systematic review of EEG, ERP, and neuroimaging evidence (ages 0–8 years)
+**英文**：Parental education level and early childhood neural development: a systematic review of EEG, ERP, fNIRS, and neuroimaging evidence (ages 0–8 years)
 
 ### 论文类型
 叙述性系统综述（Narrative Systematic Review，PRISMA 2020）  
@@ -44,55 +44,94 @@
 
 ## 三、检索策略
 
+> **修订说明（2026-04-07，oo+cc联合审查）**：在原版基础上做了5项修改：
+> 1. 概念A：补充 `educational attainment` / `years of education` / `educational level` / `parental schooling`
+> 2. 概念B：删除过宽的 `cortical` / `neural`；加入 `fNIRS` / `near-infrared spectroscopy` / `NIRS` / `MEG` / `magnetoencephalograph*` / `visual evoked potential*` / `diffusion tensor`；裸 `MRI` → `structural MRI`（避免骨科/心脏MRI噪音）
+> 3. 概念C：补充 `newborn*` / `neonatal` / `neonate*` / `perinatal`；删除过宽的 `child*` / `infancy` / `grade school*`
+> 4. PubMed实测命中：**230条**（oo最终版）
+> 5. 标题同步更新：加入 fNIRS
+
 ### 概念框架（3个概念组）
 
 **概念A：父母教育/社会经济地位**
 ```
 "parental education" OR "maternal education" OR "paternal education" OR
-"socioeconomic status" OR "SES" OR "family income" OR "poverty" OR
-"income-to-needs" OR "low-income" OR "cash transfer*" OR
+"educational attainment" OR "years of education" OR "educational level" OR
+"parental schooling" OR "socioeconomic status" OR "family income" OR
+"poverty" OR "income-to-needs" OR "low-income" OR
 "household wealth" OR "neighborhood disadvantage"
 ```
 
 **概念B：神经发育指标**
 ```
 "EEG" OR "electroencephalograph*" OR "ERP" OR "event-related potential*" OR
-"fMRI" OR "MRI" OR "neuroimaging" OR "brain imaging" OR "cortical" OR
-"neural" OR "rsEEG" OR "EEG power" OR "spectral power" OR "DTI" OR
-"functional connectivity" OR "infant brain activity"
+"fMRI" OR "structural MRI" OR "neuroimaging" OR "brain imaging" OR
+"rsEEG" OR "spectral power" OR "DTI" OR "diffusion tensor" OR
+"functional connectivity" OR
+"fNIRS" OR "near-infrared spectroscopy" OR "NIRS" OR
+"MEG" OR "magnetoencephalograph*" OR "visual evoked potential*"
 ```
 
-**概念C：儿童早期年龄段**
+**概念C：儿童早期年龄段（0–8岁）**
 ```
 "infant*" OR "toddler*" OR "preschool*" OR "kindergarten" OR
-"early childhood" OR "child*" OR "infancy" OR "school-aged child*" OR
-"grade school*" OR "early brain development"
+"early childhood" OR "school-aged child*" OR "early brain development" OR
+"newborn*" OR "neonatal" OR "neonate*" OR "perinatal"
 ```
 
 ### 各数据库检索式
 
-**PubMed**（[tiab] + MeSH 双轨）
+**PubMed**（[tiab] + MeSH 双轨，实测命中 **230条**）
 ```
-(("parental education"[tiab] OR "maternal education"[tiab] OR "paternal education"[tiab] OR "socioeconomic status"[tiab] OR "family income"[tiab] OR "poverty"[tiab] OR "income-to-needs"[tiab] OR "low-income"[tiab] OR "household wealth"[tiab] OR "neighborhood disadvantage"[tiab]) AND ("EEG"[tiab] OR "electroencephalograph*"[tiab] OR "ERP"[tiab] OR "event-related potential*"[tiab] OR "fMRI"[tiab] OR "MRI"[tiab] OR "neuroimaging"[tiab] OR "brain imaging"[tiab] OR "rsEEG"[tiab] OR "spectral power"[tiab] OR "DTI"[tiab] OR "functional connectivity"[tiab]) AND ("infant*"[tiab] OR "toddler*"[tiab] OR "preschool*"[tiab] OR "kindergarten"[tiab] OR "early childhood"[tiab] OR "school-aged child*"[tiab] OR "early brain development"[tiab])) OR ("Social Class"[MeSH] AND "Electroencephalography"[MeSH] AND "Child Development"[MeSH])
+(
+  (
+    "parental education"[tiab] OR "maternal education"[tiab] OR "paternal education"[tiab]
+    OR "educational attainment"[tiab] OR "years of education"[tiab] OR "educational level"[tiab]
+    OR "parental schooling"[tiab] OR "socioeconomic status"[tiab] OR "family income"[tiab]
+    OR "poverty"[tiab] OR "income-to-needs"[tiab] OR "low-income"[tiab]
+    OR "household wealth"[tiab] OR "neighborhood disadvantage"[tiab]
+  )
+  AND
+  (
+    "EEG"[tiab] OR "electroencephalograph*"[tiab]
+    OR "ERP"[tiab] OR "event-related potential*"[tiab]
+    OR "fMRI"[tiab] OR "structural MRI"[tiab] OR "neuroimaging"[tiab] OR "brain imaging"[tiab]
+    OR "rsEEG"[tiab] OR "spectral power"[tiab]
+    OR "DTI"[tiab] OR "diffusion tensor"[tiab] OR "functional connectivity"[tiab]
+    OR "fNIRS"[tiab] OR "near-infrared spectroscopy"[tiab] OR "NIRS"[tiab]
+    OR "MEG"[tiab] OR "magnetoencephalograph*"[tiab]
+    OR "visual evoked potential*"[tiab]
+  )
+  AND
+  (
+    "infant*"[tiab] OR "toddler*"[tiab] OR "preschool*"[tiab] OR "kindergarten"[tiab]
+    OR "early childhood"[tiab] OR "school-aged child*"[tiab] OR "early brain development"[tiab]
+    OR "newborn*"[tiab] OR "neonatal"[tiab] OR "neonate*"[tiab] OR "perinatal"[tiab]
+  )
+)
+OR (
+  "Social Class"[MeSH] AND "Electroencephalography"[MeSH] AND "Child Development"[MeSH]
+)
 ```
 
-**PsycINFO**
+**PsycINFO**（AB字段）
 ```
-AB("parental education" OR "maternal education" OR "paternal education" OR "socioeconomic status" OR "family income" OR "poverty" OR "income-to-needs" OR "low-income" OR "household wealth" OR "neighborhood disadvantage") AND AB("EEG" OR "electroencephalograph*" OR "ERP" OR "event-related potential*" OR "fMRI" OR "MRI" OR "neuroimaging" OR "rsEEG" OR "spectral power" OR "DTI" OR "functional connectivity") AND AB("infant*" OR "toddler*" OR "preschool*" OR "kindergarten" OR "early childhood" OR "school-aged child*" OR "early brain development")
-```
-
-**Web of Science**
-```
-TS=("parental education" OR "maternal education" OR "paternal education" OR "socioeconomic status" OR "family income" OR "poverty" OR "income-to-needs" OR "low-income" OR "household wealth" OR "neighborhood disadvantage") AND TS=("EEG" OR "electroencephalograph*" OR "ERP" OR "event-related potential*" OR "fMRI" OR "MRI" OR "neuroimaging" OR "rsEEG" OR "spectral power" OR "DTI" OR "functional connectivity") AND TS=("infant*" OR "toddler*" OR "preschool*" OR "kindergarten" OR "early childhood" OR "school-aged child*" OR "early brain development")
+AB("parental education" OR "maternal education" OR "paternal education" OR "educational attainment" OR "years of education" OR "educational level" OR "parental schooling" OR "socioeconomic status" OR "family income" OR "poverty" OR "income-to-needs" OR "low-income" OR "household wealth" OR "neighborhood disadvantage") AND AB("EEG" OR "electroencephalograph*" OR "ERP" OR "event-related potential*" OR "fMRI" OR "structural MRI" OR "neuroimaging" OR "brain imaging" OR "rsEEG" OR "spectral power" OR "DTI" OR "diffusion tensor" OR "functional connectivity" OR "fNIRS" OR "near-infrared spectroscopy" OR "NIRS" OR "MEG" OR "magnetoencephalograph*" OR "visual evoked potential*") AND AB("infant*" OR "toddler*" OR "preschool*" OR "kindergarten" OR "early childhood" OR "school-aged child*" OR "early brain development" OR "newborn*" OR "neonatal" OR "neonate*" OR "perinatal")
 ```
 
-**Scopus**
+**Web of Science**（TS字段）
 ```
-TITLE-ABS-KEY("parental education" OR "maternal education" OR "paternal education" OR "socioeconomic status" OR "family income" OR "poverty" OR "income-to-needs" OR "low-income" OR "household wealth" OR "neighborhood disadvantage") AND TITLE-ABS-KEY("EEG" OR "electroencephalograph*" OR "ERP" OR "event-related potential*" OR "fMRI" OR "MRI" OR "neuroimaging" OR "rsEEG" OR "spectral power" OR "DTI" OR "functional connectivity") AND TITLE-ABS-KEY("infant*" OR "toddler*" OR "preschool*" OR "kindergarten" OR "early childhood" OR "school-aged child*" OR "early brain development")
+TS=("parental education" OR "maternal education" OR "paternal education" OR "educational attainment" OR "years of education" OR "educational level" OR "parental schooling" OR "socioeconomic status" OR "family income" OR "poverty" OR "income-to-needs" OR "low-income" OR "household wealth" OR "neighborhood disadvantage") AND TS=("EEG" OR "electroencephalograph*" OR "ERP" OR "event-related potential*" OR "fMRI" OR "structural MRI" OR "neuroimaging" OR "brain imaging" OR "rsEEG" OR "spectral power" OR "DTI" OR "diffusion tensor" OR "functional connectivity" OR "fNIRS" OR "near-infrared spectroscopy" OR "NIRS" OR "MEG" OR "magnetoencephalograph*" OR "visual evoked potential*") AND TS=("infant*" OR "toddler*" OR "preschool*" OR "kindergarten" OR "early childhood" OR "school-aged child*" OR "early brain development" OR "newborn*" OR "neonatal" OR "neonate*" OR "perinatal")
+```
+
+**Scopus**（TITLE-ABS-KEY字段）
+```
+TITLE-ABS-KEY("parental education" OR "maternal education" OR "paternal education" OR "educational attainment" OR "years of education" OR "educational level" OR "parental schooling" OR "socioeconomic status" OR "family income" OR "poverty" OR "income-to-needs" OR "low-income" OR "household wealth" OR "neighborhood disadvantage") AND TITLE-ABS-KEY("EEG" OR "electroencephalograph*" OR "ERP" OR "event-related potential*" OR "fMRI" OR "structural MRI" OR "neuroimaging" OR "brain imaging" OR "rsEEG" OR "spectral power" OR "DTI" OR "diffusion tensor" OR "functional connectivity" OR "fNIRS" OR "near-infrared spectroscopy" OR "NIRS" OR "MEG" OR "magnetoencephalograph*" OR "visual evoked potential*") AND TITLE-ABS-KEY("infant*" OR "toddler*" OR "preschool*" OR "kindergarten" OR "early childhood" OR "school-aged child*" OR "early brain development" OR "newborn*" OR "neonatal" OR "neonate*" OR "perinatal")
 ```
 
 ### 预估规模
-- 去重后总命中：2000–3500 条
+- PubMed实测：230条（修订版，2026-04-07）
+- 四库去重后预估总命中：800–1500 条（修订后比原估低，精度更高）
 - 经筛选后目标纳入：35–50 篇
 
 ---
@@ -104,7 +143,7 @@ TITLE-ABS-KEY("parental education" OR "maternal education" OR "paternal educatio
 | P（人群） | 0–8岁儿童 | >8岁；非人类 |
 | I（暴露） | 父母教育水平（可作为复合SES分项报告） | 仅报告收入/职业，无教育数据 |
 | C（对照） | 高vs低教育水平比较（可连续变量） | 无 |
-| O（结局） | EEG/ERP/fMRI/MRI/DTI任一神经指标 | 纯行为/认知测验 |
+| O（结局） | EEG/ERP/fNIRS/fMRI/MRI/DTI任一神经指标 | 纯行为/认知测验 |
 | S（研究设计） | 观察性研究（横断/纵向）、RCT | 综述/元分析/案例报告 |
 
 ---
