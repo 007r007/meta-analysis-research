@@ -33,7 +33,7 @@ FIG_FILES = {
 
 FIG_CAPTIONS = {
     1: ("Figure 1.", "PRISMA 2020 flow diagram depicting the study selection process. "
-        "Records identified from four databases (PubMed, PsycINFO, Web of Science, CNKI) "
+        "Records identified from four databases (PubMed, PsycINFO, Web of Science, Scopus) "
         "were deduplicated and screened at title/abstract and full-text stages. "
         "Final included studies: n = 56."),
     2: ("Figure 2.", "Distribution of included studies by publication year (N = 56). "
