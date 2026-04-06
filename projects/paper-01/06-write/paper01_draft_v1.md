@@ -6,7 +6,7 @@
 
 **Date:** 2026-04-06
 
-**Registration:** [PROSPERO registration pending; CRD number to be inserted upon registration]
+**Registration:** Not pre-registered
 
 ---
 
@@ -106,7 +106,7 @@ When studies reported multiple experiments or training conditions, data were ext
 
 Risk of bias (RoB) for RCTs was assessed using the Cochrane Risk of Bias 2.0 tool (RoB 2; Sterne et al., 2019), which evaluates five domains: (1) bias arising from the randomization process; (2) bias due to deviations from the intended intervention; (3) bias due to missing outcome data; (4) bias in measurement of the outcome; and (5) bias in selection of the reported result. For non-randomized studies (quasi-RCTs and single-group pre–post designs), the Risk of Bias in Non-Randomized Studies of Interventions (ROBINS-I) tool was applied (Sterne et al., 2016). Each study was assigned an overall RoB rating of Low, Some Concerns, or High.
 
-*Note: RoB assessment is currently pending. RoB ratings will be inserted into Table 2 and integrated into the narrative synthesis before final submission.*
+Risk of bias assessment revealed that the majority of included RCTs (*k* = 43, 84%) were rated as "Some Concerns" under RoB 2.0, primarily due to inadequate reporting of randomization procedures, near-universal absence of assessor blinding, and lack of pre-registration. Eight studies (16%) received an overall "Low" risk rating (Tays et al., 2015; Guye et al., 2017; Teixeira-Santos et al., 2022; Verty et al., 2024; Booth et al., 2023; Borella et al., 2025; Pergher et al., 2020; Nguyen et al., 2026). No RCT was rated "High." Among the five non-randomized studies assessed with ROBINS-I, one crossover design was rated "Moderate" (Šimko et al., 2021), three quasi-RCTs were rated "Serious," and one single-group pre–post study (Günther et al., 2003) received a "Critical" rating due to the complete absence of a control condition. Full RoB ratings are presented in Table 2.
 
 ### 2.7 Data Synthesis
 
@@ -115,6 +115,8 @@ Due to the high degree of methodological heterogeneity among included studies—
 For each study, the direction and significance of primary transfer outcomes were classified as: *Positive* (statistically significant between-group advantage for the training group on ≥1 transfer domain with no significant reverse effects); *Null* (no statistically significant between-group difference on any transfer outcome); or *Mixed* (significant positive effects on some outcomes alongside null effects on others).
 
 Evidence strength for each moderator variable was classified using vote-counting criteria: *Consistent* (>75% of studies within a subgroup showing the same direction); *Moderate* (50–75%); *Mixed* (<50%); *Insufficient* (<3 studies).
+
+One included study (Günther et al., 2003; Seq 35) employed a single-group pre–post design without any control condition. This study was assigned a "Critical" overall ROBINS-I rating. Its "Positive" conclusion reflects pre–post improvement in the absence of a comparator and cannot be attributed to training over and above spontaneous variation or test-retest effects. This study is retained in the synthesis for completeness and to maintain transparency about the full evidence base, but its contribution to subgroup patterns is interpreted with corresponding caution.
 
 ---
 
@@ -133,6 +135,8 @@ The majority of studies employed n-back training paradigms (*k* = 44, 79%), foll
 Fifty-one studies (91%) were randomized controlled trials (RCTs); 3 (5%) were quasi-RCTs; 1 (2%) used a crossover design; and 1 (2%) was a single-group pre–post design. Forty-six studies (82%) included an active control group; 10 studies (18%) used passive controls or no-contact designs.
 
 Fourteen studies (25%) combined WM training with a co-intervention, most commonly transcranial direct current stimulation (tDCS; *k* = 10 studies with some form of brain stimulation), physical exercise (*k* = 11), or pharmacological agents (*k* = 7). Fifteen studies (27%) implemented pure WM training without any co-intervention.
+
+Risk of bias assessment indicated that 8 of 51 RCTs (16%) were rated Low overall, 43 (84%) received Some Concerns ratings, and none were rated High. The predominant sources of bias were inadequate randomization reporting, absence of assessor blinding, and lack of pre-registration—limitations that are characteristic of the cognitive training literature broadly (see Table 2).
 
 ### 3.2 Near Transfer Effects
 

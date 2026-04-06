@@ -78,11 +78,87 @@
 
 ## Table 2. Risk of Bias Assessment
 
-> **[Placeholder — RoB assessment pending. Will use Cochrane RoB 2.0 for RCTs and ROBINS-I for non-randomized studies. Domains assessed: (1) randomization process, (2) deviations from intended intervention, (3) missing outcome data, (4) measurement of outcomes, (5) selective reporting. To be completed before submission.]**
+> **Notes:**
+> - **RoB 2.0** (Cochrane) applied to 51 RCTs and 1 crossover study; domains: **D1** = Randomization process; **D2** = Deviations from intended interventions; **D3** = Missing outcome data; **D4** = Measurement of outcomes; **D5** = Selection of reported results.
+> - **ROBINS-I** applied to 4 non-randomized studies (quasi-RCTs and single-group pre–post); domains: **D1** = Confounding; **D2** = Selection of participants; **D3** = Classification of interventions; **D4** = Deviations from intended interventions; **D5** = Missing data; **D6** = Measurement of outcomes; **D7** = Selection of reported results.
+> - RoB ratings: **Low** = low risk; **SC** = Some Concerns; **High** = high risk (RoB 2.0); **Mod** = Moderate; **Ser** = Serious; **Crit** = Critical (ROBINS-I).
+> - Assessment conducted by oo (AI-assisted, based on PDF full-text extraction and expert judgment). Six items flagged for human verification (see paper01_rob_assessment.md Section V).
 
-| Seq | First Author | Year | Design | Randomization | Allocation concealment | Blinding | Incomplete data | Selective reporting | Overall RoB |
-|-----|-------------|------|--------|---------------|----------------------|---------|-----------------|---------------------|-------------|
-| … | … | … | … | … | … | … | … | … | … |
+### 2a. RCT Studies (RoB 2.0, *k* = 51)
+
+| Seq | First Author | Year | D1 | D2 | D3 | D4 | D5 | Overall |
+|-----|-------------|------|----|----|----|----|-----|---------|
+| 1 | Lommen | 2020 | SC | SC | Low | SC | SC | SC |
+| 2 | Borella | 2019 | Low | SC | Low | SC | SC | SC |
+| 3 | Salminen | 2016 | SC | SC | Low | SC | SC | SC |
+| 4 | Tays | 2015 | Low | Low | Low | Low | SC | **Low** |
+| 5 | Vesterinen | 2018 | SC | Low | Low | Low | SC | SC |
+| 6 | Brum | 2020 | Low | SC | Low | SC | SC | SC |
+| 8 | Wang | 2025 | Low | SC | SC | SC | SC | SC |
+| 9 | Guye | 2017 | Low | Low | SC | Low | Low | **Low** |
+| 10 | Teixeira-Santos | 2022 | Low | Low | Low | Low | Low | **Low** |
+| 11 | Wayne | 2016 | SC | Low | Low | Low | SC | SC |
+| 12 | Stephens | 2016 | Low | SC | Low | SC | SC | SC |
+| 13 | Matysiak | 2019 | SC | SC | Low | SC | SC | SC |
+| 15 | Borella | 2019b | Low | SC | Low | SC | SC | SC |
+| 16 | Matysiak | 2020 | Low | SC | Low | SC | SC | SC |
+| 18 | Heinzel | 2014 | Low | SC | Low | SC | SC | SC |
+| 19 | Borella | 2013 | Low | SC | SC | SC | SC | SC |
+| 20 | Ghavidel | 2020 | Low | Low | Low | SC | SC | SC |
+| 21 | Sun | 2018 | Low | SC | Low | SC | SC | SC |
+| 22 | Boutzoukas | 2022 | SC | SC | SC | SC | Low | SC |
+| 23 | Verty | 2024 | Low | Low | Low | SC | Low | **Low** |
+| 24 | Tagliabue | 2022 | Low | SC | Low | SC | SC | SC |
+| 25 | Zinke | 2014 | Low | SC | Low | SC | SC | SC |
+| 26 | Mičič | 2020 | Low | SC | Low | SC | SC | SC |
+| 27 | Zając-Lamparska | 2024 | SC | SC | Low | SC | Low | SC |
+| 28 | Jaeggi | 2020 | Low | SC | Low | SC | Low | SC |
+| 30 | Cantarella | 2017 | Low | SC | Low | SC | SC | SC |
+| 31 | Carretti | 2013 | Low | SC | Low | SC | SC | SC |
+| 32 | Heo | 2014 | Low | Low | Low | SC | SC | SC |
+| 34 | Assecondi | 2022 | Low | SC | Low | SC | SC | SC |
+| 36 | Shatil | 2014 | Low | Low | SC | SC | SC | SC |
+| 39 | Buschkuehl | 2008 | Low | SC | Low | SC | SC | SC |
+| 40 | Booth | 2023 | Low | Low | Low | SC | Low | **Low** |
+| 41 | Heinzel | 2017 | Low | SC | Low | SC | SC | SC |
+| 43 | Stephens | 2017 | SC | SC | Low | SC | SC | SC |
+| 44 | Sutton | 2025 | Low | SC | Low | SC | SC | SC |
+| 45 | Tusch | 2016 | Low | SC | Low | SC | SC | SC |
+| 46 | McAvinue | 2013 | Low | SC | SC | SC | SC | SC |
+| 47 | Goghari | 2018 | SC | SC | Low | SC | SC | SC |
+| 48 | Borella | 2025 | Low | Low | Low | Low | SC | **Low** |
+| 51 | Basak | 2016 | Low | Low | Low | SC | SC | SC |
+| 52 | Jaeggi | 2023 | Low | SC | Low | SC | Low | SC |
+| 53 | Borella | 2017 | Low | SC | Low | SC | SC | SC |
+| 54 | Brambilla | 2021 | Low | Low | Low | SC | SC | SC |
+| 55 | Antonenko | 2022 | Low | SC | Low | SC | Low | SC |
+| 57 | Zelinski | 2014 | Low | Low | Low | SC | SC | SC |
+| 59 | Spironelli | 2021 | Low | Low | SC | Low | SC | SC |
+| 60 | Nguyen | 2026 | SC | Low | Low | Low | Low | **Low** |
+| 61 | Cantarella | 2021 | Low | SC | SC | SC | SC | SC |
+| 62 | Pergher | 2020 | Low | Low | Low | Low | SC | **Low** |
+| 63 | Lange | 2015 | SC | SC | Low | SC | SC | SC |
+| 67 | Chai | 2026 | SC | SC | Low | SC | SC | SC |
+
+### 2b. Non-Randomized Studies (ROBINS-I, *k* = 5)
+
+| Seq | First Author | Year | Design | D1 | D2 | D3 | D4 | D5 | D6 | D7 | Overall |
+|-----|-------------|------|--------|----|----|----|----|----|----|-----|---------|
+| 14 | Šimko | 2021 | Crossover | Mod | Low | Low | Low | Low | Low | Low | Moderate |
+| 29 | Bürki | 2014 | Quasi-RCT | Ser | Mod | Low | Mod | Low | Low | Mod | Serious |
+| 35 | Günther | 2003 | Single-group | Crit | High | Low | Mod | Low | Low | Mod | **Critical** |
+| 49 | Goghari | 2017 | Quasi-RCT | Ser | Mod | Low | Mod | SC | Low | Mod | Serious |
+| 50 | Zinke | 2012 | Quasi-RCT | Ser | Mod | Low | SC | SC | Low | Mod | Serious |
+
+### Summary
+
+| RoB Level | *k* | % |
+|-----------|-----|---|
+| RCT Low | 8 | 14% |
+| RCT Some Concerns | 43 | 77% |
+| Non-RCT Moderate | 1 | 2% |
+| Non-RCT Serious | 3 | 5% |
+| Non-RCT Critical | 1 | 2% |
 
 ---
 
