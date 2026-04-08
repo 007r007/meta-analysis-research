@@ -167,12 +167,23 @@ def any_match(text, patterns):
     return any(re.search(p, t) for p in patterns)
 
 
+# 非同行评审出版类型（归入E4，出版类型不符）
+NON_PEER_REVIEWED_TYPES = {'THES', 'BOOK', 'CHAP', 'DATA', 'MGZN', 'NEWS', 'UNPB'}
+# 会议论文：不自动排除，留第二轮人工判断（数量极少）
+# BOOK_CHAPTER（Scopus/WoS特殊标签）：不自动排除，留第二轮人工判断
+
+
 # ── 筛选逻辑 ─────────────────────────────────────────────────
 
 def screen(rec):
     title    = get_field(rec, 'TI', 'T1')
     abstract = get_field(rec, 'AB', 'N2')
     combined = (title + ' ' + abstract).lower()
+
+    # E4-出版类型：非同行评审文献（学位论文/图书等）
+    ty = get_field(rec, 'TY').upper()
+    if ty in NON_PEER_REVIEWED_TYPES:
+        return 'E4', f'非同行评审文献（{ty}：学位论文/图书）'
 
     # E4：综述/元分析（优先判断，避免误排实质性文献）
     if any_match(title.lower(), E4_TITLE):
