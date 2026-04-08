@@ -1,9 +1,9 @@
 {
   "total_input": 1827,
-  "retained": 711,
+  "retained": 513,
   "E1_age": 454,
   "E2_exposure": 294,
-  "E3_neural": 270,
+  "E3_neural": 468,
   "E4_review": 98,
-  "excluded_total": 1116
+  "excluded_total": 1314
 }

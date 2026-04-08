@@ -68,12 +68,12 @@ SES_WORDS = [
     r'parental socioeconomic', r'family socioeconomic',
 ]
 
-# 概念B：神经指标词（任一命中 → 有神经测量）
-NEURAL_WORDS = [
+# 概念B（精确层）：有明确神经测量方法的词（任一命中 → 确定有神经测量）
+NEURAL_SPECIFIC = [
     r'\beeg\b', r'electroencephalograph', r'electrophysiolog',
     r'\berp\b', r'event.related potential',
     r'\bfmri\b', r'functional mri', r'structural mri', r'neuroimaging',
-    r'brain imaging', r'brain function', r'brain activity',
+    r'brain imaging',
     r'\brseeg\b', r'spectral power', r'alpha power', r'theta power',
     r'\bdti\b', r'diffusion tensor', r'functional connectivity',
     r'resting.state',
@@ -85,8 +85,17 @@ NEURAL_WORDS = [
     r'gray matter', r'grey matter', r'white matter',
     r'brain structure', r'brain morpholog',
     r'voxel.based morphometry', r'\bvbm\b',
-    r'brain development',
 ]
+
+# 概念B（宽泛层）：单独出现不足以判定有神经测量（需同时命中精确层才保留）
+NEURAL_BROAD = [
+    r'brain development',
+    r'brain function',
+    r'brain activity',
+]
+
+# 合并，用于判断"是否有任何神经相关词"
+NEURAL_WORDS = NEURAL_SPECIFIC + NEURAL_BROAD
 
 # E4：综述/元分析识别词（标题精确，摘要宽松）
 E4_TITLE = [
@@ -179,9 +188,11 @@ def screen(rec):
     if not any_match(combined, SES_WORDS):
         return 'E2', '无父母教育/SES相关词'
 
-    # E3：无神经指标
+    # E3：无神经指标（必须命中至少一个精确层神经词；宽泛词单独不足）
     if not any_match(combined, NEURAL_WORDS):
-        return 'E3', '无神经测量指标词'
+        return 'E3', '无任何神经相关词'
+    if not any_match(combined, NEURAL_SPECIFIC):
+        return 'E3', '仅宽泛神经词(brain development/function/activity)，无具体测量指标'
 
     return '保留', ''
 
