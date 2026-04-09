@@ -1,6 +1,6 @@
 # Methods §2.3–2.4 检索与筛选段落草稿
 
-**版本**：v1.3（2026-04-09，oo全文精读完成，最终纳入17篇）
+**版本**：v1.4（2026-04-09，#79 Ding 2021追加排除E2，最终16篇）
 **说明**：基于实际执行数据撰写，供正式写作阶段参考。数字已经oo全文逐篇精读最终确认（109→17篇）。
 
 ---
@@ -27,7 +27,7 @@ Title and abstract screening proceeded in two stages:
 
 **Stage 2 (Title/abstract review):** Two reviewers independently screened all 513 records against the full PICOS eligibility criteria. Disagreements were resolved by discussion and consensus. Stage 2 excluded 380 records, retaining 133 for full-text retrieval.
 
-**Stage 3 (Full-text eligibility):** Full-text PDFs were obtained for 109 of the 133 records (82%); 24 records were excluded prior to full-text review on the basis of abstract information (22 records), confirmed retraction (1 record), or inability to locate the full text after reasonable effort (1 record). Two reviewers independently assessed all 109 full texts against the eligibility criteria. Full-text review included systematic verification that parental education or SES had an independently estimable effect (i.e., reported as a separate regression coefficient, primary exposure variable, or with a statistically significant independent association with a neural outcome); studies in which education was subsumed within a composite SES factor without a separable coefficient, or served only as a covariate without a reported independent effect, were excluded (E2). Disagreements were resolved by consensus discussion. This process yielded **17 studies** meeting all inclusion criteria; 92 were excluded at full-text stage. Primary reasons for full-text exclusion were: parental education/SES not independently estimable (E2, *k* = 86); duplicate records of an included study or preprint superseded by a published version (E7, *k* = 4); non-empirical publication type (E4, *k* = 1); and full text inaccessible (E6, *k* = 1). A PRISMA 2020 flow diagram is presented in Figure 1.
+**Stage 3 (Full-text eligibility):** Full-text PDFs were obtained for 109 of the 133 records (82%); 24 records were excluded prior to full-text review on the basis of abstract information (22 records), confirmed retraction (1 record), or inability to locate the full text after reasonable effort (1 record). Two reviewers independently assessed all 109 full texts against the eligibility criteria. Full-text review included systematic verification that parental education or SES had an independently estimable effect (i.e., reported as a separate regression coefficient, primary exposure variable, or with a statistically significant independent association with a neural outcome); studies in which education was subsumed within a composite SES factor without a separable coefficient, or served only as a covariate without a reported independent effect, were excluded (E2). Disagreements were resolved by consensus discussion. This process yielded **16 studies** meeting all inclusion criteria; 93 were excluded at full-text stage. Primary reasons for full-text exclusion were: parental education/SES not independently estimable (E2, *k* = 87); duplicate records of an included study or preprint superseded by a published version (E7, *k* = 4); non-empirical publication type (E4, *k* = 1); and full text inaccessible (E6, *k* = 1). A PRISMA 2020 flow diagram is presented in Figure 1.
 
 ---
 
@@ -40,9 +40,9 @@ Title and abstract screening proceeded in two stages:
 | Stage 1保留 | 513 | 数据_2_第一轮自动筛选结果.xlsx |
 | Stage 2保留 | 133 | 数据_3_全文筛选待下载列表.xlsx |
 | 全文筛选输入 | 109 | 数据_5_第三轮全文筛选.xlsx |
-| 最终纳入 | **17**（oo全文逐篇精读最终确认） | 数据_5_第三轮全文筛选.xlsx |
-| Stage 3排除明细 | E2×86/E7×4/E4×1/E6×1 | 数据_5_第三轮全文筛选.xlsx |
-| 最终纳入序号 | #5/#7/#9/#13/#15/#19/#20/#23/#28/#43/#64/#72/#75/#78/#79/#104/#109 | 数据_5_第三轮全文筛选.xlsx |
+| 最终纳入 | **16**（oo全文精读+cc核查最终确认） | 数据_5_第三轮全文筛选.xlsx |
+| Stage 3排除明细 | E2×87/E7×4/E4×1/E6×1 | 数据_5_第三轮全文筛选.xlsx |
+| 最终纳入序号 | #5/#7/#9/#13/#15/#19/#20/#23/#28/#43/#64/#72/#75/#78/#104/#109 | 数据_5_第三轮全文筛选.xlsx |
 
 ---
 
@@ -93,5 +93,7 @@ Title and abstract screening proceeded in two stages:
 | #103 | Simon 2021 | 原文明确"neither parental education was significantly associated" |
 | #107 | Stevens 2015 | 原文明确"no significant differences between education groups" |
 
-**最终17篇（15正相关/2负相关）**：
-#5(ERP-)/#7(fNIRS+)/#9(sMRI+)/#13(rsEEG+)/#15(sMRI+)/#19(sMRI+)/#20(sMRI+)/#23(fMRI+)/#28(fMRI+)/#43(DTI+)/#64(DTI+)/#72(rsEEG+)/#75(fMRI-)/#78(ERP+)/#79(fNIRS+)/#104(DTI+)/#109(sMRI+)
+**最终16篇（14正相关/2负相关）**：
+#5(ERP-)/#7(fNIRS+)/#9(sMRI+)/#13(rsEEG+)/#15(sMRI+)/#19(sMRI+)/#20(sMRI+)/#23(fMRI+)/#28(fMRI+)/#43(DTI+)/#64(DTI+)/#72(rsEEG+)/#75(fMRI-)/#78(ERP+)/#104(DTI+)/#109(sMRI+)
+
+**追加排除：#79 Ding 2021（E2）**：主统计为SES分组ANOVA，MEL与SES r=0.948（高度共线），教育无独立回归系数（composite-inseparable）
