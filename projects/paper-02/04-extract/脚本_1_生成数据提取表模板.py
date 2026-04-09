@@ -131,7 +131,9 @@ for ci, (fname, fdesc, fwidth, fcolor) in enumerate(HEADERS, 1):
     hdr(c, fcolor, fname)
     ws.column_dimensions[get_column_letter(ci)].width = fwidth
     # 记录列字母映射（取字段名前2字符如A1,B2等）
-    col_letters[fname[:2]] = ci
+    # 取字段名中空格前的部分作key（如"D3b"、"A9"、"F4"）
+    key = fname.split(' ')[0]
+    col_letters[key] = ci
 
 ws.row_dimensions[2].height = 36
 
