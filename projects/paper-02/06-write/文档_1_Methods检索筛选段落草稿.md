@@ -1,7 +1,7 @@
 # Methods §2.3–2.4 检索与筛选段落草稿
 
-**版本**：v1.1（2026-04-09，oo系统排查后更新）
-**说明**：基于实际执行数据撰写，供正式写作阶段参考。数字已经oo逐篇核查确认（76→67篇）。
+**版本**：v1.2（2026-04-09，cc全文逐篇核查+oo裁定后更新）
+**说明**：基于实际执行数据撰写，供正式写作阶段参考。数字已经oo+cc联合逐篇核查最终确认（109→27篇）。
 
 ---
 
@@ -27,7 +27,7 @@ Title and abstract screening proceeded in two stages:
 
 **Stage 2 (Title/abstract review):** Two reviewers independently screened all 513 records against the full PICOS eligibility criteria. Disagreements were resolved by discussion and consensus. Stage 2 excluded 380 records, retaining 133 for full-text retrieval.
 
-**Stage 3 (Full-text eligibility):** Full-text PDFs were obtained for 109 of the 133 records (82%); 24 records were excluded prior to full-text review on the basis of abstract information (22 records), confirmed retraction (1 record), or inability to locate the full text after reasonable effort (1 record). Two reviewers independently assessed all 109 full texts against the eligibility criteria. Full-text review included systematic verification that parental education had an independently estimable effect (i.e., reported as a separate regression coefficient or as the primary exposure variable); studies in which education was subsumed within a composite SES factor or served only as a covariate without a reported beta coefficient were excluded (E2). Disagreements were resolved by consensus discussion. This process yielded **67 studies** meeting all inclusion criteria; 42 were excluded at full-text stage. Primary reasons for full-text exclusion were: parental education not independently estimable (E2, *k* = 31); duplicate records of an included study or preprint superseded by a published version (E7, *k* = 5); non-empirical publication type (E4, *k* = 2); sample age not within 0–8 years (E1, *k* = 1); no neural outcome reported (E3, *k* = 1); and full text inaccessible (E6, *k* = 1). A PRISMA 2020 flow diagram is presented in Figure 1.
+**Stage 3 (Full-text eligibility):** Full-text PDFs were obtained for 109 of the 133 records (82%); 24 records were excluded prior to full-text review on the basis of abstract information (22 records), confirmed retraction (1 record), or inability to locate the full text after reasonable effort (1 record). Two reviewers independently assessed all 109 full texts against the eligibility criteria. Full-text review included systematic verification that parental education or SES had an independently estimable effect (i.e., reported as a separate regression coefficient, primary exposure variable, or with a statistically significant independent association with a neural outcome); studies in which education was subsumed within a composite SES factor without a separable coefficient, or served only as a covariate without a reported independent effect, were excluded (E2). Disagreements were resolved by consensus discussion. This process yielded **27 studies** meeting all inclusion criteria; 82 were excluded at full-text stage. Primary reasons for full-text exclusion were: parental education/SES not independently estimable (E2, *k* = 33); duplicate records of an included study or preprint superseded by a published version (E7, *k* = 5); non-empirical publication type (E4, *k* = 2); sample age not within 0–8 years (E1, *k* = 1); no neural outcome reported (E3, *k* = 1); and full text inaccessible (E6, *k* = 1). A PRISMA 2020 flow diagram is presented in Figure 1.
 
 ---
 
@@ -40,8 +40,9 @@ Title and abstract screening proceeded in two stages:
 | Stage 1保留 | 513 | 数据_2_第一轮自动筛选结果.xlsx |
 | Stage 2保留 | 133 | 数据_3_全文筛选待下载列表.xlsx |
 | 全文筛选输入 | 109 | 数据_5_第三轮全文筛选.xlsx |
-| 最终纳入 | 67（oo逐篇核查确认） | 数据_5_第三轮全文筛选.xlsx |
-| Stage 3排除明细 | E2×31/E7×5/E4×2/E1×1/E3×1/E6×1 | 数据_5_第三轮全文筛选.xlsx |
+| 最终纳入 | **27**（oo+cc联合逐篇核查最终确认） | 数据_5_第三轮全文筛选.xlsx |
+| Stage 3排除明细 | E2×33/E7×5/E4×2/E1×1/E3×1/E6×1 | 数据_5_第三轮全文筛选.xlsx |
+| 最终纳入序号 | #5/#7/#9/#13/#15/#19/#20/#22/#23/#28/#31/#35/#38/#43/#47/#48/#52/#64/#72/#75/#78/#79/#80/#103/#104/#107/#109 | 数据_5_第三轮全文筛选.xlsx |
 
 ---
 
@@ -67,4 +68,20 @@ Title and abstract screening proceeded in two stages:
 
 **漏网原因**：第三轮全文筛选时，这些文章标题/摘要提到了SES或父母教育，但未深入读Methods/Results确认教育是否有独立效应量。叙述性综述的PICOS在此边界比Meta分析更严格。
 
-**筛选漏斗更新**：109篇全文 → 排除42篇 → **最终纳入67篇**
+**筛选漏斗更新**：109篇全文 → 排除82篇 → **最终纳入27篇**
+
+---
+
+## cc全文核查备注（2026-04-09，数据提取前二次核查）
+
+**背景**：数据提取前cc对29篇全文逐篇核查E2风险，发现2篇需追加排除，oo裁定确认。
+
+**三篇争议裁定**：
+
+| 序号 | 文献 | cc初判 | oo最终裁定 | 理由 |
+|------|------|--------|-----------|------|
+| #109 | Lange 2010 | 排除E2 | **保留** ✅ | 全文含独立章节分析父母教育vs VIQ/PIQ，p<.00001，教育是三个主要变量之一 |
+| #88 | Aghamohammadi-Sereshki 2026 | 排除E2 | **排除E2** | 教育无显著效应（no significant correlation with hippocampal development） |
+| #34 | Moog 2023 | 排除E2 | **排除E2** | 母亲教育完全未测量，不在模型中，主暴露为母亲皮质醇 |
+
+**29→27篇**：排除#88和#34，保留#109。
