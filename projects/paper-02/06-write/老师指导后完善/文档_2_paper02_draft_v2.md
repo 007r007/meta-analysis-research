@@ -273,13 +273,17 @@ The directional consistency of findings across 16 studies is striking, but the e
 
 Parental education effects are not distributed uniformly across the brain. Across modalities, associations cluster in two functional systems: the **language network** (arcuate fasciculus, inferior frontal gyrus, superior temporal regions) and the **executive control and stress-regulation network** (anterior cingulate cortex, medial prefrontal cortex, amygdala–PFC circuitry). Seven of 16 studies implicated language-network regions as primary substrates (Turesky et al., 2022; Ozernov-Palchik et al., 2019; Demir-Lira et al., 2021; Brito & Noble, 2020; Shephard et al., 2019; Maguire & Schneider, 2019; Wienke et al., 2024), while five studies implicated prefrontal executive and stress-regulation circuitry (Conejero et al., 2018; Wijeakumar et al., 2019; Ursache & Noble, 2016; Maguire & Schneider, 2019; Ramphal et al., 2020). The remaining four studies (Stiver et al., 2015; McKinnon et al., 2023; Zhu et al., 2023; Lange et al., 2010) reported effects on global or distributed morphometry rather than specific networks. This pattern is not random: language and executive function are precisely the behavioral domains most reliably associated with parental education in the behavioral literature (Hoff, 2013; Blair & Raver, 2016). The neural system specificity thus supports the theoretical coherence of the observed associations, and suggests that future studies focusing on fronto-temporal language circuitry and prefrontal regulatory networks are most likely to detect reliable parental education effects.
 
+Among the seven language-network studies, five measured language-circuit anatomy or activation directly (Turesky et al., 2022; Ozernov-Palchik et al., 2019; Demir-Lira et al., 2021; Brito & Noble, 2020; Wienke et al., 2024); two studies (Shephard et al., 2019; Maguire & Schneider, 2019) measured EEG alpha indices that serve as indirect proxies for thalamocortical and prefrontal maturation rather than language-circuit anatomy per se. Wienke et al. (2024), also using an auditory ERP paradigm targeting speech discrimination, produced the review's only negative finding; as discussed in Section 4.3.3, this is most plausibly attributable to migration-related linguistic heterogeneity rather than the absence of a language-network association per se.
+
 **Table 2. Distribution of neural system specificity across 16 included studies**
 
 | Neural system | *k* | Representative studies |
 |---------------|-----|------------------------|
 | Language network (arcuate fasciculus, IFG, STG) | 7 | Turesky et al. (2022); Ozernov-Palchik et al. (2019); Demir-Lira et al. (2021) |
 | Executive control / stress-regulation (ACC, mPFC, amygdala–PFC) | 5 | Conejero et al. (2018); Ramphal et al. (2020); Ursache & Noble (2016) |
-| Global / distributed morphometry | 4 | McKinnon et al. (2023); Zhu et al. (2023); Stiver et al. (2015); Lange et al. (2010) |
+| Global / distributed morphometry | 4 | McKinnon et al. (2023); Zhu et al. (2023); Stiver et al. (2015); Lange et al. (2010)† |
+
+*Note.* Maguire & Schneider (2019) contributed to both the language network and executive control counts (alpha power as language-maturation proxy; vocabulary and working memory as executive outcomes); total *k* across categories therefore exceeds 16. †Lange et al. (2010) used brain volume as a covariate rather than a primary neural outcome; the primary reported finding was an association between parental education and verbal IQ.
 
 #### 4.3.2 Developmental age
 
