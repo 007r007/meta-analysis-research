@@ -46,7 +46,7 @@ MOD_COL = {
 
 # ── Vertical age-band zones (months) ─────────────────────────────────────────
 AGE_BANDS = [
-    (0,    1,   "#F0F4FB", "Neo-\nnatal"),
+    (0,    1,   "#F0F4FB", "Neo."),
     (1,    12,  "#EBF7EE", "Infant\n(1–12 mo)"),
     (12,   36,  "#FFF8E7", "Toddler\n(1–3 yr)"),
     (36,   60,  "#FEF0EF", "Pre-\nschool"),
