@@ -1,9 +1,11 @@
 """
-Figure 1: PRISMA 2020 Flow Diagram  (v2 — fixed left overlap)
-Paper-02: Parental education and early childhood neural development
+Figure 1: PRISMA 2020 Flow Diagram  (v4 — label boxes closer to main flow)
 
-Fix: removed duplicate vertical text labels; stage labels moved to left margin
-     with no overlap to main flow boxes; MAIN_X shifted right to 45.
+Fixes vs v3:
+- LABEL_CX moved from 8 → 22, so right edge of label box (31) is only 4 units
+  from main flow left edge (35), eliminating the wide gap
+- LABEL_W = 18 (was 16) to keep text fitting comfortably
+- All other layout unchanged
 """
 
 import matplotlib
@@ -21,21 +23,30 @@ C_EX    = dict(fc="#FEF0EF", ec="#C0392B", tc="#7B1E1E")
 C_LABEL = dict(fc="#E8EFF7", ec="#2E6DA4", tc="#2E6DA4")
 ARROW   = "#444444"
 
-fig, ax = plt.subplots(figsize=(11, 14))
+fig, ax = plt.subplots(figsize=(12, 15))
 ax.set_xlim(0, 100)
 ax.set_ylim(0, 100)
 ax.axis("off")
 ax.set_facecolor("white")
 fig.patch.set_facecolor("white")
 
-# ── layout constants ───────────────────────────────────────────────────────
-MAIN_X = 46     # centre of main flow column (shifted right vs v1)
-EXCL_X = 82     # centre of exclusion column
-BW     = 36     # main box width  → left edge at 46-18=28, right at 64
-BH     = 9
-EBW    = 28     # exclusion box width → left edge at 82-14=68  (gap=4 from main right)
-LABEL_X = 8     # stage label centre (right edge at 8+6=14, well left of 28)
-LABEL_W = 12    # label box half-width → 8±6 = 2 to 14
+# ── layout ─────────────────────────────────────────────────────────────────
+MAIN_X  = 52       # centre of main flow column
+EXCL_X  = 86       # centre of exclusion column
+BW      = 34       # main box width  (left edge = 52-17 = 35)
+BH      = 8
+EBW     = 24       # exclusion box width
+LABEL_CX = 22      # label box centre x  ← moved right (was 8)
+LABEL_W  = 18      # label box full width — right edge = 22+9 = 31, gap to main = 35-31 = 4
+LABEL_H  = 9       # label box full height
+
+# ── row y-positions (top→bottom) ──────────────────────────────────────────
+y1 = 88   # database hits
+y2 = 74   # after dedup
+y3 = 60   # after stage 1
+y4 = 46   # after stage 2
+y5 = 32   # full-text eligibility
+y6 = 16   # included
 
 # ── helpers ────────────────────────────────────────────────────────────────
 def box(ax, x, y, w, h, text, style, fontsize=8.5, bold_first=False):
@@ -68,32 +79,25 @@ def arrow_right(ax, x_start, x_end, y):
                 arrowprops=dict(arrowstyle="-|>", color=ARROW,
                                 lw=1.4, mutation_scale=13), zorder=2)
 
-def stage_label(ax, y, text):
-    """Draw a rotated stage label in the left margin."""
+def stage_label(ax, y_centre, text):
+    """Draw stage label box, centred at (LABEL_CX, y_centre), text rotated 90°."""
     rect = mpatches.FancyBboxPatch(
-        (LABEL_X - LABEL_W/2, y - 3.5), LABEL_W, 7,
+        (LABEL_CX - LABEL_W/2, y_centre - LABEL_H/2), LABEL_W, LABEL_H,
         boxstyle="round,pad=0.3",
         facecolor=C_LABEL["fc"], edgecolor=C_LABEL["ec"],
-        linewidth=1.0, zorder=3
+        linewidth=1.1, zorder=3
     )
     ax.add_patch(rect)
-    ax.text(LABEL_X, y, text, ha="center", va="center",
-            fontsize=8.5, color=C_LABEL["tc"], fontweight="bold",
+    ax.text(LABEL_CX, y_centre, text,
+            ha="center", va="center",
+            fontsize=8, color=C_LABEL["tc"], fontweight="bold",
             rotation=90, zorder=4)
 
-# ── row y-positions ────────────────────────────────────────────────────────
-y1 = 92   # database hits
-y2 = 78   # after dedup
-y3 = 64   # after stage 1
-y4 = 50   # after stage 2
-y5 = 36   # full-text
-y6 = 20   # included
-
-# ── stage labels (left margin, no overlap with main boxes) ─────────────────
-stage_label(ax, (y1 + y2) / 2,       "Identification")
-stage_label(ax, (y2 + y3 + y4) / 3,  "Screening")
-stage_label(ax, (y4 + y5) / 2,       "Eligibility")
-stage_label(ax, y6,                   "Included")
+# ── stage labels — y aligned with corresponding flow rows ─────────────────
+stage_label(ax, (y1 + y2) / 2, "Identification")
+stage_label(ax, (y3 + y4) / 2, "Screening")
+stage_label(ax, y5, "Eligibility")
+stage_label(ax, y6, "Included")
 
 # ── Row 1: Database hits ───────────────────────────────────────────────────
 box(ax, MAIN_X, y1, BW, 10,
@@ -104,7 +108,7 @@ box(ax, MAIN_X, y1, BW, 10,
     C_ID, fontsize=8)
 
 # ── Row 2: After deduplication ─────────────────────────────────────────────
-arrow_down(ax, MAIN_X, y1 - 5, y2 + 4.5)
+arrow_down(ax, MAIN_X, y1 - 5, y2 + 4)
 box(ax, MAIN_X, y2, BW, BH,
     "Records after deduplication\n(n = 1,827)",
     C_ID, fontsize=9, bold_first=True)
@@ -113,7 +117,7 @@ box(ax, EXCL_X, y2, EBW, BH,
 arrow_right(ax, MAIN_X + BW/2, EXCL_X - EBW/2, y2)
 
 # ── Row 3: After Stage 1 ───────────────────────────────────────────────────
-arrow_down(ax, MAIN_X, y2 - 4.5, y3 + 4.5)
+arrow_down(ax, MAIN_X, y2 - 4, y3 + 4)
 box(ax, MAIN_X, y3, BW, BH,
     "Records after automated pre-screening\n(n = 513)",
     C_SC, fontsize=9, bold_first=True)
@@ -123,7 +127,7 @@ box(ax, EXCL_X, y3, EBW, BH,
 arrow_right(ax, MAIN_X + BW/2, EXCL_X - EBW/2, y3)
 
 # ── Row 4: After Stage 2 ───────────────────────────────────────────────────
-arrow_down(ax, MAIN_X, y3 - 4.5, y4 + 4.5)
+arrow_down(ax, MAIN_X, y3 - 4, y4 + 4)
 box(ax, MAIN_X, y4, BW, BH,
     "Records after title/abstract screening\n(n = 133)",
     C_SC, fontsize=9, bold_first=True)
@@ -133,20 +137,20 @@ box(ax, EXCL_X, y4, EBW, BH,
 arrow_right(ax, MAIN_X + BW/2, EXCL_X - EBW/2, y4)
 
 # ── Row 5: Full-text ───────────────────────────────────────────────────────
-arrow_down(ax, MAIN_X, y4 - 4.5, y5 + 4.5)
+arrow_down(ax, MAIN_X, y4 - 4, y5 + 4)
 box(ax, MAIN_X, y5, BW, BH,
     "Full texts assessed for eligibility\n(n = 109)",
     C_SC, fontsize=9, bold_first=True)
 box(ax, EXCL_X, y5, EBW, 11,
     "Excluded before full-text review\n(n = 24)\n"
-    "  Abstract-based exclusion: n = 22\n"
+    "  Abstract-based: n = 22\n"
     "  Confirmed retraction: n = 1\n"
     "  Full text unavailable: n = 1",
     C_EX, fontsize=7.8)
 arrow_right(ax, MAIN_X + BW/2, EXCL_X - EBW/2, y5)
 
 # ── Row 6: Included ────────────────────────────────────────────────────────
-arrow_down(ax, MAIN_X, y5 - 4.5, y6 + 4.5)
+arrow_down(ax, MAIN_X, y5 - 4, y6 + 4.5)
 box(ax, MAIN_X, y6, BW, 9,
     "Studies included in review\n(n = 16)",
     C_SC, fontsize=10, bold_first=True)
@@ -160,8 +164,8 @@ box(ax, EXCL_X, y6, EBW, 13,
     C_EX, fontsize=7.5)
 arrow_right(ax, MAIN_X + BW/2, EXCL_X - EBW/2, y6)
 
-# ── Title ──────────────────────────────────────────────────────────────────
-ax.text(50, 99.2,
+# ── Title ─────────────────────────────────────────────────────────────────
+ax.text(54, 97,
         "Figure 1.  PRISMA 2020 Flow Diagram",
         ha="center", va="top", fontsize=12, fontweight="bold", color="#1A1A1A")
 

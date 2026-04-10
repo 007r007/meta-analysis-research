@@ -57,11 +57,11 @@
     {
       "id": "#75",
       "author_year": "Shephard et al. (2019)",
-      "modality": "fMRI",
+      "modality": "rsEEG",
       "age_group": "Infant",
-      "N": 50,
+      "N": 31,
       "effect_direction": "positive",
-      "note": "DMN connectivity; high edu → stronger DMN"
+      "note": "Alpha-band functional connectivity; adolescent mother sample; Brazil"
     },
     {
       "id": "#28",

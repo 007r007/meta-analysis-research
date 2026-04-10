@@ -1,0 +1,22 @@
+{
+  "title": "Figure 4: Age Timeline of Included Studies",
+  "description": "Each study shown as a horizontal bar spanning the age range of neural measurement. Color = modality, marker style = effect direction.",
+  "studies": [
+    {"id": "#15", "author_year": "McKinnon (2023)",   "modality": "sMRI",  "age_min_mo": 0,   "age_max_mo": 0.5, "N": 261, "effect_direction": "positive", "note": "neonatal"},
+    {"id": "#20", "author_year": "Konrad (2024)",     "modality": "sMRI",  "age_min_mo": 0,   "age_max_mo": 0.5, "N": 105, "effect_direction": "positive", "note": "neonatal"},
+    {"id": "#28", "author_year": "Ramphal (2020)",    "modality": "fMRI",  "age_min_mo": 0,   "age_max_mo": 24,  "N": 112, "effect_direction": "positive", "note": "neonatal scan → 2yr follow-up"},
+    {"id": "#13", "author_year": "Brito (2020)",      "modality": "rsEEG", "age_min_mo": 6,   "age_max_mo": 12,  "N": 179, "effect_direction": "positive", "note": ""},
+    {"id": "#5",  "author_year": "Wienke (2024)",     "modality": "ERP",   "age_min_mo": 6,   "age_max_mo": 14,  "N": 255, "effect_direction": "negative", "note": ""},
+    {"id": "#75", "author_year": "Shephard (2019)",   "modality": "rsEEG", "age_min_mo": 6,   "age_max_mo": 6,   "N": 31,  "effect_direction": "positive", "note": "alpha connectivity; Brazil"},
+    {"id": "#64", "author_year": "Turesky (2022)",    "modality": "DTI",   "age_min_mo": 8,   "age_max_mo": 9,   "N": 38,  "effect_direction": "positive", "note": ""},
+    {"id": "#9",  "author_year": "Stiver (2015)",     "modality": "sMRI",  "age_min_mo": 0,   "age_max_mo": 24,  "N": 26,  "effect_direction": "positive", "note": "preterm→2yr corrected age"},
+    {"id": "#78", "author_year": "Conejero (2018)",   "modality": "ERP",   "age_min_mo": 12,  "age_max_mo": 30,  "N": 56,  "effect_direction": "positive", "note": ""},
+    {"id": "#7",  "author_year": "Wijeakumar (2019)", "modality": "fNIRS", "age_min_mo": 60,  "age_max_mo": 96,  "N": 35,  "effect_direction": "positive", "note": ""},
+    {"id": "#43", "author_year": "Ozernov-Palchik (2019)", "modality": "DTI", "age_min_mo": 60, "age_max_mo": 96, "N": 125, "effect_direction": "positive", "note": ""},
+    {"id": "#104","author_year": "Ursache (2016)",    "modality": "DTI",   "age_min_mo": 72,  "age_max_mo": 108, "N": 107, "effect_direction": "positive", "note": "focus 6-9y"},
+    {"id": "#23", "author_year": "Demir-Lira (2021)", "modality": "fMRI",  "age_min_mo": 72,  "age_max_mo": 156, "N": 42,  "effect_direction": "positive", "note": ""},
+    {"id": "#72", "author_year": "Maguire (2019)",    "modality": "rsEEG", "age_min_mo": 96,  "age_max_mo": 180, "N": 90,  "effect_direction": "positive", "note": ""},
+    {"id": "#19", "author_year": "Zhu (2023)",        "modality": "sMRI",  "age_min_mo": 0,   "age_max_mo": 96,  "N": 373, "effect_direction": "positive", "note": "longitudinal 0-8yr"},
+    {"id": "#109","author_year": "Lange (2010)",      "modality": "sMRI",  "age_min_mo": 48,  "age_max_mo": 216, "N": 309, "effect_direction": "positive", "note": "4-18yr"}
+  ]
+}
