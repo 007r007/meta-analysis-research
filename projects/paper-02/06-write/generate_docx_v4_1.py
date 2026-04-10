@@ -470,7 +470,14 @@ while i < len(lines):
             continue
 
     # Otherwise normal paragraph
-    add_para(doc, stripped, first_line_indent=False)
+    # Note. lines get extra top spacing to visually separate from table bottom border
+    if stripped.startswith("*Note.*") or stripped.startswith("*Note.* "):
+        para = doc.add_paragraph(style="Normal")
+        para.alignment = WD_ALIGN_PARAGRAPH.LEFT
+        set_para_spacing(para, space_before=6, space_after=6, line_spacing=1.5)
+        add_inline(para, stripped)
+    else:
+        add_para(doc, stripped, first_line_indent=False)
     i += 1
 
 
