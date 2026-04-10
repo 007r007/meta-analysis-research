@@ -1,7 +1,7 @@
 # Parental education level and early childhood neural development: a systematic review of EEG, ERP, fNIRS, and neuroimaging evidence (ages 0–8 years)
 
-**Draft version**: v1.0 (2026-04-09)
-**Status**: Results 3.1 + 3.3 complete; remaining sections to follow
+**Draft version**: v1.0 (2026-04-10)
+**Status**: Results 3.1–3.6 complete; Discussion 4.1–4.5 complete; References partial (16 study refs TBC from extraction table)
 **Target journal**: Developmental Cognitive Neuroscience (Q1, IF ≈ 4.5)
 
 ---
@@ -217,7 +217,81 @@ Across the three DTI studies, the most consistently implicated tract was the arc
 
 ---
 
-*(Section 3.6 mechanisms and Discussion to follow. Push for oo review.)*
+### 3.6 Candidate mechanisms: cognitive stimulation and chronic stress pathways
+
+A consistent positive association between parental education and early neural development was observed across six modalities and a 0–15 year age range. The present section synthesizes evidence bearing on two non-mutually exclusive mechanistic pathways—cognitive stimulation and chronic stress reduction—that have been proposed to explain how parental education is transduced into neurobiological outcomes (Hackman et al., 2010; Farah et al., 2008).
+
+#### 3.6.1 The cognitive stimulation pathway
+
+The cognitive stimulation hypothesis proposes that more educated parents provide richer language input, engage in more frequent and cognitively demanding parent–child interactions, and maintain more literacy-oriented home environments—exposures that directly promote synaptic strengthening and myelination in developing neural circuits (Hart & Risley, 1995; Tomalski & Johnson, 2010). Two converging lines of evidence from this review support this pathway.
+
+First, the DTI studies of Ozernov-Palchik et al. (2019) and Turesky et al. (2022) consistently implicate the arcuate fasciculus—the white matter tract connecting perisylvian language areas—as the primary neural substrate of parental education effects. The arcuate fasciculus is known to be highly sensitive to language experience, with FA in this tract predicting reading skill and vocabulary in independent samples (Yeatman et al., 2012). The finding that maternal education predicts arcuate FA as early as 8–9 months (Turesky et al., 2022), and independently of income at 5–8 years (Ozernov-Palchik et al., 2019), is most parsimoniously explained by systematic differences in the quantity and quality of language directed at the child—a dimension of the home environment that varies more strongly with educational attainment than with income per se (Hoff, 2003; Rowe, 2008).
+
+Second, Maguire & Schneider (2019) demonstrated that maternal education predicted vocabulary size above and beyond income and raw EEG metrics in school-age children, consistent with a pathway from educational attainment through language-input quality to lexical development that is not reducible to household financial resources. This dissociation is diagnostic: if parental education effects were entirely mediated by income (e.g., better nutrition, less exposure to environmental toxins), one would not expect education to account for unique variance in language-related neural and cognitive outcomes after controlling for income. The persistence of education effects under income control, documented across multiple studies in this review, points to qualitatively distinct environmental inputs—specifically, the information and interaction quality of the home learning environment.
+
+#### 3.6.2 The chronic stress pathway
+
+The chronic stress hypothesis proposes that lower parental education is associated with greater exposure to stressors—financial instability, residential crowding, neighborhood disorder, and family conflict—that dysregulate the hypothalamic–pituitary–adrenal (HPA) axis and alter neural development in stress-sensitive regions, particularly the amygdala, hippocampus, and prefrontal cortex (McEwen & Gianaros, 2010; Blair & Raver, 2016).
+
+Evidence for this pathway comes most directly from Shephard et al. (2019), who found that the positive association between maternal education and DMN connectivity in infants was partially attenuated by maternal anxiety. If education effects operated exclusively through direct learning input, one would not expect maternal emotional state—an index of caregiver stress—to moderate the neural association. The moderation pattern instead supports a stress-buffering account: higher maternal education generally promotes organized DMN development (consistent with the cognitive stimulation hypothesis), but high maternal anxiety—which co-occurs more frequently in lower-education contexts—can partially counteract this advantage, suggesting that caregiving stress mediates part of the education–brain development relationship. The posterior cingulate cortex and medial prefrontal regions anchoring the DMN are known targets of glucocorticoid signaling and early adversity effects (Lupien et al., 2009), providing a plausible biological substrate for this moderation.
+
+Further indirect support derives from Ramphal et al. (2020), who observed that higher parental education was associated with stronger neonatal amygdala–prefrontal anticorrelation—a connectivity pattern that has been linked to better emotion regulation and reduced stress reactivity in early childhood (Gee et al., 2013). Because this association was detectable at birth, it implies prenatal programming: the prenatal stress environment experienced by the fetus, which co-varies with maternal education via maternal cortisol levels, placental function, and immune-inflammatory markers, may begin organizing amygdala–prefrontal circuitry before the child's first postnatal interaction with the caregiver.
+
+#### 3.6.3 Integration and limitations of mechanistic inference
+
+The two pathways are not mutually exclusive and likely operate simultaneously across the developmental period covered by this review. For children assessed at birth and in the neonatal period (McKinnon et al., 2023; Ramphal et al., 2020; Konrad et al., 2024), prenatal mechanisms—operating via maternal stress physiology and nutritional status—must be the primary driver of observed parental education effects, given that postnatal environmental experience had not yet accrued at the time of measurement. For children assessed in infancy and beyond (Turesky et al., 2022; Shephard et al., 2019; Maguire & Schneider, 2019; Ozernov-Palchik et al., 2019), both prenatal programming and ongoing postnatal environmental inputs plausibly contribute.
+
+Several important limitations constrain mechanistic inference from the current evidence base. No study in this review directly measured the hypothesized mediating variables—language input quantity, parental sensitivity, household stressors, or cortisol reactivity—alongside neural outcomes, making it impossible to establish mediation formally. The Shephard et al. (2019) moderation analysis provides suggestive evidence for a stress-pathway component, and the Ozernov-Palchik et al. (2019) income-controlled analysis supports a cognitive stimulation pathway, but neither constitutes a test of the full mechanistic chain. Future studies employing ecological momentary assessment of parenting quality, home language environment recording, and HPA biomarkers alongside neural measurement would substantially advance mechanistic understanding.
+
+---
+
+*(Discussion sections 4.1–4.5 to follow.)*
+
+---
+
+## 4. Discussion
+
+### 4.1 Summary of findings
+
+This systematic review identified 16 studies reporting independent associations between parental education level and direct neural outcomes in children aged 0–15 years, with the majority (12 of 16) focusing on the 0–8 year target window. The central finding is one of strong directional consistency: 15 of 16 studies (94%) reported a positive association between higher parental education and more mature or stronger neural indices. This pattern held across all six included neural modalities—resting-state EEG, ERP, fNIRS, fMRI, DTI, and structural MRI—and across the full developmental span examined, from the neonatal period through middle childhood. The single negative finding (Wienke et al., 2024) was specific to an infant ERP paradigm in a migrant-majority sample and is most plausibly attributable to linguistic exposure heterogeneity rather than a true reversal of the education effect.
+
+The strength of the directional consistency—94% positive across modalities—is notable given the methodological diversity of the included studies: different neural modalities with incommensurable outcome metrics, different operationalizations of parental education (years of schooling, categorical degree attainment, composite-separable), different covariate sets, and samples drawn from 10 countries or regions. The convergence of evidence under these conditions increases confidence that the observed pattern reflects a genuine environmental signal rather than a methodological artifact.
+
+Two structural findings are particularly notable from a developmental neuroscience perspective. First, parental education effects were detectable in neonates assessed within days of birth (McKinnon et al., 2023; Ramphal et al., 2020; Konrad et al., 2024), establishing that the parental education → neural development pathway begins *in utero*. Second, across the DTI studies, the arcuate fasciculus was the most consistently implicated white matter tract (Turesky et al., 2022; Ozernov-Palchik et al., 2019), and education effects on this tract persisted after controlling for income, pointing to language experience quality as a plausible proximal mechanism.
+
+### 4.2 Developmental timing and sensitive periods
+
+The age distribution of included studies and their findings speaks to the question of when in development parental education effects on neural outcomes first emerge and whether effects are concentrated in particular developmental windows. The neonatal findings (three of 16 studies) establish *in utero* origins. The infant and toddler findings (seven studies) indicate that education-related neural differences are already present and widening in the first two years of life—before formal schooling and before most cognitive assessment instruments can be reliably administered. The school-age findings (six studies) demonstrate that these differences persist into middle childhood, with some evidence that they may be increasing (e.g., Ozernov-Palchik et al., 2019, finding large arcuate FA effects at 5–8 years).
+
+This pattern implies that early intervention is most likely to be effective if initiated in the perinatal and infant periods, when parental education-related environmental exposures—prenatal stress, postnatal language input, caregiving sensitivity—are already exerting their effects on developing neural systems. Interventions targeting older preschool or school-age children may still produce benefits, but may be attempting to modify neural systems that have already consolidated SES-related differences over several years of development. This is consistent with the broader early childhood intervention literature emphasizing the importance of the first 1,000 days (Walker et al., 2011).
+
+### 4.3 Cross-modal convergence and neural systems
+
+The convergence of parental education effects across frontal and temporal neural systems—regardless of modality—supports a coherent account centered on prefrontal and perisylvian circuitry. In ERP studies, the most consistent finding was greater frontal activation (larger ERN amplitude at fronto-central electrodes) in children of more educated parents. In fNIRS, greater inferior frontal gyrus activation was found. In fMRI, effects clustered in medial prefrontal cortex (amygdala–PFC connectivity; DMN connectivity) and left inferior frontal gyrus (language network). In DTI, the arcuate fasciculus—projecting between inferior frontal and superior temporal cortex—was the most consistently affected tract. In structural MRI, effects included frontal, parietal, and temporal surface area. Together, these findings converge on a fronto-temporal network encompassing language-processing regions (Broca's area, Wernicke's area, arcuate fasciculus) and executive/affective regulation regions (anterior cingulate, medial prefrontal cortex, DMN).
+
+This convergence is theoretically coherent: language and executive function are the behavioral domains most consistently linked to parental education in behavioral and developmental studies (Hoff, 2013; Blair & Raver, 2016), and the neural systems implicated here are the substrates of precisely those capacities. The cross-modal evidence thus provides a mechanistically coherent account of how parental education is translated from an environmental input into an outcome measurable at the behavioral level.
+
+### 4.4 Limitations and future directions
+
+Several limitations of the reviewed evidence base warrant explicit acknowledgment.
+
+**Heterogeneity in education operationalization.** Across 16 studies, parental education was operationalized in at least six distinct ways (maternal years, paternal years, mean parental years, highest parental level, binary degree attainment, composite-separable). This heterogeneity limits the precision of conclusions about dose–response relationships and makes it impossible to determine whether specific thresholds of educational attainment (e.g., university degree) confer qualitatively different benefits than incremental differences within lower educational levels.
+
+**Absence of direct mechanism measurement.** As noted in Section 3.6, no included study directly measured the hypothesized mediating variables alongside neural outcomes. The mechanistic pathways proposed—cognitive stimulation and stress reduction—remain inferential from indirect evidence. Specifically designed studies coupling home language environment measurement (e.g., LENA recording), caregiver stress biomarkers, and longitudinal neural assessment are needed to formally test the mechanistic chains.
+
+**Geographic and cultural concentration.** Despite spanning 10 countries, the included studies are heavily concentrated in high-income Western contexts, particularly the United States, United Kingdom, and Canada (11 of 16 studies). Only one study (Wijeakumar et al., 2019) included a sample from a low- or middle-income country, and its cross-cultural design precluded direct inference about non-Western contexts in isolation. The systematic search was also restricted to English-language publications, further limiting coverage of research published in other languages, including Chinese, which would be essential for capturing the substantial and growing neurodevelopmental literature from China. The generalizability of findings to non-Western, non-English-speaking, and low-income country contexts is therefore unknown, and should not be assumed.
+
+**Small sample sizes.** Several included studies had samples of fewer than 50 children (Stiver et al., 2015, *N* = 26; Wijeakumar et al., 2019, *N* = 35; Demir-Lira et al., 2021, *N* = 42), limiting statistical power and increasing the risk of inflated effect size estimates via winner's curse. Future studies should target sample sizes of ≥100 in any single neural modality and ideally use pre-registered, adequately powered designs.
+
+**Unmeasured confounding.** While all included studies controlled for at least some confounders, none controlled for the full set of variables that may co-vary with parental education and neural outcomes—including prenatal healthcare quality, gestational complications, postnatal nutrition, childcare quality, and the child's own emerging cognitive capacities. Residual confounding remains a plausible alternative explanation for some effect estimates.
+
+Future research priorities identified by this review include: (1) neonatal and infant studies with prospective prenatal education assessment and direct biological pathway measurement (cortisol, language input); (2) studies in East Asian, South Asian, and sub-Saharan African samples with diverse educational systems; (3) multi-site, pre-registered longitudinal designs with sample sizes of ≥200 per wave; and (4) intervention studies—ideally randomized—examining whether parenting programmes targeting language enrichment or stress reduction in low-education families produce detectable changes in neural markers.
+
+### 4.5 Conclusions
+
+This systematic review provides the most comprehensive cross-modal synthesis to date of evidence linking parental education to neural development in early childhood. The evidence base—spanning EEG, ERP, fNIRS, fMRI, DTI, and structural MRI across the neonatal to school-age period—converges on a single conclusion: higher parental education is broadly associated with more advanced neural development, with effects emerging *in utero* and persisting through middle childhood. The neural systems most consistently implicated—prefrontal cortex, temporal language regions, and the arcuate fasciculus—are the substrates of language acquisition and executive function, the behavioral domains most strongly predicted by parental education in the behavioral literature.
+
+These findings carry implications for early childhood policy. If the parental education gradient in brain development begins prenatally and widens through the first years of life, then policy approaches restricted to school-age intervention are unlikely to address the root neural mechanisms. Prenatal and perinatal support programmes targeting the quality of the home learning environment—language enrichment, caregiver stress management, and responsive caregiving—may be necessary to reduce socioeconomic disparities in neural development before they become consolidated. The present review underscores the importance of treating parental education not merely as a demographic control variable in neurodevelopmental research, but as a substantive predictor of the environmental inputs that shape the developing brain.
 
 ---
 
@@ -272,3 +346,17 @@ Yeatman, J. D., Dougherty, R. F., Ben-Shachar, M., & Wandell, B. A. (2012). Deve
 Wienke, A.-S., *et al.* (2024). *[Full reference to be confirmed from extraction table]*
 
 Wijeakumar, S., *et al.* (2019). *[Full reference to be confirmed from extraction table]*
+
+Blair, C., & Raver, C. C. (2016). Poverty, stress, and brain development: New directions for prevention and intervention. *Academic Pediatrics*, *16*(3 Suppl), S30–S36. https://doi.org/10.1016/j.acap.2016.01.010
+
+Farah, M. J., Shera, D. M., Savage, J. H., Betancourt, L., Giannetta, J. M., Brodsky, N. L., Malmud, E. K., & Hurt, H. (2006). Childhood poverty: Specific associations with neurocognitive development. *Brain Research*, *1110*(1), 166–174. https://doi.org/10.1016/j.brainres.2006.06.072
+
+Hart, B., & Risley, T. R. (1995). *Meaningful differences in the everyday experience of young American children*. Paul H. Brookes.
+
+Hoff, E. (2003). The specificity of environmental influence: Socioeconomic status affects early vocabulary development via maternal speech. *Child Development*, *74*(5), 1368–1378. https://doi.org/10.1111/1467-8624.00612
+
+Lupien, S. J., McEwen, B. S., Gunnar, M. R., & Heim, C. (2009). Effects of stress throughout the lifespan on the brain, behaviour and cognition. *Nature Reviews Neuroscience*, *10*(6), 434–445. https://doi.org/10.1038/nrn2639
+
+Rowe, M. L. (2008). Child-directed speech: Relation to socioeconomic status, knowledge of child development and child vocabulary skill. *Journal of Child Language*, *35*(1), 185–205. https://doi.org/10.1017/S0305000907008343
+
+Walker, S. P., Wachs, T. D., Grantham-McGregor, S., Black, M. M., Nelson, C. A., Huffman, S. L., Baker-Henningham, H., Chang, S. M., Hamadani, J. D., Lozoff, B., Gardner, J. M. M., Powell, C. A., Rahman, A., & Richter, L. (2011). Inequality in early childhood: Risk and protective factors for early child development. *The Lancet*, *378*(9799), 1325–1338. https://doi.org/10.1016/S0140-6736(11)60555-2
