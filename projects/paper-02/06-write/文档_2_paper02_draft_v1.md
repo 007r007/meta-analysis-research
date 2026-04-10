@@ -283,6 +283,8 @@ Several limitations of the reviewed evidence base warrant explicit acknowledgmen
 
 **Unmeasured confounding.** While all included studies controlled for at least some confounders, none controlled for the full set of variables that may co-vary with parental education and neural outcomes—including prenatal healthcare quality, gestational complications, postnatal nutrition, childcare quality, and the child's own emerging cognitive capacities. Residual confounding remains a plausible alternative explanation for some effect estimates.
 
+**Publication bias.** The possibility of publication bias cannot be formally evaluated in the absence of a quantitative meta-analysis; funnel plot asymmetry tests and Egger's test are not applicable to narrative syntheses. However, the high proportion of positive findings (15 of 16 studies, 94%) may partly reflect selective publication of studies reporting significant associations between parental education and neural outcomes, as null findings in this literature are less likely to be submitted or accepted for publication. This risk is compounded by the restriction of the search to English-language databases, which may systematically under-represent null or negative findings published in other languages. The small sample sizes characteristic of neuroimaging studies further increase the risk of inflated effect size estimates in published work (Button et al., 2013). Readers should therefore interpret the observed directional consistency as suggestive of a genuine environmental signal, while acknowledging that the true proportion of null associations in the unpublished literature is unknown.
+
 Future research priorities identified by this review include: (1) neonatal and infant studies with prospective prenatal education assessment and direct biological pathway measurement (cortisol, language input); (2) studies in East Asian, South Asian, and sub-Saharan African samples with diverse educational systems; (3) multi-site, pre-registered longitudinal designs with sample sizes of ≥200 per wave (Knudsen et al., 2006); and (4) intervention studies—ideally randomized—examining whether parenting programmes targeting language enrichment or stress reduction in low-education families produce detectable changes in neural markers.
 
 ### 4.5 Conclusions
@@ -290,6 +292,18 @@ Future research priorities identified by this review include: (1) neonatal and i
 This systematic review provides the most comprehensive cross-modal synthesis to date of evidence linking parental education to neural development in early childhood. The evidence base—spanning EEG, ERP, fNIRS, fMRI, DTI, and structural MRI across the neonatal to school-age period—converges on a single conclusion: higher parental education is broadly associated with more advanced neural development, with effects emerging *in utero* and persisting through middle childhood. The neural systems most consistently implicated—prefrontal cortex, temporal language regions, and the arcuate fasciculus—are the substrates of language acquisition and executive function, the behavioral domains most strongly predicted by parental education in the behavioral literature.
 
 These findings carry implications for early childhood policy. If the parental education gradient in brain development begins prenatally and widens through the first years of life, then policy approaches restricted to school-age intervention are unlikely to address the root neural mechanisms. Prenatal and perinatal support programmes targeting the quality of the home learning environment—language enrichment, caregiver stress management, and responsive caregiving—may be necessary to reduce socioeconomic disparities in neural development before they become consolidated. The present review underscores the importance of treating parental education not merely as a demographic control variable in neurodevelopmental research, but as a substantive predictor of the environmental inputs that shape the developing brain.
+
+---
+
+## Declarations
+
+**Ethics approval and consent to participate.** This study is a systematic review of previously published literature and did not involve primary data collection from human participants. Accordingly, ethics committee approval and informed consent were not required.
+
+**Conflict of interest.** The authors declare no conflict of interest.
+
+**Funding.** [To be completed at submission: state funding sources or "This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors."]
+
+**Data availability.** The data extraction table supporting the findings of this review is available from the corresponding author upon reasonable request.
 
 ---
 
