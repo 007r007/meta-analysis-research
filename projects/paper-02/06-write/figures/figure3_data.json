@@ -1,0 +1,23 @@
+{
+  "title": "Figure 3: Effect Direction by Neural Modality",
+  "description": "Horizontal stacked bar chart showing count of positive/negative findings per modality",
+  "oo_confirmed": "2026-04-10",
+  "color_mapping": {
+    "positive": "#2E6DA4",
+    "negative": "#C0392B"
+  },
+  "modality_order_bottom_to_top": ["fNIRS", "ERP", "rsEEG", "DTI", "fMRI", "sMRI"],
+  "data": [
+    {"modality": "sMRI",   "k_total": 5, "positive": 5, "negative": 0},
+    {"modality": "fMRI",   "k_total": 3, "positive": 3, "negative": 0},
+    {"modality": "DTI",    "k_total": 3, "positive": 3, "negative": 0},
+    {"modality": "rsEEG",  "k_total": 2, "positive": 2, "negative": 0},
+    {"modality": "ERP",    "k_total": 2, "positive": 1, "negative": 1},
+    {"modality": "fNIRS",  "k_total": 1, "positive": 1, "negative": 0}
+  ],
+  "totals": {
+    "all_studies": 16,
+    "positive": 15,
+    "negative": 1
+  }
+}

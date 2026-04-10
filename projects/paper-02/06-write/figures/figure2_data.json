@@ -1,0 +1,157 @@
+{
+  "title": "Figure 2: Modality × Age Group Distribution of Included Studies",
+  "description": "Bubble chart: X-axis = age group at neural measurement, Y-axis = neural modality, bubble size = sample N, color = effect direction",
+  "oo_confirmed": "2026-04-10 (Ramphal归Neonatal=神经测量起点; Lange归sMRI组)",
+  "age_group_order": ["Neonatal", "Infant", "Toddler", "Preschool", "School-age"],
+  "modality_order": ["rsEEG", "ERP", "fNIRS", "fMRI", "DTI", "sMRI"],
+  "color_mapping": {
+    "positive": "#2E6DA4",
+    "negative": "#C0392B"
+  },
+  "studies": [
+    {
+      "id": "#13",
+      "author_year": "Brito & Noble (2020)",
+      "modality": "rsEEG",
+      "age_group": "Infant",
+      "N": 179,
+      "effect_direction": "positive",
+      "note": "FDR-uncorrected; p=.025"
+    },
+    {
+      "id": "#72",
+      "author_year": "Maguire & Schneider (2019)",
+      "modality": "rsEEG",
+      "age_group": "School-age",
+      "N": 90,
+      "effect_direction": "positive",
+      "note": null
+    },
+    {
+      "id": "#5",
+      "author_year": "Wienke et al. (2024)",
+      "modality": "ERP",
+      "age_group": "Infant",
+      "N": 255,
+      "effect_direction": "negative",
+      "note": "Only negative result; migration context"
+    },
+    {
+      "id": "#78",
+      "author_year": "Conejero et al. (2018)",
+      "modality": "ERP",
+      "age_group": "Toddler",
+      "N": 56,
+      "effect_direction": "positive",
+      "note": null
+    },
+    {
+      "id": "#7",
+      "author_year": "Wijeakumar et al. (2019)",
+      "modality": "fNIRS",
+      "age_group": "School-age",
+      "N": 35,
+      "effect_direction": "positive",
+      "note": null
+    },
+    {
+      "id": "#75",
+      "author_year": "Shephard et al. (2019)",
+      "modality": "fMRI",
+      "age_group": "Infant",
+      "N": 50,
+      "effect_direction": "positive",
+      "note": "DMN connectivity; high edu → stronger DMN"
+    },
+    {
+      "id": "#28",
+      "author_year": "Ramphal et al. (2020)",
+      "modality": "fMRI",
+      "age_group": "Neonatal",
+      "N": 112,
+      "effect_direction": "positive",
+      "note": "Neural measurement at neonatal; longitudinal follow-up to 2y for behavioral outcomes"
+    },
+    {
+      "id": "#23",
+      "author_year": "Demir-Lira et al. (2021)",
+      "modality": "fMRI",
+      "age_group": "School-age",
+      "N": 42,
+      "effect_direction": "positive",
+      "note": null
+    },
+    {
+      "id": "#64",
+      "author_year": "Turesky et al. (2022)",
+      "modality": "DTI",
+      "age_group": "Infant",
+      "N": 38,
+      "effect_direction": "positive",
+      "note": null
+    },
+    {
+      "id": "#43",
+      "author_year": "Ozernov-Palchik et al. (2019)",
+      "modality": "DTI",
+      "age_group": "School-age",
+      "N": 125,
+      "effect_direction": "positive",
+      "note": null
+    },
+    {
+      "id": "#104",
+      "author_year": "Ursache & Noble (2016)",
+      "modality": "DTI",
+      "age_group": "School-age",
+      "N": 107,
+      "effect_direction": "positive",
+      "note": null
+    },
+    {
+      "id": "#15",
+      "author_year": "McKinnon et al. (2023)",
+      "modality": "sMRI",
+      "age_group": "Neonatal",
+      "N": 261,
+      "effect_direction": "positive",
+      "note": null
+    },
+    {
+      "id": "#20",
+      "author_year": "Konrad et al. (2024)",
+      "modality": "sMRI",
+      "age_group": "Neonatal",
+      "N": 105,
+      "effect_direction": "positive",
+      "note": "Moderation effect: maternal edu moderates hippocampus-cognition"
+    },
+    {
+      "id": "#9",
+      "author_year": "Stiver et al. (2015)",
+      "modality": "sMRI",
+      "age_group": "Toddler",
+      "N": 26,
+      "effect_direction": "positive",
+      "note": "Longitudinal"
+    },
+    {
+      "id": "#19",
+      "author_year": "Zhu et al. (2023)",
+      "modality": "sMRI",
+      "age_group": "School-age",
+      "N": 373,
+      "effect_direction": "positive",
+      "note": "Multinational; longitudinal"
+    },
+    {
+      "id": "#109",
+      "author_year": "Lange et al. (2010)",
+      "modality": "sMRI",
+      "age_group": "School-age",
+      "N": 309,
+      "effect_direction": "positive",
+      "note": "IQ as proxy; brain volume as covariate (not primary outcome)"
+    }
+  ]
+}
