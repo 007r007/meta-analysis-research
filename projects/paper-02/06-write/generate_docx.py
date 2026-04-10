@@ -492,14 +492,14 @@ def parse_main_body(doc, md_text):
                         continue
                     if re.match(r"^## ", aline):
                         break
-                    # **Label:** text
-                    m = re.match(r"^\*\*(.*?)\*\*:\s*(.*)", aline)
+                    # **Label:** text  (colon inside bold markers)
+                    m = re.match(r"^\*\*(.*?:)\*\*\s*(.*)", aline)
                     if m:
                         p = doc.add_paragraph()
                         p.paragraph_format.first_line_indent = Inches(0.5)
                         set_spacing(p)
                         double_space(p)
-                        run1 = p.add_run(m.group(1) + ": ")
+                        run1 = p.add_run(m.group(1) + " ")
                         set_font(run1, 12, bold=True)
                         add_inline(p, m.group(2))
                     elif aline.startswith("**Keywords:**"):
