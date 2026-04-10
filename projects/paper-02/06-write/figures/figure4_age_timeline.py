@@ -1,14 +1,16 @@
 """
-Figure 4: Age Timeline of Included Studies
-Paper-02: Parental education and early childhood neural development
+Figure 4: Age Timeline of Included Studies  (v3 — oo redesign, fixed)
 
-Each study shown as a horizontal bar spanning the age range of neural measurement.
-- Y-axis: studies sorted by age_min then age_max
-- X-axis: child age in months (0–220), with year labels
-- Color: neural modality (6 colors)
-- Bar edge style: solid = positive association, dashed = negative
-- Bar height proportional to log(N) for visual emphasis
-- Shaded background regions for age-group windows
+Layout:
+- Y-axis: one row per study, sorted youngest-at-top, labelled "Author (Year)"
+- X-axis: child age in months (0–220), tick labels in months / years
+- Color: neural modality (6 colors, consistent with Figure 2/3)
+- Bar style: solid fill = positive; hatch + white fill = negative (Wienke only)
+- Vertical background bands: age-group zones
+- Age-group labels: placed via ax.text in data coords BEFORE invert_yaxis,
+  then drawn above the top study row (y = n + 0.6)
+- N= labels right of bar; [−] marker for negative
+- Legend: lower-right quadrant (avoids data)
 """
 
 import json
@@ -29,109 +31,114 @@ with open(data_path, encoding="utf-8") as f:
 
 studies = meta["studies"]
 
-# Sort: by age_min ascending, then age_max ascending
+# ── Sort: age_min ascending, then age_max ascending (index 0 = youngest) ──────
 studies_sorted = sorted(studies, key=lambda s: (s["age_min_mo"], s["age_max_mo"]))
 
-# ── Modality color palette (Nature-adjacent) ──────────────────────────────
+# ── Modality color palette (consistent with Figure 2/3) ──────────────────────
 MOD_COL = {
-    "rsEEG": "#4E9A8C",   # teal
-    "ERP":   "#E07B54",   # coral
-    "fNIRS": "#9467BD",   # purple
-    "fMRI":  "#3A7ABF",   # blue
-    "DTI":   "#D4A017",   # amber
-    "sMRI":  "#6A9E5B",   # green
+    "rsEEG": "#4C9BE8",
+    "ERP":   "#E8834C",
+    "fNIRS": "#4CBE8A",
+    "fMRI":  "#9B4CE8",
+    "DTI":   "#E8C84C",
+    "sMRI":  "#4C6EE8",
 }
 
-# ── Age-group background bands (months) ───────────────────────────────────
+# ── Vertical age-band zones (months) ─────────────────────────────────────────
 AGE_BANDS = [
-    (0,   1,   "#F0F4FA", "Neonatal"),
-    (1,   12,  "#FAF0F0", "Infant"),
-    (12,  36,  "#F0FAF2", "Toddler"),
-    (36,  60,  "#FAFAF0", "Preschool"),
-    (60,  220, "#F5F0FA", "School-age"),
+    (0,    1,   "#F0F4FB", "Neo-\nnatal"),
+    (1,    12,  "#EBF7EE", "Infant\n(1–12 mo)"),
+    (12,   36,  "#FFF8E7", "Toddler\n(1–3 yr)"),
+    (36,   60,  "#FEF0EF", "Pre-\nschool"),
+    (60,   220, "#F5F0FA", "School-age  (5+ yr)"),
 ]
 
-# ── Figure ────────────────────────────────────────────────────────────────
-fig, ax = plt.subplots(figsize=(13, 8))
+# ── Figure ───────────────────────────────────────────────────────────────────
+fig, ax = plt.subplots(figsize=(14, 9))
+plt.subplots_adjust(left=0.20, right=0.96, top=0.93, bottom=0.20)
 
-n_studies = len(studies_sorted)
+n     = len(studies_sorted)
+BAR_H = 0.42   # half-height of each bar
+X_MAX = 220
 
-# background bands
+# ── Vertical background bands ─────────────────────────────────────────────────
 for xlo, xhi, col, label in AGE_BANDS:
-    ax.axvspan(xlo, xhi, facecolor=col, alpha=0.6, zorder=0)
+    ax.axvspan(xlo, xhi, facecolor=col, alpha=0.65, zorder=0)
+
+# Age-group labels: placed at y = -1.5 in data coords (below row 0 after invert).
+# We draw them BEFORE invert_yaxis so we can reason in natural coords.
+# After invert: row-0 is at top, row-(n-1) is at bottom;
+# y = -1.5 ends up ABOVE row-0, which is wrong.
+# Solution: place them at y = n + 0.8  (below the last row after invert).
+for xlo, xhi, col, label in AGE_BANDS:
     mid = (xlo + xhi) / 2
-    ax.text(mid, n_studies + 0.3, label,
-            ha="center", va="bottom", fontsize=8, color="#888888",
-            fontstyle="italic")
+    ax.text(mid, n + 0.9, label,
+            ha="center", va="top", fontsize=8, color="#555555",
+            fontstyle="italic", multialignment="center", zorder=5)
 
-# draw bars
-BAR_H_BASE = 0.55  # base half-height of each bar
+# ── Draw bars ────────────────────────────────────────────────────────────────
 for i, s in enumerate(studies_sorted):
-    y       = i
-    xlo     = s["age_min_mo"]
-    xhi     = max(s["age_max_mo"], xlo + 0.8)   # minimum visible width
-    mod     = s["modality"]
-    col     = MOD_COL[mod]
-    pos     = s["effect_direction"] == "positive"
-    n       = s["N"]
+    y   = i
+    xlo = s["age_min_mo"]
+    xhi = s["age_max_mo"]
+    if xhi - xlo < 2:        # minimum visible width
+        xhi = xlo + 2
+    col = MOD_COL[s["modality"]]
+    neg = s["effect_direction"] == "negative"
+    N   = s["N"]
 
-    # bar height scales gently with log(N): range ~0.3–0.5
-    h = 0.22 + 0.18 * (np.log(n) - np.log(26)) / (np.log(373) - np.log(26))
-
-    # filled bar
-    bar = mpatches.FancyBboxPatch(
-        (xlo, y - h), xhi - xlo, 2 * h,
-        boxstyle="round,pad=0.3",
-        facecolor=col, alpha=0.82,
-        edgecolor=col if pos else "#333333",
-        linewidth=1.0 if pos else 2.0,
-        linestyle="-" if pos else "--",
-        zorder=3
-    )
-    ax.add_patch(bar)
-
-    # author label inside or to the right of bar
-    bar_width = xhi - xlo
-    label_text = s["author_year"]
-    if bar_width >= 18:
-        ax.text((xlo + xhi) / 2, y, label_text,
-                ha="center", va="center", fontsize=7.2,
-                color="white", fontweight="bold", zorder=4)
+    if neg:
+        rect = mpatches.FancyBboxPatch(
+            (xlo, y - BAR_H), xhi - xlo, 2 * BAR_H,
+            boxstyle="round,pad=0.15",
+            facecolor="white", edgecolor=col,
+            linewidth=2.0, linestyle="--", hatch="///",
+            zorder=3
+        )
     else:
-        ax.text(xhi + 1.5, y, label_text,
-                ha="left", va="center", fontsize=7.2,
-                color="#333333", zorder=4)
+        rect = mpatches.FancyBboxPatch(
+            (xlo, y - BAR_H), xhi - xlo, 2 * BAR_H,
+            boxstyle="round,pad=0.15",
+            facecolor=col, edgecolor="white",
+            linewidth=0.7, alpha=0.88,
+            zorder=3
+        )
+    ax.add_patch(rect)
 
-    # N label to the left of bar
-    ax.text(xlo - 1, y, f"N={n}",
-            ha="right", va="center", fontsize=6.5, color="#666666", zorder=4)
+    # N= label right of bar
+    ax.text(xhi + 3, y, f"N={N}",
+            ha="left", va="center", fontsize=6.8, color="#555555", zorder=4)
+    if neg:
+        ax.text(xhi + 3, y + 0.25, "[−]",
+                ha="left", va="center", fontsize=6.5, color="#C0392B", zorder=4)
 
-# ── x-axis: months → labelled in years ─────────────────────────────────
-year_ticks_mo = [0, 6, 12, 24, 36, 48, 60, 96, 120, 156, 180, 216]
-year_labels   = ["0", "6m", "1y", "2y", "3y", "4y", "5y", "8y", "10y", "13y", "15y", "18y"]
-ax.set_xticks(year_ticks_mo)
-ax.set_xticklabels(year_labels, fontsize=9)
-ax.set_xlim(-22, 222)
+# ── Horizontal grid lines ────────────────────────────────────────────────────
+for i in range(n):
+    ax.axhline(i, color="#e0e0e0", linewidth=0.5, zorder=1)
 
-# ── y-axis: study labels ────────────────────────────────────────────────
-ax.set_yticks(range(n_studies))
-ax.set_yticklabels(
-    [f"{s['modality']}" for s in studies_sorted],
-    fontsize=9, fontstyle="italic"
+# ── Vertical year gridlines ──────────────────────────────────────────────────
+for mo in [12, 24, 36, 48, 60, 96, 120, 156, 180]:
+    ax.axvline(mo, color="#cccccc", linewidth=0.6, linestyle=":", zorder=1)
+
+# ── X-axis ───────────────────────────────────────────────────────────────────
+tick_mo  = [0, 6, 12, 24, 36, 48, 60, 96, 120, 156, 180, 216]
+tick_lbl = ["0", "6 mo", "1 yr", "2 yr", "3 yr", "4 yr",
+             "5 yr", "8 yr", "10 yr", "13 yr", "15 yr", "18 yr"]
+ax.set_xticks(tick_mo)
+ax.set_xticklabels(tick_lbl, fontsize=8.5)
+ax.set_xlim(-5, X_MAX + 26)
+
+# ── Y-axis ───────────────────────────────────────────────────────────────────
+ax.set_yticks(range(n))
+ax.set_yticklabels([s["author_year"] for s in studies_sorted], fontsize=9.0)
+ax.set_ylim(-1.5, n + 1.8)
+ax.invert_yaxis()   # row 0 (youngest) at top
+
+ax.set_xlabel("Child age at neural measurement", fontsize=11, labelpad=10)
+ax.set_title(
+    "Figure 4.  Age range of neural measurement across included studies",
+    fontsize=11.5, fontweight="bold", pad=10, loc="left"
 )
-ax.set_ylim(-0.8, n_studies + 0.8)
-
-ax.set_xlabel("Child age at neural measurement", fontsize=11, labelpad=7)
-ax.set_title("Figure 4.  Age range of neural measurement across included studies",
-             fontsize=11.5, fontweight="bold", pad=10, loc="left")
-
-# light horizontal gridlines
-for i in range(n_studies):
-    ax.axhline(i, color="#eeeeee", linewidth=0.5, zorder=1)
-
-# vertical gridlines at year marks
-for mo in [12, 24, 36, 48, 60, 96, 120, 156]:
-    ax.axvline(mo, color="#dddddd", linewidth=0.6, linestyle=":", zorder=1)
 
 ax.set_facecolor("white")
 ax.spines["top"].set_visible(False)
@@ -139,36 +146,46 @@ ax.spines["right"].set_visible(False)
 ax.spines["left"].set_color("#cccccc")
 ax.spines["bottom"].set_color("#cccccc")
 
-# ── legends ─────────────────────────────────────────────────────────────
-# Modality legend
-mod_handles = [mpatches.Patch(color=c, label=m, alpha=0.82)
-               for m, c in MOD_COL.items()]
-leg_mod = ax.legend(handles=mod_handles, title="Neural modality",
-                    loc="lower right", fontsize=8.5, title_fontsize=9,
-                    frameon=True, framealpha=0.95, edgecolor="#cccccc",
-                    ncol=2, handlelength=1.0)
-ax.add_artist(leg_mod)
-
-# Direction legend
-dir_handles = [
-    Line2D([0], [0], color="#555555", linewidth=1.0, linestyle="-",
-           label="Positive association"),
-    Line2D([0], [0], color="#333333", linewidth=2.0, linestyle="--",
-           label="Negative association (k = 1)"),
+# ── Legend: lower-right (clears all bars) ────────────────────────────────────
+mod_handles = [
+    mpatches.Patch(facecolor=c, edgecolor="white", label=m, alpha=0.88)
+    for m, c in MOD_COL.items()
 ]
-ax.legend(handles=dir_handles, title="Effect direction",
-          loc="upper right", fontsize=8.5, title_fontsize=9,
-          frameon=True, framealpha=0.95, edgecolor="#cccccc",
-          handlelength=1.8)
+dir_handles = [
+    mpatches.Patch(facecolor="#aaaaaa", edgecolor="white",
+                   alpha=0.88, label="Positive association"),
+    mpatches.Patch(facecolor="white", edgecolor="#aaaaaa",
+                   hatch="///", linewidth=1.5,
+                   label="Negative association (Wienke, 2024)"),
+]
 
-# footnote
-fig.text(0.07, 0.01,
-         "Bar width = age range of neural measurement. Bar height reflects sample size (log scale). "
-         "Dashed border = negative association. "
-         "Ramphal (2020): neonatal fMRI scan; bar extended to 24 months to indicate longitudinal follow-up.",
-         fontsize=7, color="#666666", va="bottom")
+leg1 = ax.legend(
+    handles=mod_handles, title="Neural modality",
+    loc="lower right", fontsize=8.0, title_fontsize=8.5,
+    frameon=True, framealpha=0.95, edgecolor="#cccccc",
+    ncol=2, handlelength=1.2,
+    bbox_to_anchor=(0.99, 0.01)
+)
+ax.add_artist(leg1)
 
-plt.tight_layout(rect=[0, 0.04, 1, 1])
+ax.legend(
+    handles=dir_handles, title="Effect direction",
+    loc="lower right", fontsize=8.0, title_fontsize=8.5,
+    frameon=True, framealpha=0.95, edgecolor="#cccccc",
+    handlelength=1.5,
+    bbox_to_anchor=(0.99, 0.22)
+)
+
+# ── Footnote ─────────────────────────────────────────────────────────────────
+fig.text(
+    0.20, 0.005,
+    "Bar width = age range at neural measurement.  "
+    "Ramphal (2020): neonatal fMRI scan; bar extended to 24 months (longitudinal behavioural follow-up).  "
+    "Stiver (2015): preterm sample; bar starts at term-equivalent age.  "
+    "Shephard (2019): point measurement at 6 months; bar shown at minimum width.",
+    fontsize=6.5, color="#777777", va="bottom", wrap=True
+)
+
 plt.savefig(out_path, dpi=300, bbox_inches="tight", facecolor="white")
 plt.close()
 print(f"Saved: {out_path}")
