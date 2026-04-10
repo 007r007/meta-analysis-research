@@ -89,6 +89,8 @@ def set_font(run, size_pt=12, bold=False, italic=False, name="Times New Roman"):
 
 def double_space(para):
     pPr = para._p.get_or_add_pPr()
+    for old in pPr.findall(qn("w:spacing")):
+        pPr.remove(old)
     lSpc = OxmlElement("w:spacing")
     lSpc.set(qn("w:line"), "480")   # 480 twips = double
     lSpc.set(qn("w:lineRule"), "auto")
@@ -330,7 +332,7 @@ def add_table_from_md(doc, md_lines, table_num, title, note=None, font_size=9):
         p = doc.add_paragraph()
         set_spacing(p, before=3)
         run1 = p.add_run("Note. ")
-        set_font(run1, 10, italic=True)
+        set_font(run1, 10, bold=True, italic=True)
         run2 = p.add_run(note)
         set_font(run2, 10)
 
@@ -400,7 +402,7 @@ def add_supplementary(doc, nos_file):
     p = doc.add_paragraph()
     set_spacing(p, before=3)
     run1 = p.add_run("Note. ")
-    set_font(run1, 10, italic=True)
+    set_font(run1, 10, bold=True, italic=True)
     run2 = p.add_run(
         "NOS = Newcastle–Ottawa Scale. Selection (0–4): representativeness, exposure ascertainment. "
         "Comparability (0–2): covariate control. Outcome (0–3): assessment quality and follow-up. "
@@ -511,6 +513,7 @@ def parse_main_body(doc, md_text):
                         run2 = p.add_run(kw)
                         set_font(run2, 12)
                     i += 1
+                doc.add_page_break()
                 continue
 
             # References
@@ -599,7 +602,7 @@ def parse_main_body(doc, md_text):
             set_spacing(p, before=3)
             clean = re.sub(r"^\*Note\.\*\s*", "", stripped)
             run1 = p.add_run("Note. ")
-            set_font(run1, 10, italic=True)
+            set_font(run1, 10, bold=True, italic=True)
             add_inline(p, clean, size_pt=10)
             i += 1
             continue
@@ -668,6 +671,15 @@ for attr in ["top_margin", "bottom_margin", "left_margin", "right_margin"]:
 # Default Normal style
 doc.styles["Normal"].font.name = "Times New Roman"
 doc.styles["Normal"].font.size = Pt(12)
+# Set double spacing on Normal style so it propagates to all paragraphs
+style_pPr = doc.styles["Normal"].element.get_or_add_pPr()
+for old in style_pPr.findall(qn("w:spacing")):
+    style_pPr.remove(old)
+_spc = OxmlElement("w:spacing")
+_spc.set(qn("w:line"), "480")
+_spc.set(qn("w:lineRule"), "auto")
+_spc.set(qn("w:after"), "0")
+style_pPr.append(_spc)
 
 # Page numbers
 add_page_numbers(section)
