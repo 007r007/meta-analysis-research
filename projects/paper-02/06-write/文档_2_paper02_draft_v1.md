@@ -1,7 +1,7 @@
 # Parental education level and early childhood neural development: a systematic review of EEG, ERP, fNIRS, and neuroimaging evidence (ages 0–8 years)
 
-**Draft version**: v1.0 (2026-04-10)
-**Status**: Results 3.1–3.6 complete; Discussion 4.1–4.5 complete; References partial (16 study refs TBC from extraction table)
+**Draft version**: v1.1 (2026-04-10)
+**Status**: 全文完成（Abstract/Introduction/Methods/Results 3.1–3.6/Discussion 4.1–4.5/References）；References全部补完（含所有16篇纳入文献）；待oo最终审阅
 **Target journal**: Developmental Cognitive Neuroscience (Q1, IF ≈ 4.5)
 
 ---
@@ -14,9 +14,9 @@
 
 **Methods:** We searched PubMed/MEDLINE, PsycINFO, Web of Science, and Scopus from inception to April 2026, following PRISMA 2020 guidelines. Studies were included if they reported a statistically independent association between parental education (not solely a composite SES score) and at least one direct neural outcome measure in children aged 0–8 years. Study quality was assessed using the Newcastle–Ottawa Scale.
 
-**Results:** Sixteen studies (N = 26–373 per study; 10 countries) met inclusion criteria. Across EEG/ERP, fNIRS, fMRI, DTI, and structural MRI, 15 of 16 studies reported a positive association between higher parental education and more mature or stronger neural indices. Evidence was most consistent for structural brain development (cortical surface area, white matter integrity) and electrophysiological markers of early learning (alpha/beta power, error-monitoring ERPs). One study reported a negative pattern in the context of migration-related exposure heterogeneity.
+**Results:** Sixteen studies (*N* = 26–373 per study; 10 countries or regions) met inclusion criteria. Across six neural modalities (resting-state EEG, ERP, fNIRS, fMRI, DTI, and structural MRI), 15 of 16 studies (94%) reported a positive association between higher parental education and more mature or stronger neural indices. Evidence was most consistent across structural MRI (*k* = 5, all positive), DTI (*k* = 3, all positive), and fMRI (*k* = 3, all positive). The arcuate fasciculus emerged as the most consistently implicated white matter tract across DTI studies, with effects persisting after controlling for household income. Effects were detectable from birth, with three neonatal studies implicating prenatal developmental mechanisms. One study reported a negative pattern in the context of migration-related linguistic exposure heterogeneity.
 
-**Conclusions:** Higher parental education is broadly associated with more advanced neural development from birth through middle childhood. The evidence base spans multiple modalities and age windows, converging on frontal, temporal, and fronto-parietal networks. Mechanisms likely operate via cognitive stimulation and language-enriched environments, with some evidence for stress pathway moderation.
+**Conclusions:** Higher parental education is broadly associated with more advanced neural development from birth through middle childhood. The evidence converges on prefrontal, temporal, and fronto-temporal networks—the neural substrates of language acquisition and executive function. Mechanisms likely operate via cognitive stimulation and language-enriched home environments, with additional evidence for prenatal stress-pathway modulation. These findings suggest that interventions targeting early home language enrichment and caregiving quality may be necessary to reduce socioeconomic disparities in neural development before they consolidate.
 
 **Keywords:** parental education; socioeconomic status; neural development; EEG; ERP; fNIRS; fMRI; DTI; systematic review; early childhood
 
@@ -219,7 +219,7 @@ Across the three DTI studies, the most consistently implicated tract was the arc
 
 ### 3.6 Candidate mechanisms: cognitive stimulation and chronic stress pathways
 
-A consistent positive association between parental education and early neural development was observed across six modalities and a 0–15 year age range. The present section synthesizes evidence bearing on two non-mutually exclusive mechanistic pathways—cognitive stimulation and chronic stress reduction—that have been proposed to explain how parental education is transduced into neurobiological outcomes (Hackman et al., 2010; Farah et al., 2008).
+A consistent positive association between parental education and early neural development was observed across six modalities and a 0–15 year age range. The present section synthesizes evidence bearing on two non-mutually exclusive mechanistic pathways—cognitive stimulation and chronic stress reduction—that have been proposed to explain how parental education is transduced into neurobiological outcomes (Hackman et al., 2010).
 
 #### 3.6.1 The cognitive stimulation pathway
 
@@ -245,10 +245,6 @@ Several important limitations constrain mechanistic inference from the current e
 
 ---
 
-*(Discussion sections 4.1–4.5 to follow.)*
-
----
-
 ## 4. Discussion
 
 ### 4.1 Summary of findings
@@ -259,11 +255,13 @@ The strength of the directional consistency—94% positive across modalities—i
 
 Two structural findings are particularly notable from a developmental neuroscience perspective. First, parental education effects were detectable in neonates assessed within days of birth (McKinnon et al., 2023; Ramphal et al., 2020; Konrad et al., 2024), establishing that the parental education → neural development pathway begins *in utero*. Second, across the DTI studies, the arcuate fasciculus was the most consistently implicated white matter tract (Turesky et al., 2022; Ozernov-Palchik et al., 2019), and education effects on this tract persisted after controlling for income, pointing to language experience quality as a plausible proximal mechanism.
 
+Compared with prior narrative reviews that described SES–brain links using composite SES indices (Hackman & Farah, 2009; Tomalski & Johnson, 2010), the present review is the first to systematically require an independently estimable effect of parental education specifically, and to synthesize evidence across six neural modalities simultaneously. This cross-modal synthesis reveals a level of convergence—particularly around fronto-temporal language networks—that could not be discerned from modality-specific literatures in isolation.
+
 ### 4.2 Developmental timing and sensitive periods
 
 The age distribution of included studies and their findings speaks to the question of when in development parental education effects on neural outcomes first emerge and whether effects are concentrated in particular developmental windows. The neonatal findings (three of 16 studies) establish *in utero* origins. The infant and toddler findings (seven studies) indicate that education-related neural differences are already present and widening in the first two years of life—before formal schooling and before most cognitive assessment instruments can be reliably administered. The school-age findings (six studies) demonstrate that these differences persist into middle childhood, with some evidence that they may be increasing (e.g., Ozernov-Palchik et al., 2019, finding large arcuate FA effects at 5–8 years).
 
-This pattern implies that early intervention is most likely to be effective if initiated in the perinatal and infant periods, when parental education-related environmental exposures—prenatal stress, postnatal language input, caregiving sensitivity—are already exerting their effects on developing neural systems. Interventions targeting older preschool or school-age children may still produce benefits, but may be attempting to modify neural systems that have already consolidated SES-related differences over several years of development. This is consistent with the broader early childhood intervention literature emphasizing the importance of the first 1,000 days (Walker et al., 2011).
+This pattern implies that early intervention is most likely to be effective if initiated in the perinatal and infant periods, when parental education-related environmental exposures—prenatal stress, postnatal language input, caregiving sensitivity—are already exerting their effects on developing neural systems. Interventions targeting older preschool or school-age children may still produce benefits, but may be attempting to modify neural systems that have already consolidated SES-related differences over several years of development. This is consistent with the broader early childhood intervention literature emphasizing the importance of the first 1,000 days (Victora et al., 2008; see also Walker et al., 2011).
 
 ### 4.3 Cross-modal convergence and neural systems
 
@@ -301,7 +299,7 @@ These findings carry implications for early childhood policy. If the parental ed
 
 Bradley, R. H., & Corwyn, R. F. (2002). Socioeconomic status and child development. *Annual Review of Psychology*, *53*, 371–399. https://doi.org/10.1146/annurev.psych.53.100901.135233
 
-Brito, N. H., & Noble, K. G. (2020). *[Full reference to be added from extraction table]*
+Brito, N. H., Troller-Renfree, S. V., Leon-Santos, A., Isler, J. R., Fifer, W. P., & Noble, K. G. (2020). Associations among the home language environment and neural activity during infancy. *Developmental Cognitive Neuroscience*, *43*, Article 100780. https://doi.org/10.1016/j.dcn.2020.100780
 
 Campbell, M., McKenzie, J. E., Sowden, A., Katikireddi, S. V., Brennan, S. E., Ellis, S., Hartmann-Boyce, J., Ryan, R., Shepperd, S., Thomas, J., Welch, V., & Thomson, H. (2020). Synthesis without meta-analysis (SWiM) in systematic reviews: Reporting guideline. *BMJ*, *368*, l6890. https://doi.org/10.1136/bmj.l6890
 
@@ -321,19 +319,19 @@ Hoff, E. (2013). Interpreting the early language trajectories of children from l
 
 Knickmeyer, R. C., Gouttard, S., Kang, C., Evans, D., Wilber, K., Smith, J. K., Hamer, R. M., Lin, W., Gerig, G., & Gilmore, J. H. (2008). A structural MRI study of human brain development from birth to 2 years. *Journal of Neuroscience*, *28*(47), 12176–12182.
 
-Lange, N., *et al.* (2010). *[Full reference to be confirmed from extraction table]*
+Lange, N., Froimowitz, M. P., Bigler, E. D., & Lainhart, J. E. (2010). Associations between IQ, total and regional brain volumes, and demography in a large normative sample of healthy children and adolescents. *Developmental Neuropsychology*, *35*(3), 296–317. https://doi.org/10.1080/87565641003696833
 
-Maguire, M. J., & Schneider, J. M. (2019). *[Full reference to be added from extraction table]*
+Maguire, M. J., & Schneider, J. M. (2019). Socioeconomic status related differences in resting state EEG activity correspond to differences in vocabulary and working memory in grade school. *Brain and Cognition*, *137*, Article 103619. https://doi.org/10.1016/j.bandc.2019.103619
 
 McEwen, B. S., & Gianaros, P. J. (2010). Central role of the brain in stress and adaptation: Links to socioeconomic status, health, and disease. *Annals of the New York Academy of Sciences*, *1186*, 190–222.
 
-McKinnon, E. T., *et al.* (2023). *[Full reference to be confirmed from extraction table]*
+McKinnon, K., Galdi, P., Blesa-Cábez, M., Sullivan, G., Vaher, K., Corrigan, A., Hall, J., Jiménez-Sánchez, L., Thrippleton, M., Bastin, M. E., Quigley, A. J., Valavani, E., Tsanas, A., Richardson, H., & Boardman, J. P. (2023). Association of preterm birth and socioeconomic status with neonatal brain structure. *JAMA Pediatrics*, *177*(4), 380–389. https://doi.org/10.1001/jamapediatrics.2022.5847
 
 Noble, K. G., Houston, S. M., Brito, N. H., Bartsch, H., Kan, E., Kuperman, J. M., Akshoomoff, N., Amaral, D. G., Bloss, C. S., Libiger, O., Schork, N. J., Murray, S. S., Casey, B. J., Chang, L., Ernst, T. M., Frazier, J. A., Gruen, J. R., Kennedy, D. N., Van Zijl, P., … Sowell, E. R. (2015). Family income, parental education and brain structure in children and adolescents. *Nature Neuroscience*, *18*(5), 773–778.
 
 Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., Shamseer, L., Tetzlaff, J. M., Akl, E. A., Brennan, S. E., Chou, R., Gluud, C., Mayo-Wilson, E., McDonald, S., McGuinness, L. A., Stewart, L. A., Thomas, J., Tricco, A. C., Welch, V. A., … Moher, D. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ*, *372*, n71. https://doi.org/10.1136/bmj.n71
 
-Shephard, E., *et al.* (2019). *[Full reference to be confirmed from extraction table]*
+Shephard, E., Fatori, D., Mauro, L. R., de Medeiros Filho, M. V., Hoexter, M. Q., Chiesa, A. M., Fracolli, L. A., Brentani, H., Ferraro, A. A., Nelson, C. A., Miguel, E. C., & Polanczyk, G. V. (2019). Effects of maternal psychopathology and education level on neurocognitive development in infants of adolescent mothers living in poverty. *Biological Psychiatry: Cognitive Neuroscience and Neuroimaging*, *4*(10), 925–934. https://doi.org/10.1016/j.bpsc.2019.05.009
 
 Stiles, J., & Jernigan, T. L. (2010). The basics of brain development. *Neuropsychology Review*, *20*(4), 327–348.
 
@@ -343,13 +341,11 @@ Wells, G. A., Shea, B., O'Connell, D., Peterson, J., Welch, V., Losos, M., & Tug
 
 Yeatman, J. D., Dougherty, R. F., Ben-Shachar, M., & Wandell, B. A. (2012). Development of white matter and reading skills. *Proceedings of the National Academy of Sciences*, *109*(44), E3045–E3053. https://doi.org/10.1073/pnas.1206792X
 
-Wienke, A.-S., *et al.* (2024). *[Full reference to be confirmed from extraction table]*
+Wienke, A.-S., & Mathes, B. (2024). Socioeconomic inequalities affect brain responses of infants growing up in Germany. *Brain Sciences*, *14*(6), Article 560. https://doi.org/10.3390/brainsci14060560
 
-Wijeakumar, S., *et al.* (2019). *[Full reference to be confirmed from extraction table]*
+Wijeakumar, S., Kumar, A., Delgado Reyes, L. M., Tiwari, M., & Spencer, J. P. (2019). Early adversity in rural India impacts the brain networks underlying visual working memory. *Developmental Science*, *22*(5), Article e12822. https://doi.org/10.1111/desc.12822
 
 Blair, C., & Raver, C. C. (2016). Poverty, stress, and brain development: New directions for prevention and intervention. *Academic Pediatrics*, *16*(3 Suppl), S30–S36. https://doi.org/10.1016/j.acap.2016.01.010
-
-Farah, M. J., Shera, D. M., Savage, J. H., Betancourt, L., Giannetta, J. M., Brodsky, N. L., Malmud, E. K., & Hurt, H. (2006). Childhood poverty: Specific associations with neurocognitive development. *Brain Research*, *1110*(1), 166–174. https://doi.org/10.1016/j.brainres.2006.06.072
 
 Hart, B., & Risley, T. R. (1995). *Meaningful differences in the everyday experience of young American children*. Paul H. Brookes.
 
@@ -360,3 +356,21 @@ Lupien, S. J., McEwen, B. S., Gunnar, M. R., & Heim, C. (2009). Effects of stres
 Rowe, M. L. (2008). Child-directed speech: Relation to socioeconomic status, knowledge of child development and child vocabulary skill. *Journal of Child Language*, *35*(1), 185–205. https://doi.org/10.1017/S0305000907008343
 
 Walker, S. P., Wachs, T. D., Grantham-McGregor, S., Black, M. M., Nelson, C. A., Huffman, S. L., Baker-Henningham, H., Chang, S. M., Hamadani, J. D., Lozoff, B., Gardner, J. M. M., Powell, C. A., Rahman, A., & Richter, L. (2011). Inequality in early childhood: Risk and protective factors for early child development. *The Lancet*, *378*(9799), 1325–1338. https://doi.org/10.1016/S0140-6736(11)60555-2
+
+Demir-Lira, Ö. E., Prado, J., & Booth, J. R. (2021). Neurocognitive basis of deductive reasoning in children varies with parental education. *Human Brain Mapping*, *42*(11), 3396–3410. https://doi.org/10.1002/hbm.25441
+
+Konrad, J., Guo, T., Ufkes, S., Selvanathan, T., Sheng, M., Al-Ajmi, E., Branson, H. M., Chau, V., Ly, L. G., Kelly, E. N., Grunau, R. E., & Miller, S. P. (2024). Socioeconomic status moderates associations between hippocampal development and cognition in preterms. *Annals of Clinical and Translational Neurology*, *11*(9), 2499–2513. https://doi.org/10.1002/acn3.52168
+
+Ozernov-Palchik, O., Norton, E. S., Wang, Y., Beach, S. D., Zuk, J., Wolf, M., Gabrieli, J. D. E., & Gaab, N. (2019). The relationship between socioeconomic status and white matter microstructure in pre-reading children: A longitudinal investigation. *Human Brain Mapping*, *40*(3), 741–754. https://doi.org/10.1002/hbm.24407
+
+Ramphal, B., Whalen, D. J., Kenley, J. K., Yu, Q., Smyser, C. D., Rogers, C. E., & Sylvester, C. M. (2020). Brain connectivity and socioeconomic status at birth and externalizing symptoms at age 2 years. *Developmental Cognitive Neuroscience*, *45*, Article 100811. https://doi.org/10.1016/j.dcn.2020.100811
+
+Stiver, M. L., Kamino, D., Guo, T., Thompson, A., Duerden, E. G., Taylor, M. J., & Tam, E. W. Y. (2015). Maternal postsecondary education associated with improved cerebellar growth after preterm birth. *Journal of Child Neurology*, *30*(12), 1633–1639. https://doi.org/10.1177/0883073815576790
+
+Turesky, T. K., Sanfilippo, J., Zuk, J., Ahtam, B., Gagoski, B., Lee, A., Garrisi, K., Dunstan, J., Carruthers, C., Vanderauwera, J., Yu, X., & Gaab, N. (2022). Home language and literacy environment and its relationship to socioeconomic status and white matter structure in infancy. *Brain Structure and Function*, *227*(8), 2633–2645. https://doi.org/10.1007/s00429-022-02560-4
+
+Ursache, A., & Noble, K. G. (2016). Socioeconomic status, white matter, and executive function in children. *Brain and Behavior*, *6*(10), Article e00531. https://doi.org/10.1002/brb3.531
+
+Victora, C. G., Adair, L., Fall, C., Hallal, P. C., Martorell, R., Richter, L., & Sachdev, H. S. (2008). Maternal and child undernutrition: Consequences for adult health and human capital. *The Lancet*, *371*(9609), 340–357. https://doi.org/10.1016/S0140-6736(07)61692-4
+
+Zhu, C., Chen, Y., Müller, H.-G., & Styner, M. A. (2023). Trajectories of brain volumes in young children are associated with maternal education. *Human Brain Mapping*, *44*(8), 3060–3073. https://doi.org/10.1002/hbm.26271
