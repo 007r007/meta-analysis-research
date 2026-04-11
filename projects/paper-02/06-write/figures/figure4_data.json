@@ -10,7 +10,7 @@
     {"id": "#75", "author_year": "Shephard (2019)",   "modality": "rsEEG", "age_min_mo": 6,   "age_max_mo": 6,   "N": 31,  "effect_direction": "positive", "note": "alpha connectivity; Brazil"},
     {"id": "#64", "author_year": "Turesky (2022)",    "modality": "DTI",   "age_min_mo": 8,   "age_max_mo": 9,   "N": 38,  "effect_direction": "positive", "note": ""},
     {"id": "#9",  "author_year": "Stiver (2015)",     "modality": "sMRI",  "age_min_mo": 0,   "age_max_mo": 24,  "N": 26,  "effect_direction": "positive", "note": "preterm→2yr corrected age"},
-    {"id": "#78", "author_year": "Conejero (2018)",   "modality": "ERP",   "age_min_mo": 12,  "age_max_mo": 30,  "N": 56,  "effect_direction": "positive", "note": ""},
+    {"id": "#78", "author_year": "Conejero (2018)",   "modality": "ERP",   "age_min_mo": 16,  "age_max_mo": 18,  "N": 52,  "effect_direction": "positive", "note": "puzzle error observation"},
     {"id": "#7",  "author_year": "Wijeakumar (2019)", "modality": "fNIRS", "age_min_mo": 60,  "age_max_mo": 96,  "N": 35,  "effect_direction": "positive", "note": ""},
     {"id": "#43", "author_year": "Ozernov-Palchik (2019)", "modality": "DTI", "age_min_mo": 60, "age_max_mo": 96, "N": 125, "effect_direction": "positive", "note": ""},
     {"id": "#104","author_year": "Ursache (2016)",    "modality": "DTI",   "age_min_mo": 72,  "age_max_mo": 108, "N": 107, "effect_direction": "positive", "note": "focus 6-9y"},
