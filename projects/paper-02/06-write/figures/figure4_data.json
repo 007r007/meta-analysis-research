@@ -3,7 +3,7 @@
   "description": "Each study shown as a horizontal bar spanning the age range of neural measurement. Color = modality, marker style = effect direction.",
   "studies": [
     {"id": "#15", "author_year": "McKinnon (2023)",   "modality": "sMRI",  "age_min_mo": 0,   "age_max_mo": 0.5, "N": 261, "effect_direction": "positive", "note": "neonatal"},
-    {"id": "#20", "author_year": "Konrad (2024)",     "modality": "sMRI",  "age_min_mo": 0,   "age_max_mo": 0.5, "N": 105, "effect_direction": "positive", "note": "neonatal"},
+    {"id": "#20", "author_year": "Konrad (2024)",     "modality": "sMRI",  "age_min_mo": 0,   "age_max_mo": 1,   "N": 162, "effect_direction": "positive", "note": "very preterm; longitudinal two MRI timepoints"},
     {"id": "#28", "author_year": "Ramphal (2020)",    "modality": "fMRI",  "age_min_mo": 0,   "age_max_mo": 24,  "N": 112, "effect_direction": "positive", "note": "neonatal scan → 2yr follow-up"},
     {"id": "#13", "author_year": "Brito (2020)",      "modality": "rsEEG", "age_min_mo": 6,   "age_max_mo": 12,  "N": 179, "effect_direction": "positive", "note": ""},
     {"id": "#5",  "author_year": "Wienke (2024)",     "modality": "ERP",   "age_min_mo": 6,   "age_max_mo": 14,  "N": 255, "effect_direction": "negative", "note": ""},

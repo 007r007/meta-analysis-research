@@ -122,9 +122,9 @@
       "author_year": "Konrad et al. (2024)",
       "modality": "sMRI",
       "age_group": "Neonatal",
-      "N": 105,
+      "N": 162,
       "effect_direction": "positive",
-      "note": "Moderation effect: maternal edu moderates hippocampus-cognition"
+      "note": "Very preterm; longitudinal (two MRI timepoints); moderation effect only"
     },
     {
       "id": "#9",
