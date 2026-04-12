@@ -1,5 +1,13 @@
 # Parental education level and neural development in young children: a systematic review of EEG, ERP, fNIRS, and neuroimaging evidence
 
+**Authors:** [Author 1 Name]¹, [Author 2 Name]²*, [Author 3 Name]¹
+
+**Affiliations:**
+¹ [Department, Institution, City, Country]
+² [Department, Institution, City, Country]
+
+**Corresponding author:** [Author Name], [Department, Institution, Address]. Email: [email@institution.edu]
+
 **Draft version**: v2.3 (2026-04-12) — SUBMISSION-READY
 **Status**: v2.3终轮核查修复版（投稿就绪）；在v2.2基础上：(1)§3.3.1 rsEEG"three continents"→"two continents (North America and South America)"（Wienke是ERP非rsEEG，Europe不属于rsEEG证据）；(2)§4.3.2开头"noted in both infancy and childhood"→"counted in Childhood only"，年龄范围"1.5–8 years"→"birth through 8 years"（与Table 1一致）；(3)§4.3.2 Childhood段Zhu年龄同步改为"birth-to-8-year"；(4)Monk et al.(2013)孤儿参考文献修复：§4.4.2 prenatal mechanisms末句加引用；(5)Abstract Conclusions精简：165词→78词，全文摘要~240词（符合DCN ≤250词）；(6)确认§3.6.2和Ramphal后"多余空行"为误报（正常单空行）。数据、结果、图表未改动。八轮核查所有已知问题已清零。
 **Target journal**: Developmental Cognitive Neuroscience (Q1, IF ≈ 4.5)

@@ -341,7 +341,7 @@ with open(md_path, encoding="utf-8") as f:
 
 lines = raw.split("\n")
 
-skip_meta_lines = 6
+skip_meta_lines = 12
 i = 0
 in_blockquote   = False
 blockquote_lines = []
@@ -365,6 +365,42 @@ while i < len(lines):
                                   stripped.startswith("**Status") or
                                   stripped.startswith("**Target") or
                                   stripped == "---"):
+        i += 1
+        continue
+
+    # Author line: **Authors:** ...
+    if stripped.startswith("**Authors:**"):
+        para = doc.add_paragraph(style="Normal")
+        para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        set_para_spacing(para, space_before=6, space_after=2, line_spacing=1.5)
+        add_inline(para, stripped)
+        i += 1
+        continue
+
+    # Affiliations block header: **Affiliations:**
+    if stripped.startswith("**Affiliations:**"):
+        para = doc.add_paragraph(style="Normal")
+        para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        set_para_spacing(para, space_before=4, space_after=0, line_spacing=1.2)
+        add_inline(para, stripped)
+        i += 1
+        continue
+
+    # Affiliation lines starting with ¹ ²
+    if stripped and stripped[0] in ("¹", "²", "³", "⁴", "⁵"):
+        para = doc.add_paragraph(style="Normal")
+        para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        set_para_spacing(para, space_before=0, space_after=0, line_spacing=1.2)
+        add_inline(para, stripped)
+        i += 1
+        continue
+
+    # Corresponding author line
+    if stripped.startswith("**Corresponding author:**"):
+        para = doc.add_paragraph(style="Normal")
+        para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        set_para_spacing(para, space_before=6, space_after=12, line_spacing=1.5)
+        add_inline(para, stripped)
         i += 1
         continue
 
