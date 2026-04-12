@@ -46,11 +46,11 @@ MOD_COL = {
 
 # ── Vertical age-band zones (months) ─────────────────────────────────────────
 AGE_BANDS = [
-    (0,    1,   "#F0F4FB", "Neo."),
-    (1,    12,  "#EBF7EE", "Infant\n(1–12 mo)"),
-    (12,   36,  "#FFF8E7", "Toddler\n(1–3 yr)"),
-    (36,   60,  "#FEF0EF", "Pre-\nschool"),
-    (60,   220, "#F5F0FA", "School-age  (5+ yr)"),
+    (0,    1,   "#F0F4FB", "Phase 1\nNeonatal\n(0–1 mo)"),
+    (1,    24,  "#EBF7EE", "Phase 2\nInfancy\n(1–24 mo)"),
+    (24,   72,  "#FFF8E7", "Phase 3\nPreschool\n(2–6 yr)\n⚠ Evidence gap"),
+    (72,   96,  "#FEF0EF", "Phase 4\nEarly school\n(6–8 yr)"),
+    (96,   220, "#F5F0FA", "Phase 5\nMiddle childhood+\n(beyond primary window)"),
 ]
 
 # ── Figure ───────────────────────────────────────────────────────────────────
@@ -119,6 +119,12 @@ for i in range(n):
 # ── Vertical year gridlines ──────────────────────────────────────────────────
 for mo in [12, 24, 36, 48, 60, 96, 120, 156, 180]:
     ax.axvline(mo, color="#cccccc", linewidth=0.6, linestyle=":", zorder=1)
+
+# ── 8-year boundary reference line ───────────────────────────────────────────
+ax.axvline(96, color="#CC4444", linewidth=1.5, linestyle="--", zorder=2, alpha=0.8)
+ax.text(97, 0.3, "Primary target\nwindow boundary\n(8 yr)",
+        ha="left", va="center", fontsize=7.0, color="#CC4444",
+        fontstyle="italic", zorder=5)
 
 # ── X-axis ───────────────────────────────────────────────────────────────────
 tick_mo  = [0, 6, 12, 24, 36, 48, 60, 96, 120, 156, 180, 216]
