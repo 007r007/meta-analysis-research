@@ -292,12 +292,22 @@ def add_figure_page(doc, fig_path, caption_text):
 
 doc = Document()
 
-# Page margins: 2.54 cm all sides
+# Page margins: 2.54 cm all sides + continuous line numbering
 for section in doc.sections:
     section.top_margin    = Cm(2.54)
     section.bottom_margin = Cm(2.54)
     section.left_margin   = Cm(2.54)
     section.right_margin  = Cm(2.54)
+    # Add continuous line numbering via OOXML (w:lnNumType)
+    sectPr = section._sectPr
+    # Remove any existing lnNumType first
+    for old in sectPr.findall(qn("w:lnNumType")):
+        sectPr.remove(old)
+    lnNumType = OxmlElement("w:lnNumType")
+    lnNumType.set(qn("w:countBy"), "1")
+    lnNumType.set(qn("w:restart"), "newPage")
+    lnNumType.set(qn("w:start"),   "1")
+    sectPr.append(lnNumType)
 
 # Default Normal style — set double spacing at style level
 style_normal = doc.styles["Normal"]
