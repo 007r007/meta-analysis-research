@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>学术科研 AI 工具使用方案（2026年5月）</title>
+<style>
+  :root {
+    --bg: #f8f9fa;
+    --card: #fff;
+    --border: #e0e4e8;
+    --text: #1a1a2e;
+    --muted: #64748b;
+    --accent: #2563eb;
+    --green: #059669;
+    --amber: #d97706;
+    --red: #dc2626;
+    --purple: #7c3aed;
+    --teal: #0d9488;
+    --shadow: 0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+    --radius: 10px;
+  }
+  * { margin:0; padding:0; box-sizing:border-box }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 15px;
+  }
+
+  /* ---- Header ---- */
+  .hero {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    color: #fff;
+    padding: 48px 24px 36px;
+    text-align: center;
+  }
+  .hero h1 { font-size: 28px; font-weight: 700; letter-spacing: -.5px }
+  .hero .sub { margin-top: 8px; font-size: 14px; color: #94a3b8 }
+  .hero .badge-row { margin-top: 16px; display:flex; justify-content:center; gap:10px; flex-wrap:wrap }
+  .hero .badge {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 99px;
+    font-size: 12px;
+    font-weight: 600;
+    background: rgba(255,255,255,.1);
+    border: 1px solid rgba(255,255,255,.15);
+  }
+
+  /* ---- Layout ---- */
+  .container { max-width: 1100px; margin: 0 auto; padding: 32px 20px 64px }
+  section { margin-bottom: 40px }
+
+  /* ---- Section heading ---- */
+  .sec-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .sec-title .ico { font-size: 22px }
+
+  /* ---- Cards ---- */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 22px 24px;
+    box-shadow: var(--shadow);
+    transition: box-shadow .15s;
+  }
+  .card:hover { box-shadow: 0 4px 12px rgba(0,0,0,.08) }
+  .card .tag {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 99px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .3px;
+    margin-bottom: 8px;
+  }
+  .tag-green  { background: #d1fae5; color: #065f46 }
+  .tag-blue   { background: #dbeafe; color: #1e40af }
+  .tag-amber  { background: #fef3c7; color: #92400e }
+  .tag-purple { background: #ede9fe; color: #5b21b6 }
+  .tag-red    { background: #fee2e2; color: #991b1b }
+  .tag-teal   { background: #ccfbf1; color: #115e59 }
+  .card h3 { font-size: 16px; margin: 6px 0 10px; font-weight: 700 }
+  .card .ver { font-size: 12px; color: var(--muted); font-weight: 400 }
+  .card .desc { font-size: 13px; color: var(--muted); margin-bottom: 10px; line-height: 1.6 }
+  .card .kv { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 10px }
+  .card .kv-item { font-size: 12px }
+  .card .kv-item strong { color: var(--text); display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .4px; margin-bottom: 2px }
+
+  /* ---- Table ---- */
+  .tbl-wrap { overflow-x: auto; border-radius: var(--radius); border: 1px solid var(--border); background: var(--card) }
+  table { width: 100%; border-collapse: collapse; font-size: 14px }
+  th, td { padding: 12px 16px; text-align: left; border-bottom: 1px solid var(--border) }
+  th { background: #f1f5f9; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .4px; color: var(--muted); white-space: nowrap }
+  tr:last-child td { border-bottom: none }
+  .star { color: #f59e0b; letter-spacing: 1px }
+  .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px }
+  .dot-red { background: var(--red) }
+  .dot-amber { background: var(--amber) }
+  .dot-green { background: var(--green) }
+
+  /* ---- Flow ---- */
+  .flow-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+  }
+  .flow-step {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 18px;
+    flex: 1;
+    min-width: 160px;
+    text-align: center;
+    box-shadow: var(--shadow);
+  }
+  .flow-step .num {
+    display: inline-block;
+    width: 28px; height: 28px;
+    line-height: 28px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  .flow-step .label { font-weight: 600; font-size: 14px; margin-bottom: 4px }
+  .flow-step .tool { font-size: 12px; color: var(--muted) }
+  .flow-arrow { font-size: 20px; color: var(--muted); flex-shrink: 0 }
+
+  /* ---- Warning box ---- */
+  .warn-box {
+    border-left: 4px solid var(--red);
+    background: #fef2f2;
+    padding: 16px 20px;
+    border-radius: 0 var(--radius) var(--radius) 0;
+    margin-top: 16px;
+  }
+  .warn-box .title { font-weight: 700; color: #991b1b; margin-bottom: 4px }
+  .warn-box ul { margin: 4px 0 0 18px; font-size: 13px; color: #7f1d1d; line-height: 1.8 }
+
+  /* ---- Price tier ---- */
+  .price-free { color: var(--green); font-weight: 600 }
+  .price-paid { color: var(--amber); font-weight: 600 }
+  .price-yes { color: var(--green); font-weight: 600 }
+
+  /* ---- Footer ---- */
+  .footer { text-align: center; margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); font-size: 12px; color: var(--muted) }
+
+  @media (max-width: 700px) {
+    .hero h1 { font-size: 22px }
+    .card-grid { grid-template-columns: 1fr }
+    .flow-arrow { display: none }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============================================================ -->
+<!-- HERO -->
+<!-- ============================================================ -->
+<div class="hero">
+  <h1>学术科研 AI 工具使用方案</h1>
+  <p class="sub">发展与教育心理学 · 汉英阅读障碍认知神经机制方向 · 2026年5月更新</p>
+  <div class="badge-row">
+    <span class="badge">模型版本截至 2026-05</span>
+    <span class="badge">全部支持免费入门</span>
+    <span class="badge">多模型混合策略</span>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- ============================================================ -->
+<!-- 一、工具配置清单 -->
+<!-- ============================================================ -->
+<section>
+  <h2 class="sec-title"><span class="ico">&#9881;</span> 一、工具配置清单（按优先级排列）</h2>
+
+  <div class="tbl-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>优先级</th>
+          <th>工具</th>
+          <th>最新版本/模型</th>
+          <th>核心用途</th>
+          <th>费用</th>
+          <th>状态</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="dot dot-red"></span><strong>P0 必须</strong></td>
+          <td><strong>Claude</strong>（Anthropic）</td>
+          <td>Opus 4.7 / Sonnet 4.6</td>
+          <td>全文写作、逻辑推理、文献分析、格式整理</td>
+          <td>$20/月 Pro</td>
+          <td class="price-yes">&#10003; 已配置</td>
+        </tr>
+        <tr>
+          <td><span class="dot dot-red"></span>P0 必须</td>
+          <td><strong>Zotero</strong></td>
+          <td>v7.x</td>
+          <td>文献库管理、引用插入、PDF索引</td>
+          <td class="price-free">免费</td>
+          <td style="color:var(--red)">&#9633; 待安装</td>
+        </tr>
+        <tr>
+          <td><span class="dot dot-red"></span>P0 必须</td>
+          <td><strong>Semantic Scholar</strong></td>
+          <td>—</td>
+          <td>最大免费学术检索引擎（2.34亿篇）、TLDR摘要</td>
+          <td class="price-free">免费（含API）</td>
+          <td style="color:var(--red)">&#9633; 待注册</td>
+        </tr>
+        <tr>
+          <td><span class="dot dot-red"></span>P0 必须</td>
+          <td><strong>ResearchRabbit</strong></td>
+          <td>—</td>
+          <td>引文网络可视化、前向/后向追踪、Zotero同步</td>
+          <td class="price-free">免费</td>
+          <td style="color:var(--red)">&#9633; 待注册</td>
+        </tr>
+        <tr>
+          <td><span class="dot dot-red"></span>P0 必须</td>
+          <td><strong>Elicit</strong></td>
+          <td>Claude Opus 4.5 驱动</td>
+          <td>系统综述AI筛选、PICO数据提取、研究报告生成</td>
+          <td class="price-free">免费版够用</td>
+          <td style="color:var(--red)">&#9633; 待注册（Paper-02必装）</td>
+        </tr>
+        <tr>
+          <td><span class="dot dot-amber"></span>P1 推荐</td>
+          <td><strong>DeepSeek</strong></td>
+          <td>V4 / R1</td>
+          <td>中文论文写作、逻辑大纲、低成本批量处理</td>
+          <td class="price-free">免费</td>
+          <td style="color:var(--amber)">&#9633; 推荐注册</td>
+        </tr>
+        <tr>
+          <td><span class="dot dot-amber"></span>P1 推荐</td>
+          <td><strong>GPT</strong>（OpenAI）</td>
+          <td>GPT-5.4 / o4</td>
+          <td>英文润色多样性、多模态分析、统计代码辅助</td>
+          <td>$20/月 Plus</td>
+          <td style="color:var(--amber)">&#9633; 推荐注册</td>
+        </tr>
+        <tr>
+          <td><span class="dot dot-amber"></span>P1 推荐</td>
+          <td><strong>Connected Papers</strong></td>
+          <td>—</td>
+          <td>学术谱系图、核心文献群发现</td>
+          <td class="price-free">免费5次/月</td>
+          <td style="color:var(--amber)">&#9633; 推荐注册</td>
+        </tr>
+        <tr>
+          <td><span class="dot dot-green"></span>P2 备用</td>
+          <td><strong>SciSpace</strong></td>
+          <td>—</td>
+          <td>PDF划词解释、多文献对话、Deep Review</td>
+          <td class="price-free">免费100积分/月</td>
+          <td style="color:var(--muted)">&#9633; 可选</td>
+        </tr>
+        <tr>
+          <td><span class="dot dot-green"></span>P2 备用</td>
+          <td><strong>Gemini</strong>（Google）</td>
+          <td>3.1 Pro</td>
+          <td>1M上下文超长文献合成、Google Scholar实时检索</td>
+          <td class="price-free">AI Studio免费</td>
+          <td style="color:var(--muted)">&#9633; 可选</td>
+        </tr>
+        <tr>
+          <td><span class="dot dot-green"></span>P2 备用</td>
+          <td><strong>Consensus</strong></td>
+          <td>—</td>
+          <td>循证一致性检测、临床医学快速问答</td>
+          <td class="price-free">免费版够用</td>
+          <td style="color:var(--muted)">&#9633; 可选</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 二、大语言模型详细对比 -->
+<!-- ============================================================ -->
+<section>
+  <h2 class="sec-title"><span class="ico">&#9881;</span> 二、大语言模型详细对比（2026年5月最新）</h2>
+
+  <div class="card-grid">
+
+    <!-- Claude -->
+    <div class="card">
+      <span class="tag tag-green">学术写作首选</span>
+      <h3>Claude Opus 4.7 / Sonnet 4.6 <span class="ver">Anthropic · 2026-04</span></h3>
+      <p class="desc">写作质量与学术严谨性最强的旗舰模型。1M token上下文窗口可一次性容纳整部博士论文。最新 Opus 4.7 在 SWE-bench 达 82%，推理深度领先。</p>
+      <div class="kv">
+        <div class="kv-item"><strong>上下文</strong>1M tokens</div>
+        <div class="kv-item"><strong>写作质量</strong><span class="star">★★★★★</span></div>
+        <div class="kv-item"><strong>引用真实率</strong>~75%（优于多数竞品）</div>
+        <div class="kv-item"><strong>费用</strong>$20/月 Pro</div>
+      </div>
+      <p style="margin-top:10px;font-size:12px;color:var(--muted)"><strong>角色：</strong>主力写作引擎 — 初稿、全文润色、文献分析、参考文献格式化、ERP方法论讨论</p>
+    </div>
+
+    <!-- GPT-5.4 -->
+    <div class="card">
+      <span class="tag tag-blue">全能均衡</span>
+      <h3>GPT-5.4 / o4 <span class="ver">OpenAI · 2026-04</span></h3>
+      <p class="desc">综合能力最均衡的模型系列。400K–1M上下文。o4推理模型擅长复杂方法论推导和统计分析。2,100+插件生态成熟。</p>
+      <div class="kv">
+        <div class="kv-item"><strong>上下文</strong>400K–1M tokens</div>
+        <div class="kv-item"><strong>写作质量</strong><span class="star">★★★★☆</span></div>
+        <div class="kv-item"><strong>风格多样性</strong>优于Claude</div>
+        <div class="kv-item"><strong>费用</strong>$20/月 Plus</div>
+      </div>
+      <p style="margin-top:10px;font-size:12px;color:var(--muted)"><strong>角色：</strong>段落润色多样性补充 — Claude写正文，GPT-5.4做风格多样化的第二遍润色，避免"AI腔"同质化</p>
+    </div>
+
+    <!-- DeepSeek V4 -->
+    <div class="card">
+      <span class="tag tag-purple">性价比之王</span>
+      <h3>DeepSeek V4 / R1 <span class="ver">DeepSeek · 2026-04</span></h3>
+      <p class="desc">万亿参数开源模型，中文写作能力业界最强。R1推理链可解释性强。API价格约旗舰模型的1/20，适合大规模文献处理。</p>
+      <div class="kv">
+        <div class="kv-item"><strong>上下文</strong>128K tokens</div>
+        <div class="kv-item"><strong>中文写作</strong><span class="star">★★★★★</span></div>
+        <div class="kv-item"><strong>逻辑结构</strong>优秀大纲助手</div>
+        <div class="kv-item"><strong>费用</strong>免费 / API极低</div>
+      </div>
+      <p style="margin-top:10px;font-size:12px;color:var(--muted)"><strong>角色：</strong>中文论文写作 + 大纲规划 — 国内期刊投稿、知网文献理解、方法论推导</p>
+    </div>
+
+    <!-- Gemini 3.1 Pro -->
+    <div class="card">
+      <span class="tag tag-teal">超长上下文</span>
+      <h3>Gemini 3.1 Pro <span class="ver">Google · 2026-03</span></h3>
+      <p class="desc">1M–2M上下文窗口，博士级科学推理（GPQA Diamond 94.3%）。原生连接Google Scholar，多模态能力最强（图文+代码）。</p>
+      <div class="kv">
+        <div class="kv-item"><strong>上下文</strong>1M–2M tokens</div>
+        <div class="kv-item"><strong>科学推理</strong><span class="star">★★★★★</span></div>
+        <div class="kv-item"><strong>引用真实率</strong>~55%</div>
+        <div class="kv-item"><strong>费用</strong>AI Studio免费100次/天</div>
+      </div>
+      <p style="margin-top:10px;font-size:12px;color:var(--muted)"><strong>角色：</strong>超大文献集快速合成 — 一次性处理50+篇摘要/全文，快速生成领域概览</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 三、文献检索工具对比 -->
+<!-- ============================================================ -->
+<section>
+  <h2 class="sec-title"><span class="ico">&#9881;</span> 三、文献检索工具详细对比</h2>
+
+  <div class="tbl-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>工具</th>
+          <th>类型</th>
+          <th>文献量</th>
+          <th>杀手功能</th>
+          <th>最适合</th>
+          <th>核心局限</th>
+          <th>费用</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Semantic Scholar</strong></td>
+          <td>语义检索引擎</td>
+          <td>2.34亿+</td>
+          <td>TLDR一文摘要、引文功能分类<br>（方法/背景/结果）</td>
+          <td>初步检索、快速浏览</td>
+          <td>不支持系统综述自动化</td>
+          <td class="price-free">免费</td>
+        </tr>
+        <tr>
+          <td><strong>ResearchRabbit</strong></td>
+          <td>引文网络可视化</td>
+          <td>2.7亿+</td>
+          <td>种子文献→交互式关联图谱<br>自动前向/后向引文追踪</td>
+          <td>研究谱系追溯、<br>发现隐藏文献</td>
+          <td>会议/书籍覆盖弱；<br>无摘要分析功能</td>
+          <td class="price-free">免费</td>
+        </tr>
+        <tr>
+          <td><strong>Elicit</strong></td>
+          <td>系统综述AI助手</td>
+          <td>1.38亿+</td>
+          <td>PICO框架检索、AI自动筛选<br>数据提取到结构化表格</td>
+          <td>系统评价/元分析<br>（Paper-02核心）</td>
+          <td>敏感性仅40%；<br>不能替代完整数据库检索</td>
+          <td>免费版 / Pro $10–15</td>
+        </tr>
+        <tr>
+          <td><strong>Connected Papers</strong></td>
+          <td>文献谱系重建</td>
+          <td>—</td>
+          <td>单篇论文→学术家谱<br>发现前驱与衍生研究</td>
+          <td>核心文献群定位</td>
+          <td>5次/月免费；<br>无内容分析</td>
+          <td class="price-free">免费5次/月</td>
+        </tr>
+        <tr>
+          <td><strong>SciSpace</strong></td>
+          <td>全流程研究助手</td>
+          <td>2.8亿+</td>
+          <td>Copilot划词解释、多文献对话<br>Deep Review（1750篇/15min）</td>
+          <td>快速阅读理解、<br>生物医学领域</td>
+          <td>人文社科弱；<br>无抄袭检查</td>
+          <td>免费100积分/月</td>
+        </tr>
+        <tr>
+          <td><strong>Consensus</strong></td>
+          <td>循证搜索引擎</td>
+          <td>2亿+</td>
+          <td>Consensus Meter<br>（文献一致性方向指示）</td>
+          <td>临床循证快速问答</td>
+          <td>无PDF上传/对话；<br>深度分析有限</td>
+          <td class="price-free">免费 / Pro $15</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="warn-box">
+    <div class="title">&#9888; 关键警告：多工具互补原则</div>
+    <ul>
+      <li>2025年<em>Library Hi Tech News</em>实测发现：SciSpace、Semantic Scholar、Elicit、ResearchRabbit 检索<strong>同一问题返回的文献几乎不重叠</strong></li>
+      <li>仅靠 1–2 个工具会造成严重遗漏 — 系统检索必须组合 Semantic Scholar + ResearchRabbit + 传统数据库</li>
+      <li>这些工具主要覆盖英文文献，<strong>中文文献必须走知网/万方单独检索</strong></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 四、全流程工作流 -->
+<!-- ============================================================ -->
+<section>
+  <h2 class="sec-title"><span class="ico">&#9881;</span> 四、学术研究全流程最佳方案</h2>
+
+  <h3 style="font-size:15px;margin-bottom:14px;color:var(--muted)">阶段 1：选题探索 → 阶段 2：系统检索 → 阶段 3：筛选提取 → 阶段 4：深度阅读 → 阶段 5：撰写提交</h3>
+
+  <div class="flow-row">
+    <div class="flow-step">
+      <div class="num">1</div>
+      <div class="label">选题探索</div>
+      <div class="tool">Elicit 文献量估算<br>Consensus 证据确证<br>Claude 缺口分析</div>
+    </div>
+    <span class="flow-arrow">&rarr;</span>
+    <div class="flow-step">
+      <div class="num">2</div>
+      <div class="label">系统检索</div>
+      <div class="tool">Semantic Scholar 布尔检索<br>ResearchRabbit 引文网络<br>Connected Papers 谱系重建<br>PubMed/WoS/PsycINFO 补检</div>
+    </div>
+    <span class="flow-arrow">&rarr;</span>
+    <div class="flow-step">
+      <div class="num">3</div>
+      <div class="label">筛选与提取</div>
+      <div class="tool">Elicit AI自动筛选<br>Zotero 文献管理<br>Claude 全文数据提取</div>
+    </div>
+    <span class="flow-arrow">&rarr;</span>
+    <div class="flow-step">
+      <div class="num">4</div>
+      <div class="label">深度阅读</div>
+      <div class="tool">SciSpace Copilot 划词解释<br>Claude 多文献横向对比<br>Zotero 笔记归档</div>
+    </div>
+    <span class="flow-arrow">&rarr;</span>
+    <div class="flow-step">
+      <div class="num">5</div>
+      <div class="label">撰写与提交</div>
+      <div class="tool">DeepSeek R1 大纲<br>Claude 英文全文<br>GPT-5.4 多样性润色<br>Claude 引文格式化</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 五、写作阶段模型分工 -->
+<!-- ============================================================ -->
+<section>
+  <h2 class="sec-title"><span class="ico">&#9881;</span> 五、写作阶段模型分工策略</h2>
+
+  <div class="tbl-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>写作子任务</th>
+          <th>主力模型</th>
+          <th>备选模型</th>
+          <th>原因</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>大纲与逻辑结构</strong></td>
+          <td>DeepSeek R1</td>
+          <td>Claude Opus 4.7</td>
+          <td>R1逻辑组织最强，医学综述评为"最佳大纲助手"</td>
+        </tr>
+        <tr>
+          <td><strong>英文摘要（Abstract）</strong></td>
+          <td>Claude Opus 4.7</td>
+          <td>GPT-5.4</td>
+          <td>Claude学术风格最正式，字数控制精准</td>
+        </tr>
+        <tr>
+          <td><strong>引言（Introduction）</strong></td>
+          <td>Claude Opus 4.7</td>
+          <td>GPT-5.4</td>
+          <td>文献缺口论证需要深度推理和逻辑一致性</td>
+        </tr>
+        <tr>
+          <td><strong>方法（Methods）</strong></td>
+          <td>Claude Opus 4.7</td>
+          <td>DeepSeek R1</td>
+          <td>技术细节描述要求严谨精确</td>
+        </tr>
+        <tr>
+          <td><strong>结果（Results）</strong></td>
+          <td>GPT-5.4</td>
+          <td>Claude Opus 4.7</td>
+          <td>GPT多元表达方式，避免结果描述单调</td>
+        </tr>
+        <tr>
+          <td><strong>讨论（Discussion）</strong></td>
+          <td>Claude Opus 4.7</td>
+          <td>DeepSeek R1</td>
+          <td>Claude推理深度最强，适合理论对话和方法论反思</td>
+        </tr>
+        <tr>
+          <td><strong>中文论文全文</strong></td>
+          <td>DeepSeek V4</td>
+          <td>Claude Opus 4.7</td>
+          <td>DeepSeek中文术语最准确，知网文献理解最好</td>
+        </tr>
+        <tr>
+          <td><strong>参考文献格式化</strong></td>
+          <td>Claude Opus 4.7</td>
+          <td>—</td>
+          <td>指令遵循最精准，APA 7th/GB/T 7714 批量处理</td>
+        </tr>
+        <tr>
+          <td><strong>引用真实性核查</strong></td>
+          <td>人工核实</td>
+          <td>Grok-3辅助（64%最高真实率）</td>
+          <td>所有模型引用虚构率 ≥ 36%，人工核实不可替代</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 六、学科特异性配置（ERP 研究） -->
+<!-- ============================================================ -->
+<section>
+  <h2 class="sec-title"><span class="ico">&#9881;</span> 六、学科特异性配置：ERP 阅读障碍研究</h2>
+
+  <h3 style="font-size:15px;font-weight:700;margin-bottom:12px">ERP 文献检索关键词策略</h3>
+  <div class="card" style="margin-bottom:16px">
+    <div class="kv" style="gap:24px">
+      <div class="kv-item"><strong>主题关键词</strong>ERP, event-related potential, N400, P600, N170, MMN, LPC, LAN, N2/P3 component</div>
+      <div class="kv-item"><strong>人群关键词</strong>bilingual*, reading, dyslexia, Chinese-English, L1/L2, developmental</div>
+      <div class="kv-item"><strong>方法关键词</strong>priming, lexical decision, semantic judgment, auditory/visual, ERSP, time-frequency</div>
+      <div class="kv-item"><strong>数据库组合</strong>PubMed + PsycINFO + WoS + Scopus + Semantic Scholar + 知网（中文）</div>
+    </div>
+  </div>
+
+  <h3 style="font-size:15px;font-weight:700;margin-bottom:12px">Elicit 系统评价筛选模板（供 Paper-02 使用）</h3>
+  <div class="tbl-wrap">
+    <table>
+      <thead>
+        <tr><th>维度</th><th>纳入标准</th><th>排除标准</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>被试</strong></td>
+          <td>双语者（汉英），年龄 6–15 岁</td>
+          <td>成人失语症 / 获得性阅读障碍</td>
+        </tr>
+        <tr>
+          <td><strong>方法</strong></td>
+          <td>ERP 实验，至少报告 1 个经典成分<br>（N1/N2/P2/N400/P600/LPC 等）</td>
+          <td>纯行为实验（无 EEG/ERP）</td>
+        </tr>
+        <tr>
+          <td><strong>任务</strong></td>
+          <td>至少 1 个阅读相关实验任务</td>
+          <td>仅静息态 EEG</td>
+        </tr>
+        <tr>
+          <td><strong>比较</strong></td>
+          <td>组间比较（阅读障碍 vs. 典型发展 / L1 vs. L2）</td>
+          <td>单组无对照</td>
+        </tr>
+        <tr>
+          <td><strong>文献类型</strong></td>
+          <td>实证研究，同行评审期刊，英文或中文</td>
+          <td>综述/元分析/评论/会议摘要</td>
+        </tr>
+        <tr>
+          <td><strong>时间</strong></td>
+          <td>2000–2026</td>
+          <td>—</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 七、引用真实性排名 -->
+<!-- ============================================================ -->
+<section>
+  <h2 class="sec-title"><span class="ico">&#9881;</span> 七、引用真实性排名与验证策略</h2>
+
+  <p style="font-size:13px;color:var(--muted);margin-bottom:14px">数据来源：2026年医学文献综述实测（SMILE手术，7位眼科专家盲评）；Claude数据来自独立文献综述实验</p>
+
+  <div class="tbl-wrap">
+    <table>
+      <thead>
+        <tr><th>排名</th><th>模型</th><th>引用真实性</th><th>虚构率</th><th>评价</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td><strong>Claude Opus 4.6</strong></td><td>~75%*</td><td>~25%</td><td>文献综述实验中所有引用均真实存在，但格式有误</td></tr>
+        <tr><td>2</td><td><strong>Grok-3</strong></td><td>64%</td><td>36%</td><td>医学综述中引用真实率最高</td></tr>
+        <tr><td>3</td><td><strong>Gemini 2.5 Pro</strong></td><td>55.2%</td><td>44.8%</td><td>近半数引用虚构</td></tr>
+        <tr><td>4</td><td><strong>GPT-4</strong></td><td>50.5%</td><td>49.5%</td><td>近半数引用虚构；细分领域可达91%</td></tr>
+        <tr><td>5</td><td><strong>DeepSeek R1</strong></td><td>中等</td><td>中等</td><td>无精确数字，同属不可直接信任级别</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="warn-box">
+    <div class="title">&#9888; 底线原则</div>
+    <ul>
+      <li><strong>所有模型生成的引用均须人工逐一核实，无一例外。</strong></li>
+      <li>最乐观的模型仍有 ~25% 格式错误（缺作者、姓名拼写错、作者顺序颠倒）</li>
+      <li>引用验证流程：模型生成引用 → Zotero查找DOI → 打开原文核实 → 确认所有字段正确</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 八、费用总览 -->
+<!-- ============================================================ -->
+<section>
+  <h2 class="sec-title"><span class="ico">&#9881;</span> 八、费用总览与推荐配置</h2>
+
+  <div class="tbl-wrap">
+    <table>
+      <thead>
+        <tr><th>工具</th><th>免费版</th><th>付费版</th><th>推荐方案</th><th>年成本估算</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Claude</td><td>有限次</td><td>$20/月 Pro</td><td><strong>付费，核心工具</strong></td><td>$240</td></tr>
+        <tr><td>Zotero</td><td class="price-free">&#10003; 完全免费</td><td>—</td><td>免费</td><td>$0</td></tr>
+        <tr><td>Semantic Scholar</td><td class="price-free">&#10003; 完全免费</td><td>—</td><td>免费</td><td>$0</td></tr>
+        <tr><td>ResearchRabbit</td><td class="price-free">&#10003; 免费</td><td>$10–12.5/月</td><td>免费版够用</td><td>$0</td></tr>
+        <tr><td>Elicit</td><td class="price-free">&#10003; 基础免费</td><td>$10–15/月</td><td>系统评价时付费</td><td>$0–180</td></tr>
+        <tr><td>DeepSeek</td><td class="price-free">&#10003; 完全免费</td><td>—</td><td>免费</td><td>$0</td></tr>
+        <tr><td>GPT (OpenAI)</td><td>有限次</td><td>$20/月 Plus</td><td>推荐付费（多模型多样性）</td><td>$240</td></tr>
+        <tr><td>Connected Papers</td><td class="price-free">5次/月免费</td><td>—</td><td>免费</td><td>$0</td></tr>
+        <tr><td>SciSpace</td><td class="price-free">100积分/月</td><td>$12–160/月</td><td>免费版够用</td><td>$0</td></tr>
+        <tr><td>Gemini</td><td class="price-free">AI Studio 100次/天</td><td>$20/月</td><td>免费版够用</td><td>$0</td></tr>
+        <tr><td>Consensus</td><td class="price-free">基础免费</td><td>$15/月</td><td>免费版够用</td><td>$0</td></tr>
+        <tr style="background:#f8fafc;font-weight:700"><td>合计</td><td></td><td></td><td></td><td><strong>$480–660/年</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 九、每日工作流 -->
+<!-- ============================================================ -->
+<section>
+  <h2 class="sec-title"><span class="ico">&#9881;</span> 九、每日科研工作推荐节奏</h2>
+
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>时段</th><th>任务</th><th>工具</th></tr></thead>
+      <tbody>
+        <tr><td>08:30</td><td>Git 同步 + 浏览项目记忆</td><td>Git + 记忆文件</td></tr>
+        <tr><td>08:35</td><td>Elicit / Semantic Scholar 新文献扫描</td><td>Elicit + Semantic Scholar</td></tr>
+        <tr><td>08:40 – 10:00</td><td>核心工作（写作 / 分析 / 修改）</td><td>Claude Opus 4.7</td></tr>
+        <tr><td>10:00 – 10:30</td><td>ResearchRabbit 引文网络补充检索</td><td>ResearchRabbit</td></tr>
+        <tr><td>10:30 – 12:00</td><td>核心工作</td><td>Claude Opus 4.7</td></tr>
+        <tr><td>14:00 – 16:00</td><td>深度阅读 / 数据提取 / 分析</td><td>SciSpace + Elicit + Claude</td></tr>
+        <tr><td>16:00 – 16:30</td><td>当天产出润色审阅</td><td>Claude 全文审阅 → GPT-5.4 多样性润色</td></tr>
+        <tr><td>16:30 – 17:00</td><td>更新项目记忆 → Git add/commit/push</td><td>Git + Zotero</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 十、核心原则 -->
+<!-- ============================================================ -->
+<section>
+  <h2 class="sec-title"><span class="ico">&#9881;</span> 十、六条核心原则</h2>
+
+  <div class="card-grid">
+    <div class="card">
+      <span class="tag tag-red">原则 1</span>
+      <h3>多工具组合，不依赖单一来源</h3>
+      <p class="desc">文献检索工具返回结果重叠度极低，至少组合 Semantic Scholar + ResearchRabbit + 传统数据库。写作方面 Claude（主力）+ GPT-5.4（多样性）+ DeepSeek（中文）。</p>
+    </div>
+    <div class="card">
+      <span class="tag tag-red">原则 2</span>
+      <h3>引用人工核实，零例外</h3>
+      <p class="desc">所有模型引用虚构率 25–50%。模型生成引用 → Zotero查DOI → 打开原文核实 → 确认所有字段。这是学术诚信的底线。</p>
+    </div>
+    <div class="card">
+      <span class="tag tag-amber">原则 3</span>
+      <h3>Elicit 不是替代品</h3>
+      <p class="desc">Elicit 敏感性实测仅 40%。系统检索必须走完整 PubMed/PsycINFO/WoS/Scopus 流程以符合 PRISMA 要求。Elicit 仅用于辅助筛选和提取。</p>
+    </div>
+    <div class="card">
+      <span class="tag tag-amber">原则 4</span>
+      <h3>中文文献独立检索</h3>
+      <p class="desc">所有上述工具对知网/万方中文文献覆盖极弱。中文文献必须走知网/万方单独检索，再手动并入 Zotero 文献库。</p>
+    </div>
+    <div class="card">
+      <span class="tag tag-purple">原则 5</span>
+      <h3>多模型接力，不是单模型包办</h3>
+      <p class="desc">2026年头部模型原始能力高度趋同（SWE-bench差距<1.3%），差异在特定场景。按任务切换模型可获得更优效果。</p>
+    </div>
+    <div class="card">
+      <span class="tag tag-purple">原则 6</span>
+      <h3>AI 是辅助，人是主导</h3>
+      <p class="desc">过度依赖导致"认知钝化"和"理解错觉"。AI写出后自己重读、自己理解、自己判断。最终的学术责任由研究者承担。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- FOOTER -->
+<!-- ============================================================ -->
+<div class="footer">
+  <p>编制日期：2026-05-03 &nbsp;|&nbsp; 基于 2025–2026 年最新文献交叉验证 &nbsp;|&nbsp; 适用于发展与教育心理学 · 汉英阅读障碍认知神经机制方向</p>
+  <p style="margin-top:4px">文件位置：E:\Meta-analysis writing project\shared\reports\AI工具学术科研全流程方案.html</p>
+</div>
+
+</div><!-- /container -->
+</body>
+</html>
