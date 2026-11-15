@@ -19,6 +19,15 @@ sys.stdout.reconfigure(encoding='utf-8')
 BASE    = r"E:\Meta-analysis writing project\projects\paper-01"
 PDF_DIR = os.path.join(BASE, r"03-screen\全文PDF")
 EXCEL   = os.path.join(BASE, r"04-extract\数据_6_数据提取表_v3_research.xlsx")
+# 臂结构抽取输出（新中间产物，不触碰旧表）
+ARM_JSON = os.path.join(BASE, r"04-extract\结果_8_臂结构抽取.json")
+
+# 历史档保护：旧表保留为历史档，本脚本不再往上面打补丁。
+_HISTORICAL = r"数据_6_数据提取表_v3_research.xlsx"
+if os.path.basename(EXCEL) == _HISTORICAL:
+    print("⚠️ 安全保护：EXCEL 指向历史档 数据_6_数据提取表_v3_research.xlsx，")
+    print("   本脚本已停止写入该表。臂结构仅输出到 JSON；联合干预/comp_type 由 v3 人工核准。")
+    EXCEL = None  # 禁止 write_row/wb.save 落盘到历史档
 
 # ── PDF映射 ──────────────────────────────────────────────────────────────────
 PDF_MAP = {
@@ -453,15 +462,12 @@ def extract_fields(text, seq):
     else:
         d["对照组任务类型"] = "未报告"
 
-    # ─ 20. 结合干预类型 ─
-    combos = []
-    if re.search(r'\btDCS\b|transcranial\s+direct\s+current', text, re.I): combos.append("tDCS")
-    if re.search(r'\bTMS\b|transcranial\s+magnetic', text, re.I): combos.append("TMS")
-    if re.search(r'\btRNS\b|transcranial\s+random\s+noise', text, re.I): combos.append("tRNS")
-    if re.search(r'tACS\b|transcranial\s+alternating', text, re.I): combos.append("tACS")
-    if re.search(r'\bexercise\b|\bphysical\s+(?:training|activity|exercise)\b', text, re.I): combos.append("运动")
-    if re.search(r'\bmedication\b|\bdrug\b|\bpharmacolog', text, re.I): combos.append("药物")
-    d["结合干预类型\n(tDCS/TMS/药物/运动/无)"] = "/".join(combos) if combos else "无"
+    # ─ 20. 结合干预类型（已废弃全文关键词匹配）─
+    # 原实现用 exercise/medication/drug/tDCS 全文关键词匹配 → 产生联合干预伪迹
+    # （已证 Matysiak 2019、Teixeira-Santos 2022 等被误标）。
+    # 硬性规则：联合干预(comp_type 的 X 要素)以 v3 终表人工核准结果为准，脚本一律不自动判断。
+    # 臂结构改由 extract_arm_structure() 从 Methods/Intervention/Control 段抽取。
+    d["结合干预类型\n(tDCS/TMS/药物/运动/无)"] = None  # 不自动写，交由 v3 人工核准
 
     # ─ 21. 统计方法 ─
     stats = []
@@ -733,9 +739,65 @@ def extract_fields(text, seq):
     return d
 
 
+def extract_arm_structure(text, seq):
+    """
+    臂结构抽取（替代原全文关键词匹配的联合干预判断）。
+    只从 Methods / Intervention / Control 段抽取每臂：
+        arm_id / arm_label / intervention_components / control_components / n
+
+    设计要点（对比原 bug）：
+      - 原文用 exercise/medication/drug/tDCS 全文关键词 → 伪迹。
+      - 现仅截取 Methods 段（Materials and Methods / Methods / Method / Procedure /
+        Participants and Design / Intervention 至 Results / Discussion 之间），
+        再在段内用「分组句」级正则识别臂与样本量。
+      - 本函数只产臂结构，**不自动写 co-intervention(联合干预) 与 comp_type**：
+        这两者一律以 07-review/比较层重编码表_v3_终表.md（cx 仲裁）为准。
+    """
+    # 1) 截取 Methods/Intervention/Control 段（不含摘要、引文、讨论、结果）
+    sec_pat = re.compile(
+        r'(?:Materials?\s+and\s+Methods?|Methods?|Method|Procedure|'
+        r'Participants?\s+and\s+Design|Intervention|Design\s+and\s+Procedure|'
+        r'Experimental\s+Design|Study\s+Design)\b', re.IGNORECASE)
+    end_pat = re.compile(r'\b(?:Results?|Discussion|Statistical\s+Analys|'
+                         r'Outcome\s+Measures?)\b', re.IGNORECASE)
+    m = sec_pat.search(text)
+    section = text[m.start():] if m else text
+    e = end_pat.search(section)
+    if e:
+        section = section[:e.start()]
+
+    arms = []
+    # 2) 段内识别「分组 + 样本量」句（只在这一段内，不扫全文）
+    #    形如 "... randomly assigned to X (N = 20) and Y (N = 21) ..."
+    #    或 "... to either X (n = 22) or Y (n = 25) ..."
+    group_pat = re.compile(
+        r'((?:randomly\s+)?(?:assigned|allocated|divided)\s+(?:to|into)\s+'
+        r'(?:either\s+|one\s+of\s+)?[^.]{0,400})', re.IGNORECASE)
+    n_pat = re.compile(
+        r'([A-Za-z][A-Za-z0-9\-\+/ ]{1,40}?)\s*[\(\[]?\s*[nN]\s*[=:＝]\s*(\d+)\s*[\)\]]?')
+
+    for gm in group_pat.finditer(section):
+        frag = gm.group(1)
+        # 只取含 n= 数字的分组片段，避免误抓
+        for nm in n_pat.finditer(frag):
+            label = nm.group(1).strip()
+            n = int(nm.group(2))
+            # 过滤明显非臂标签（过长或含句首噪声）
+            if 2 <= len(label) <= 40 and not re.search(r'\b(each|all|total|both|the)\b', label, re.I):
+                arms.append(dict(
+                    arm_id=f"arm_seq{seq}_{len(arms)+1}",  # 临时 id；规范 id(A{trial_id}_{序号})在比较层新表组装时赋
+                    arm_label=label,
+                    intervention_components="",   # 不自动判断，留空待人工/v3
+                    control_components="",         # 不自动判断，留空待人工/v3
+                    n=n))
+    return arms
+
+
 # ── Excel操作 ────────────────────────────────────────────────────────────────
-wb = openpyxl.load_workbook(EXCEL)
-ws = wb["数据提取"]
+# 历史档保护下 EXCEL=None：只做臂结构抽取(→JSON)，不读写 Excel。
+DO_EXCEL = EXCEL is not None
+wb = openpyxl.load_workbook(EXCEL) if DO_EXCEL else None
+ws = wb["数据提取"] if DO_EXCEL else None
 
 # Build header → column mapping
 col_map = {}
@@ -796,7 +858,8 @@ def write_row(row, data, notes=""):
         "训练周数": col_for("训练周数"),
         "是否主动对照\n(是/否)": col_for("是否主动对照"),
         "对照组任务类型": col_for("对照组任务类型"),
-        "结合干预类型\n(tDCS/TMS/药物/运动/无)": col_for("结合干预类型"),
+        # "结合干预类型" 已从自动写入移除：联合干预不再由脚本判断，
+        # 由 v3 终表(比较层重编码表_v3_终表.md)人工核准。见 extract_arm_structure()。
         "统计方法\n(ANOVA/ANCOVA/LMM/其他)": col_for("统计方法"),
         "训练平台/软件": col_for("训练平台"),
         "监督方式\n(实验室/居家/混合)": col_for("监督方式"),
@@ -856,11 +919,12 @@ print("v4全量重跑 — 56篇数据提取")
 print("="*70)
 
 done, errors, check_needed = [], [], []
+arm_results = []
 batch_count = 0
 
 for idx, seq in enumerate(SEQ_ORDER):
-    row = find_row(seq)
-    if not row:
+    row = find_row(seq) if DO_EXCEL else None
+    if DO_EXCEL and not row:
         print(f"  [WARN] seq={seq} row not found, skipping")
         continue
 
@@ -870,9 +934,10 @@ for idx, seq in enumerate(SEQ_ORDER):
     if status in ("PDF缺失",):
         print(f"seq{seq:2d} ({idx+1:02d}/{len(SEQ_ORDER)}): ❌ PDF缺失")
         errors.append(seq)
-        ws.cell(row, col_for("备注")).value = "PDF缺失"
-        ws.cell(row, 56).value = "未填入"
-        ws.cell(row, 57).value = "未核查"
+        if DO_EXCEL:
+            ws.cell(row, col_for("备注")).value = "PDF缺失"
+            ws.cell(row, 56).value = "未填入"
+            ws.cell(row, 57).value = "未核查"
         continue
 
     if status == "扫描件":
@@ -885,6 +950,11 @@ for idx, seq in enumerate(SEQ_ORDER):
         errors.append(seq)
         continue
 
+    # ── 臂结构抽取（新逻辑，替代旧全文关键词联合干预匹配）──
+    arms = extract_arm_structure(text, seq)
+    if arms:
+        arm_results.append({"seq": seq, "arms": arms})
+
     data = extract_fields(text, seq)
     notes_parts = []
     for v in data.values():
@@ -892,7 +962,8 @@ for idx, seq in enumerate(SEQ_ORDER):
             notes_parts.append(v[:60])
 
     notes = " | ".join(notes_parts[:2]) if notes_parts else ""
-    write_row(row, data, notes)
+    if DO_EXCEL:
+        write_row(row, data, notes)
 
     neuro_val = data.get("神经影像结局\n(是/否)", "否")
     near_val  = data.get("近迁移\n(是/否)", "?")
@@ -900,6 +971,7 @@ for idx, seq in enumerate(SEQ_ORDER):
 
     print(f"seq{seq:2d} ({idx+1:02d}/{len(SEQ_ORDER)}): neuro={neuro_val}  near={near_val}  far={far_val}"
           f"  country={data.get('国家','?')}"
+          f"  arms={len(arms)}"
           f"{'  ⚠️'+notes[:40] if notes else ''}")
 
     done.append(seq)
@@ -907,60 +979,73 @@ for idx, seq in enumerate(SEQ_ORDER):
         check_needed.append(seq)
 
     batch_count += 1
-    if batch_count % 10 == 0:
+    if DO_EXCEL and batch_count % 10 == 0:
         wb.save(EXCEL)
         print(f"  >>> 已保存 (batch {batch_count//10})")
 
-# Final save
-wb.save(EXCEL)
-print(f"  >>> 最终保存完毕")
+# 臂结构抽取 → JSON
+import json
+with open(ARM_JSON, "w", encoding="utf-8") as f:
+    json.dump(arm_results, f, ensure_ascii=False, indent=2)
+print(f"  >>> 臂结构已输出：{ARM_JSON}（{len(arm_results)} 篇有臂信息）")
+
+# Final save (仅当 DO_EXCEL)
+if DO_EXCEL:
+    wb.save(EXCEL)
+    print(f"  >>> 最终保存完毕")
 
 # ── Self-check ───────────────────────────────────────────────────────────────
 print()
 print("="*70)
 print("自检报告")
 print("="*70)
-far_col    = col_for("远迁移")
-near_col   = col_for("近迁移")
-neuro_col  = col_for("神经影像结局")
-neuro_type = col_for("影像类型")
-neuro_find = col_for("神经影像主要发现")
 
-issues = []
-for row in range(3, ws.max_row + 1):
-    seq = ws.cell(row, 1).value
-    if seq is None:
-        continue
+if DO_EXCEL:
+    far_col    = col_for("远迁移")
+    near_col   = col_for("近迁移")
+    neuro_col  = col_for("神经影像结局")
+    neuro_type = col_for("影像类型")
+    neuro_find = col_for("神经影像主要发现")
 
-    far_v   = ws.cell(row, far_col).value if far_col else None
-    near_v  = ws.cell(row, near_col).value if near_col else None
-    neuro_v = ws.cell(row, neuro_col).value if neuro_col else None
-    ntype_v = ws.cell(row, neuro_type).value if neuro_type else None
-    nfind_v = ws.cell(row, neuro_find).value if neuro_find else None
+    issues = []
+    for row in range(3, ws.max_row + 1):
+        seq = ws.cell(row, 1).value
+        if seq is None:
+            continue
 
-    if not far_v:
-        issues.append(f"  seq{seq}: 远迁移为空")
-    if not near_v:
-        issues.append(f"  seq{seq}: 近迁移为空")
-    if neuro_v == "是" and not nfind_v:
-        issues.append(f"  seq{seq}: 神经影像=是 但主要发现为空")
-    if neuro_v == "是" and not ntype_v:
-        issues.append(f"  seq{seq}: 神经影像=是 但类型为空")
+        far_v   = ws.cell(row, far_col).value if far_col else None
+        near_v  = ws.cell(row, near_col).value if near_col else None
+        neuro_v = ws.cell(row, neuro_col).value if neuro_col else None
+        ntype_v = ws.cell(row, neuro_type).value if neuro_type else None
+        nfind_v = ws.cell(row, neuro_find).value if neuro_find else None
 
-if issues:
-    print(f"发现 {len(issues)} 个问题：")
-    for issue in issues:
-        print(issue)
+        if not far_v:
+            issues.append(f"  seq{seq}: 远迁移为空")
+        if not near_v:
+            issues.append(f"  seq{seq}: 近迁移为空")
+        if neuro_v == "是" and not nfind_v:
+            issues.append(f"  seq{seq}: 神经影像=是 但主要发现为空")
+        if neuro_v == "是" and not ntype_v:
+            issues.append(f"  seq{seq}: 神经影像=是 但类型为空")
+
+    if issues:
+        print(f"发现 {len(issues)} 个问题：")
+        for issue in issues:
+            print(issue)
+    else:
+        print("✅ 无问题：所有行的近迁移/远迁移均已填写，神经影像一致")
 else:
-    print("✅ 无问题：所有行的近迁移/远迁移均已填写，神经影像一致")
+    print("（历史档保护模式：跳过 Excel 自检）")
 
 print()
 print("="*70)
 print(f"完成: {len(done)}/{len(SEQ_ORDER)} 篇")
+print(f"臂结构抽取: {len(arm_results)} 篇")
 print(f"错误/缺失: {errors if errors else '无'}")
 print(f"建议核查 ({len(check_needed)} 篇): {check_needed}")
 print("="*70)
 
-# Final save again to be sure
-wb.save(EXCEL)
-print("Excel已保存：", EXCEL)
+# Final save again to be sure（仅当 DO_EXCEL）
+if DO_EXCEL:
+    wb.save(EXCEL)
+    print("Excel已保存：", EXCEL)

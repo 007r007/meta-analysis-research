@@ -77,7 +77,7 @@ trial_id → arm_id → comparison_id → outcome_id → timepoint
 - [ ] Seq24 无 comparison、exclusion_status=excluded
 - [ ] Seq1/35 comp_type=N、无 comparison
 - [ ] 5 重复（16/43/47/53/28）正确映射到主报告
-- [ ] 核心元分析池（in_core_ma=True）计数 ≈35
+- [ ] 核心元分析池（in_core_ma=True）计数 = 38（cx 裁定 2026-11-15：①36 + ②2）
 
 ## 五、分工
 
