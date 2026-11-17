@@ -572,6 +572,32 @@ for s in sorted(SECONDARY.keys()):
     dedup_rows.append(dict(seq=s, maps_to_main_seq=",".join(str(m) for m in mains),
                            exclusion_status=st, exclusion_reason=reason))
 
+# 报告↔trial 关系表（cx 阶段1要求：报告—试验映射、拆分/合并、多对多显式化）
+report_trial_rows = []
+# 主报告边（含一篇多试验拆分：Seq6→2、Seq61→2）
+for t in TRIALS:
+    tid = seq_to_tid[t["seq"]]
+    role_note = ""
+    if t["seq"] in ("6-S1", "6-S2"):
+        role_note = "Seq6(Brum 2020)拆两子研究"
+    elif t["seq"] in ("61-E1", "61-E2"):
+        role_note = "Seq61(Cantarella 2017)拆两实验"
+    report_trial_rows.append(dict(report_key=str(t["seq"]), report_role="main",
+                                  trial_id=tid, note=role_note))
+# 次要报告边（重复/嵌套/合并报告 → 其主 trial）
+for s, (ms, st, reason) in SECONDARY.items():
+    for m in ms:
+        report_trial_rows.append(dict(report_key=str(s), report_role="secondary",
+                                      trial_id=seq_to_tid[m], note=f"{st}: {reason[:60]}"))
+# 恢复/不在册报告边（含 Seq53 对 T54/T55 的合并关系）
+for i, t in enumerate(EXTERNAL_TRIALS):
+    tid = f"T{53+i+1:02d}"
+    if t["seq"] == "ext-Borella2010" or t["seq"] == "ext-Borella2017a":
+        report_trial_rows.append(dict(report_key="53", report_role="secondary",
+                                      trial_id=tid, note="Seq53 IPD 合并样本构成试验"))
+    report_trial_rows.append(dict(report_key=str(t["seq"]), report_role="restored",
+                                  trial_id=tid, note=t["note"][:60]))
+
 # 生成 arm 行 + comparison 行（主报告 + 外部/恢复 trial）
 arm_rows = []
 comp_rows = []
@@ -664,6 +690,11 @@ write_sheet("trial",
 write_sheet("dedup",
     ["seq", "maps_to_main_seq", "exclusion_status", "exclusion_reason"],
     dedup_rows)
+
+# 2c. report_trial（报告↔trial 多对多关系，cx 阶段1）
+write_sheet("report_trial",
+    ["report_key", "report_role", "trial_id", "note"],
+    report_trial_rows)
 
 # 3. arm
 write_sheet("arm",
