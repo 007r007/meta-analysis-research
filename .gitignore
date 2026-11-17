@@ -1,0 +1,7 @@
+# 临时/生成产物（不入库）
+**/tmp/
+__pycache__/
+*.pyc
+~$*.docx
+~$*.xlsx
+*.log
