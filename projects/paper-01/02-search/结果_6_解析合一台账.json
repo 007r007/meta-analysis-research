@@ -1,0 +1,260 @@
+[
+ {
+  "comparison_id": "CT03_1",
+  "trial_id": "T03",
+  "verdict": "pass_fix",
+  "basis": "Seq3 Table2 数字断裂115候选+T1负号token10个，需数字修复核准链；已实证d值6/6可复现"
+ },
+ {
+  "comparison_id": "CT05_1",
+  "trial_id": "T05",
+  "verdict": "fail",
+  "basis": "候选页=[1]摘要页，定位缺陷（Seq5结果段在p3-5），需重定位后解析"
+ },
+ {
+  "comparison_id": "CT06_1",
+  "trial_id": "T06",
+  "verdict": "pass",
+  "basis": "Seq6 Table2 M/SD 干净（132token 0 not_found）；ANOVA在在线补充材料"
+ },
+ {
+  "comparison_id": "CT07_1",
+  "trial_id": "T07",
+  "verdict": "pass",
+  "basis": "同CT06_1（同PDF）"
+ },
+ {
+  "comparison_id": "CT08_1",
+  "trial_id": "T08",
+  "verdict": "pass_fix",
+  "basis": "84候选需核准（数字断裂），0 not_found"
+ },
+ {
+  "comparison_id": "CT09_1",
+  "trial_id": "T09",
+  "verdict": "pass",
+  "basis": "Seq9 Table5 M/SD（21任务×2组×pre/post）0 not_found；Bayes主分析+NHST在补充表"
+ },
+ {
+  "comparison_id": "CT10_1",
+  "trial_id": "T10",
+  "verdict": "partial",
+  "basis": "分析表T6/T7(Estimate/SE)已结构化；M/SD在在线补充Supp Table 4，需下载补充材料"
+ },
+ {
+  "comparison_id": "CT11_1",
+  "trial_id": "T11",
+  "verdict": "pass_fix",
+  "basis": "Table3 316值一致；需小修T0→TO；交叉顺序设计需标注"
+ },
+ {
+  "comparison_id": "CT13_1",
+  "trial_id": "T13",
+  "verdict": "pass",
+  "basis": "表1张全结构化，数值token全命中原页文本层，0候选待核准"
+ },
+ {
+  "comparison_id": "CT15_1",
+  "trial_id": "T15",
+  "verdict": "fail",
+  "basis": "Table3表头拆裂+TIADL错列+脚注漏；M/SD在p5 Table1(人口学非结局)；结局在ANCOVA表"
+ },
+ {
+  "comparison_id": "CT16_1",
+  "trial_id": "T16",
+  "verdict": "pass_crosspage",
+  "basis": "真跨页表(Table2→Continued p15-16)；老年部9/9净；年轻部cell-merge缺陷2行"
+ },
+ {
+  "comparison_id": "CT17_1",
+  "trial_id": "T17",
+  "verdict": "pass_fix",
+  "basis": "27候选需核准"
+ },
+ {
+  "comparison_id": "CT18_1",
+  "trial_id": "T18",
+  "verdict": "pass_fix",
+  "basis": "Table2 48值一致；.94→0.94按规则"
+ },
+ {
+  "comparison_id": "CT19_1",
+  "trial_id": "T19",
+  "verdict": "pass",
+  "basis": "Seq21 五组设计，结局表已结构化"
+ },
+ {
+  "comparison_id": "CT20_1",
+  "trial_id": "T20",
+  "verdict": "pending",
+  "basis": "Table1人口学PASS；目标结局无M/SD表(Fig2/3+η²p)→维持pending"
+ },
+ {
+  "comparison_id": "CT21_1",
+  "trial_id": "T21",
+  "verdict": "pass",
+  "basis": "fMRI研究，行为表已结构化"
+ },
+ {
+  "comparison_id": "CT23_1",
+  "trial_id": "T23",
+  "verdict": "pass_fix",
+  "basis": "Zinke Table2 M/SD + d_z 全套；2个not_found（3.32/9.36）需人工对原页"
+ },
+ {
+  "comparison_id": "CT24_1",
+  "trial_id": "T24",
+  "verdict": "fix",
+  "basis": "Table2实验组M/SD拆两行+0 .92断裂；n随结局变化"
+ },
+ {
+  "comparison_id": "CT25_1",
+  "trial_id": "T25",
+  "verdict": "fail",
+  "basis": "Table2 192值一致但2-back标签丢失→3-back错挂"
+ },
+ {
+  "comparison_id": "CT26_1",
+  "trial_id": "T26",
+  "verdict": "pass",
+  "basis": "Seq26 被动对照 10vs11"
+ },
+ {
+  "comparison_id": "CT27_1",
+  "trial_id": "T27",
+  "verdict": "pass_fix",
+  "basis": "1候选需核准"
+ },
+ {
+  "comparison_id": "CT28_1",
+  "trial_id": "T28",
+  "verdict": "pass_fix",
+  "basis": "2候选需核准"
+ },
+ {
+  "comparison_id": "CT32_1",
+  "trial_id": "T32",
+  "verdict": "pass",
+  "basis": "Seq32 tDCS双臂CACT"
+ },
+ {
+  "comparison_id": "CT33_1",
+  "trial_id": "T33",
+  "verdict": "conditional",
+  "basis": "Table1 48值一致；n=32/22断裂+脚注需拆"
+ },
+ {
+  "comparison_id": "CT34_1",
+  "trial_id": "T34",
+  "verdict": "pass",
+  "basis": "Booth 四组schedule"
+ },
+ {
+  "comparison_id": "CT35_1",
+  "trial_id": "T35",
+  "verdict": "pass_fix",
+  "basis": "Heinzel2017 dual-task M/SD 22候选需核准"
+ },
+ {
+  "comparison_id": "CT36_1",
+  "trial_id": "T36",
+  "verdict": "pass",
+  "basis": "Sutton Peak app"
+ },
+ {
+  "comparison_id": "CT37_1",
+  "trial_id": "T37",
+  "verdict": "pass",
+  "basis": "Tusch Cogmed EEG"
+ },
+ {
+  "comparison_id": "CT38_1",
+  "trial_id": "T38",
+  "verdict": "pass_fix",
+  "basis": "McAvinue 34候选需核准"
+ },
+ {
+  "comparison_id": "CT39_1",
+  "trial_id": "T39",
+  "verdict": "pass",
+  "basis": "Borella2025 增益指数M/SD"
+ },
+ {
+  "comparison_id": "CT40_1",
+  "trial_id": "T40",
+  "verdict": "fix",
+  "basis": "结局表WMT/LPT M/SD结构化；Bayesian BF列；污染(CJK/π/LaTeX/倒序)"
+ },
+ {
+  "comparison_id": "CT41_1",
+  "trial_id": "T41",
+  "verdict": "pass",
+  "basis": "Zinke2012 old-old"
+ },
+ {
+  "comparison_id": "CT43_1",
+  "trial_id": "T43",
+  "verdict": "pass_fix",
+  "basis": "EngAge 14候选需核准"
+ },
+ {
+  "comparison_id": "CT46_1",
+  "trial_id": "T46",
+  "verdict": "pass",
+  "basis": "Zelinski SEM表：数值正确但科学适用=SEM"
+ },
+ {
+  "comparison_id": "CT47_1",
+  "trial_id": "T47",
+  "verdict": "pass",
+  "basis": "结局表TG/ACG×时点 M/SD；结构与数值双过关"
+ },
+ {
+  "comparison_id": "CT48_1",
+  "trial_id": "T48",
+  "verdict": "pass_fix",
+  "basis": "8个not_found（前导零变体为主，如03.40）需零归一后人工复核"
+ },
+ {
+  "comparison_id": "CT49_1",
+  "trial_id": "T49",
+  "verdict": "pass_fix",
+  "basis": "Seq61 T3/T4 zero-padding 33个not_found；M/SD主体干净"
+ },
+ {
+  "comparison_id": "CT50_1",
+  "trial_id": "T50",
+  "verdict": "pass_fix",
+  "basis": "同CT49_1"
+ },
+ {
+  "comparison_id": "CT52_1",
+  "trial_id": "T52",
+  "verdict": "pass",
+  "basis": "Lange EG/aCG/pCG"
+ },
+ {
+  "comparison_id": "CT53_1",
+  "trial_id": "T53",
+  "verdict": "pass_fix",
+  "basis": "Chai 6个not_found需人工复核"
+ },
+ {
+  "comparison_id": "CT54_1",
+  "trial_id": "T54",
+  "verdict": "pass",
+  "basis": "basic试跑：Table2+Table3结构化成功"
+ },
+ {
+  "comparison_id": "CT57_1",
+  "trial_id": "T57",
+  "verdict": "fail",
+  "basis": "Table1表头缺Early adulthood E1/E2/C+F(2,87)→F(,87)自由度丢失；基线表非结局"
+ },
+ {
+  "comparison_id": "CT57_2",
+  "trial_id": "T57",
+  "verdict": "fail",
+  "basis": "同CT57_1"
+ }
+]

@@ -1,0 +1,5667 @@
+{
+ "meta": {
+  "author": "cl",
+  "migrated_from": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl",
+  "canonical_version": "protocol v3 (sha256 27579d41...360F6)",
+  "note": "64表逐表判定（43比较：14条PARSE_GAP另走basic档；29条flash已结构化）"
+ },
+ "verdict_table": [
+  {
+   "comparison_id": "CT03_1",
+   "trial_id": "T03",
+   "n_tables": 2,
+   "n_candidates": 115,
+   "n_not_found": 10,
+   "verdict": "pass_fix",
+   "basis": "Seq3 Table2 数字断裂115候选+T1负号token10个，需数字修复核准链；已实证d值6/6可复现"
+  },
+  {
+   "comparison_id": "CT05_1",
+   "trial_id": "T05",
+   "n_tables": 0,
+   "n_candidates": 0,
+   "n_not_found": 0,
+   "verdict": "fail",
+   "basis": "候选页=[1]摘要页，定位缺陷（Seq5结果段在p3-5），需重定位后解析"
+  },
+  {
+   "comparison_id": "CT06_1",
+   "trial_id": "T06",
+   "n_tables": 2,
+   "n_candidates": 0,
+   "n_not_found": 0,
+   "verdict": "pass",
+   "basis": "Seq6 Table2 M/SD 干净（132token 0 not_found）；ANOVA在在线补充材料"
+  },
+  {
+   "comparison_id": "CT07_1",
+   "trial_id": "T07",
+   "n_tables": 2,
+   "n_candidates": 0,
+   "n_not_found": 0,
+   "verdict": "pass",
+   "basis": "同CT06_1（同PDF）"
+  },
+  {
+   "comparison_id": "CT08_1",
+   "trial_id": "T08",
+   "n_tables": 4,
+   "n_candidates": 84,
+   "n_not_found": 0,
+   "verdict": "pass_fix",
+   "basis": "84候选需核准（数字断裂），0 not_found"
+  },
+  {
+   "comparison_id": "CT09_1",
+   "trial_id": "T09",
+   "n_tables": 4,
+   "n_candidates": 0,
+   "n_not_found": 0,
+   "verdict": "pass",
+   "basis": "Seq9 Table5 M/SD（21任务×2组×pre/post）0 not_found；Bayes主分析+NHST在补充表"
+  },
+  {
+   "comparison_id": "CT13_1",
+   "trial_id": "T13",
+   "n_tables": 1,
+   "n_candidates": 0,
+   "n_not_found": 0,
+   "verdict": "pass",
+   "basis": "表1张全结构化，数值token全命中原页文本层，0候选待核准"
+  },
+  {
+   "comparison_id": "CT17_1",
+   "trial_id": "T17",
+   "n_tables": 2,
+   "n_candidates": 27,
+   "n_not_found": 0,
+   "verdict": "pass_fix",
+   "basis": "27候选需核准"
+  },
+  {
+   "comparison_id": "CT19_1",
+   "trial_id": "T19",
+   "n_tables": 2,
+   "n_candidates": 0,
+   "n_not_found": 0,
+   "verdict": "pass",
+   "basis": "Seq21 五组设计，结局表已结构化"
+  },
+  {
+   "comparison_id": "CT21_1",
+   "trial_id": "T21",
+   "n_tables": 3,
+   "n_candidates": 0,
+   "n_not_found": 0,
+   "verdict": "pass",
+   "basis": "fMRI研究，行为表已结构化"
+  },
+  {
+   "comparison_id": "CT23_1",
+   "trial_id": "T23",
+   "n_tables": 5,
+   "n_candidates": 8,
+   "n_not_found": 2,
+   "verdict": "pass_fix",
+   "basis": "Zinke Table2 M/SD + d_z 全套；2个not_found（3.32/9.36）需人工对原页"
+  },
+  {
+   "comparison_id": "CT26_1",
+   "trial_id": "T26",
+   "n_tables": 1,
+   "n_candidates": 0,
+   "n_not_found": 0,
+   "verdict": "pass",
+   "basis": "Seq26 被动对照 10vs11"
+  },
+  {
+   "comparison_id": "CT27_1",
+   "trial_id": "T27",
+   "n_tables": 1,
+   "n_candidates": 1,
+   "n_not_found": 0,
+   "verdict": "pass_fix",
+   "basis": "1候选需核准"
+  },
+  {
+   "comparison_id": "CT28_1",
+   "trial_id": "T28",
+   "n_tables": 2,
+   "n_candidates": 2,
+   "n_not_found": 0,
+   "verdict": "pass_fix",
+   "basis": "2候选需核准"
+  },
+  {
+   "comparison_id": "CT32_1",
+   "trial_id": "T32",
+   "n_tables": 1,
+   "n_candidates": 0,
+   "n_not_found": 0,
+   "verdict": "pass",
+   "basis": "Seq32 tDCS双臂CACT"
+  },
+  {
+   "comparison_id": "CT34_1",
+   "trial_id": "T34",
+   "n_tables": 1,
+   "n_candidates": 0,
+   "n_not_found": 0,
+   "verdict": "pass",
+   "basis": "Booth 四组schedule"
+  },
+  {
+   "comparison_id": "CT35_1",
+   "trial_id": "T35",
+   "n_tables": 1,
+   "n_candidates": 22,
+   "n_not_found": 0,
+   "verdict": "pass_fix",
+   "basis": "Heinzel2017 dual-task M/SD 22候选需核准"
+  },
+  {
+   "comparison_id": "CT36_1",
+   "trial_id": "T36",
+   "n_tables": 3,
+   "n_candidates": 0,
+   "n_not_found": 0,
+   "verdict": "pass",
+   "basis": "Sutton Peak app"
+  },
+  {
+   "comparison_id": "CT37_1",
+   "trial_id": "T37",
+   "n_tables": 1,
+   "n_candidates": 0,
+   "n_not_found": 0,
+   "verdict": "pass",
+   "basis": "Tusch Cogmed EEG"
+  },
+  {
+   "comparison_id": "CT38_1",
+   "trial_id": "T38",
+   "n_tables": 4,
+   "n_candidates": 34,
+   "n_not_found": 0,
+   "verdict": "pass_fix",
+   "basis": "McAvinue 34候选需核准"
+  },
+  {
+   "comparison_id": "CT39_1",
+   "trial_id": "T39",
+   "n_tables": 1,
+   "n_candidates": 0,
+   "n_not_found": 0,
+   "verdict": "pass",
+   "basis": "Borella2025 增益指数M/SD"
+  },
+  {
+   "comparison_id": "CT41_1",
+   "trial_id": "T41",
+   "n_tables": 1,
+   "n_candidates": 0,
+   "n_not_found": 0,
+   "verdict": "pass",
+   "basis": "Zinke2012 old-old"
+  },
+  {
+   "comparison_id": "CT43_1",
+   "trial_id": "T43",
+   "n_tables": 5,
+   "n_candidates": 14,
+   "n_not_found": 0,
+   "verdict": "pass_fix",
+   "basis": "EngAge 14候选需核准"
+  },
+  {
+   "comparison_id": "CT46_1",
+   "trial_id": "T46",
+   "n_tables": 3,
+   "n_candidates": 0,
+   "n_not_found": 0,
+   "verdict": "pass",
+   "basis": "Zelinski SEM表：数值正确但科学适用=SEM"
+  },
+  {
+   "comparison_id": "CT48_1",
+   "trial_id": "T48",
+   "n_tables": 1,
+   "n_candidates": 0,
+   "n_not_found": 8,
+   "verdict": "pass_fix",
+   "basis": "8个not_found（前导零变体为主，如03.40）需零归一后人工复核"
+  },
+  {
+   "comparison_id": "CT49_1",
+   "trial_id": "T49",
+   "n_tables": 4,
+   "n_candidates": 0,
+   "n_not_found": 33,
+   "verdict": "pass_fix",
+   "basis": "Seq61 T3/T4 zero-padding 33个not_found；M/SD主体干净"
+  },
+  {
+   "comparison_id": "CT50_1",
+   "trial_id": "T50",
+   "n_tables": 4,
+   "n_candidates": 0,
+   "n_not_found": 33,
+   "verdict": "pass_fix",
+   "basis": "同CT49_1"
+  },
+  {
+   "comparison_id": "CT52_1",
+   "trial_id": "T52",
+   "n_tables": 1,
+   "n_candidates": 0,
+   "n_not_found": 0,
+   "verdict": "pass",
+   "basis": "Lange EG/aCG/pCG"
+  },
+  {
+   "comparison_id": "CT53_1",
+   "trial_id": "T53",
+   "n_tables": 2,
+   "n_candidates": 0,
+   "n_not_found": 6,
+   "verdict": "pass_fix",
+   "basis": "Chai 6个not_found需人工复核"
+  }
+ ],
+ "not_found_samples": {
+  "CT03_1_T1": [
+   "-73",
+   "-77",
+   "-13",
+   "-13",
+   "-51",
+   "-48",
+   "-30",
+   "-30",
+   "-143",
+   "-143"
+  ],
+  "CT23_1_T4": [
+   "3.32",
+   "9.36"
+  ],
+  "CT48_1_T1": [
+   "-99",
+   "-0.03",
+   "-30",
+   "-0.10",
+   "-10",
+   "-0.32",
+   "-3",
+   "-0.99"
+  ],
+  "CT49_1_T3": [
+   "26.00",
+   "12.56",
+   "70.41",
+   "10.54",
+   "66.17",
+   "56.81",
+   "78.71",
+   "03.40",
+   "33.07",
+   "01.01",
+   "02.06",
+   "01.00",
+   "05.01",
+   "00.19",
+   "00.00",
+   "08.03"
+  ],
+  "CT49_1_T4": [
+   "11.00",
+   "24.00",
+   "00.64",
+   "67.03",
+   "25.39",
+   "71.11",
+   "20.45",
+   "24.07",
+   "14.04",
+   "23.13",
+   "01.00",
+   "09.04",
+   "02.10",
+   "01.07",
+   "12.02",
+   "45.18",
+   "374.17"
+  ],
+  "CT50_1_T3": [
+   "26.00",
+   "12.56",
+   "70.41",
+   "10.54",
+   "66.17",
+   "56.81",
+   "78.71",
+   "03.40",
+   "33.07",
+   "01.01",
+   "02.06",
+   "01.00",
+   "05.01",
+   "00.19",
+   "00.00",
+   "08.03"
+  ],
+  "CT50_1_T4": [
+   "11.00",
+   "24.00",
+   "00.64",
+   "67.03",
+   "25.39",
+   "71.11",
+   "20.45",
+   "24.07",
+   "14.04",
+   "23.13",
+   "01.00",
+   "09.04",
+   "02.10",
+   "01.07",
+   "12.02",
+   "45.18",
+   "374.17"
+  ],
+  "CT53_1_T2": [
+   "2.234",
+   "2.272",
+   "2.161",
+   "1.770",
+   "1.591",
+   "1.890"
+  ]
+ },
+ "approval_records": [
+  {
+   "comparison_id": "CT03_1",
+   "trial_id": "T03",
+   "pdf_file": "2016_Age-specific differences of dual n-back training..pdf",
+   "pages": [
+    8,
+    11,
+    12
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "28e8728cadbd80be",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2016_Age_specific_differences_of_dual_n_back_train__p8_11_12.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 9,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "Characteristic",
+      "Training group (n = 25)",
+      "Control group (n = 21)",
+      "p-Value"
+     ]
+    },
+    {
+     "table_index": 2,
+     "kind": "pipe",
+     "n_rows": 21,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "Older train",
+      "ing group",
+      "",
+      "Older con",
+      "trol group",
+      "",
+      "Young train",
+      "ing group",
+      "",
+      "Young con",
+      "trol group",
+      ""
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 2,
+     "n_candidates": 115,
+     "records": [
+      {
+       "raw": "1 .6",
+       "proposed": "1.6",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .49",
+       "proposed": "1.49",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .7",
+       "proposed": "1.7",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .8",
+       "proposed": "1.8",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .5",
+       "proposed": "1.5",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .4",
+       "proposed": "1.4",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .5",
+       "proposed": "1.5",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .8",
+       "proposed": "1.8",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .5",
+       "proposed": "1.5",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .5",
+       "proposed": "1.5",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 3",
+       "proposed": "0.13",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .7",
+       "proposed": "3.7",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "5 .5",
+       "proposed": "5.5",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .8",
+       "proposed": "3.8",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .3",
+       "proposed": "3.3",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 9",
+       "proposed": "0.19",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 8",
+       "proposed": "0.18",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .6",
+       "proposed": "3.6",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .4",
+       "proposed": "3.4",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2. 1",
+       "proposed": "2.1",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "4. 1",
+       "proposed": "4.1",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "4. 1",
+       "proposed": "4.1",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "5 .4",
+       "proposed": "5.4",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 ,9 1 8",
+       "proposed": "1,918",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 0. 1",
+       "proposed": "10.1",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 0.7",
+       "proposed": "10.7",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 ,608",
+       "proposed": "1,608",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 0.3",
+       "proposed": "10.3",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 ,922",
+       "proposed": "1,922",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 9.5",
+       "proposed": "19.5",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 7.4",
+       "proposed": "17.4",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 ,7 1 5",
+       "proposed": "1,715",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 7.5",
+       "proposed": "17.5",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 7.4",
+       "proposed": "17.4",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 1",
+       "proposed": "0.11",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 ,348",
+       "proposed": "1,348",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 , 1 55",
+       "proposed": "1,155",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "5 .6",
+       "proposed": "5.6",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 ,4 1 8",
+       "proposed": "1,418",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 ,278",
+       "proposed": "1,278",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 6",
+       "proposed": "0.16",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 ,3 1 4",
+       "proposed": "1,314",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "5 .3",
+       "proposed": "5.3",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 , 1 1 8",
+       "proposed": "1,118",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .5",
+       "proposed": "3.5",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .4",
+       "proposed": "3.4",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 8",
+       "proposed": "0.18",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 ,376",
+       "proposed": "1,376",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 1 .2",
+       "proposed": "11.2",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 4.2",
+       "proposed": "14.2",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 , 1 85",
+       "proposed": "1,185",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 1 .2",
+       "proposed": "11.2",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 5 .4",
+       "proposed": "15.4",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .5",
+       "proposed": "3.5",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "5 .3",
+       "proposed": "5.3",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .7",
+       "proposed": "1.7",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .3",
+       "proposed": "3.3",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .4",
+       "proposed": "3.4",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0.5 1",
+       "proposed": "0.51",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 ,036",
+       "proposed": "1,036",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .8",
+       "proposed": "3.8",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .9",
+       "proposed": "3.9",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .4",
+       "proposed": "3.4",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .3",
+       "proposed": "3.3",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 1",
+       "proposed": "0.11",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "5 .5",
+       "proposed": "5.5",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 5",
+       "proposed": "0.15",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .9",
+       "proposed": "3.9",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "4. 1",
+       "proposed": "4.1",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .9",
+       "proposed": "3.9",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "6. 1",
+       "proposed": "6.1",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 1 .4",
+       "proposed": "11.4",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .4",
+       "proposed": "3.4",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 5 .5",
+       "proposed": "15.5",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 5 .7",
+       "proposed": "15.7",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2 1 .8",
+       "proposed": "21.8",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2 1 .4",
+       "proposed": "21.4",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "85 .9",
+       "proposed": "85.9",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 1 .2",
+       "proposed": "11.2",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "83 .8",
+       "proposed": "83.8",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 1 .3",
+       "proposed": "11.3",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 4.2",
+       "proposed": "14.2",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 4.9",
+       "proposed": "14.9",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "25 .4",
+       "proposed": "25.4",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "7 1 .2",
+       "proposed": "71.2",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 2",
+       "proposed": "0.12",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 2.8",
+       "proposed": "12.8",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "9 1 .3",
+       "proposed": "91.3",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 2.9",
+       "proposed": "12.9",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "8 1 . 1",
+       "proposed": "81.1",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 9.4",
+       "proposed": "19.4",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 1 .4",
+       "proposed": "11.4",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "8. 1",
+       "proposed": "8.1",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 0",
+       "proposed": "0.10",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 1 .0",
+       "proposed": "11.0",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 4",
+       "proposed": "0.14",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "45 .5",
+       "proposed": "45.5",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 1 .0",
+       "proposed": "11.0",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 7.2",
+       "proposed": "17.2",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 1 .6",
+       "proposed": "11.6",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 0.3",
+       "proposed": "10.3",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 5",
+       "proposed": "0.15",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "34. 1",
+       "proposed": "34.1",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "9. 1",
+       "proposed": "9.1",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 1 .2",
+       "proposed": "11.2",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 1 .3",
+       "proposed": "31.3",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 3 .4",
+       "proposed": "13.4",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 0.3",
+       "proposed": "10.3",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0.4 1",
+       "proposed": "0.41",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 6.8",
+       "proposed": "16.8",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "7 1 .5",
+       "proposed": "71.5",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 6.4",
+       "proposed": "16.4",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "53 .5",
+       "proposed": "53.5",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "59. 1",
+       "proposed": "59.1",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 6.9",
+       "proposed": "16.9",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      }
+     ]
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 51,
+     "n_not_found_in_fitz_layer": 10,
+     "samples_not_found": [
+      "-73",
+      "-77",
+      "-13",
+      "-13",
+      "-51",
+      "-48",
+      "-30",
+      "-30"
+     ],
+     "note": "fitz层与MinerU同源，数字断裂两侧一致；not_found=疑似造数/漏数"
+    },
+    {
+     "table_index": 2,
+     "n_numeric_tokens": 432,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 2
+  },
+  {
+   "comparison_id": "CT05_1",
+   "trial_id": "T05",
+   "pdf_file": "2018_N-back training and transfer effects revealed by behavioral responses and EEG..pdf",
+   "pages": [
+    1
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "3616b766d03e8401",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2018_N_back_training_and_transfer_effects_revealed__p1.md"
+   },
+   "step2_header": [],
+   "step3_number_ledger": [],
+   "step4_consistency": [],
+   "step5_published": false,
+   "status": "done_no_tables",
+   "extractability_hint": "pending(候选页无表格；需人工读正文统计量或判图形数据)",
+   "n_tables": 0
+  },
+  {
+   "comparison_id": "CT06_1",
+   "trial_id": "T06",
+   "pdf_file": "2020_Verbal working memory training in older adults_ an investigation of dose respons.pdf",
+   "pages": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    10
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "0afa914a6e1b5b1e",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2020_Verbal_working_memory_training_in_older_adult__p4_5_6_7_8_10.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 17,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "",
+      "Trained Group",
+      "",
+      "",
+      "Control Group",
+      ""
+     ]
+    },
+    {
+     "table_index": 2,
+     "kind": "pipe",
+     "n_rows": 17,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "",
+      "Trained Group",
+      "",
+      "",
+      "Control Group",
+      ""
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 2,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 132,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 2,
+     "n_numeric_tokens": 132,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 2
+  },
+  {
+   "comparison_id": "CT07_1",
+   "trial_id": "T07",
+   "pdf_file": "2020_Verbal working memory training in older adults_ an investigation of dose respons.pdf",
+   "pages": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    10
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "0afa914a6e1b5b1e",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2020_Verbal_working_memory_training_in_older_adult__p4_5_6_7_8_10.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 17,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "",
+      "Trained Group",
+      "",
+      "",
+      "Control Group",
+      ""
+     ]
+    },
+    {
+     "table_index": 2,
+     "kind": "pipe",
+     "n_rows": 17,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "",
+      "Trained Group",
+      "",
+      "",
+      "Control Group",
+      ""
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 2,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 132,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 2,
+     "n_numeric_tokens": 132,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 2
+  },
+  {
+   "comparison_id": "CT08_1",
+   "trial_id": "T08",
+   "pdf_file": "2025_Gamified working memory intervention enhances prefrontal neurocognitive plastici.pdf",
+   "pages": [
+    7,
+    9,
+    10,
+    11
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "836e724da64b4db9",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2025_Gamified_working_memory_intervention_enhances__p7_9_10_11.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 23,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "Trainin",
+      "g group",
+      "Contro",
+      "l group",
+      "",
+      ""
+     ]
+    },
+    {
+     "table_index": 2,
+     "kind": "pipe",
+     "n_rows": 10,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "Trainin",
+      "g group",
+      "",
+      "Contro",
+      "l group",
+      "Paired t",
+      "",
+      "Effect size"
+     ]
+    },
+    {
+     "table_index": 3,
+     "kind": "pipe",
+     "n_rows": 10,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "Trainin",
+      "g group",
+      "Paired t",
+      "Contro",
+      "l group",
+      "Paired t",
+      "",
+      "Effect size"
+     ]
+    },
+    {
+     "table_index": 4,
+     "kind": "html",
+     "n_rows": 14,
+     "rebuilt": true,
+     "method": "html_first_row(需人工核colspan/拆裂)",
+     "columns": [
+      "Demographic",
+      "Trainin",
+      "g group",
+      "Contro",
+      "l group",
+      "",
+      ""
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 2,
+     "n_candidates": 38,
+     "records": [
+      {
+       "raw": "1 .42",
+       "proposed": "1.42",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .58",
+       "proposed": "1.58",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .79",
+       "proposed": "1.79",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "5. 1 1",
+       "proposed": "5.11",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .68",
+       "proposed": "1.68",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .60",
+       "proposed": "1.60",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 , 67",
+       "proposed": "1,67",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .73",
+       "proposed": "1.73",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "33.2 1",
+       "proposed": "33.21",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "43. 1 1",
+       "proposed": "43.11",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 3 .86",
+       "proposed": "13.86",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 2.05",
+       "proposed": "12.05",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .75",
+       "proposed": "3.75",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 , 67",
+       "proposed": "1,67",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "4. 1 1",
+       "proposed": "4.11",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "70. 1 2",
+       "proposed": "70.12",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 , 66",
+       "proposed": "1,66",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "32.7 1",
+       "proposed": "32.71",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "6. 1 3",
+       "proposed": "6.13",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .53",
+       "proposed": "3.53",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 1 .43",
+       "proposed": "31.43",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 1 .03",
+       "proposed": "31.03",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 , 67",
+       "proposed": "1,67",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2 1 . 1 2",
+       "proposed": "21.12",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .74",
+       "proposed": "1.74",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "22. 17",
+       "proposed": "22.17",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 , 67",
+       "proposed": "1,67",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .8 1",
+       "proposed": "1.81",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .64",
+       "proposed": "3.64",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .77",
+       "proposed": "1.77",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .45",
+       "proposed": "1.45",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 , 67",
+       "proposed": "1,67",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .40",
+       "proposed": "1.40",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .24",
+       "proposed": "3.24",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .7 1",
+       "proposed": "3.71",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "4.3 1",
+       "proposed": "4.31",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 . 1 5",
+       "proposed": "1.15",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 , 67",
+       "proposed": "1,67",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      }
+     ]
+    },
+    {
+     "table_index": 3,
+     "n_candidates": 46,
+     "records": [
+      {
+       "raw": "1 .42",
+       "proposed": "1.42",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .24",
+       "proposed": "1.24",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .77",
+       "proposed": "1.77",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .66",
+       "proposed": "1.66",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 , 64",
+       "proposed": "1,64",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "33 .08",
+       "proposed": "33.08",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "4.6 1",
+       "proposed": "4.61",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "14. 10",
+       "proposed": "14.10",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "36. 1 6",
+       "proposed": "36.16",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 2.36",
+       "proposed": "12.36",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .08",
+       "proposed": "3.08",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 , 64",
+       "proposed": "1,64",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "9 1 .76",
+       "proposed": "91.76",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "53 .29",
+       "proposed": "53.29",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "6 1 .95",
+       "proposed": "61.95",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .85",
+       "proposed": "3.85",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .89",
+       "proposed": "1.89",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 , 64",
+       "proposed": "1,64",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .65",
+       "proposed": "1.65",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "7. 1 1",
+       "proposed": "7.11",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .84",
+       "proposed": "3.84",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 1 .84",
+       "proposed": "31.84",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "7.5 1",
+       "proposed": "7.51",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "33 .50",
+       "proposed": "33.50",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .54",
+       "proposed": "1.54",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 , 64",
+       "proposed": "1,64",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .20",
+       "proposed": "1.20",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 9",
+       "proposed": "0.19",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2 1 . 1 2",
+       "proposed": "21.12",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "23 .33",
+       "proposed": "23.33",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "5. 1 3",
+       "proposed": "5.13",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2 1 .62",
+       "proposed": "21.62",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "5.4 1",
+       "proposed": "5.41",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .36",
+       "proposed": "1.36",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 , 64",
+       "proposed": "1,64",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 . 19",
+       "proposed": "1.19",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .8 1",
+       "proposed": "1.81",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2. 14",
+       "proposed": "2.14",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .8 1",
+       "proposed": "1.81",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .55",
+       "proposed": "1.55",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 , 64",
+       "proposed": "1,64",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 3",
+       "proposed": "0.13",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .24",
+       "proposed": "3.24",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .77",
+       "proposed": "3.77",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .24",
+       "proposed": "1.24",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 , 63",
+       "proposed": "1,63",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      }
+     ]
+    },
+    {
+     "table_index": 4,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 72,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 2,
+     "n_numeric_tokens": 151,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 3,
+     "n_numeric_tokens": 158,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 4,
+     "n_numeric_tokens": 67,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 4
+  },
+  {
+   "comparison_id": "CT09_1",
+   "trial_id": "T09",
+   "pdf_file": "2017_Working memory training in older adults_ Bayesian evidence supporting the absenc.pdf",
+   "pages": [
+    13,
+    14,
+    21,
+    25,
+    29,
+    31,
+    32
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "9afbbeeda82820b5",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2017_Working_memory_training_in_older_adults_Bayes__p13_14_21_25_29_31_32.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 8,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "Gro",
+      "up",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "table_index": 2,
+     "kind": "pipe",
+     "n_rows": 33,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "W",
+      "M",
+      "",
+      "VS"
+     ]
+    },
+    {
+     "table_index": 3,
+     "kind": "pipe",
+     "n_rows": 9,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "Ability",
+      "M<sub>Diff</sub>[95% HDI]",
+      "BF<sub>H0</sub>",
+      "BF<sub>H1</sub>",
+      "Error"
+     ]
+    },
+    {
+     "table_index": 4,
+     "kind": "pipe",
+     "n_rows": 9,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "Ability",
+      "M<sub>Grand</sub>",
+      "M<sub>Diff</sub>[95% HDI]",
+      "BF<sub>H0</sub>",
+      "BF<sub>H1</sub>",
+      "Error"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 2,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 3,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 4,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 37,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 2,
+     "n_numeric_tokens": 168,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 3,
+     "n_numeric_tokens": 42,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 4,
+     "n_numeric_tokens": 49,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 4
+  },
+  {
+   "comparison_id": "CT10_1",
+   "trial_id": "T10",
+   "pdf_file": "2022_Working Memory Training Coupled With Transcranial Direct Current Stimulation in.pdf",
+   "pages": [
+    1,
+    5,
+    6
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "1914d42696a9914a",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2022_Working_Memory_Training_Coupled_With_Transcra__p1_5_6.md"
+   },
+   "step2_header": [],
+   "step3_number_ledger": [],
+   "step4_consistency": [],
+   "step5_published": false,
+   "status": "done_no_tables",
+   "extractability_hint": "pending(候选页无表格；需人工读正文统计量或判图形数据)",
+   "n_tables": 0
+  },
+  {
+   "comparison_id": "CT11_1",
+   "trial_id": "T11",
+   "pdf_file": "2016_Working Memory Training and Speech in Noise Comprehension in Older Adults..pdf",
+   "pages": [
+    7,
+    8
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "41dfbf89cee45097",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2016_Working_Memory_Training_and_Speech_in_Noise_C__p7_8.md"
+   },
+   "step2_header": [],
+   "step3_number_ledger": [],
+   "step4_consistency": [],
+   "step5_published": false,
+   "status": "done_no_tables",
+   "extractability_hint": "pending(候选页无表格；需人工读正文统计量或判图形数据)",
+   "n_tables": 0
+  },
+  {
+   "comparison_id": "CT13_1",
+   "trial_id": "T13",
+   "pdf_file": "2019_Working Memory Capacity as a Predictor of Cognitive Training Efficacy in the Eld.pdf",
+   "pages": [
+    6,
+    8
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "ad06addc1bee21fa",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2019_Working_Memory_Capacity_as_a_Predictor_of_Cog__p6_8.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 6,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "MODEL 1",
+      "MODEL 2",
+      "MODEL 3",
+      "MODEL 4",
+      "MODEL 5",
+      "MODEL 6"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 0,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 1
+  },
+  {
+   "comparison_id": "CT15_1",
+   "trial_id": "T15",
+   "pdf_file": "2019_Improving Everyday Functioning in the Old-Old with Working Memory Training..pdf",
+   "pages": [
+    4,
+    7
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "5f46fc91de888576",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2019_Improving_Everyday_Functioning_in_the_Old_Old__p4_7.md"
+   },
+   "step2_header": [],
+   "step3_number_ledger": [],
+   "step4_consistency": [],
+   "step5_published": false,
+   "status": "done_no_tables",
+   "extractability_hint": "pending(候选页无表格；需人工读正文统计量或判图形数据)",
+   "n_tables": 0
+  },
+  {
+   "comparison_id": "CT16_1",
+   "trial_id": "T16",
+   "pdf_file": "2014_Working memory training improvements and gains in non-trained cognitive tasks in.pdf",
+   "pages": [
+    14
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "bfbdbc93ced0e09d",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2014_Working_memory_training_improvements_and_gain__p14.md"
+   },
+   "step2_header": [],
+   "step3_number_ledger": [],
+   "step4_consistency": [],
+   "step5_published": false,
+   "status": "done_no_tables",
+   "extractability_hint": "pending(候选页无表格；需人工读正文统计量或判图形数据)",
+   "n_tables": 0
+  },
+  {
+   "comparison_id": "CT17_1",
+   "trial_id": "T17",
+   "pdf_file": "2013_Working memory training in old age_ an examination of transfer and maintenance e.pdf",
+   "pages": [
+    3,
+    4,
+    9,
+    10,
+    11,
+    12
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "7600f412188dedbc",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2013_Working_memory_training_in_old_age_an_examina__p3_4_9_10_11_12.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 16,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "Trained",
+      "group",
+      "",
+      "",
+      "",
+      "",
+      "Control",
+      "group",
+      "",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "table_index": 2,
+     "kind": "pipe",
+     "n_rows": 40,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "F",
+      "df",
+      "MSE",
+      "n<sup>2</sup><sub>p</sub>",
+      "p-value"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 2,
+     "n_candidates": 27,
+     "records": [
+      {
+       "raw": "1, 34",
+       "proposed": "1,34",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 68",
+       "proposed": "2,68",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 68",
+       "proposed": "2,68",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 34",
+       "proposed": "1,34",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 68",
+       "proposed": "2,68",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 68",
+       "proposed": "2,68",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 34",
+       "proposed": "1,34",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 68",
+       "proposed": "2,68",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 68",
+       "proposed": "2,68",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 34",
+       "proposed": "1,34",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 68",
+       "proposed": "2,68",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 68",
+       "proposed": "2,68",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 34",
+       "proposed": "1,34",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 68",
+       "proposed": "2,68",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 68",
+       "proposed": "2,68",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 34",
+       "proposed": "1,34",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 68",
+       "proposed": "2,68",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 68",
+       "proposed": "2,68",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 34",
+       "proposed": "1,34",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 68",
+       "proposed": "2,68",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 68",
+       "proposed": "2,68",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 34",
+       "proposed": "1,34",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 68",
+       "proposed": "2,68",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 68",
+       "proposed": "2,68",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 34",
+       "proposed": "1,34",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 68",
+       "proposed": "2,68",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 68",
+       "proposed": "2,68",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      }
+     ]
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 144,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 2,
+     "n_numeric_tokens": 162,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 2
+  },
+  {
+   "comparison_id": "CT18_1",
+   "trial_id": "T18",
+   "pdf_file": "2020_Feasibility of using a computer-assisted working memory training program for hea.pdf",
+   "pages": [
+    4,
+    5,
+    6
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "4a26e5dffd41646b",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2020_Feasibility_of_using_a_computer_assisted_work__p4_5_6.md"
+   },
+   "step2_header": [],
+   "step3_number_ledger": [],
+   "step4_consistency": [],
+   "step5_published": false,
+   "status": "done_no_tables",
+   "extractability_hint": "pending(候选页无表格；需人工读正文统计量或判图形数据)",
+   "n_tables": 0
+  },
+  {
+   "comparison_id": "CT19_1",
+   "trial_id": "T19",
+   "pdf_file": "2018_The Effects of Cognitive Training on Cognitive Abilities and Everyday Function_.pdf",
+   "pages": [
+    5,
+    6,
+    8
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "78eda50d0defebc4",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2018_The_Effects_of_Cognitive_Training_on_Cognitiv__p5_6_8.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 21,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "",
+      "Pret",
+      "est",
+      "Post",
+      "test",
+      "Gain",
+      "",
+      "Pre-post"
+     ]
+    },
+    {
+     "table_index": 2,
+     "kind": "pipe",
+     "n_rows": 33,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "Dependent",
+      "",
+      "Pret",
+      "est",
+      "Post",
+      "test",
+      "Ga",
+      "in",
+      "Pre-post"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 2,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 120,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 2,
+     "n_numeric_tokens": 200,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 2
+  },
+  {
+   "comparison_id": "CT20_1",
+   "trial_id": "T20",
+   "pdf_file": "2022_Higher white matter hyperintensity load adversely affects pre-post proximal cogn.pdf",
+   "pages": [
+    3,
+    7
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "538ff8de2b4755bf",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2022_Higher_white_matter_hyperintensity_load_adver__p3_7.md"
+   },
+   "step2_header": [],
+   "step3_number_ledger": [],
+   "step4_consistency": [],
+   "step5_published": false,
+   "status": "done_no_tables",
+   "extractability_hint": "pending(候选页无表格；需人工读正文统计量或判图形数据)",
+   "n_tables": 0
+  },
+  {
+   "comparison_id": "CT21_1",
+   "trial_id": "T21",
+   "pdf_file": "2024_Youth-like brain activation linked with greater cognitive training gains in olde.pdf",
+   "pages": [
+    6,
+    7,
+    8
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "26d488df8f418645",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2024_Youth_like_brain_activation_linked_with_great__p6_7_8.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 17,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "Characteristics",
+      "Older Adults N ¼ 26",
+      "Younger Adults N ¼ 25",
+      "p"
+     ]
+    },
+    {
+     "table_index": 2,
+     "kind": "pipe",
+     "n_rows": 4,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "Early-Stage",
+      "Late-Stage",
+      "t-value",
+      "p"
+     ]
+    },
+    {
+     "table_index": 3,
+     "kind": "html",
+     "n_rows": 7,
+     "rebuilt": true,
+     "method": "html_first_row(需人工核colspan/拆裂)",
+     "columns": [
+      "",
+      "Training Gain",
+      "Transfer Gain"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 2,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 3,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 57,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 2,
+     "n_numeric_tokens": 12,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 3,
+     "n_numeric_tokens": 20,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 3
+  },
+  {
+   "comparison_id": "CT23_1",
+   "trial_id": "T23",
+   "pdf_file": "2014_Working memory training and transfer in older adults_ effects of age, baseline p.pdf",
+   "pages": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "e066dfdd61fa4e53",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2014_Working_memory_training_and_transfer_in_older__p4_5_6_7_8_9.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 7,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "Variable",
+      "Training group M (SD)",
+      "Control group M (SD)"
+     ]
+    },
+    {
+     "table_index": 2,
+     "kind": "pipe",
+     "n_rows": 9,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "Training gain in visuospatial WM task (Picture grid task) R<sup>2</sup>",
+      "Training gain in verbal WM task (Subtract-2 task) R<sup>2</sup>",
+      "Training gain in executive control task (Tower of London) R<sup>2</sup>"
+     ]
+    },
+    {
+     "table_index": 3,
+     "kind": "pipe",
+     "n_rows": 4,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "F(3, 36)9.1",
+      "F(3, 36)2.9",
+      "F(3, 36)10.9"
+     ]
+    },
+    {
+     "table_index": 4,
+     "kind": "pipe",
+     "n_rows": 12,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "Transfer gain in visuospatial WM (Block span) R<sup>2</sup>",
+      "Transfer gain in verbal WM (Letter span plus) R<sup>2</sup>",
+      "Transfer gain in executive control (Tower of Hanoi) R<sup>2</sup>",
+      "Transfer gain in interference control (Stroop task) R<sup>2</sup>",
+      "Transfer gain in fluid intelligence (Raven SPM) R<sup>2</sup>"
+     ]
+    },
+    {
+     "table_index": 5,
+     "kind": "html",
+     "n_rows": 9,
+     "rebuilt": true,
+     "method": "html_first_row(需人工核colspan/拆裂)",
+     "columns": [
+      "Measure",
+      "Training group",
+      "Control group"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 2,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 3,
+     "n_candidates": 3,
+     "records": [
+      {
+       "raw": "3, 36",
+       "proposed": "3,36",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3, 36",
+       "proposed": "3,36",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3, 36",
+       "proposed": "3,36",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      }
+     ]
+    },
+    {
+     "table_index": 4,
+     "n_candidates": 5,
+     "records": [
+      {
+       "raw": "3 , 34",
+       "proposed": "3,34",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 , 34",
+       "proposed": "3,34",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 , 34",
+       "proposed": "3,34",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 , 34",
+       "proposed": "3,34",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 , 34",
+       "proposed": "3,34",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      }
+     ]
+    },
+    {
+     "table_index": 5,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 20,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 2,
+     "n_numeric_tokens": 21,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 3,
+     "n_numeric_tokens": 8,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 4,
+     "n_numeric_tokens": 87,
+     "n_not_found_in_fitz_layer": 2,
+     "samples_not_found": [
+      "3.32",
+      "9.36"
+     ],
+     "note": "fitz层与MinerU同源，数字断裂两侧一致；not_found=疑似造数/漏数"
+    },
+    {
+     "table_index": 5,
+     "n_numeric_tokens": 68,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 5
+  },
+  {
+   "comparison_id": "CT24_1",
+   "trial_id": "T24",
+   "pdf_file": "2020_The Impact of Working Memory Training on Cognitive Abilities in Older Adults_ Th.pdf",
+   "pages": [
+    1,
+    5
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "30422d23030dac84",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2020_The_Impact_of_Working_Memory_Training_on_Cogn__p1_5.md"
+   },
+   "step2_header": [],
+   "step3_number_ledger": [],
+   "step4_consistency": [],
+   "step5_published": false,
+   "status": "done_no_tables",
+   "extractability_hint": "pending(候选页无表格；需人工读正文统计量或判图形数据)",
+   "n_tables": 0
+  },
+  {
+   "comparison_id": "CT25_1",
+   "trial_id": "T25",
+   "pdf_file": "2024_Limited training and transfer effects in older and young adults who participated.pdf",
+   "pages": [
+    1,
+    3,
+    5,
+    6
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "923efb96e36b9eb2",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2024_Limited_training_and_transfer_effects_in_olde__p1_3_5_6.md"
+   },
+   "step2_header": [],
+   "step3_number_ledger": [],
+   "step4_consistency": [],
+   "step5_published": false,
+   "status": "done_no_tables",
+   "extractability_hint": "pending(候选页无表格；需人工读正文统计量或判图形数据)",
+   "n_tables": 0
+  },
+  {
+   "comparison_id": "CT26_1",
+   "trial_id": "T26",
+   "pdf_file": "2014_Individual differences in cognitive plasticity_ an investigation of training cur.pdf",
+   "pages": [
+    4,
+    7,
+    9,
+    10
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "cbc5e5d45e859682",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2014_Individual_differences_in_cognitive_plasticit__p4_7_9_10.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 15,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "Variable",
+      "Intercept",
+      "Slope"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 24,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 1
+  },
+  {
+   "comparison_id": "CT27_1",
+   "trial_id": "T27",
+   "pdf_file": "2017_Benefits in tasks related to everyday life competences after a working memory tr.pdf",
+   "pages": [
+    1,
+    3,
+    4,
+    5,
+    6
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "42be9b741ef2e671",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2017_Benefits_in_tasks_related_to_everyday_life_co__p1_3_4_5_6.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 18,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "",
+      "",
+      "",
+      "2"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 1,
+     "records": [
+      {
+       "raw": "1, 34",
+       "proposed": "1,34",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      }
+     ]
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 62,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 1
+  },
+  {
+   "comparison_id": "CT28_1",
+   "trial_id": "T28",
+   "pdf_file": "2013_Gains in language comprehension relating to working memory training in healthy o.pdf",
+   "pages": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "52505ebcc00b241f",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2013_Gains_in_language_comprehension_relating_to_w__p1_2_4_5.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "html",
+     "n_rows": 6,
+     "rebuilt": true,
+     "method": "html_first_row(需人工核colspan/拆裂)",
+     "columns": [
+      "",
+      "Trained group",
+      "Control group"
+     ]
+    },
+    {
+     "table_index": 2,
+     "kind": "html",
+     "n_rows": 9,
+     "rebuilt": true,
+     "method": "html_first_row(需人工核colspan/拆裂)",
+     "columns": [
+      "",
+      "Trained group",
+      "Control group"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 2,
+     "records": [
+      {
+       "raw": "17, 65",
+       "proposed": "17,65",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "19, 50",
+       "proposed": "19,50",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      }
+     ]
+    },
+    {
+     "table_index": 2,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 16,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 2,
+     "n_numeric_tokens": 72,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 2
+  },
+  {
+   "comparison_id": "CT32_1",
+   "trial_id": "T32",
+   "pdf_file": "2014_Novel television-based cognitive training improves working memory and executive.pdf",
+   "pages": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "166c804e1bf06d85",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2014_Novel_television_based_cognitive_training_imp__p2_3_4_5_6.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 9,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "Cognifit Ltd., Yokneam Illit, Israel",
+      "Coordination of the project, design and testing of cognitive content."
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 0,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 1
+  },
+  {
+   "comparison_id": "CT33_1",
+   "trial_id": "T33",
+   "pdf_file": "2008_Impact of working memory training on memory performance in old-old adults..pdf",
+   "pages": [
+    6,
+    7
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "af3476f770488cde",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2008_Impact_of_working_memory_training_on_memory_p__p6_7.md"
+   },
+   "step2_header": [],
+   "step3_number_ledger": [],
+   "step4_consistency": [],
+   "step5_published": false,
+   "status": "done_no_tables",
+   "extractability_hint": "pending(候选页无表格；需人工读正文统计量或判图形数据)",
+   "n_tables": 0
+  },
+  {
+   "comparison_id": "CT34_1",
+   "trial_id": "T34",
+   "pdf_file": "2023_Experimental investigation of training schedule on home-based working memory tra.pdf",
+   "pages": [
+    1,
+    3,
+    7,
+    8
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "7b6cb89f225e3d73",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2023_Experimental_investigation_of_training_schedu__p1_3_7_8.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 11,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "Eligibility criteria"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 10,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 1
+  },
+  {
+   "comparison_id": "CT35_1",
+   "trial_id": "T35",
+   "pdf_file": "2017_Transfer Effects to a Multimodal Dual-Task after Working Memory Training and Ass.pdf",
+   "pages": [
+    7
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "ace30129d46ca8cb",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2017_Transfer_Effects_to_a_Multimodal_Dual_Task_af__p7.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "html",
+     "n_rows": 6,
+     "rebuilt": true,
+     "method": "html_first_row(需人工核colspan/拆裂)",
+     "columns": [
+      "Training group",
+      "Control group",
+      "t-test (between-subject)"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 22,
+     "records": [
+      {
+       "raw": "1 .5 1 5",
+       "proposed": "1.515",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 48",
+       "proposed": "0.148",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 794",
+       "proposed": "0.794",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0.81 0",
+       "proposed": "0.810",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3 .400",
+       "proposed": "3.400",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 1",
+       "proposed": "0.11",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 3 1",
+       "proposed": "0.131",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2 . 1 59",
+       "proposed": "2.159",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 1",
+       "proposed": "0.11",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 1",
+       "proposed": "0.11",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "7 .368",
+       "proposed": "7.368",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 2",
+       "proposed": "0.12",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 6",
+       "proposed": "0.16",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 . 1 35",
+       "proposed": "1.135",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 3",
+       "proposed": "0.13",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 3",
+       "proposed": "0.13",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 2",
+       "proposed": "0.12",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 5",
+       "proposed": "0.15",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1 .670",
+       "proposed": "1.670",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0. 1 1 6",
+       "proposed": "0.116",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2 .578",
+       "proposed": "2.578",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "0.01 5",
+       "proposed": "0.015",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      }
+     ]
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 138,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 1
+  },
+  {
+   "comparison_id": "CT36_1",
+   "trial_id": "T36",
+   "pdf_file": "2025_Practice makes perfect, but to what end_ Computerised brain training has limited.pdf",
+   "pages": [
+    7,
+    8,
+    9,
+    10,
+    15
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "45df802ec6eb2dc8",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2025_Practice_makes_perfect_but_to_what_end_Comput__p7_8_9_10_15.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 9,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "Peak category",
+      "M (SD) pre-intervention (/1000)",
+      "M (SD) post-intervention (/1000)",
+      "ANOVA result (main effect of time)"
+     ]
+    },
+    {
+     "table_index": 2,
+     "kind": "pipe",
+     "n_rows": 19,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "Task (outcome) Predictor",
+      "Coefficient",
+      "95% CI",
+      "SE",
+      "t- or z-value",
+      "p"
+     ]
+    },
+    {
+     "table_index": 3,
+     "kind": "pipe",
+     "n_rows": 26,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "Outcome Predictor",
+      "Coefficient",
+      "95% CI",
+      "SE",
+      "t-value",
+      "p"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 2,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 3,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 63,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 2,
+     "n_numeric_tokens": 106,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 3,
+     "n_numeric_tokens": 146,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 3
+  },
+  {
+   "comparison_id": "CT37_1",
+   "trial_id": "T37",
+   "pdf_file": "2016_Changes in Neural Activity Underlying Working Memory after Computerized Cognitiv.pdf",
+   "pages": [
+    6,
+    7
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "f7091378c0b952a4",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2016_Changes_in_Neural_Activity_Underlying_Working__p6_7.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 16,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "Pre-CCT session",
+      "Adaptive (mean (SD))",
+      "Control (mean (SD))",
+      "p"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 70,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 1
+  },
+  {
+   "comparison_id": "CT38_1",
+   "trial_id": "T38",
+   "pdf_file": "2013_An evaluation of a working memory training scheme in older adults..pdf",
+   "pages": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    9
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "dd406b75170b8945",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2013_An_evaluation_of_a_working_memory_training_sc__p2_3_4_5_7_9.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 21,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "Goal category",
+      "Number of participants",
+      "Specific examples"
+     ]
+    },
+    {
+     "table_index": 2,
+     "kind": "html",
+     "n_rows": 6,
+     "rebuilt": true,
+     "method": "html_first_row(需人工核colspan/拆裂)",
+     "columns": [
+      "",
+      "",
+      "Pre and post-training",
+      "3-Month follow up",
+      "6-Month follow up"
+     ]
+    },
+    {
+     "table_index": 3,
+     "kind": "html",
+     "n_rows": 11,
+     "rebuilt": true,
+     "method": "html_first_row(需人工核colspan/拆裂)",
+     "columns": [
+      "Pre-training",
+      "Post-training",
+      "Follow up 3months",
+      "Follow up 6months"
+     ]
+    },
+    {
+     "table_index": 4,
+     "kind": "html",
+     "n_rows": 6,
+     "rebuilt": true,
+     "method": "html_first_row(需人工核colspan/拆裂)",
+     "columns": [
+      "",
+      "Mixed ANCOVA: effect of group across all three post-training assessments",
+      "OneWay ANCOVA"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 2,
+     "n_candidates": 18,
+     "records": [
+      {
+       "raw": "6, 13",
+       "proposed": "6,13",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "7, 10",
+       "proposed": "7,10",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "6, 10",
+       "proposed": "6,10",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "7, 7",
+       "proposed": "7,7",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "5, 10",
+       "proposed": "5,10",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "5, 6",
+       "proposed": "5,6",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 2",
+       "proposed": "1,2",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "10, 6",
+       "proposed": "10,6",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 8",
+       "proposed": "1,8",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "5, 3",
+       "proposed": "5,3",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 2",
+       "proposed": "1,2",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "9, 4",
+       "proposed": "9,4",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 5",
+       "proposed": "1,5",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "5, 3",
+       "proposed": "5,3",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 2",
+       "proposed": "1,2",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "8, 4",
+       "proposed": "8,4",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 4",
+       "proposed": "1,4",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "3, 3",
+       "proposed": "3,3",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      }
+     ]
+    },
+    {
+     "table_index": 3,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 4,
+     "n_candidates": 16,
+     "records": [
+      {
+       "raw": "1, 23",
+       "proposed": "1,23",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 33",
+       "proposed": "1,33",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 27",
+       "proposed": "1,27",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 23",
+       "proposed": "1,23",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 23",
+       "proposed": "1,23",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 33",
+       "proposed": "1,33",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 27",
+       "proposed": "1,27",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 23",
+       "proposed": "1,23",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 23",
+       "proposed": "1,23",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 33",
+       "proposed": "1,33",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 27",
+       "proposed": "1,27",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 23",
+       "proposed": "1,23",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 23",
+       "proposed": "1,23",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 33",
+       "proposed": "1,33",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 27",
+       "proposed": "1,27",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "1, 23",
+       "proposed": "1,23",
+       "enumeration_suspect": true,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      }
+     ]
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 32,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 2,
+     "n_numeric_tokens": 54,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 3,
+     "n_numeric_tokens": 68,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 4,
+     "n_numeric_tokens": 85,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 4
+  },
+  {
+   "comparison_id": "CT39_1",
+   "trial_id": "T39",
+   "pdf_file": "2025_Short- and long-term cognitive and electrophysiological effects of a brief worki.pdf",
+   "pages": [
+    1,
+    4,
+    6,
+    7,
+    9,
+    10
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "836d09311ec8b813",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2025_Short_and_long_term_cognitive_and_electrophys__p1_4_6_7_9_10.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 9,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "Type of",
+      "Activities for Trained Group^ Activities"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 5,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 1
+  },
+  {
+   "comparison_id": "CT40_1",
+   "trial_id": "T40",
+   "pdf_file": "2017_Comparison of Cognitive Change after Working Memory Training and Logic and Plann.pdf",
+   "pages": [
+    5
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "4548950b3337f4a3",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2017_Comparison_of_Cognitive_Change_after_Working__p5.md"
+   },
+   "step2_header": [],
+   "step3_number_ledger": [],
+   "step4_consistency": [],
+   "step5_published": false,
+   "status": "done_no_tables",
+   "extractability_hint": "pending(候选页无表格；需人工读正文统计量或判图形数据)",
+   "n_tables": 0
+  },
+  {
+   "comparison_id": "CT41_1",
+   "trial_id": "T41",
+   "pdf_file": "2012_Potentials and limits of plasticity induced by working memory training in old-ol.pdf",
+   "pages": [
+    3,
+    4,
+    7
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "c8c524645a602d2c",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2012_Potentials_and_limits_of_plasticity_induced_b__p3_4_7.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 7,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "Training group",
+      "Control group"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 18,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 1
+  },
+  {
+   "comparison_id": "CT43_1",
+   "trial_id": "T43",
+   "pdf_file": "2023_EngAge - A metacognitive intervention to supplement working memory training_ A f.pdf",
+   "pages": [
+    5,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "efca380fa28d8863",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2023_EngAge_A_metacognitive_intervention_to_supple__p5_7_8_9_10_11.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 10,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "Seminar 1",
+      "Seminar 2",
+      "Seminar 3"
+     ]
+    },
+    {
+     "table_index": 2,
+     "kind": "pipe",
+     "n_rows": 11,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "EngAge + (N = 49)",
+      "WM",
+      "WM (N = 36)",
+      "",
+      "KB (N = 34)",
+      "",
+      "Group differences (p)"
+     ]
+    },
+    {
+     "table_index": 3,
+     "kind": "pipe",
+     "n_rows": 59,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "Pre-Test N",
+      "Mean",
+      "SD",
+      "Post-Test Mean",
+      "SD",
+      "p",
+      "r",
+      "ES"
+     ]
+    },
+    {
+     "table_index": 4,
+     "kind": "pipe",
+     "n_rows": 59,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "Pre-Test N",
+      "Mean",
+      "SD",
+      "Follow-U Mean",
+      "p Test SD",
+      "p",
+      "r",
+      "ES"
+     ]
+    },
+    {
+     "table_index": 5,
+     "kind": "pipe",
+     "n_rows": 20,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "Outcome Measure",
+      "df",
+      "F",
+      "p",
+      "g2p"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 2,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 3,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 4,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 5,
+     "n_candidates": 14,
+     "records": [
+      {
+       "raw": "2, 103",
+       "proposed": "2,103",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 114",
+       "proposed": "2,114",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 115",
+       "proposed": "2,115",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 105",
+       "proposed": "2,105",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 113",
+       "proposed": "2,113",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 105",
+       "proposed": "2,105",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 111",
+       "proposed": "2,111",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 114",
+       "proposed": "2,114",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 108",
+       "proposed": "2,108",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 114",
+       "proposed": "2,114",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 118",
+       "proposed": "2,118",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 114",
+       "proposed": "2,114",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 115",
+       "proposed": "2,115",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      },
+      {
+       "raw": "2, 112",
+       "proposed": "2,112",
+       "enumeration_suspect": false,
+       "decision": "pending_manual",
+       "basis": null,
+       "reviewer": "cl"
+      }
+     ]
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 0,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 2,
+     "n_numeric_tokens": 63,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 3,
+     "n_numeric_tokens": 339,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 4,
+     "n_numeric_tokens": 339,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 5,
+     "n_numeric_tokens": 71,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 5
+  },
+  {
+   "comparison_id": "CT46_1",
+   "trial_id": "T46",
+   "pdf_file": "2014_Evaluating the relationship between change in performance on training tasks and.pdf",
+   "pages": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "9d7252481e94c939",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2014_Evaluating_the_relationship_between_change_in__p4_5_6_7_8_9_10.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 6,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "Experimental",
+      "Control"
+     ]
+    },
+    {
+     "table_index": 2,
+     "kind": "pipe",
+     "n_rows": 19,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "RBANS list RAVLT list RBANS story RBMT story WMS working memory memory memory memory memory",
+      "h<sup>2</sup>"
+     ]
+    },
+    {
+     "table_index": 3,
+     "kind": "html",
+     "n_rows": 8,
+     "rebuilt": true,
+     "method": "html_first_row(需人工核colspan/拆裂)",
+     "columns": [
+      "TRAINING TASKS",
+      "Speed",
+      "Syllable span"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 2,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 3,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 12,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 2,
+     "n_numeric_tokens": 22,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 3,
+     "n_numeric_tokens": 12,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 3
+  },
+  {
+   "comparison_id": "CT47_1",
+   "trial_id": "T47",
+   "pdf_file": "2021_Working Memory Training and Cortical Arousal in Healthy Older Adults_ A Resting-.pdf",
+   "pages": [
+    6
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "52f1ce15b2d887a5",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2021_Working_Memory_Training_and_Cortical_Arousal__p6.md"
+   },
+   "step2_header": [],
+   "step3_number_ledger": [],
+   "step4_consistency": [],
+   "step5_published": false,
+   "status": "done_no_tables",
+   "extractability_hint": "pending(候选页无表格；需人工读正文统计量或判图形数据)",
+   "n_tables": 0
+  },
+  {
+   "comparison_id": "CT48_1",
+   "trial_id": "T48",
+   "pdf_file": "2026_A comparison of single-domain and multidomain executive functions cognitive trai.pdf",
+   "pages": [
+    5,
+    6,
+    7,
+    10,
+    11,
+    12,
+    13,
+    17,
+    29
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "f06a170883077153",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2026_A_comparison_of_single_domain_and_multidomain__p5_6_7_10_11_12_13_17_29.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 7,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      ">100",
+      "&lt;0.01",
+      "Decisive Evidence"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 18,
+     "n_not_found_in_fitz_layer": 8,
+     "samples_not_found": [
+      "-99",
+      "-0.03",
+      "-30",
+      "-0.10",
+      "-10",
+      "-0.32",
+      "-3",
+      "-0.99"
+     ],
+     "note": "fitz层与MinerU同源，数字断裂两侧一致；not_found=疑似造数/漏数"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 1
+  },
+  {
+   "comparison_id": "CT49_1",
+   "trial_id": "T49",
+   "pdf_file": "2021_The influence of training task stimuli on transfer effects of working memory tra.pdf",
+   "pages": [
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "0894e83634d58713",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2021_The_influence_of_training_task_stimuli_on_tra__p2_3_5_6_7_8_9_10_11_13.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 6,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "Training group",
+      "(n=18; 10 F)",
+      "Control group",
+      "(n=17; 11 F)"
+     ]
+    },
+    {
+     "table_index": 2,
+     "kind": "pipe",
+     "n_rows": 6,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "Training group",
+      "(n=16; 13 F)",
+      "Control group",
+      "(n=19; 15 F)"
+     ]
+    },
+    {
+     "table_index": 3,
+     "kind": "html",
+     "n_rows": 19,
+     "rebuilt": true,
+     "method": "html_first_row(需人工核colspan/拆裂)",
+     "columns": [
+      "",
+      "F(2,66)",
+      "MSE",
+      "P",
+      "np2"
+     ]
+    },
+    {
+     "table_index": 4,
+     "kind": "html",
+     "n_rows": 18,
+     "rebuilt": true,
+     "method": "html_first_row(需人工核colspan/拆裂)",
+     "columns": [
+      "",
+      "F(2,66)",
+      "MSE",
+      "P",
+      "np2"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 2,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 3,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 4,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 12,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 2,
+     "n_numeric_tokens": 12,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 3,
+     "n_numeric_tokens": 56,
+     "n_not_found_in_fitz_layer": 16,
+     "samples_not_found": [
+      "26.00",
+      "12.56",
+      "70.41",
+      "10.54",
+      "66.17",
+      "56.81",
+      "78.71",
+      "03.40"
+     ],
+     "note": "fitz层与MinerU同源，数字断裂两侧一致；not_found=疑似造数/漏数"
+    },
+    {
+     "table_index": 4,
+     "n_numeric_tokens": 55,
+     "n_not_found_in_fitz_layer": 17,
+     "samples_not_found": [
+      "11.00",
+      "24.00",
+      "00.64",
+      "67.03",
+      "25.39",
+      "71.11",
+      "20.45",
+      "24.07"
+     ],
+     "note": "fitz层与MinerU同源，数字断裂两侧一致；not_found=疑似造数/漏数"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 4
+  },
+  {
+   "comparison_id": "CT50_1",
+   "trial_id": "T50",
+   "pdf_file": "2021_The influence of training task stimuli on transfer effects of working memory tra.pdf",
+   "pages": [
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "0894e83634d58713",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2021_The_influence_of_training_task_stimuli_on_tra__p2_3_5_6_7_8_9_10_11_13.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 6,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "Training group",
+      "(n=18; 10 F)",
+      "Control group",
+      "(n=17; 11 F)"
+     ]
+    },
+    {
+     "table_index": 2,
+     "kind": "pipe",
+     "n_rows": 6,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "Training group",
+      "(n=16; 13 F)",
+      "Control group",
+      "(n=19; 15 F)"
+     ]
+    },
+    {
+     "table_index": 3,
+     "kind": "html",
+     "n_rows": 19,
+     "rebuilt": true,
+     "method": "html_first_row(需人工核colspan/拆裂)",
+     "columns": [
+      "",
+      "F(2,66)",
+      "MSE",
+      "P",
+      "np2"
+     ]
+    },
+    {
+     "table_index": 4,
+     "kind": "html",
+     "n_rows": 18,
+     "rebuilt": true,
+     "method": "html_first_row(需人工核colspan/拆裂)",
+     "columns": [
+      "",
+      "F(2,66)",
+      "MSE",
+      "P",
+      "np2"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 2,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 3,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 4,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 12,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 2,
+     "n_numeric_tokens": 12,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 3,
+     "n_numeric_tokens": 56,
+     "n_not_found_in_fitz_layer": 16,
+     "samples_not_found": [
+      "26.00",
+      "12.56",
+      "70.41",
+      "10.54",
+      "66.17",
+      "56.81",
+      "78.71",
+      "03.40"
+     ],
+     "note": "fitz层与MinerU同源，数字断裂两侧一致；not_found=疑似造数/漏数"
+    },
+    {
+     "table_index": 4,
+     "n_numeric_tokens": 55,
+     "n_not_found_in_fitz_layer": 17,
+     "samples_not_found": [
+      "11.00",
+      "24.00",
+      "00.64",
+      "67.03",
+      "25.39",
+      "71.11",
+      "20.45",
+      "24.07"
+     ],
+     "note": "fitz层与MinerU同源，数字断裂两侧一致；not_found=疑似造数/漏数"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 4
+  },
+  {
+   "comparison_id": "CT52_1",
+   "trial_id": "T52",
+   "pdf_file": "2015_Experimental evaluation of near‐ and far‐transfer effects of an adaptive multico.pdf",
+   "pages": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "8c69f9e431454ab0",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2015_Experimental_evaluation_of_near_and_far_trans__p5_6_7_8.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 6,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "",
+      "EG",
+      "aCG",
+      "pCG"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 21,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 1
+  },
+  {
+   "comparison_id": "CT53_1",
+   "trial_id": "T53",
+   "pdf_file": "2026_The Impact of Working Memory Training on Cognitive Reappraisal Ability Among Old.pdf",
+   "pages": [
+    4,
+    5,
+    8,
+    9
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "1c493dda42f2ca60",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2026_The_Impact_of_Working_Memory_Training_on_Cogn__p4_5_8_9.md"
+   },
+   "step2_header": [
+    {
+     "table_index": 1,
+     "kind": "pipe",
+     "n_rows": 16,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "Predictor",
+      "B SE",
+      "p",
+      "R<sup>2</sup> ΔR²",
+      "F"
+     ]
+    },
+    {
+     "table_index": 2,
+     "kind": "pipe",
+     "n_rows": 11,
+     "rebuilt": true,
+     "method": "markdown_header_row",
+     "columns": [
+      "Numerical WM \"easy\"",
+      "Training",
+      "Active con-",
+      "No-contact"
+     ]
+    }
+   ],
+   "step3_number_ledger": [
+    {
+     "table_index": 1,
+     "n_candidates": 0,
+     "records": []
+    },
+    {
+     "table_index": 2,
+     "n_candidates": 0,
+     "records": []
+    }
+   ],
+   "step4_consistency": [
+    {
+     "table_index": 1,
+     "n_numeric_tokens": 47,
+     "n_not_found_in_fitz_layer": 0,
+     "samples_not_found": [],
+     "note": "全部命中原页文本层"
+    },
+    {
+     "table_index": 2,
+     "n_numeric_tokens": 64,
+     "n_not_found_in_fitz_layer": 6,
+     "samples_not_found": [
+      "2.234",
+      "2.272",
+      "2.161",
+      "1.770",
+      "1.591",
+      "1.890"
+     ],
+     "note": "fitz层与MinerU同源，数字断裂两侧一致；not_found=疑似造数/漏数"
+    }
+   ],
+   "step5_published": false,
+   "status": "done_tables_found",
+   "extractability_hint": "pending(表格已定位；数字候选待逐条人工核准后方可提取)",
+   "n_tables": 2
+  },
+  {
+   "comparison_id": "CT54_1",
+   "trial_id": "T54",
+   "pdf_file": "2010_Working memory training in older adults_ evidence of transfer and maintenance ef.pdf",
+   "pages": [
+    2,
+    5,
+    6
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "6762855aea4e907b",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2010_Working_memory_training_in_older_adults_evide__p2_5_6.md"
+   },
+   "step2_header": [],
+   "step3_number_ledger": [],
+   "step4_consistency": [],
+   "step5_published": false,
+   "status": "done_no_tables",
+   "extractability_hint": "pending(候选页无表格；需人工读正文统计量或判图形数据)",
+   "n_tables": 0
+  },
+  {
+   "comparison_id": "CT57_1",
+   "trial_id": "T57",
+   "pdf_file": "2016_Effects of working memory and attentional control training and their transfer on.pdf",
+   "pages": [
+    3,
+    4,
+    5
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "d1ba146a991c71cf",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2016_Effects_of_working_memory_and_attentional_con__p3_4_5.md"
+   },
+   "step2_header": [],
+   "step3_number_ledger": [],
+   "step4_consistency": [],
+   "step5_published": false,
+   "status": "done_no_tables",
+   "extractability_hint": "pending(候选页无表格；需人工读正文统计量或判图形数据)",
+   "n_tables": 0
+  },
+  {
+   "comparison_id": "CT57_2",
+   "trial_id": "T57",
+   "pdf_file": "2016_Effects of working memory and attentional control training and their transfer on.pdf",
+   "pages": [
+    3,
+    4,
+    5
+   ],
+   "step1_raw": {
+    "md_exists": true,
+    "sha16": "d1ba146a991c71cf",
+    "md": "C:\\Users\\astro\\AppData\\Local\\Temp/mineru_cl/batch\\2016_Effects_of_working_memory_and_attentional_con__p3_4_5.md"
+   },
+   "step2_header": [],
+   "step3_number_ledger": [],
+   "step4_consistency": [],
+   "step5_published": false,
+   "status": "done_no_tables",
+   "extractability_hint": "pending(候选页无表格；需人工读正文统计量或判图形数据)",
+   "n_tables": 0
+  }
+ ]
+}
