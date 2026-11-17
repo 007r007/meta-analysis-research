@@ -1,6 +1,7 @@
-# MinerU 解析小批验收报告（cc，2026-11-17）
+# MinerU 解析小批验收报告（cc 2026-11-17 + cl 复核修正版）
 
 > 按 cx 四步要求：任务清单 + 3-5 项难例，先证明「比较→来源页→正确统计量」贯通，再扩全量。
+> **cl 独立复核后修正 3 处（见文末）**：sha256 空字段已回填、候选页改并集策略、supplement 字段定义澄清、Seq3"跨页表"定性撤销、**数字断裂问题（最重要）**。
 
 ## 一、任务清单（已生成）
 
@@ -35,3 +36,16 @@
 4. 全量批量 = 按任务清单逐条 mineru parse + 候选层落盘 + 复核后才进效应量库。
 
 **结论：小批验收通过（2 PASS + 2 pending-有理由）。可扩全量，但需先做门槛 1（补充材料清单）。**
+
+## 五、cl 独立复核后修正（2026-11-17）
+
+| # | cl 发现 | 修正 |
+|---|---|---|
+| 1 | 任务清单 sha256 43/43 null（键名不匹配） | ✅ 已回填真实文件哈希 |
+| 2 | 候选页"Results 标题页"策略漏表格页（Seq61 漏 p.7/8 实证） | ✅ 改并集：Results 标题页 ∪ Table 标题页 |
+| 3 | has_supplement_ref 定义不明（Seq9 反例） | ✅ 改 `supplement_type`：none / inpdf（PDF 内 S 表，如 Seq9）/ external_or_inpdf（待细分，如 Seq6 在线 ANOVA） |
+| 4 | Seq3"跨页表"定性错误（Table 2 完整在 p.12） | ✅ 撤销跨页表定性；难例库应替换为"数字断裂"案例 |
+| 5 | ⭐ **MinerU flash 不修文本层数字断裂**（"1 .6"、"0. 1 3"、"1 ,9 1 8" 原样保留） | ⏳ **待 cx 裁决**：入库前数值清洗+校验，还是启用本地 basic 档（模型已下载）重测 |
+| 6 | 环境坑：MINERU_HOME User 级变量新会话可能不继承；孤儿 server 抢 doclib.endpoint.json | ✅ 已记入 runbook（mineru_deployment.md 后续补） |
+| 7 | 图表锚点格式（doc:hash/tier/page/block）是 VLM 现成接口 | ⏳ **待 cx 裁决**：Seq22 图-only 是否允许 VLM 读均值图（数据出机合规）→ pending→available 路径 |
+

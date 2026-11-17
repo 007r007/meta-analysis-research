@@ -4,588 +4,689 @@
   "trial_id": "T03",
   "report_id": "3",
   "pdf_file": "2016_Age-specific differences of dual n-back training..pdf",
-  "sha256": null,
+  "sha256": "944bd8cb138cef78edd2f0e1f08c5e248dfc69f40ad5ef7dc15f3d29a1544eb4",
   "candidate_pages": [
-   11
+   8,
+   11,
+   12
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT05_1",
   "trial_id": "T05",
   "report_id": "5",
   "pdf_file": "2018_N-back training and transfer effects revealed by behavioral responses and EEG..pdf",
-  "sha256": null,
+  "sha256": "ccd45c41563c70c8928bdb30b69fe8bf8d712715d97c0af6a5eaa1829666c0ef",
   "candidate_pages": [
    1
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT06_1",
   "trial_id": "T06",
   "report_id": "6-S1",
   "pdf_file": "2020_Verbal working memory training in older adults_ an investigation of dose respons.pdf",
-  "sha256": null,
+  "sha256": "27adc1af172b77d0786ac13d72446e707c3b99c21f0130ba929ef64373659d68",
   "candidate_pages": [
+   4,
    5,
+   6,
+   7,
    8,
    10
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": true
+  "supplement_type": "external_or_inpdf"
  },
  {
   "comparison_id": "CT07_1",
   "trial_id": "T07",
   "report_id": "6-S2",
   "pdf_file": "2020_Verbal working memory training in older adults_ an investigation of dose respons.pdf",
-  "sha256": null,
+  "sha256": "27adc1af172b77d0786ac13d72446e707c3b99c21f0130ba929ef64373659d68",
   "candidate_pages": [
+   4,
    5,
+   6,
+   7,
    8,
    10
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": true
+  "supplement_type": "external_or_inpdf"
  },
  {
   "comparison_id": "CT08_1",
   "trial_id": "T08",
   "report_id": "8",
   "pdf_file": "2025_Gamified working memory intervention enhances prefrontal neurocognitive plastici.pdf",
-  "sha256": null,
+  "sha256": "661c0d765efe37248c7a617be37e56d07912a0743f6abcf999f478088ea93eb7",
   "candidate_pages": [
-   7
+   7,
+   9,
+   10,
+   11
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT09_1",
   "trial_id": "T09",
   "report_id": "9",
   "pdf_file": "2017_Working memory training in older adults_ Bayesian evidence supporting the absenc.pdf",
-  "sha256": null,
+  "sha256": "8ca248fcf5d7beada645180fbe26eaf7485a13bbd02ab79fd9f1d2374ebeff97",
   "candidate_pages": [
-   25
+   13,
+   14,
+   21,
+   25,
+   29,
+   31,
+   32
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "inpdf"
  },
  {
   "comparison_id": "CT10_1",
   "trial_id": "T10",
   "report_id": "10",
   "pdf_file": "2022_Working Memory Training Coupled With Transcranial Direct Current Stimulation in.pdf",
-  "sha256": null,
+  "sha256": "e9a2311dc064ebac189ade4e16dbdfc5bf001d0f1588413ade55f8e2a52a3662",
   "candidate_pages": [
    1,
-   5
+   5,
+   6
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": true
+  "supplement_type": "external_or_inpdf"
  },
  {
   "comparison_id": "CT11_1",
   "trial_id": "T11",
   "report_id": "11",
   "pdf_file": "2016_Working Memory Training and Speech in Noise Comprehension in Older Adults..pdf",
-  "sha256": null,
+  "sha256": "5fc7641ae228fa8a576352f44a749eabd0a77cdf317dc190db0c0db0ed548bc9",
   "candidate_pages": [
-   7
+   7,
+   8
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT13_1",
   "trial_id": "T13",
   "report_id": "13",
   "pdf_file": "2019_Working Memory Capacity as a Predictor of Cognitive Training Efficacy in the Eld.pdf",
-  "sha256": null,
+  "sha256": "e5171e573c9a262309d6e25ab07d8e5c972451473159e842f4ac916275533151",
   "candidate_pages": [
    6,
    8
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT15_1",
   "trial_id": "T15",
   "report_id": "15",
   "pdf_file": "2019_Improving Everyday Functioning in the Old-Old with Working Memory Training..pdf",
-  "sha256": null,
+  "sha256": "a6a54239a1803a1cef866f3bbbb192cc7b47d2fd33546bc79ad2433a39435749",
   "candidate_pages": [
    4,
    7
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT16_1",
   "trial_id": "T16",
   "report_id": "18",
   "pdf_file": "2014_Working memory training improvements and gains in non-trained cognitive tasks in.pdf",
-  "sha256": null,
+  "sha256": "13242bd12fb97835947d4471448c247657a96d7ad6bfa05a04b318f0645fd04a",
   "candidate_pages": [
    14
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": true
+  "supplement_type": "external_or_inpdf"
  },
  {
   "comparison_id": "CT17_1",
   "trial_id": "T17",
   "report_id": "19",
   "pdf_file": "2013_Working memory training in old age_ an examination of transfer and maintenance e.pdf",
-  "sha256": null,
+  "sha256": "e4dd1cec31ca4d9dae28d17dbae3a36da27d5c6c661522581b2e01a0ee4eaded",
   "candidate_pages": [
-   9
+   3,
+   4,
+   9,
+   10,
+   11,
+   12
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT18_1",
   "trial_id": "T18",
   "report_id": "20",
   "pdf_file": "2020_Feasibility of using a computer-assisted working memory training program for hea.pdf",
-  "sha256": null,
+  "sha256": "d331542e1e27ec886ac2bd94cfb2f0275937adb41e475e47041e4d147cf94493",
   "candidate_pages": [
    4,
+   5,
    6
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT19_1",
   "trial_id": "T19",
   "report_id": "21",
   "pdf_file": "2018_The Effects of Cognitive Training on Cognitive Abilities and Everyday Function_.pdf",
-  "sha256": null,
+  "sha256": "5870e0c563a9aeea63fa00f8db31092a108317893d879f9fb52752ca0174732d",
   "candidate_pages": [
    5,
-   6
+   6,
+   8
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT20_1",
   "trial_id": "T20",
   "report_id": "22",
   "pdf_file": "2022_Higher white matter hyperintensity load adversely affects pre-post proximal cogn.pdf",
-  "sha256": null,
+  "sha256": "bc8d74445eedba01fe07d8ce4c600a056344858e8f340d4a0c6ef293c345bc82",
   "candidate_pages": [
+   3,
    7
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT21_1",
   "trial_id": "T21",
   "report_id": "23",
   "pdf_file": "2024_Youth-like brain activation linked with greater cognitive training gains in olde.pdf",
-  "sha256": null,
+  "sha256": "ec710851969de41d138671373b3653696fa7dca3dd41a7c2e999c78eaff0137d",
   "candidate_pages": [
-   6
+   6,
+   7,
+   8
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": true
+  "supplement_type": "external_or_inpdf"
  },
  {
   "comparison_id": "CT23_1",
   "trial_id": "T23",
   "report_id": "25",
   "pdf_file": "2014_Working memory training and transfer in older adults_ effects of age, baseline p.pdf",
-  "sha256": null,
+  "sha256": "a22ae2e886787265ad75109546430b46bb3800a16e0d692ec9488c1337488aa0",
   "candidate_pages": [
-   5
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT24_1",
   "trial_id": "T24",
   "report_id": "26",
   "pdf_file": "2020_The Impact of Working Memory Training on Cognitive Abilities in Older Adults_ Th.pdf",
-  "sha256": null,
+  "sha256": "4aa52dcd21b2f837bdcafe8b330c90a0325626bf8f3539353ef5981740b31a47",
   "candidate_pages": [
-   1
+   1,
+   5
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": true
+  "supplement_type": "external_or_inpdf"
  },
  {
   "comparison_id": "CT25_1",
   "trial_id": "T25",
   "report_id": "27",
   "pdf_file": "2024_Limited training and transfer effects in older and young adults who participated.pdf",
-  "sha256": null,
+  "sha256": "5acce49ca9a0bb9154748f9de4e02fda087ee5e4c191480c454ed467a8769605",
   "candidate_pages": [
    1,
-   3
+   3,
+   5,
+   6
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": true
+  "supplement_type": "external_or_inpdf"
  },
  {
   "comparison_id": "CT26_1",
   "trial_id": "T26",
   "report_id": "29",
   "pdf_file": "2014_Individual differences in cognitive plasticity_ an investigation of training cur.pdf",
-  "sha256": null,
+  "sha256": "e4f6b099bdb44bc6a1fe7c12b1f79a90222453d17b22e3108ceb5118113eb0bc",
   "candidate_pages": [
-   7
+   4,
+   7,
+   9,
+   10
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT27_1",
   "trial_id": "T27",
   "report_id": "30",
   "pdf_file": "2017_Benefits in tasks related to everyday life competences after a working memory tr.pdf",
-  "sha256": null,
+  "sha256": "0c933ea64280cf8630e9e44e003033edd1e18cd9fccbfefbdcfbca0b1ef202c4",
   "candidate_pages": [
    1,
-   4
+   3,
+   4,
+   5,
+   6
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT28_1",
   "trial_id": "T28",
   "report_id": "31",
   "pdf_file": "2013_Gains in language comprehension relating to working memory training in healthy o.pdf",
-  "sha256": null,
+  "sha256": "bdd898d9e3e26e951b2b378ed1380b6b405097092cc58ee806445508b1d54de0",
   "candidate_pages": [
    1,
-   4
+   2,
+   4,
+   5
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT32_1",
   "trial_id": "T32",
   "report_id": "36",
   "pdf_file": "2014_Novel television-based cognitive training improves working memory and executive.pdf",
-  "sha256": null,
+  "sha256": "79620198ee8f995b6b686776b9f22bf11816092ec2af38a6ac414400b8dfd115",
   "candidate_pages": [
+   2,
+   3,
+   4,
+   5,
    6
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": true
+  "supplement_type": "external_or_inpdf"
  },
  {
   "comparison_id": "CT33_1",
   "trial_id": "T33",
   "report_id": "39",
   "pdf_file": "2008_Impact of working memory training on memory performance in old-old adults..pdf",
-  "sha256": null,
+  "sha256": "3209db91c28227a893e041925c3d9f5d2740dac267386fc05cacd80625f18752",
   "candidate_pages": [
-   6
+   6,
+   7
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT34_1",
   "trial_id": "T34",
   "report_id": "40",
   "pdf_file": "2023_Experimental investigation of training schedule on home-based working memory tra.pdf",
-  "sha256": null,
+  "sha256": "49fe6eb4a80cc6d9b7d673e15712a91e29b40072502961c287a0334e98b27b89",
   "candidate_pages": [
    1,
-   7
+   3,
+   7,
+   8
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": true
+  "supplement_type": "external_or_inpdf"
  },
  {
   "comparison_id": "CT35_1",
   "trial_id": "T35",
   "report_id": "41",
   "pdf_file": "2017_Transfer Effects to a Multimodal Dual-Task after Working Memory Training and Ass.pdf",
-  "sha256": null,
+  "sha256": "36244f822e5310f09a4390bed6062a51486abbacd4b8a07c1fd9881a5f3506d0",
   "candidate_pages": [
    7
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT36_1",
   "trial_id": "T36",
   "report_id": "44",
   "pdf_file": "2025_Practice makes perfect, but to what end_ Computerised brain training has limited.pdf",
-  "sha256": null,
+  "sha256": "70bbcf7ec40585e10e1a196f555d9937c8d08b7e370ff2685f0bd263f18165f8",
   "candidate_pages": [
    7,
    8,
+   9,
+   10,
    15
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT37_1",
   "trial_id": "T37",
   "report_id": "45",
   "pdf_file": "2016_Changes in Neural Activity Underlying Working Memory after Computerized Cognitiv.pdf",
-  "sha256": null,
+  "sha256": "600a2bc8af431938d88801b81b97d0cdbcca0320750787036138f5e796b98cf5",
   "candidate_pages": [
-   6
+   6,
+   7
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT38_1",
   "trial_id": "T38",
   "report_id": "46",
   "pdf_file": "2013_An evaluation of a working memory training scheme in older adults..pdf",
-  "sha256": null,
+  "sha256": "39d421d3be3e65c56ba518ecbae587d704e80dc28f61f2c317c6faa860f9b49b",
   "candidate_pages": [
-   4
+   2,
+   3,
+   4,
+   5,
+   7,
+   9
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT39_1",
   "trial_id": "T39",
   "report_id": "48",
   "pdf_file": "2025_Short- and long-term cognitive and electrophysiological effects of a brief worki.pdf",
-  "sha256": null,
+  "sha256": "9266a6a0e583654682714ec80b42f14b9890566a4045f49dd785a77d1605fd24",
   "candidate_pages": [
    1,
+   4,
+   6,
+   7,
    9,
    10
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": true
+  "supplement_type": "external_or_inpdf"
  },
  {
   "comparison_id": "CT40_1",
   "trial_id": "T40",
   "report_id": "49",
   "pdf_file": "2017_Comparison of Cognitive Change after Working Memory Training and Logic and Plann.pdf",
-  "sha256": null,
+  "sha256": "77f804cda70a138dd574910bc2cef5c29b437afb6920567f0d08f6fe61d63e77",
   "candidate_pages": [
    5
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT41_1",
   "trial_id": "T41",
   "report_id": "50",
   "pdf_file": "2012_Potentials and limits of plasticity induced by working memory training in old-ol.pdf",
-  "sha256": null,
+  "sha256": "a97831f05a87d8bb5f0186f24740c56120be338412e2c9e3e14491455ba62c14",
   "candidate_pages": [
-   4
+   3,
+   4,
+   7
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT43_1",
   "trial_id": "T43",
   "report_id": "52",
   "pdf_file": "2023_EngAge - A metacognitive intervention to supplement working memory training_ A f.pdf",
-  "sha256": null,
+  "sha256": "b90460cf0424f3c57329858da6bada51d96512cf2bfe152a8935365728f3de72",
   "candidate_pages": [
-   7
+   5,
+   7,
+   8,
+   9,
+   10,
+   11
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": true
+  "supplement_type": "external_or_inpdf"
  },
  {
   "comparison_id": "CT46_1",
   "trial_id": "T46",
   "report_id": "57",
   "pdf_file": "2014_Evaluating the relationship between change in performance on training tasks and.pdf",
-  "sha256": null,
+  "sha256": "86c752ff006ab1c9d09a96b17a308231906a03a6386f41fa4f5e509cdc452346",
   "candidate_pages": [
+   4,
    5,
-   7
+   6,
+   7,
+   8,
+   9,
+   10
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": true
+  "supplement_type": "external_or_inpdf"
  },
  {
   "comparison_id": "CT47_1",
   "trial_id": "T47",
   "report_id": "59",
   "pdf_file": "2021_Working Memory Training and Cortical Arousal in Healthy Older Adults_ A Resting-.pdf",
-  "sha256": null,
+  "sha256": "ac44a53d49cc43e40ce0467e0cbaecf8ee9f6c32e3de3353294be641742c1836",
   "candidate_pages": [
    6
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT48_1",
   "trial_id": "T48",
   "report_id": "60",
   "pdf_file": "2026_A comparison of single-domain and multidomain executive functions cognitive trai.pdf",
-  "sha256": null,
+  "sha256": "180713d2e4a9d83417a2105fa194ad1a435845373f31141441c2124506c5c096",
   "candidate_pages": [
+   5,
+   6,
+   7,
+   10,
    11,
+   12,
+   13,
+   17,
    29
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": true
+  "supplement_type": "external_or_inpdf"
  },
  {
   "comparison_id": "CT49_1",
   "trial_id": "T49",
   "report_id": "61-E1",
   "pdf_file": "2021_The influence of training task stimuli on transfer effects of working memory tra.pdf",
-  "sha256": null,
+  "sha256": "ab0ae2abfe9b02b40d1a151cbde6e5be1948e0aa7a7d5a3acec4fb73741f021d",
   "candidate_pages": [
    2,
    3,
+   5,
    6,
+   7,
+   8,
+   9,
    10,
+   11,
    13
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT50_1",
   "trial_id": "T50",
   "report_id": "61-E2",
   "pdf_file": "2021_The influence of training task stimuli on transfer effects of working memory tra.pdf",
-  "sha256": null,
+  "sha256": "ab0ae2abfe9b02b40d1a151cbde6e5be1948e0aa7a7d5a3acec4fb73741f021d",
   "candidate_pages": [
    2,
    3,
+   5,
    6,
+   7,
+   8,
+   9,
    10,
+   11,
    13
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT52_1",
   "trial_id": "T52",
   "report_id": "63",
   "pdf_file": "2015_Experimental evaluation of near‐ and far‐transfer effects of an adaptive multico.pdf",
-  "sha256": null,
+  "sha256": "55a934bf8a6e4279443a066e697b2af1d77462d0fbc717d7cc8fc2a6dc486e1c",
   "candidate_pages": [
-   7
+   5,
+   6,
+   7,
+   8
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": true
+  "supplement_type": "external_or_inpdf"
  },
  {
   "comparison_id": "CT53_1",
   "trial_id": "T53",
   "report_id": "67",
   "pdf_file": "2026_The Impact of Working Memory Training on Cognitive Reappraisal Ability Among Old.pdf",
-  "sha256": null,
+  "sha256": "fd7ba2d5c650555a277ad7148cd2aa53ddffa9bf5afa94e07360223b6dc99a00",
   "candidate_pages": [
    4,
-   8
+   5,
+   8,
+   9
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": true
+  "supplement_type": "external_or_inpdf"
  },
  {
   "comparison_id": "CT54_1",
   "trial_id": "T54",
   "report_id": "ext-Borella2010",
   "pdf_file": "2010_Working memory training in older adults_ evidence of transfer and maintenance ef.pdf",
-  "sha256": null,
+  "sha256": "17e48671400e3f9164ec69697a33c612ad54e53c88823e9b8a2486abf6a08723",
   "candidate_pages": [
-   5
+   2,
+   5,
+   6
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT57_1",
   "trial_id": "T57",
   "report_id": "ext-Zajac2016",
   "pdf_file": "2016_Effects of working memory and attentional control training and their transfer on.pdf",
-  "sha256": null,
+  "sha256": "ba78cce1681853ec5411466c55219a97c3db85dd56b482f04c2c99a272c5ac43",
   "candidate_pages": [
    3,
+   4,
    5
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  },
  {
   "comparison_id": "CT57_2",
   "trial_id": "T57",
   "report_id": "ext-Zajac2016",
   "pdf_file": "2016_Effects of working memory and attentional control training and their transfer on.pdf",
-  "sha256": null,
+  "sha256": "ba78cce1681853ec5411466c55219a97c3db85dd56b482f04c2c99a272c5ac43",
   "candidate_pages": [
    3,
+   4,
    5
   ],
-  "locate_basis": "Results标题页（fitz粗定位，待逐页核实）",
+  "locate_basis": "Results标题页 ∪ Table标题页（fitz粗定位，解析前仍需核实）",
   "parse_status": "todo",
-  "has_supplement_ref": false
+  "supplement_type": "none"
  }
 ]
