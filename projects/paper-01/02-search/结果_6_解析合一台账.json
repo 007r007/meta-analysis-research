@@ -86,8 +86,8 @@
  {
   "comparison_id": "CT20_1",
   "trial_id": "T20",
-  "verdict": "pending",
-  "basis": "Table1人口学PASS；目标结局无M/SD表(Fig2/3+η²p)→维持pending"
+  "verdict": "trained_only",
+  "basis": "cx视觉读图纠正：Fig2/3为箱线图(箱内横线=中位数非均值)，无M/SD/N；且proximal=训练任务本身=trained域非near transfer → 不进入核心迁移元分析(论文不排除)"
  },
  {
   "comparison_id": "CT21_1",
