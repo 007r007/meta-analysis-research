@@ -48,10 +48,11 @@ trial_id → arm_id → comparison_id → outcome_id → timepoint
 |---|---|---|
 | outcome_id | str | O{comparison_id}_{序号} |
 | comparison_id | str | 所属比较 |
-| domain | str | near / far / followup / trained |
+| domain | str | near / far / trained（followup 迁入时间维度，随访可同时是 near 或 far） |
 | measure | str | 结局测验名 |
-| effect_size_available | bool | 能否提取 mean/SD/change/t |
-| effect_size_value | float | 若已提取则填 |
+| timepoint | str | 时间点（post / followup 等） |
+| result_ids | str | 指向效应量库 `结果_1_效应量提取库.json` 的 resultId（JSON 数组文本）；JSON 库为核查状态与统计数值的唯一权威源 |
+| effect_size_available | bool | **只读自动生成**：available→true、unavailable→false、pending→空；不再手工编辑 |
 
 ### 5. 审计层（audit 列，附在 comparison 表）
 | 字段 | 类型 | 说明 |
@@ -64,20 +65,25 @@ trial_id → arm_id → comparison_id → outcome_id → timepoint
 
 ## 三、v3 → 新表 导入规则（固定）
 
-1. **56→51**：Seq16/43/47/53 标 `duplicate`，Seq28 标 `nested`（保留 Seq52 为主）；主报告取 Seq4/12/19/31/49/13/52 等，次要报告挂到 `secondary_report_seq`。
+1. **56→51 主报告**：Seq16/43/47/53 标 `duplicate`，Seq28 标 `nested`（保留 Seq52 为主）；主报告取 Seq4/12/19/31/49/13/52 等，次要报告挂到 `secondary_report_seq`。
 2. **Seq10 拆两条**：C10A = stDCS+WMT vs double-sham（②，in_core_ma=True）；C10B = atDCS+WMT vs stDCS+WMT（③，in_core_ma=False）。
 3. **Seq24 排除**：`exclusion_status=excluded`，reason="干预目标非WM（注意训练）"，不进任何比较层。
 4. **Seq1/35**：`comp_type=N`，保留在证据流（trial+arm 有记录），但不生成 comparison、不进 WM 组间效应量。
 5. **Seq51/62**：`comp_type=S`，生成 comparison 但 `in_core_ma=False`。
+6. **Seq53 双挂 + 拆不在册样本**（cx 裁定 2026-11-16）：Seq53 双挂 Seq19+Seq31；其 2 个不在册样本（Borella 2010 N=40、Borella 2017∧ N=36）拆为独立 trial 记录（T54/T55），`comp_type=①-pending`（未独立收录，尚未完成独立报告提取）、不生成核心比较、来源链接 Seq53。
+7. **一篇多试验拆分**（cx 裁定 2026-11-16）：trial 边界统一为「按独立招募/分组/参与者样本识别，不按论文数量或训练方案」；Seq6(Brum 2020) 拆 Study1(N=46)/Study2(N=50)、Seq61(Cantarella 2017校样) 拆 Exp1(18/17)/Exp2(16/19)，各建一个 trial。**登记记录数 51→55**。
+8. **年轻样本人群资格**（cx 裁定 2026-11-16）：识别试验结构与应用综述资格分两步——独立样本/独立实施可分别登记（决定是否拆）；但只有符合老年人 PICOS 的样本进入综述（决定是否计入）。Seq3/5/18/29 含年轻组，**不增加本综述 trial 或候选比较**，年轻部分在来源说明标记「人群不符合纳入标准」。
 
 ## 四、一致性检查断言（脚本自动跑）
 
-- [ ] 独立 trial_id 数 = 51
+- [ ] 登记 trial 记录数 = 57（53 主报告[Seq6/61拆2] + 4 不在册/恢复[Borella2010①/Borella2017∧①-pending/WOME①-pending/Zając2016①×2]）
 - [ ] Seq10 恰好 2 条 comparison
 - [ ] Seq24 无 comparison、exclusion_status=excluded
 - [ ] Seq1/35 comp_type=N、无 comparison
-- [ ] 5 重复（16/43/47/53/28）正确映射到主报告
-- [ ] 核心元分析池（in_core_ma=True）计数 = 38（cx 裁定 2026-11-15：①36 + ②2）
+- [ ] 5 重复（16/43/47/53/28）正确映射到主报告（43 双挂 4+12、53 双挂 19+31）
+- [ ] Seq6 拆 2 子研究（Study1/Study2）、Seq61 拆 2 子研究（Exp1/Exp2），各 1 条 ①
+- [ ] 2 不在册样本（Borella 2010/Borella 2017∧）已拆为独立 trial，comp_type=①-pending，链接 Seq53
+- [ ] 核心候选比较池（in_core_ma=True）计数 = 43（①41[含Borella2010恢复+Zając2016双①] + ②2；候选数非最终可算效应量数，Borella 2017∧/WOME 编码后→45）
 
 ## 五、分工
 

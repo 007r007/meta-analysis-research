@@ -34,14 +34,14 @@ def trial_by_seq(seq):
 failures = []
 notes = []
 
-# ── 断言 1：独立 trial_id 数 = 51 ─────────────────────────────
+# ── 断言 1：登记 trial 记录数 = 57（53 主报告[Seq6/61拆2] + 4 不在册/恢复[Borella2010/Borella2017∧/WOME/Zając2016]）──
 n_trial = len(trial)
 tids = [r[T["trial_id"]] for r in trial]
 n_unique = len(set(tids))
-if n_trial == 51 and n_unique == 51:
-    print(f"[PASS] 断言1：独立 trial_id 数 = 51（行数={n_trial}, 唯一={n_unique}）")
+if n_trial == 57 and n_unique == 57:
+    print(f"[PASS] 断言1：登记 trial 记录数 = 57（行数={n_trial}, 唯一={n_unique}）")
 else:
-    failures.append(f"断言1：trial行数={n_trial}, 唯一={n_unique}, 期望51")
+    failures.append(f"断言1：trial行数={n_trial}, 唯一={n_unique}, 期望57")
 
 # ── 断言 2：Seq10 恰好 2 条 comparison ────────────────────────
 seq10 = [r for r in comp if r[C["trial_id"]] == trial_by_seq(10)[T["trial_id"]]]
@@ -100,7 +100,38 @@ if len(dedup) == 5:
 else:
     failures.append(f"断言5：dedup 行数={len(dedup)}, 期望5")
 
-# ── 断言 6：核心元分析池（in_core_ma=True）计数 = 38（cx 裁定）──
+# ── 断言 7：不在册/恢复样本（Borella 2010 / Borella 2017∧ / WOME / Zając 2016）──
+ext_rows = [r for r in trial if isinstance(r[T["main_report_seq"]], str) and r[T["main_report_seq"]].startswith("ext-")]
+if len(ext_rows) == 4:
+    ok = True
+    for r in ext_rows:
+        tid = r[T["trial_id"]]
+        tc = [c for c in comp if c[C["trial_id"]] == tid]
+        if r[T["author_year"]] == "Borella 2010":
+            # cx 恢复纳入：正式 ①×1，链接 Seq53
+            secs = str(r[T["secondary_report_seq"]]).replace(" ", "")
+            if "53" not in secs.split(","):
+                failures.append(f"断言7：Borella 2010 secondary_report_seq 未含 53"); ok = False
+            if r[T["comp_type"]] != "①" or len(tc) != 1 or tc[0][C["comp_type"]] != "①":
+                failures.append(f"断言7：Borella 2010 comp_type={r[T['comp_type']]}, comp数={len(tc)}，期望 ①×1"); ok = False
+        elif r[T["author_year"]] == "Zając-Lamparska 2016":
+            # cx 恢复纳入：①+①（WM vs waiting / WM vs AC），共用 WM 臂
+            if len(tc) != 2 or {c[C["comp_type"]] for c in tc} != {"①"}:
+                failures.append(f"断言7：Zając 2016 comp数={len(tc)} 类型={[c[C['comp_type']] for c in tc]}，期望 ①×2"); ok = False
+            if tc[0][C["arm_a"]] != tc[1][C["arm_a"]]:
+                failures.append(f"断言7：Zając 2016 两比较未共用 WM 臂"); ok = False
+        else:
+            # Borella 2017∧ / WOME：①-pending，无 comparison
+            if r[T["comp_type"]] != "①-pending":
+                failures.append(f"断言7：{r[T['author_year']]} comp_type={r[T['comp_type']]}，期望 ①-pending"); ok = False
+            if len(tc) != 0:
+                failures.append(f"断言7：{r[T['author_year']]} 有 {len(tc)} 条 comparison，期望 0"); ok = False
+    if ok:
+        print("[PASS] 断言7：Borella 2010 ①×1(链Seq53)；Zając 2016 ①×2(共用WM臂)；Borella 2017∧/WOME ①-pending")
+else:
+    failures.append(f"断言7：ext trial 行数={len(ext_rows)}, 期望4")
+
+# ── 断言 6：核心候选比较池（in_core_ma=True）计数 = 39（cx 裁定：Seq6拆2）──
 n_core = sum(1 for r in comp if r[C["in_core_ma"]] is True or r[C["in_core_ma"]] == "True")
 # 精确计数 + 分布
 from collections import Counter
@@ -110,10 +141,27 @@ print(f"[INFO] 断言6：in_core_ma=True 精确计数 = {n_core}（分布 {dict(
 core_by_def = sum(1 for r in comp if r[C["comp_type"]] in ("①", "②"))
 if n_core != core_by_def:
     failures.append(f"断言6：in_core_ma计数({n_core}) ≠ ①+②计数({core_by_def})")
-if n_core == 38 and core_by_def == 38:
-    print("[PASS] 断言6：核心元分析池 = 38（cx 裁定 ①36 + ②2），与 ①+② 计数一致")
+if n_core == 43 and core_by_def == 43:
+    print("[PASS] 断言6：核心候选比较池 = 43（①41[含Borella2010恢复+Zając2016双①] + ②2），与 ①+② 计数一致")
+    notes.append("术语提示（cx）：43 是候选比较数，非最终能算效应量的数量；Borella 2017∧/WOME 编码后→45")
 else:
-    failures.append(f"断言6：核心池={n_core}（①+②={core_by_def}），期望 38（cx 裁定）")
+    failures.append(f"断言6：核心池={n_core}（①+②={core_by_def}），期望 43（cx 裁定）")
+
+# ── 断言 8：Seq6（Brum 2020）与 Seq61（Cantarella 2017）各拆两个子研究，各 1 条 ① ──
+sub_prefixes = {"6-S": "Seq6(Brum 2020)", "61-E": "Seq61(Cantarella 2017)"}
+for prefix, label in sub_prefixes.items():
+    sub_rows = [r for r in trial if isinstance(r[T["main_report_seq"]], str) and r[T["main_report_seq"]].startswith(prefix)]
+    if len(sub_rows) == 2:
+        ok = True
+        for r in sub_rows:
+            tid = r[T["trial_id"]]
+            tc = [c for c in comp if c[C["trial_id"]] == tid]
+            if len(tc) != 1 or tc[0][C["comp_type"]] != "①":
+                failures.append(f"断言8：{r[T['author_year']]} comparison 数={len(tc)}，期望 1 条 ①"); ok = False
+        if ok:
+            print(f"[PASS] 断言8：{label} 拆为 2 子研究，各 1 条 ①")
+    else:
+        failures.append(f"断言8：{label} 子研究 trial 行数={len(sub_rows)}, 期望2")
 
 # ── 汇总 ──────────────────────────────────────────────────────
 print()
@@ -123,7 +171,7 @@ if failures:
     for f in failures:
         print("  -", f)
 else:
-    print("✅ 全部 6 项断言通过")
+    print("✅ 全部断言通过（1-8 项，含 Seq6拆2 / 2不在册 / 双挂校验）")
 if notes:
     print()
     print("⚠️ 审计提示（非失败，请 cx 复核）：")

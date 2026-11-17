@@ -28,7 +28,7 @@ SECONDARY = {
     16: ([13], "duplicate", "协议论文=Seq13(Matysiak 2019)重复"),
     43: ([4, 12], "duplicate", "Stephens 2017=Seq4(Jones)+Seq12(Stephens)合并重析，无新数据"),
     47: ([49], "duplicate", "Goghari 2018=Seq49(Goghari 2017)同样本再报告"),
-    53: ([19, 31], "duplicate", "Borella 2017 IPD=Seq19+Seq31+2不在册研究合并"),
+    53: ([19, 31], "duplicate", "Borella 2017 IPD=Seq19+Seq31+2不在册研究合并；2不在册已拆为T52/T53"),
     28: ([52], "nested",    "Jaeggi 2020 ⊂ Seq52(Jaeggi 2023)嵌套，保留Seq52为主"),
 }
 
@@ -62,7 +62,7 @@ TRIALS = [
          audit=("①", "④", "④")),
     # ---- T03 Seq3 ----
     dict(seq=3, author_year="Salminen 2016", country="Germany", design="RCT",
-         note="老年亚组N待核(21/21?)；N=46",
+         note="老年亚组N待核(21/21?)；N=46；年轻样本人群不符合纳入标准，未计入",
          co_int="无",
          arms=[("训练组(老年)", "dual n-back训练", "", None),
                ("对照组(老年)", "", "被动/无训练对照", None)],
@@ -80,19 +80,27 @@ TRIALS = [
          audit=("③", "③", "③")),
     # ---- T05 Seq5 ----
     dict(seq=5, author_year="Pergher 2018", country="Belgium", design="RCT",
-         note="联合干预(Medication→无)；N(9→老年14/14)已修",
+         note="联合干预(Medication→无)；N(9→老年14/14)已修；年轻样本人群不符合纳入标准，未计入",
          co_int="无",
          arms=[("认知训练组(老年CTG)", "n-back训练", "", 14),
                ("被动对照组(老年PCG)", "", "被动对照", 14)],
          comps=[(0, 1, "①", "WM效应", "")],
          audit=("①", "①", "①")),
-    # ---- T06 Seq6 ----
-    dict(seq=6, author_year="Brum 2020", country="Brazil", design="RCT",
-         note="两子研究(S1/S2)合并计数；N→96；Type NB→verbal span",
+    # ---- T06 Seq6-Study1 ----
+    dict(seq="6-S1", author_year="Brum 2020 Study1", country="Brazil", design="RCT",
+         note="Seq6(Brum 2020)子研究1，独立招募/分组；训练18/对照28，N=46；verbal span",
          co_int="无",
-         arms=[("训练组(S1=18,S2=23)", "verbal WM span训练", "", None),
-               ("主动对照(S1=28,S2=27)", "", "问卷/主动对照", None)],
-         comps=[(0, 1, "①", "WM效应", "两子研究合并")],
+         arms=[("训练组(Study1)", "verbal WM span训练", "", 18),
+               ("主动对照(Study1)", "", "问卷/主动对照", 28)],
+         comps=[(0, 1, "①", "WM效应", "Study1")],
+         audit=("①", "①", "①")),
+    # ---- T07 Seq6-Study2 ----
+    dict(seq="6-S2", author_year="Brum 2020 Study2", country="Brazil", design="RCT",
+         note="Seq6(Brum 2020)子研究2，独立招募/分组；训练23/对照27，N=50；verbal span",
+         co_int="无",
+         arms=[("训练组(Study2)", "verbal WM span训练", "", 23),
+               ("主动对照(Study2)", "", "问卷/主动对照", 27)],
+         comps=[(0, 1, "①", "WM效应", "Study2")],
          audit=("①", "①", "①")),
     # ---- T07 Seq8 ----
     dict(seq=8, author_year="Wang 2025", country="China", design="RCT",
@@ -163,7 +171,7 @@ TRIALS = [
          audit=("①", "①", "①")),
     # ---- T15 Seq18 ----
     dict(seq=18, author_year="Heinzel 2014", country="Germany", design="RCT",
-         note="联合干预(Exercise/Medication→无)；老年N=30(N=60为全年龄)",
+         note="联合干预(Exercise/Medication→无)；老年N=30(N=60为全年龄)；年轻样本人群不符合纳入标准，未计入",
          co_int="无",
          arms=[("训练组(老年)", "WM训练(ISI自适应)", "", None),
                ("对照组(老年)", "", "对照", None)],
@@ -245,7 +253,7 @@ TRIALS = [
          audit=("①", "①", "①")),
     # ---- T25 Seq29 ----
     dict(seq=29, author_year="Bürki 2014", country="Switzerland", design="quasi-RCT",
-         note="脚本曾误称无对照(实有对照)；准RCT",
+         note="脚本曾误称无对照(实有对照)；准RCT；年轻样本人群不符合纳入标准，未计入",
          co_int="无",
          arms=[("WM训练组", "WM训练", "", 22),
                ("内隐学习对照(主动)", "", "内隐序列学习", 20),
@@ -429,13 +437,21 @@ TRIALS = [
                ("主动对照组", "", "主动对照", 22)],
          comps=[(0, 1, "①", "WM效应", "多域EF组不入本比较")],
          audit=("①", "①", "①")),
-    # ---- T48 Seq61 ----
-    dict(seq=61, author_year="Cantarella 2017(校样)", country="Italy", design="RCT",
-         note="年份2021→2017(校样)；N35→70(全文两实验)；训练18/对照17",
+    # ---- T48 Seq61-Exp1 ----
+    dict(seq="61-E1", author_year="Cantarella 2017 Exp1", country="Italy", design="RCT",
+         note="Seq61(Cantarella 2017校样)实验1，独立样本；训练18/对照17，N=35",
          co_int="无",
-         arms=[("训练组", "WM训练", "", 18),
-               ("对照组", "", "主动对照", 17)],
-         comps=[(0, 1, "①", "WM效应", "")],
+         arms=[("训练组(Exp1)", "WM训练", "", 18),
+               ("对照组(Exp1)", "", "主动对照", 17)],
+         comps=[(0, 1, "①", "WM效应", "Experiment 1")],
+         audit=("①", "①", "①")),
+    # ---- T49 Seq61-Exp2 ----
+    dict(seq="61-E2", author_year="Cantarella 2017 Exp2", country="Italy", design="RCT",
+         note="Seq61(Cantarella 2017校样)实验2，独立样本；训练16/对照19，N=35",
+         co_int="无",
+         arms=[("训练组(Exp2)", "WM训练", "", 16),
+               ("对照组(Exp2)", "", "主动对照", 19)],
+         comps=[(0, 1, "①", "WM效应", "Experiment 2")],
          audit=("①", "①", "①")),
     # ---- T49 Seq62 ----
     dict(seq=62, author_year="Pergher 2020", country="USA", design="RCT",
@@ -466,36 +482,72 @@ TRIALS = [
          audit=("①", "①", "①")),
 ]
 
+# cx 裁定（真 Codex 2026-11-16/17）：Seq53 的 2 个不在册样本拆为独立 trial 记录。
+# Borella 2010：2026-11-17 cx 复核原 E1 排除理由错配（"27岁 n-back"），实为 65-75 岁 CWMS，
+#   恢复纳入 → 正式 ①、进核心候选池（核心池 40→41）。
+# Borella 2017∧：仍 ①-pending（未独立收录，提取状态待核）。
+# WOME 2018：cx 复核原 E1"儿童"排除错误（实为健康老人 60-77 岁），撤销排除、恢复资格，
+#   待 cc/cl 比较编码（暂 ①-pending，不进核心池）。
+EXTERNAL_TRIALS = [
+    dict(seq="ext-Borella2010", author_year="Borella 2010", country="Italy", design="RCT",
+         note="cx裁定恢复纳入(2026-11-17)：原E1排除理由错配；65-75岁CWMS言语WM训练(3次)，训练20/对照20，N=40，8个月随访；源自Seq53 IPD",
+         co_int="无",
+         arms=[("训练组(CWMS)", "CWMS言语WM训练(3次)", "", 20),
+               ("主动对照(问卷)", "", "自传记忆/生活满意度问卷", 20)],
+         comps=[(0, 1, "①", "WM效应", "cx裁定恢复纳入")],
+         audit=("①", "①", "①")),
+    dict(seq="ext-Borella2017a", author_year="Borella 2017∧", country="Italy", design="RCT",
+         note="不在册样本，源自Seq53(Borella 2017 IPD)；未独立收录，尚未完成独立报告提取；提取状态待核；N=36",
+         co_int="无", arms=[], comps=[], audit=("①", "①", "①-pending")),
+    dict(seq="ext-WOME2018", author_year="Weicker 2018", country="Germany", design="RCT",
+         note="cx裁定撤销E1排除(2026-11-17)：原排除误标儿童，实为健康老人60-77岁均龄67.7；高WM/低WM/无接触三组N=60；待cc/cl比较编码",
+         co_int="无",
+         arms=[("训练组(高/低WM)", "WOME理论WM训练", "", None),
+               ("无接触对照", "", "无接触对照", None)],
+         comps=[],
+         audit=("", "", "①-pending")),
+    dict(seq="ext-Zajac2016", author_year="Zając-Lamparska 2016", country="Poland", design="RCT",
+         note="cx裁定恢复纳入(2026-11-17)：原E1'37.87岁'系Raven基线分误读；late adulthood组60-85岁各臂30人；WM(n-back)/AC(Donders)/waiting三臂；两①共用WM臂",
+         co_int="无",
+         arms=[("老年WM组", "n-back WM训练", "", 30),
+               ("老年AC组", "Donders反应/注意控制训练", "", 30),
+               ("老年waiting组", "", "等待无训练", 30)],
+         comps=[(0, 2, "①", "WM效应", "WM vs waiting(被动对照)；与comp2共用WM臂"),
+                (0, 1, "①", "WM效应", "WM vs AC(主动对照)；与comp1共用WM臂")],
+         audit=("①", "①+①", "①")),
+]
+
 # comp_type → est_target（v3 定义；仅用于校验，不据此生成）
 COMP_TYPE_EST = {"①": "WM效应", "②": "WM增量", "③": "刺激增益", "④": "组合效果", "⑤": "变体"}
 
 # ──────────────────────────────────────────────────────────────────────────────
 # 三、组装
 # ──────────────────────────────────────────────────────────────────────────────
-# 主报告按 seq 升序排序，赋 trial_id T01..T51
+# 主报告按 seq 升序排序，赋 trial_id T01..T53（Seq6/Seq61 各拆两子研究）
 MAIN_SEQ_ORDER = [t["seq"] for t in TRIALS]
-assert len(MAIN_SEQ_ORDER) == 51, f"期望51主报告，实际{len(MAIN_SEQ_ORDER)}"
-assert len(set(MAIN_SEQ_ORDER)) == 51, "主报告seq重复"
-# 校验：56 = 51 主报告 + 5 次要报告
-ALL_SEQ = set(MAIN_SEQ_ORDER) | set(SECONDARY.keys())
-assert len(ALL_SEQ) == 56, f"期望56条目，实际{len(ALL_SEQ)}"
+assert len(MAIN_SEQ_ORDER) == 53, f"期望53主报告(Seq6/61各拆两子研究)，实际{len(MAIN_SEQ_ORDER)}"
+assert len(set(MAIN_SEQ_ORDER)) == 53, "主报告seq重复"
 
 seq_to_tid = {seq: f"T{i+1:02d}" for i, seq in enumerate(MAIN_SEQ_ORDER)}
 
-# 生成 trial 行
-trial_rows = []
-for t in TRIALS:
-    tid = seq_to_tid[t["seq"]]
+# 生成 trial 行（51 主报告 + 2 不在册样本）
+def build_trial_row(t, tid):
     # 次要报告：哪些被移除的 seq 映射到本主报告（cx 裁定：可双挂）
-    secondaries = sorted([s for s, (ms, _, _) in SECONDARY.items() if t["seq"] in ms])
+    seq = t["seq"]
+    if isinstance(seq, int):
+        secondaries = sorted([s for s, (ms, _, _) in SECONDARY.items() if seq in ms])
+    elif str(seq).startswith("ext-"):
+        secondaries = [53]  # 不在册样本：来源链接 Seq53
+    else:
+        secondaries = []  # 子研究(如 6-S1/6-S2)，无次要报告
     # trial 级 comp_type 摘要（v3 人工核准）：
-    #   有比较 → 各比较类型去重拼接；无比较 → N/excluded
+    #   有比较 → 各比较类型去重拼接；无比较 → N/excluded/①-pending
     ctypes = [c[2] for c in t["comps"]]
     if not ctypes:
-        t_comp = "N" if t["audit"][2] == "N" else ("excluded" if t["audit"][2] == "excluded" else "无")
+        t_comp = {"N": "N", "excluded": "excluded", "①-pending": "①-pending"}.get(t["audit"][2], "无")
     else:
         t_comp = "+".join(dict.fromkeys(ctypes))
-    trial_rows.append(dict(
+    return dict(
         trial_id=tid,
         main_report_seq=t["seq"],
         secondary_report_seq=",".join(str(s) for s in secondaries) if secondaries else "",
@@ -505,7 +557,13 @@ for t in TRIALS:
         comp_type=t_comp,
         note=t["note"],
         co_intervention_v3=t["co_int"],  # 辅助列(v3人工核准，非脚本判断)
-    ))
+    )
+
+trial_rows = []
+for t in TRIALS:
+    trial_rows.append(build_trial_row(t, seq_to_tid[t["seq"]]))
+for i, t in enumerate(EXTERNAL_TRIALS):
+    trial_rows.append(build_trial_row(t, f"T{53+i+1:02d}"))  # T54, T55
 
 # 5 条去重/嵌套记录（dedup 表）
 dedup_rows = []
@@ -514,11 +572,12 @@ for s in sorted(SECONDARY.keys()):
     dedup_rows.append(dict(seq=s, maps_to_main_seq=",".join(str(m) for m in mains),
                            exclusion_status=st, exclusion_reason=reason))
 
-# 生成 arm 行 + comparison 行
+# 生成 arm 行 + comparison 行（主报告 + 外部/恢复 trial）
 arm_rows = []
 comp_rows = []
-for t in TRIALS:
-    tid = seq_to_tid[t["seq"]]
+all_trials = [(t, seq_to_tid[t["seq"]]) for t in TRIALS] + \
+             [(t, f"T{53+i+1:02d}") for i, t in enumerate(EXTERNAL_TRIALS)]
+for t, tid in all_trials:
     arm_ids = []
     for i, (label, interv, ctrl, n) in enumerate(t["arms"], 1):
         aid = f"A{tid}_{i}"
@@ -546,7 +605,7 @@ for s, (main, st, reason) in SECONDARY.items():
     # 在主报告的 secondary_report_seq 已挂；这里不再单独建 trial 行
     pass
 
-# 对 N(单组) 与 excluded 的 trial，标记 exclusion_status（用于断言）
+# 对 N(单组) / excluded / 不在册样本 的 trial，标记 exclusion_status（用于断言）
 for tr in trial_rows:
     tid = tr["trial_id"]
     if tr["main_report_seq"] in (1, 35):
@@ -555,6 +614,9 @@ for tr in trial_rows:
     if tr["main_report_seq"] == 24:
         tr["exclusion_status"] = "excluded"
         tr["exclusion_reason"] = "干预目标非WM(注意训练)"
+    if isinstance(tr["main_report_seq"], str) and tr["main_report_seq"].startswith("ext-"):
+        tr["exclusion_status"] = "included"  # 保留在证据流，但无可单独提取效应量
+        tr["exclusion_reason"] = "不在册样本，当前无可单独提取效应量，不生成核心比较"
 
 # ──────────────────────────────────────────────────────────────────────────────
 # 四、写 Excel
@@ -616,10 +678,10 @@ write_sheet("comparison",
      "exclusion_status", "exclusion_reason"],
     comp_rows)
 
-# 5. outcome（脚手架，空）
+# 5. outcome（脚手架，空；cx 裁定：domain 去 followup，加 result_ids 指针，effect_size_available 只读自动生成）
 write_sheet("outcome",
-    ["outcome_id", "comparison_id", "domain", "measure", "effect_size_available",
-     "effect_size_value", "timepoint"],
+    ["outcome_id", "comparison_id", "domain", "measure", "timepoint", "result_ids",
+     "effect_size_available"],
     [])
 
 # 6. timepoint（脚手架，空）
@@ -635,7 +697,7 @@ wb.save(OUT)
 n_core = sum(1 for c in comp_rows if c["in_core_ma"])
 print("=" * 60)
 print("比较层新表已生成：", OUT)
-print(f"trial 行数      : {len(trial_rows)}  (期望51)")
+print(f"trial 行数      : {len(trial_rows)}  (期望57=53主报告[Seq6/61拆2]+4不在册/恢复)")
 print(f"dedup 行数      : {len(dedup_rows)}  (期望5)")
 print(f"arm 行数        : {len(arm_rows)}")
 print(f"comparison 行数 : {len(comp_rows)}")

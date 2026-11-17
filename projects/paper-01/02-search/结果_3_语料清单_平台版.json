@@ -1,0 +1,665 @@
+[
+ {
+  "file": "2003_Long-term improvements in cognitive performance through computer-assisted cognit.pdf",
+  "sha256": "975c4fbfb8b9931c1bc6c94d0350371510069d41103d63fa67cbcc5f11833512",
+  "size_kb": 185,
+  "status": "in_register",
+  "seq": 35,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2008_Impact of working memory training on memory performance in old-old adults..pdf",
+  "sha256": "3209db91c28227a893e041925c3d9f5d2740dac267386fc05cacd80625f18752",
+  "size_kb": 707,
+  "status": "in_register",
+  "seq": 39,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2010_Hundred Days of Cognitive Training Enhance Broad Cognitive Abilities in Adulthoo.pdf",
+  "sha256": "3ff482767674f351feb7d04887524482157a44200c7915ffb445dfe82ef3fdce",
+  "size_kb": 2574,
+  "status": "orphan",
+  "seq": null,
+  "role": null,
+  "note": ""
+ },
+ {
+  "file": "2010_Working memory training in older adults_ evidence of transfer and maintenance ef.pdf",
+  "sha256": "17e48671400e3f9164ec69697a33c612ad54e53c88823e9b8a2486abf6a08723",
+  "size_kb": 109,
+  "status": "orphan",
+  "seq": null,
+  "role": null,
+  "note": "",
+  "classification": "excluded_reason_suspect",
+  "reviewer": "cl",
+  "human_note": "S5#17 排除理由疑错(写27岁,n-back；实为65-75岁CWMS)，待cx复核"
+ },
+ {
+  "file": "2012_A Potential Spatial Working Memory Training Task to Improve Both Episodic Memory.pdf",
+  "sha256": "5faa1c7aa771eae89853469a835e700b878e631d56b977e120d68a0cae5914d1",
+  "size_kb": 332,
+  "status": "orphan",
+  "seq": null,
+  "role": null,
+  "note": ""
+ },
+ {
+  "file": "2012_Potentials and limits of plasticity induced by working memory training in old-ol.pdf",
+  "sha256": "a97831f05a87d8bb5f0186f24740c56120be338412e2c9e3e14491455ba62c14",
+  "size_kb": 342,
+  "status": "in_register",
+  "seq": 50,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2013_An evaluation of a working memory training scheme in older adults..pdf",
+  "sha256": "39d421d3be3e65c56ba518ecbae587d704e80dc28f61f2c317c6faa860f9b49b",
+  "size_kb": 1025,
+  "status": "in_register",
+  "seq": 46,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2013_Gains in language comprehension relating to working memory training in healthy o.pdf",
+  "sha256": "bdd898d9e3e26e951b2b378ed1380b6b405097092cc58ee806445508b1d54de0",
+  "size_kb": 177,
+  "status": "in_register",
+  "seq": 31,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2013_Working memory training in old age_ an examination of transfer and maintenance e.pdf",
+  "sha256": "e4dd1cec31ca4d9dae28d17dbae3a36da27d5c6c661522581b2e01a0ee4eaded",
+  "size_kb": 216,
+  "status": "in_register",
+  "seq": 19,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2014_Evaluating the relationship between change in performance on training tasks and.pdf",
+  "sha256": "86c752ff006ab1c9d09a96b17a308231906a03a6386f41fa4f5e509cdc452346",
+  "size_kb": 692,
+  "status": "in_register",
+  "seq": 57,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2014_Individual differences in cognitive plasticity_ an investigation of training cur.pdf",
+  "sha256": "e4f6b099bdb44bc6a1fe7c12b1f79a90222453d17b22e3108ceb5118113eb0bc",
+  "size_kb": 965,
+  "status": "in_register",
+  "seq": 29,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2014_Long-term effects of transcranial direct current stimulation combined with compu.pdf",
+  "sha256": "f56000b1022c2c12854262867193d0d5371b24b22f21ab10ed31cfcb294b3c5b",
+  "size_kb": 277,
+  "status": "in_register",
+  "seq": 32,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2014_Neurocognitive enhancement in older adults_ comparison of three cognitive traini.pdf",
+  "sha256": "bceaa997356ac45b47a64bb07b5029bea2f2d343e039bc5ab9c557a001238eb4",
+  "size_kb": 956,
+  "status": "orphan",
+  "seq": null,
+  "role": null,
+  "note": ""
+ },
+ {
+  "file": "2014_Novel television-based cognitive training improves working memory and executive.pdf",
+  "sha256": "79620198ee8f995b6b686776b9f22bf11816092ec2af38a6ac414400b8dfd115",
+  "size_kb": 500,
+  "status": "in_register",
+  "seq": 36,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2014_Working memory training and transfer in older adults_ effects of age, baseline p.pdf",
+  "sha256": "a22ae2e886787265ad75109546430b46bb3800a16e0d692ec9488c1337488aa0",
+  "size_kb": 174,
+  "status": "in_register",
+  "seq": 25,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2014_Working memory training improvements and gains in non-trained cognitive tasks in.pdf",
+  "sha256": "13242bd12fb97835947d4471448c247657a96d7ad6bfa05a04b318f0645fd04a",
+  "size_kb": 499,
+  "status": "in_register",
+  "seq": 18,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2015_Experimental evaluation of near‐ and far‐transfer effects of an adaptive multico.pdf",
+  "sha256": "55a934bf8a6e4279443a066e697b2af1d77462d0fbc717d7cc8fc2a6dc486e1c",
+  "size_kb": 510,
+  "status": "in_register",
+  "seq": 63,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2015_Longitudinal neurostimulation in older adults improves working memory..pdf",
+  "sha256": "102ea861c87e74b967430e67e1eac092688fe8fca1bd895e6567b516ce986a18",
+  "size_kb": 758,
+  "status": "in_register",
+  "seq": 4,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2015_Lower baseline performance but greater plasticity of working memory for carriers.pdf",
+  "sha256": "83315910767b750087ad51bde02c5bd7c448e85c3a822bca140c25f02ad4a3c6",
+  "size_kb": 144,
+  "status": "orphan",
+  "seq": null,
+  "role": null,
+  "note": ""
+ },
+ {
+  "file": "2016_Age-specific differences of dual n-back training..pdf",
+  "sha256": "944bd8cb138cef78edd2f0e1f08c5e248dfc69f40ad5ef7dc15f3d29a1544eb4",
+  "size_kb": 406,
+  "status": "in_register",
+  "seq": 3,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2016_Changes in Neural Activity Underlying Working Memory after Computerized Cognitiv.pdf",
+  "sha256": "600a2bc8af431938d88801b81b97d0cdbcca0320750787036138f5e796b98cf5",
+  "size_kb": 3738,
+  "status": "in_register",
+  "seq": 45,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2016_Effect of socioeconomic status(SES) disparity on neuraldevelopment.pdf",
+  "sha256": "0d2f37dcd7a2872315e239250b234f6a255f0c38da40c70c765fc90cb511feda",
+  "size_kb": 359,
+  "status": "orphan",
+  "seq": null,
+  "role": null,
+  "note": ""
+ },
+ {
+  "file": "2016_Effects of working memory and attentional control training and their transfer on.pdf",
+  "sha256": "ba78cce1681853ec5411466c55219a97c3db85dd56b482f04c2c99a272c5ac43",
+  "size_kb": 168,
+  "status": "orphan",
+  "seq": null,
+  "role": null,
+  "note": ""
+ },
+ {
+  "file": "2016_Older Adults Improve on Everyday Tasks after Working Memory Training and Neurost.pdf",
+  "sha256": "7b0bfb97f37f959d3aeb0045aeb40654a83eb53804d7766368dc31677940d40c",
+  "size_kb": 641,
+  "status": "in_register",
+  "seq": 12,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2016_To Switch or Not to Switch_ Role of Cognitive Control in Working Memory Training.pdf",
+  "sha256": "46219a78827303163de7e56d0f3e513df67635816716daebdcf1e9b66a265338",
+  "size_kb": 4192,
+  "status": "in_register",
+  "seq": 51,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2016_Working Memory Training and Speech in Noise Comprehension in Older Adults..pdf",
+  "sha256": "5fc7641ae228fa8a576352f44a749eabd0a77cdf317dc190db0c0db0ed548bc9",
+  "size_kb": 675,
+  "status": "in_register",
+  "seq": 11,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2017_Benefits in tasks related to everyday life competences after a working memory tr.pdf",
+  "sha256": "0c933ea64280cf8630e9e44e003033edd1e18cd9fccbfefbdcfbca0b1ef202c4",
+  "size_kb": 297,
+  "status": "in_register",
+  "seq": 30,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2017_Comparison of Cognitive Change after Working Memory Training and Logic and Plann.pdf",
+  "sha256": "77f804cda70a138dd574910bc2cef5c29b437afb6920567f0d08f6fe61d63e77",
+  "size_kb": 754,
+  "status": "in_register",
+  "seq": 49,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2017_Enhancing Spatial Attention and Working Memory in Younger and Older Adults..pdf",
+  "sha256": "f893b115a1ebe7a75a9eff861bee15e7a1a3271716c560ba208cc228fccf30fd",
+  "size_kb": 3216,
+  "status": "orphan",
+  "seq": null,
+  "role": null,
+  "note": ""
+ },
+ {
+  "file": "2017_N-Back based working memory contents to improve cognitive function.pdf",
+  "sha256": "2d427638d32508f005b73bf4bb6d629bc70955dce30f35f6a38e32f2a4255e4d",
+  "size_kb": 762,
+  "status": "orphan",
+  "seq": null,
+  "role": null,
+  "note": ""
+ },
+ {
+  "file": "2017_Task demands, tDCS intensity, and the COMT val(158)met polymorphism impact tDCS-.pdf",
+  "sha256": "eefd658f83d27a1a2f0065836366fa61f71518704f5f96d69aee2f444e1328f4",
+  "size_kb": 2036,
+  "status": "in_register",
+  "seq": 43,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2017_Transfer Effects to a Multimodal Dual-Task after Working Memory Training and Ass.pdf",
+  "sha256": "36244f822e5310f09a4390bed6062a51486abbacd4b8a07c1fd9881a5f3506d0",
+  "size_kb": 2342,
+  "status": "in_register",
+  "seq": 41,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2017_Working Memory Training for Healthy Older Adults_ The Role of Individual Charact.pdf",
+  "sha256": "612f2666a369da1d49bab9fb383f0bcd7d5dfae220ff90f036508d72491b79c9",
+  "size_kb": 1923,
+  "status": "in_register",
+  "seq": 53,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2017_Working memory training in older adults_ Bayesian evidence supporting the absenc.pdf",
+  "sha256": "8ca248fcf5d7beada645180fbe26eaf7485a13bbd02ab79fd9f1d2374ebeff97",
+  "size_kb": 816,
+  "status": "in_register",
+  "seq": 9,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2018_N-back training and transfer effects revealed by behavioral responses and EEG..pdf",
+  "sha256": "ccd45c41563c70c8928bdb30b69fe8bf8d712715d97c0af6a5eaa1829666c0ef",
+  "size_kb": 971,
+  "status": "in_register",
+  "seq": 5,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2018_Self-Perceived Benefits of Cognitive Training in Healthy Older Adults..pdf",
+  "sha256": "9c9719831e2efffcba6783a2d4f911b89789bf0f91121b613b7ceb28d902e89c",
+  "size_kb": 1006,
+  "status": "in_register",
+  "seq": 47,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2018_The Effects of Cognitive Training on Cognitive Abilities and Everyday Function_.pdf",
+  "sha256": "5870e0c563a9aeea63fa00f8db31092a108317893d879f9fb52752ca0174732d",
+  "size_kb": 186,
+  "status": "in_register",
+  "seq": 21,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2018_WOME_ Theory-Based Working Memory Training - A Placebo-Controlled, Double-Blind.pdf",
+  "sha256": "621fe8e0033f1842d6dce5a7d98eb9e03bec34afa709cc4a5f64d31b930819b4",
+  "size_kb": 3006,
+  "status": "orphan",
+  "seq": null,
+  "role": null,
+  "note": "",
+  "classification": "excluded_at_fulltext",
+  "reviewer": "cl",
+  "human_note": "S5#38 E1-人群不符(儿童10-12岁)"
+ },
+ {
+  "file": "2019_Improving Everyday Functioning in the Old-Old with Working Memory Training..pdf",
+  "sha256": "a6a54239a1803a1cef866f3bbbb192cc7b47d2fd33546bc79ad2433a39435749",
+  "size_kb": 388,
+  "status": "in_register",
+  "seq": 15,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2019_Is working memory training in older adults sensitive to music_.pdf",
+  "sha256": "80c60e9f381ecb368c9278218267301f6874fe0df92040f15f6b05328b26ffe2",
+  "size_kb": 871,
+  "status": "in_register",
+  "seq": 2,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2019_Working Memory Capacity as a Predictor of Cognitive Training Efficacy in the Eld.pdf",
+  "sha256": "e5171e573c9a262309d6e25ab07d8e5c972451473159e842f4ac916275533151",
+  "size_kb": 2159,
+  "status": "in_register",
+  "seq": 13,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2020_Feasibility of using a computer-assisted working memory training program for hea.pdf",
+  "sha256": "d331542e1e27ec886ac2bd94cfb2f0275937adb41e475e47041e4d147cf94493",
+  "size_kb": 654,
+  "status": "in_register",
+  "seq": 20,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2020_Home-Based, Adaptive Cognitive Training for Cognitively Normal Older adults_ Ini.pdf",
+  "sha256": "e281bab15b622c6cff0457e6417b39811360bd8e99f6c82f4111fb38114002fb",
+  "size_kb": 698,
+  "status": "orphan",
+  "seq": null,
+  "role": null,
+  "note": ""
+ },
+ {
+  "file": "2020_Impact of strategy use during N-Back training in older adults.pdf",
+  "sha256": "dfa745b4360127593afd03726a21b7e11d848313c5e8be112dfb13e3d8d682ef",
+  "size_kb": 2725,
+  "status": "in_register",
+  "seq": 62,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2020_Investigating the Effects of Spacing on Working Memory Training Outcome_ A Rando.pdf",
+  "sha256": "fdbaca052916fff9dcfdc70f37f92f68eeac1938a094d281de9b1fc183e8aabb",
+  "size_kb": 1285,
+  "status": "in_register",
+  "seq": 28,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2020_The Impact of Working Memory Training on Cognitive Abilities in Older Adults_ Th.pdf",
+  "sha256": "4aa52dcd21b2f837bdcafe8b330c90a0325626bf8f3539353ef5981740b31a47",
+  "size_kb": 839,
+  "status": "in_register",
+  "seq": 26,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2020_The effect of cognitive training in older adults_ be aware of CRUNCH..pdf",
+  "sha256": "fd1f995bc98449680f241918d4223db4c71e93d7e5c55be5d9d51b0a707c02e4",
+  "size_kb": 1378,
+  "status": "in_register",
+  "seq": 1,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2020_Verbal working memory training in older adults_ an investigation of dose respons.pdf",
+  "sha256": "27adc1af172b77d0786ac13d72446e707c3b99c21f0130ba929ef64373659d68",
+  "size_kb": 1417,
+  "status": "in_register",
+  "seq": 6,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2020_Working Memory Training for Older Participants_ A Control Group Training Regimen.pdf",
+  "sha256": "6c206b13eb40f3e39ddc78e9a39921a3fb390e79ae73a25e5f84298eae48fb3a",
+  "size_kb": 455,
+  "status": "in_register",
+  "seq": 16,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2021_Cognitive Aftereffects of Acute tDCS Coupled with Cognitive Training_ An fMRI St.pdf",
+  "sha256": "6426b75e4b42b301113c35b2f27ebf300fad2e3e219b1052bf16412e02f8e669",
+  "size_kb": 1023,
+  "status": "in_register",
+  "seq": 14,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2021_The Effect of Transcranial Random Noise Stimulation on Cognitive Training Outcom.pdf",
+  "sha256": "774521da3ad6f9162ab06d10823802f631985d78c48ff108c675af4e795f9b65",
+  "size_kb": 1296,
+  "status": "in_register",
+  "seq": 54,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2021_The influence of training task stimuli on transfer effects of working memory tra.pdf",
+  "sha256": "ab0ae2abfe9b02b40d1a151cbde6e5be1948e0aa7a7d5a3acec4fb73741f021d",
+  "size_kb": 691,
+  "status": "in_register",
+  "seq": 61,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2021_Working Memory Training and Cortical Arousal in Healthy Older Adults_ A Resting-.pdf",
+  "sha256": "ac44a53d49cc43e40ce0467e0cbaecf8ee9f6c32e3de3353294be641742c1836",
+  "size_kb": 1190,
+  "status": "in_register",
+  "seq": 59,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2022_Higher white matter hyperintensity load adversely affects pre-post proximal cogn.pdf",
+  "sha256": "bc8d74445eedba01fe07d8ce4c600a056344858e8f340d4a0c6ef293c345bc82",
+  "size_kb": 1206,
+  "status": "in_register",
+  "seq": 22,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2022_Near transfer to an unrelated N-back task mediates the effect of N-back working.pdf",
+  "sha256": "bf9adb447a047b65807948fa4c6949c39e084fdbe429cb020c8569bb2d88a7cf",
+  "size_kb": 3648,
+  "status": "orphan",
+  "seq": null,
+  "role": null,
+  "note": ""
+ },
+ {
+  "file": "2022_Older adults with lower working memory capacity benefit from transcranial direct.pdf",
+  "sha256": "7a5d35fc5e9af66b8c59008456b5ff38545fb56dcc4ffbd536d991393914b2e6",
+  "size_kb": 1528,
+  "status": "in_register",
+  "seq": 34,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2022_Randomized trial of cognitive training and brain stimulation in non-demented old.pdf",
+  "sha256": "bb77f5eaa153739082a9d9a562dc67fdfe260fc4478023b91712d7890727b4d9",
+  "size_kb": 1877,
+  "status": "in_register",
+  "seq": 55,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2022_Training attentive individuation leads to visuo-spatial working memory improveme.pdf",
+  "sha256": "f06058387201143c35bfbfd095c2a354e631c3c80e3e139523adad7aedad123b",
+  "size_kb": 692,
+  "status": "in_register",
+  "seq": 24,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2022_Working Memory Training Coupled With Transcranial Direct Current Stimulation in.pdf",
+  "sha256": "e9a2311dc064ebac189ade4e16dbdfc5bf001d0f1588413ade55f8e2a52a3662",
+  "size_kb": 1524,
+  "status": "in_register",
+  "seq": 10,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2023_EngAge - A metacognitive intervention to supplement working memory training_ A f.pdf",
+  "sha256": "b90460cf0424f3c57329858da6bada51d96512cf2bfe152a8935365728f3de72",
+  "size_kb": 792,
+  "status": "in_register",
+  "seq": 52,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2023_Experimental investigation of training schedule on home-based working memory tra.pdf",
+  "sha256": "49fe6eb4a80cc6d9b7d673e15712a91e29b40072502961c287a0334e98b27b89",
+  "size_kb": 2758,
+  "status": "in_register",
+  "seq": 40,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2023_Far transfer effects of executive working memory training on cognitive flexibili.pdf",
+  "sha256": "8c539cc7f8e5debd93ac7f8bcc65d17781e4dec8906b4480ef42f1bb8c4b1524",
+  "size_kb": 695,
+  "status": "orphan",
+  "seq": null,
+  "role": null,
+  "note": ""
+ },
+ {
+  "file": "2024_Limited training and transfer effects in older and young adults who participated.pdf",
+  "sha256": "5acce49ca9a0bb9154748f9de4e02fda087ee5e4c191480c454ed467a8769605",
+  "size_kb": 1445,
+  "status": "in_register",
+  "seq": 27,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2024_Maternal prenatal socialdisadvantage and neonatal functionalconnectivity.pdf",
+  "sha256": "c191122dfc6052980464353456c831048c7a94e79694caeaee1de616ce9a25c7",
+  "size_kb": 1372,
+  "status": "orphan",
+  "seq": null,
+  "role": null,
+  "note": ""
+ },
+ {
+  "file": "2024_Youth-like brain activation linked with greater cognitive training gains in olde.pdf",
+  "sha256": "ec710851969de41d138671373b3653696fa7dca3dd41a7c2e999c78eaff0137d",
+  "size_kb": 822,
+  "status": "in_register",
+  "seq": 23,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2025_Gamified working memory intervention enhances prefrontal neurocognitive plastici.pdf",
+  "sha256": "661c0d765efe37248c7a617be37e56d07912a0743f6abcf999f478088ea93eb7",
+  "size_kb": 1625,
+  "status": "in_register",
+  "seq": 8,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2025_Personalized and gamified auditory-cognitive training improves naturalistic spee.pdf",
+  "sha256": "d6b6237e676beb065ec0736b02dd87598d65c05e3a3599a1efc5a2c2687d65c2",
+  "size_kb": 2608,
+  "status": "orphan",
+  "seq": null,
+  "role": null,
+  "note": ""
+ },
+ {
+  "file": "2025_Practice makes perfect, but to what end_ Computerised brain training has limited.pdf",
+  "sha256": "70bbcf7ec40585e10e1a196f555d9937c8d08b7e370ff2685f0bd263f18165f8",
+  "size_kb": 1442,
+  "status": "in_register",
+  "seq": 44,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2025_Short- and long-term cognitive and electrophysiological effects of a brief worki.pdf",
+  "sha256": "9266a6a0e583654682714ec80b42f14b9890566a4045f49dd785a77d1605fd24",
+  "size_kb": 5556,
+  "status": "in_register",
+  "seq": 48,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2025_The effects of computer-based cognitive training on attention and working memory.pdf",
+  "sha256": "952a253c58807df46b925e9537014a380fd524ef15100b7ace1b5b779507e0e7",
+  "size_kb": 751,
+  "status": "orphan",
+  "seq": null,
+  "role": null,
+  "note": ""
+ },
+ {
+  "file": "2026_A comparison of single-domain and multidomain executive functions cognitive trai.pdf",
+  "sha256": "180713d2e4a9d83417a2105fa194ad1a435845373f31141441c2124506c5c096",
+  "size_kb": 3153,
+  "status": "in_register",
+  "seq": 60,
+  "role": "main",
+  "note": ""
+ },
+ {
+  "file": "2026_Pretraining neural and neuropsychological measures of executive functioning are.pdf",
+  "sha256": "0348c1c0d30ac33974ddf1dc16327d5acfdbbe90a7a6e05dbb188c2398eddd65",
+  "size_kb": 711,
+  "status": "orphan",
+  "seq": null,
+  "role": null,
+  "note": ""
+ },
+ {
+  "file": "2026_The Impact of Working Memory Training on Cognitive Reappraisal Ability Among Old.pdf",
+  "sha256": "fd7ba2d5c650555a277ad7148cd2aa53ddffa9bf5afa94e07360223b6dc99a00",
+  "size_kb": 1372,
+  "status": "in_register",
+  "seq": 67,
+  "role": "main",
+  "note": ""
+ }
+]
